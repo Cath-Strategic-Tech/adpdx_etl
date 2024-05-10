@@ -1,0 +1,699 @@
+mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc__Affiliation__c,Archdpdx_Migration_Id__c
+003Dx00000m0Oa7IAE,1996-01-01,,Education (non-degree),Theology,003dx00000m0oa7iae19960101theology
+003Dx00000m0Oa7IAE,2013-01-01,001Dx00001FaYqrIAF,Education (non-degree),MA Pastoral Studies,003dx00000m0oa7iae20130101mapastoralstudies
+003Dx00000m0OXKIA2,1976-01-01,001Dx00001FaYqwIAF,Education (non-degree),BA Liberal Arts,003dx00000m0oxkia219760101baliberalarts
+003Dx00000m0OXKIA2,1980-01-01,001Dx00001FaYr1IAF,Education (non-degree),M.Div.,003dx00000m0oxkia219800101mdiv
+003Dx00000m0OajIAE,2004-01-01,001Dx00001FaYr6IAF,Education (non-degree),"Bachelor, Philosophy","003dx00000m0oajiae20040101bachelor,philosophy"
+003Dx00000m0OajIAE,2011-01-01,001Dx00001FaYrBIAV,Education (non-degree),Theology,003dx00000m0oajiae20110101theology
+003Dx00000m0OjYIAU,2003-01-01,001Dx00001FaYrGIAV,Education (non-degree),Philosophy,003dx00000m0ojyiau20030101philosophy
+003Dx00000m0OjYIAU,2012-01-01,001Dx00001FaYrLIAV,Education (non-degree),Master of Divinity,003dx00000m0ojyiau20120101masterofdivinity
+003Dx00000m0OeMIAU,2014-01-01,001Dx00001FaYrQIAV,Education (non-degree),History & Spanish,003dx00000m0oemiau20140101history&spanish
+003Dx00000m0OeMIAU,2016-01-01,001Dx00001FaYrVIAV,Education (non-degree),MA Philosophy,003dx00000m0oemiau20160101maphilosophy
+003Dx00000m0OanIAE,1973-01-01,001Dx00001FaYraIAF,Education (non-degree),Education,003dx00000m0oaniae19730101education
+003Dx00000m0OanIAE,1983-01-01,001Dx00001FaYrfIAF,Education (non-degree),Masters of Divinity,003dx00000m0oaniae19830101mastersofdivinity
+003Dx00000m0OYhIAM,2007-01-01,001Dx00001FaYrbIAF,Education (non-degree),Theology,003dx00000m0oyhiam20070101theology
+003Dx00000m0OYhIAM,2014-01-01,001Dx00001FaYrkIAF,Education (non-degree),MA Theology,003dx00000m0oyhiam20140101matheology
+003Dx00000m0OYhIAM,2015-01-01,001Dx00001FaYruIAF,Education (non-degree),JCL,003dx00000m0oyhiam20150101jcl
+003Dx00000m0OYhIAM,2018-01-01,001Dx00001FaYrzIAF,Education (non-degree),STL,003dx00000m0oyhiam20180101stl
+003Dx00000m0OYhIAM,2019-01-01,001Dx00001FaYrzIAF,Education (non-degree),STD,003dx00000m0oyhiam20190101std
+003Dx00000m0OaSIAU,1999-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Arts in Theology,003dx00000m0oasiau19990101masterofartsintheology
+003Dx00000m0OjaIAE,1977-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Divinity,003dx00000m0ojaiae19770101masterofdivinity
+003Dx00000m0ObcIAE,1990-01-01,001Dx00001FaYr7IAF,Education (non-degree),BA,003dx00000m0obciae19900101ba
+003Dx00000m0ObcIAE,2007-01-01,001Dx00001FaYqwIAF,Education (non-degree),Master of Divinity,003dx00000m0obciae20070101masterofdivinity
+003Dx00000m0ObcIAE,2009-01-01,001Dx00001FaYqwIAF,Education (non-degree),STB,003dx00000m0obciae20090101stb
+003Dx00000m0OapIAE,1996-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Arts in Theology,003dx00000m0oapiae19960101masterofartsintheology
+003Dx00000m0OawIAE,2005-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0oawiae20050101masterofartsinpastoralmi
+003Dx00000m0OeVIAU,2009-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0oeviau20090101masterofartsinpastoralmi
+003Dx00000m0Ob6IAE,1988-01-01,001Dx00001FaYs9IAF,Education (non-degree),Philosphy,003dx00000m0ob6iae19880101philosphy
+003Dx00000m0Ob6IAE,1991-01-01,001Dx00001FaYqxIAF,Education (non-degree),Vordiplum in Katholischer Theologie,003dx00000m0ob6iae19910101vordipluminkatholischert
+003Dx00000m0Ob6IAE,1992-01-01,001Dx00001FaYsJIAV,Education (non-degree),Exegeticum,003dx00000m0ob6iae19920101exegeticum
+003Dx00000m0Ob6IAE,1996-01-01,001Dx00001FaYr2IAF,Education (non-degree),STB Theology,003dx00000m0ob6iae19960101stbtheology
+003Dx00000m0Ob6IAE,2008-01-01,001Dx00001FaYsOIAV,Education (non-degree),MA Theology (Theological Anthropology),003dx00000m0ob6iae20080101matheology(theologicalan
+003Dx00000m0ObMIAU,1983-01-01,001Dx00001FaYr7IAF,Education (non-degree),,003dx00000m0obmiau19830101nan
+003Dx00000m0ObMIAU,1989-01-01,001Dx00001FaYqsIAF,Education (non-degree),Master of Divinity,003dx00000m0obmiau19890101masterofdivinity
+003Dx00000m0OZUIA2,1993-01-01,001Dx00001FaYsTIAV,Education (non-degree),Associate in Arts,003dx00000m0ozuia219930101associateinarts
+003Dx00000m0OZUIA2,1996-01-01,001Dx00001FaYsYIAV,Education (non-degree),BS Forestry,003dx00000m0ozuia219960101bsforestry
+003Dx00000m0OZUIA2,2018-01-01,001Dx00001FaYsdIAF,Education (non-degree),MA,003dx00000m0ozuia220180101ma
+003Dx00000m0ObjIAE,2010-01-01,001Dx00001FaYqwIAF,Education (non-degree),"Bachelor, Philosophy","003dx00000m0objiae20100101bachelor,philosophy"
+003Dx00000m0ObjIAE,2014-01-01,001Dx00001FaYsiIAF,Education (non-degree),Master of Divinity,003dx00000m0objiae20140101masterofdivinity
+003Dx00000m0ObnIAE,2002-01-01,001Dx00001FaYsnIAF,Education (non-degree),Diploma de Actualización Teológica,003dx00000m0obniae20020101diplomadeactualizaciónte
+003Dx00000m0ObyIAE,1987-01-01,001Dx00001FaYs5IAF,Education (non-degree),Theology,003dx00000m0obyiae19870101theology
+003Dx00000m0ObyIAE,1997-01-01,001Dx00001FaYrqIAF,Education (non-degree),Master of Divinity,003dx00000m0obyiae19970101masterofdivinity
+003Dx00000m0ObyIAE,1995-01-01,001Dx00001FaYssIAF,Education (non-degree),MA Spirituality,003dx00000m0obyiae19950101maspirituality
+003Dx00000m0ObyIAE,2005-01-01,001Dx00001FaYr3IAF,Education (non-degree),"MA, Nonprofit Leadership","003dx00000m0obyiae20050101ma,nonprofitleadership"
+003Dx00000m0Oc9IAE,1981-01-01,001Dx00001FaYsxIAF,Education (non-degree),BS Mechanical Engineering Technology,003dx00000m0oc9iae19810101bsmechanicalengineeringt
+003Dx00000m0Oc9IAE,2023-01-01,001Dx00001FaYt2IAF,Education (non-degree),Master of Arts in Theology,003dx00000m0oc9iae20230101masterofartsintheology
+003Dx00000m0OcKIAU,1983-01-01,001Dx00001FaYt7IAF,Education (non-degree),Bachelor of Arts,003dx00000m0ockiau19830101bachelorofarts
+003Dx00000m0OcKIAU,1988-01-01,001Dx00001FaYtCIAV,Education (non-degree),Master of Divinity,003dx00000m0ockiau19880101masterofdivinity
+003Dx00000m0OXMIA2,2008-01-01,001Dx00001FaYqyIAF,Education (non-degree),Philosopy,003dx00000m0oxmia220080101philosopy
+003Dx00000m0OXMIA2,2013-01-01,001Dx00001FaYrrIAF,Education (non-degree),Bachelor of Theology,003dx00000m0oxmia220130101bacheloroftheology
+003Dx00000m0OcGIAU,1997-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0ocgiau19970101masteroftheologicalstudi
+003Dx00000m0OezIAE,2002-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Theological Studies,003dx00000m0oeziae20020101masteroftheologicalstudi
+003Dx00000m0OcIIAU,1969-01-01,001Dx00001FaYtHIAV,Education (non-degree),Ph.D. Psychology,003dx00000m0ociiau19690101phdpsychology
+003Dx00000m0OcWIAU,2006-01-01,001Dx00001FaYrsIAF,Education (non-degree),BA Psychology and Political Science,003dx00000m0ocwiau20060101bapsychologyandpolitical
+003Dx00000m0OcWIAU,2009-01-01,001Dx00001FaYrHIAV,Education (non-degree),Pre-Theology,003dx00000m0ocwiau20090101pretheology
+003Dx00000m0OcWIAU,2014-01-01,001Dx00001FaYrXIAV,Education (non-degree),STB,003dx00000m0ocwiau20140101stb
+003Dx00000m0OcsIAE,2006-01-01,001Dx00001FaYrYIAV,Education (non-degree),Bachelor of Philosophy,003dx00000m0ocsiae20060101bachelorofphilosophy
+003Dx00000m0OcsIAE,2014-01-01,001Dx00001FaYrtIAF,Education (non-degree),,003dx00000m0ocsiae20140101nan
+003Dx00000m0OcsIAE,2020-01-01,001Dx00001FaYtMIAV,Education (non-degree),Theology,003dx00000m0ocsiae20200101theology
+003Dx00000m0OdFIAU,2006-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0odfiau20060101masterofartsinpastoralmi
+003Dx00000m0OXQIA2,1968-01-01,001Dx00001FaYtRIAV,Education (non-degree),"BA, MA Classical English","003dx00000m0oxqia219680101ba,maclassicalenglish"
+003Dx00000m0OXQIA2,1974-01-01,001Dx00001FaYrcIAF,Education (non-degree),M.Div,003dx00000m0oxqia219740101mdiv
+003Dx00000m0OXQIA2,1982-01-01,001Dx00001FaYtWIAV,Education (non-degree),"STL, PhD Systematic Theology","003dx00000m0oxqia219820101stl,phdsystematictheolog"
+003Dx00000m0OXQIA2,1985-01-01,001Dx00001FaYtRIAV,Education (non-degree),"MA Counseling, Psychology","003dx00000m0oxqia219850101macounseling,psychology"
+003Dx00000m0OdeIAE,1980-01-01,001Dx00001FaYsyIAF,Education (non-degree),Science(Engineering) B.Sc. (Eng),003dx00000m0odeiae19800101science(engineering)bsc(
+003Dx00000m0OdeIAE,1997-01-01,001Dx00001FaYr4IAF,Education (non-degree),Licenciate in Canon Law (J.C.L.),003dx00000m0odeiae19970101licenciateincanonlaw(jcl
+003Dx00000m0OdhIAE,2005-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0odhiae20050101masterofartsinpastoralmi
+003Dx00000m0OdjIAE,1983-01-01,001Dx00001FaYtbIAF,Education (non-degree),BA Psychology,003dx00000m0odjiae19830101bapsychology
+003Dx00000m0OdjIAE,1986-01-01,001Dx00001FaYsjIAF,Education (non-degree),BA Philosophy,003dx00000m0odjiae19860101baphilosophy
+003Dx00000m0OfMIAU,1973-01-01,001Dx00001FaYtgIAF,Education (non-degree),BA,003dx00000m0ofmiau19730101ba
+003Dx00000m0OfMIAU,1977-01-01,001Dx00001FaYtlIAF,Education (non-degree),Biblical Theology,003dx00000m0ofmiau19770101biblicaltheology
+003Dx00000m0OfMIAU,1980-01-01,001Dx00001FaYr8IAF,Education (non-degree),STL,003dx00000m0ofmiau19800101stl
+003Dx00000m0OfMIAU,1985-01-01,001Dx00001FaYskIAF,Education (non-degree),JCL,003dx00000m0ofmiau19850101jcl
+003Dx00000m0OfOIAU,2007-01-01,001Dx00001FaYs4IAF,Education (non-degree),Certificate of Studies in Pastoral Ministries,003dx00000m0ofoiau20070101certificateofstudiesinpa
+003Dx00000m0OfUIAU,2004-01-01,001Dx00001FaYt8IAF,Education (non-degree),A. B. Philosophy,003dx00000m0ofuiau20040101abphilosophy
+003Dx00000m0OfUIAU,2014-01-01,001Dx00001FaYtqIAF,Education (non-degree),Master in Divinity,003dx00000m0ofuiau20140101masterindivinity
+003Dx00000m0OfYIAU,1980-01-01,001Dx00001FaYr7IAF,Education (non-degree),B.Arch,003dx00000m0ofyiau19800101barch
+003Dx00000m0OfYIAU,1986-01-01,001Dx00001FaYtvIAF,Education (non-degree),M.Div.,003dx00000m0ofyiau19860101mdiv
+003Dx00000m0OfYIAU,2014-01-01,001Dx00001FaYu0IAF,Education (non-degree),STB,003dx00000m0ofyiau20140101stb
+003Dx00000m0OjbIAE,1984-01-01,001Dx00001FaYt9IAF,Education (non-degree),Bachelor of Science in Criminology,003dx00000m0ojbiae19840101bachelorofscienceincrimi
+003Dx00000m0OjbIAE,2007-01-01,001Dx00001FaYrVIAV,Education (non-degree),Masters of Divintiy,003dx00000m0ojbiae20070101mastersofdivintiy
+003Dx00000m0OfcIAE,1968-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Divinity,003dx00000m0ofciae19680101masterofdivinity
+003Dx00000m0OfiIAE,2008-01-01,001Dx00001FaYu5IAF,Education (non-degree),BA Philosophy,003dx00000m0ofiiae20080101baphilosophy
+003Dx00000m0OfiIAE,2011-01-01,001Dx00001FaYu5IAF,Education (non-degree),MA Theology,003dx00000m0ofiiae20110101matheology
+003Dx00000m0OfiIAE,2012-01-01,001Dx00001FaYu5IAF,Education (non-degree),STB Theology,003dx00000m0ofiiae20120101stbtheology
+003Dx00000m0OfiIAE,2012-01-01,001Dx00001FaYu5IAF,Education (non-degree),M. Div,003dx00000m0ofiiae20120101mdiv
+003Dx00000m0OfiIAE,2017-01-01,001Dx00001FaYskIAF,Education (non-degree),JCL,003dx00000m0ofiiae20170101jcl
+003Dx00000m0OfjIAE,1969-01-01,001Dx00001FaYrdIAF,Education (non-degree),Sociology /Psychology,003dx00000m0ofjiae19690101sociology/psychology
+003Dx00000m0OfjIAE,1983-01-01,001Dx00001FaYuAIAV,Education (non-degree),MA Patristics,003dx00000m0ofjiae19830101mapatristics
+003Dx00000m0OgCIAU,1969-01-01,001Dx00001FaYtRIAV,Education (non-degree),Philosophy,003dx00000m0ogciau19690101philosophy
+003Dx00000m0OgIIAU,2000-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0ogiiau20000101masteroftheologicalstudi
+003Dx00000m0OgZIAU,1975-01-01,001Dx00001FaYuFIAV,Education (non-degree),BA Journalism,003dx00000m0ogziau19750101bajournalism
+003Dx00000m0OgZIAU,1983-01-01,001Dx00001FaYr9IAF,Education (non-degree),MDIV,003dx00000m0ogziau19830101mdiv
+003Dx00000m0OgaIAE,2017-01-01,001Dx00001CwhypIAB,Education (non-degree),Priestly Formation,003dx00000m0ogaiae20170101priestlyformation
+003Dx00000m0OgaIAE,2002-01-01,001Dx00001FaYrvIAF,Education (non-degree),Associate of Applied Science Electronic Engineerin,003dx00000m0ogaiae20020101associateofappliedscienc
+003Dx00000m0OgtIAE,2007-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0ogtiae20070101masterofartsinpastoralmi
+003Dx00000m0Oh0IAE,2004-01-01,001Dx00001FaYtNIAV,Education (non-degree),Theology,003dx00000m0oh0iae20040101theology
+003Dx00000m0Oh0IAE,2015-01-01,001Dx00001FaYtMIAV,Education (non-degree),S.T.B. Sacred Theology,003dx00000m0oh0iae20150101stbsacredtheology
+003Dx00000m0Oh0IAE,2015-01-01,001Dx00001FaYtMIAV,Education (non-degree),Master of Divinity,003dx00000m0oh0iae20150101masterofdivinity
+003Dx00000m0Oh3IAE,2015-01-01,001Dx00001FaYtOIAV,Education (non-degree),Cell and Molecular Biology,003dx00000m0oh3iae20150101cellandmolecularbiology
+003Dx00000m0Oh3IAE,2019-01-01,001Dx00001FaYsKIAV,Education (non-degree),MA Teaching Secondary STEM/ESOL,003dx00000m0oh3iae20190101mateachingsecondarystem/
+003Dx00000m0OXUIA2,1969-01-01,001Dx00001FaYslIAF,Education (non-degree),BA Philosophy,003dx00000m0oxuia219690101baphilosophy
+003Dx00000m0OXUIA2,1970-01-01,001Dx00001FaYtAIAV,Education (non-degree),,003dx00000m0oxuia219700101nan
+003Dx00000m0OXUIA2,1992-01-01,001Dx00001FaYuKIAV,Education (non-degree),STB,003dx00000m0oxuia219920101stb
+003Dx00000m0OhGIAU,2009-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0ohgiau20090101masterofartsinpastoralmi
+003Dx00000m0OhJIAU,2000-01-01,001Dx00001FaYuPIAV,Education (non-degree),Master of Divinity,003dx00000m0ohjiau20000101masterofdivinity
+003Dx00000m0OhKIAU,2002-01-01,001Dx00001FaYreIAF,Education (non-degree),BA History,003dx00000m0ohkiau20020101bahistory
+003Dx00000m0OhKIAU,2007-01-01,001Dx00001FaYuUIAV,Education (non-degree),MA History,003dx00000m0ohkiau20070101mahistory
+003Dx00000m0OhKIAU,2007-01-01,001Dx00001FaYuUIAV,Education (non-degree),"Graduate Diploma, Teaching","003dx00000m0ohkiau20070101graduatediploma,teaching"
+003Dx00000m0OhKIAU,2009-01-01,001Dx00001FaYuZIAV,Education (non-degree),"Diploma, Religious Education","003dx00000m0ohkiau20090101diploma,religiouseducati"
+003Dx00000m0OhpIAE,2003-01-01,001Dx00001FaYueIAF,Education (non-degree),Hispanic Lay Ministry Formation Program,003dx00000m0ohpiae20030101hispaniclayministryforma
+003Dx00000m0OiAIAU,2001-01-01,001Dx00001FaYrwIAF,Education (non-degree),BS Electrical Engineering,003dx00000m0oiaiau20010101bselectricalengineering
+003Dx00000m0OiIIAU,2018-01-01,001Dx00001FaYujIAF,Education (non-degree),Priestly Formation,003dx00000m0oiiiau20180101priestlyformation
+003Dx00000m0OiIIAU,2015-01-01,001Dx00001CwhypIAB,Education (non-degree),Bachelor of Arts,003dx00000m0oiiiau20150101bachelorofarts
+003Dx00000m0OiKIAU,1994-01-01,001Dx00001FaYuLIAV,Education (non-degree),Masters in Spirituality,003dx00000m0oikiau19940101mastersinspirituality
+003Dx00000m0OiMIAU,1992-01-01,001Dx00001FaYu6IAF,Education (non-degree),Philosophy and Theology,003dx00000m0oimiau19920101philosophyandtheology
+003Dx00000m0OiMIAU,1996-01-01,001Dx00001FaYukIAF,Education (non-degree),S.T.B.,003dx00000m0oimiau19960101stb
+003Dx00000m0OiMIAU,2007-01-01,001Dx00001FaYukIAF,Education (non-degree),S.T.D. in Dogmatic Theology,003dx00000m0oimiau20070101stdindogmatictheology
+003Dx00000m0OjDIAU,2009-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Arts in Theology,003dx00000m0ojdiau20090101masterofartsintheology
+003Dx00000m0OjGIAU,2001-01-01,001Dx00001FaYuoIAF,Education (non-degree),BA,003dx00000m0ojgiau20010101ba
+003Dx00000m0OjGIAU,2006-01-01,001Dx00001FaYtPIAV,Education (non-degree),MDiv,003dx00000m0ojgiau20060101mdiv
+003Dx00000m0OjGIAU,2017-01-01,001Dx00001FaYs0IAF,Education (non-degree),"Licentiate, Pastoral/Theological Youth and Young Adult Ministry","003dx00000m0ojgiau20170101licentiate,pastoral/theo"
+003Dx00000m0OjJIAU,1978-01-01,001Dx00001FaYutIAF,Education (non-degree),MA Liturgical Studies,003dx00000m0ojjiau19780101maliturgicalstudies
+003Dx00000m0OjJIAU,1981-01-01,001Dx00001FaYutIAF,Education (non-degree),STL Biblical Studies,003dx00000m0ojjiau19810101stlbiblicalstudies
+003Dx00000m0OisIAE,2000-01-01,001Dx00001FaYuaIAF,Education (non-degree),BA,003dx00000m0oisiae20000101ba
+003Dx00000m0OisIAE,2011-01-01,001Dx00001FaYuyIAF,Education (non-degree),MA,003dx00000m0oisiae20110101ma
+003Dx00000m0OisIAE,2011-01-01,001Dx00001FaYsmIAF,Education (non-degree),STB,003dx00000m0oisiae20110101stb
+003Dx00000m0OisIAE,2012-01-01,001Dx00001FaYuyIAF,Education (non-degree),MDiv,003dx00000m0oisiae20120101mdiv
+003Dx00000m0OXVIA2,1987-01-01,001Dx00001FaYuMIAV,Education (non-degree),Philosophy,003dx00000m0oxvia219870101philosophy
+003Dx00000m0OXVIA2,1993-01-01,001Dx00001FaYuuIAF,Education (non-degree),Master of Divinity,003dx00000m0oxvia219930101masterofdivinity
+003Dx00000m0OijIAE,2006-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0oijiae20060101masterofartsinpastoralmi
+003Dx00000m0OjdIAE,2013-01-01,001Dx00001FaYv3IAF,Education (non-degree),BS Biology,003dx00000m0ojdiae20130101bsbiology
+003Dx00000m0OjQIAU,1995-01-01,001Dx00001FaYuLIAV,Education (non-degree),Master of Arts in Catechetics,003dx00000m0ojqiau19950101masterofartsincatechetic
+003Dx00000m0OjRIAU,1997-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0ojriau19970101masteroftheologicalstudi
+003Dx00000m0OjpIAE,1981-01-01,001Dx00001FaYv8IAF,Education (non-degree),Business Administration,003dx00000m0ojpiae19810101businessadministration
+003Dx00000m0OjuIAE,1986-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Arts in Sacred Scripture,003dx00000m0ojuiae19860101masterofartsinsacredscri
+003Dx00000m0OjwIAE,2004-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0ojwiae20040101masterofartsinpastoralmi
+003Dx00000m0Ok3IAE,2013-01-01,001Dx00001FaYvDIAV,Education (non-degree),"BA Theology, Philosphy","003dx00000m0ok3iae20130101batheology,philosphy"
+003Dx00000m0Ok8IAE,2016-01-01,001Dx00001FaYtrIAF,Education (non-degree),BA of Science Major Agricultural Sciences,003dx00000m0ok8iae20160101baofsciencemajoragricult
+003Dx00000m0OkAIAU,2010-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0okaiau20100101masterofartsinpastoralmi
+003Dx00000m0OkEIAU,2005-01-01,001Dx00001FaYpLIAV,Education (non-degree),Master of Arts in Spirituality,003dx00000m0okeiau20050101masterofartsinspirituali
+003Dx00000m0OXXIA2,1988-01-01,001Dx00001FaYubIAF,Education (non-degree),Master of Arts in Theology,003dx00000m0oxxia219880101masterofartsintheology
+003Dx00000m0OkUIAU,1995-01-01,001Dx00001FaYvIIAV,Education (non-degree),"D.D., Systematic Theology","003dx00000m0okuiau19950101dd,systematictheology"
+003Dx00000m0OkiIAE,2006-01-01,001Dx00001FaYvNIAV,Education (non-degree),"Bachelor Psychology, Political Science, Law","003dx00000m0okiiae20060101bachelorpsychology,polit"
+003Dx00000m0OlFIAU,1998-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0olfiau19980101masteroftheologicalstudi
+003Dx00000m0OiPIAU,1974-01-01,001Dx00001FaYvSIAV,Education (non-degree),Theology,003dx00000m0oipiau19740101theology
+003Dx00000m0OiPIAU,1977-01-01,001Dx00001FaYvTIAV,Education (non-degree),MA Theology,003dx00000m0oipiau19770101matheology
+003Dx00000m0OlTIAU,2005-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0oltiau20050101masterofartsinpastoralmi
+003Dx00000m0OlhIAE,2000-01-01,001Dx00001FaYukIAF,Education (non-degree),BA Philosophy,003dx00000m0olhiae20000101baphilosophy
+003Dx00000m0OlhIAE,2003-01-01,001Dx00001FaYukIAF,Education (non-degree),BA Sacred Theology,003dx00000m0olhiae20030101basacredtheology
+003Dx00000m0OlnIAE,2004-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0olniae20040101masterofartsinpastoralmi
+003Dx00000m0OloIAE,2007-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0oloiae20070101masterofartsinpastoralmi
+003Dx00000m0OlwIAE,2000-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0olwiae20000101masteroftheologicalstudi
+003Dx00000m0Om1IAE,1979-01-01,001Dx00001FaYuMIAV,Education (non-degree),BA Philosophy,003dx00000m0om1iae19790101baphilosophy
+003Dx00000m0Om1IAE,1979-01-01,001Dx00001FaYsPIAV,Education (non-degree),BS English,003dx00000m0om1iae19790101bsenglish
+003Dx00000m0Om1IAE,1987-01-01,001Dx00001FaYrxIAF,Education (non-degree),M.Div. Theology,003dx00000m0om1iae19870101mdivtheology
+003Dx00000m0OlNIAU,1986-01-01,001Dx00001FaYryIAF,Education (non-degree),Bachelor of Science,003dx00000m0olniau19860101bachelorofscience
+003Dx00000m0OlNIAU,1998-01-01,001Dx00001FaYqsIAF,Education (non-degree),MA Theology,003dx00000m0olniau19980101matheology
+003Dx00000m0OlOIAU,2017-01-01,001Dx00001FaYqwIAF,Education (non-degree),Philosophy,003dx00000m0oloiau20170101philosophy
+003Dx00000m0OlOIAU,2022-01-01,001Dx00001FaYqwIAF,Education (non-degree),Thelogy,003dx00000m0oloiau20220101thelogy
+003Dx00000m0Om5IAE,2006-01-01,001Dx00001FaYvXIAV,Education (non-degree),BS Biochemistry,003dx00000m0om5iae20060101bsbiochemistry
+003Dx00000m0Om5IAE,2001-01-01,001Dx00001FaYvcIAF,Education (non-degree),MS Chemistry,003dx00000m0om5iae20010101mschemistry
+003Dx00000m0Om5IAE,2009-01-01,001Dx00001FaYsZIAV,Education (non-degree),M. Div,003dx00000m0om5iae20090101mdiv
+003Dx00000m0Om9IAE,2001-01-01,001Dx00001FaYvhIAF,Education (non-degree),BA,003dx00000m0om9iae20010101ba
+003Dx00000m0Om9IAE,2006-01-01,001Dx00001FaYpMIAV,Education (non-degree),MDiv,003dx00000m0om9iae20060101mdiv
+003Dx00000m0OmSIAU,1986-01-01,001Dx00001FaYvDIAV,Education (non-degree),BA Philosophy,003dx00000m0omsiau19860101baphilosophy
+003Dx00000m0OmSIAU,1990-01-01,001Dx00001FaYvDIAV,Education (non-degree),M. Div,003dx00000m0omsiau19900101mdiv
+003Dx00000m0OmSIAU,1997-01-01,001Dx00001FaYvDIAV,Education (non-degree),M.S. Administration,003dx00000m0omsiau19970101msadministration
+003Dx00000m0OmSIAU,2005-01-01,001Dx00001FaYvmIAF,Education (non-degree),Ph.D. Educational Leadership,003dx00000m0omsiau20050101phdeducationalleadership
+003Dx00000m0OmZIAU,2007-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0omziau20070101masterofartsinpastoralmi
+003Dx00000m0OmpIAE,1983-01-01,001Dx00001FaYtrIAF,Education (non-degree),Ag. Eng. Tech. & Soil Sci.,003dx00000m0ompiae19830101agengtech&soilsci
+003Dx00000m0OmpIAE,1992-01-01,001Dx00001FaYvrIAF,Education (non-degree),"Master of Science, Hotel and Food Svcs. Mgmt.","003dx00000m0ompiae19920101masterofscience,hoteland"
+003Dx00000m0OmpIAE,2017-01-01,001Dx00001FaYseIAF,Education (non-degree),"Master of Divinity, Pastoral Studies","003dx00000m0ompiae20170101masterofdivinity,pastora"
+003Dx00000m0On2IAE,2007-01-01,001Dx00001FaYvwIAF,Education (non-degree),Philosophy,003dx00000m0on2iae20070101philosophy
+003Dx00000m0On7IAE,2019-01-01,001Dx00001FaYvxIAF,Education (non-degree),B.A. Economics,003dx00000m0on7iae20190101baeconomics
+003Dx00000m0On9IAE,2009-01-01,001Dx00001FaYw1IAF,Education (non-degree),AAS in Fire Science and Emergency Medical Services,003dx00000m0on9iae20090101aasinfirescienceandemerg
+003Dx00000m0On9IAE,2019-01-01,001Dx00001CwhypIAB,Education (non-degree),BA Philosophy,003dx00000m0on9iae20190101baphilosophy
+003Dx00000m0OnBIAU,2007-01-01,001Dx00001FaYw6IAF,Education (non-degree),BA Theology,003dx00000m0onbiau20070101batheology
+003Dx00000m0OnBIAU,2022-01-01,001Dx00001FaYwBIAV,Education (non-degree),"Phd, Cannon Law","003dx00000m0onbiau20220101phd,cannonlaw"
+003Dx00000m0OnHIAU,1987-01-01,001Dx00001FaYwGIAV,Education (non-degree),MA Theology,003dx00000m0onhiau19870101matheology
+003Dx00000m0OnHIAU,1993-01-01,001Dx00001FaYrZIAV,Education (non-degree),Licentiate,003dx00000m0onhiau19930101licentiate
+003Dx00000m0OnMIAU,2014-01-01,001Dx00001FaYwLIAV,Education (non-degree),History with minor in Communications,003dx00000m0onmiau20140101historywithminorincommun
+003Dx00000m0OnMIAU,2019-01-01,001Dx00001FaYqsIAF,Education (non-degree),,003dx00000m0onmiau20190101nan
+003Dx00000m0OmDIAU,2003-01-01,001Dx00001FaYucIAF,Education (non-degree),"Bachelor of Science, History","003dx00000m0omdiau20030101bachelorofscience,histor"
+003Dx00000m0OmDIAU,2006-01-01,001Dx00001FaYwQIAV,Education (non-degree),Master of Theological Studies,003dx00000m0omdiau20060101masteroftheologicalstudi
+003Dx00000m0OnNIAU,1996-01-01,001Dx00001FaYt7IAF,Education (non-degree),Master of Divinity,003dx00000m0onniau19960101masterofdivinity
+003Dx00000m0OncIAE,2002-01-01,001Dx00001FaYwVIAV,Education (non-degree),BA Music,003dx00000m0onciae20020101bamusic
+003Dx00000m0OnkIAE,2004-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0onkiae20040101masterofartsinpastoralmi
+003Dx00000m0OnuIAE,2000-01-01,001Dx00001FaYueIAF,Education (non-degree),Hispanic Ministry Formation Certificate,003dx00000m0onuiae20000101hispanicministryformatio
+003Dx00000m0Oo1IAE,1987-01-01,001Dx00001FaYwaIAF,Education (non-degree),BS Gerontology,003dx00000m0oo1iae19870101bsgerontology
+003Dx00000m0Oo1IAE,1989-01-01,001Dx00001FaYs5IAF,Education (non-degree),MA Sociology – Aging and the Life Course,003dx00000m0oo1iae19890101masociology–agingandthel
+003Dx00000m0Oo2IAE,1984-01-01,001Dx00001FaYwfIAF,Education (non-degree),"Bachelor of Arts, Biological Sciences","003dx00000m0oo2iae19840101bachelorofarts,biologica"
+003Dx00000m0Oo2IAE,1988-01-01,001Dx00001FaYwkIAF,Education (non-degree),Doctor of Dental Surgery,003dx00000m0oo2iae19880101doctorofdentalsurgery
+003Dx00000m0Oo2IAE,2014-01-01,001Dx00001FaYwWIAV,Education (non-degree),MA Theology,003dx00000m0oo2iae20140101matheology
+003Dx00000m0Oo2IAE,2020-01-01,001Dx00001FaYwpIAF,Education (non-degree),Master of Healthcare Administration,003dx00000m0oo2iae20200101masterofhealthcareadmini
+003Dx00000m0OoQIAU,1999-01-01,001Dx00001FaYwuIAF,Education (non-degree),Bachelor of Engineering,003dx00000m0ooqiau19990101bachelorofengineering
+003Dx00000m0OoQIAU,2008-01-01,001Dx00001FaYwzIAF,Education (non-degree),Bachelor in Theology,003dx00000m0ooqiau20080101bachelorintheology
+003Dx00000m0OoQIAU,2019-01-01,001Dx00001FaYvEIAV,Education (non-degree),STL Pastoral Theology,003dx00000m0ooqiau20190101stlpastoraltheology
+003Dx00000m0OobIAE,2012-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0oobiae20120101masterofartsinpastoralmi
+003Dx00000m0Or6IAE,1979-01-01,001Dx00001CwhyoIAB,Education (non-degree),Philosophy,003dx00000m0or6iae19790101philosophy
+003Dx00000m0Or8IAE,1998-01-01,001Dx00001FaYt7IAF,Education (non-degree),Bachelor of Science in Aerospace Engineering,003dx00000m0or8iae19980101bachelorofscienceinaeros
+003Dx00000m0Or8IAE,2006-01-01,001Dx00001FaYt7IAF,Education (non-degree),Master of Divinity,003dx00000m0or8iae20060101masterofdivinity
+003Dx00000m0OrCIAU,1999-01-01,001Dx00001FaYuVIAV,Education (non-degree),BA Political Science and Asian Studies,003dx00000m0orciau19990101bapoliticalscienceandasi
+003Dx00000m0OrCIAU,2004-01-01,001Dx00001FaYx4IAF,Education (non-degree),Philosophy,003dx00000m0orciau20040101philosophy
+003Dx00000m0OrCIAU,2007-01-01,001Dx00001FaYvYIAV,Education (non-degree),"B. Music, Voice","003dx00000m0orciau20070101bmusic,voice"
+003Dx00000m0OrCIAU,2013-01-01,001Dx00001FaYx9IAF,Education (non-degree),M. Divinity,003dx00000m0orciau20130101mdivinity
+003Dx00000m0OrCIAU,2017-01-01,001Dx00001FaYvDIAV,Education (non-degree),MSM Sacred Music,003dx00000m0orciau20170101msmsacredmusic
+003Dx00000m0OrJIAU,2005-01-01,001Dx00001FaYtwIAF,Education (non-degree),,003dx00000m0orjiau20050101nan
+003Dx00000m0OrXIAU,2006-01-01,001Dx00001FaYrMIAV,Education (non-degree),BS Medical Technology,003dx00000m0orxiau20060101bsmedicaltechnology
+003Dx00000m0OrXIAU,2022-01-01,001Dx00001FaYsZIAV,Education (non-degree),MDiv / MA Theology,003dx00000m0orxiau20220101mdiv/matheology
+003Dx00000m0OrYIAU,1980-01-01,001Dx00001FaYt7IAF,Education (non-degree),BA Sociology/Theology,003dx00000m0oryiau19800101basociology/theology
+003Dx00000m0OrYIAU,1986-01-01,001Dx00001FaYt7IAF,Education (non-degree),MDiv,003dx00000m0oryiau19860101mdiv
+003Dx00000m0OrYIAU,2009-01-01,001Dx00001FaYxEIAV,Education (non-degree),Doctor of Ministry in Preaching,003dx00000m0oryiau20090101doctorofministryinpreach
+003Dx00000m0OrlIAE,2006-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0orliae20060101masterofartsinpastoralmi
+003Dx00000m0Os4IAE,2015-01-01,001Dx00001FaYqwIAF,Education (non-degree),BA Philosophy and Religious Studies,003dx00000m0os4iae20150101baphilosophyandreligious
+003Dx00000m0Os4IAE,2023-01-01,001Dx00001FaYqwIAF,Education (non-degree),"MA Theology, M.Div, BA Sacred Theology","003dx00000m0os4iae20230101matheology,mdiv,basacred"
+003Dx00000m0Os8IAE,2007-01-01,001Dx00001FaYueIAF,Education (non-degree),Private Tutoring,003dx00000m0os8iae20070101privatetutoring
+003Dx00000m0cwDIAQ,1994-01-01,001Dx00001FaYxJIAV,Education (non-degree),"BA Filosofia, Theologia","003dx00000m0cwdiaq19940101bafilosofia,theologia"
+003Dx00000m0cwDIAQ,2000-01-01,001Dx00001FaYwlIAF,Education (non-degree),,003dx00000m0cwdiaq20000101nan
+003Dx00000m0OsNIAU,1978-01-01,001Dx00001FaYvDIAV,Education (non-degree),BA History,003dx00000m0osniau19780101bahistory
+003Dx00000m0OsNIAU,1986-01-01,001Dx00001FaYvDIAV,Education (non-degree),M. Div,003dx00000m0osniau19860101mdiv
+003Dx00000m0OsNIAU,1999-01-01,001Dx00001FaYxOIAV,Education (non-degree),Ph.D. Divinity Faculty,003dx00000m0osniau19990101phddivinityfaculty
+003Dx00000m0OsWIAU,1994-01-01,001Dx00001FaYxTIAV,Education (non-degree),Arts,003dx00000m0oswiau19940101arts
+003Dx00000m0OsWIAU,2006-01-01,001Dx00001FaYxYIAV,Education (non-degree),"Masters, Business Administration","003dx00000m0oswiau20060101masters,businessadminist"
+003Dx00000m0OsWIAU,2013-01-01,001Dx00001FaYwmIAF,Education (non-degree),"Licenciate, Canon Law","003dx00000m0oswiau20130101licenciate,canonlaw"
+003Dx00000m0OsZIAU,1993-01-01,001Dx00001FaYuMIAV,Education (non-degree),"Bachelor, Philosophy","003dx00000m0osziau19930101bachelor,philosophy"
+003Dx00000m0OsZIAU,1996-01-01,001Dx00001FaYxdIAF,Education (non-degree),MFA Creative Writing,003dx00000m0osziau19960101mfacreativewriting
+003Dx00000m0OsZIAU,1998-01-01,001Dx00001FaYxiIAF,Education (non-degree),,003dx00000m0osziau19980101nan
+003Dx00000m0OsZIAU,2000-01-01,001Dx00001FaYqwIAF,Education (non-degree),Master of Divinity,003dx00000m0osziau20000101masterofdivinity
+003Dx00000m0OsaIAE,1983-01-01,001Dx00001FaYwbIAF,Education (non-degree),Bachelor of Arts,003dx00000m0osaiae19830101bachelorofarts
+003Dx00000m0OsaIAE,2012-01-01,001Dx00001FaYxnIAF,Education (non-degree),Master of Divinity,003dx00000m0osaiae20120101masterofdivinity
+003Dx00000m0OprIAE,2007-01-01,001Dx00001FaYvsIAF,Education (non-degree),BA Philosophy,003dx00000m0opriae20070101baphilosophy
+003Dx00000m0OprIAE,2011-01-01,001Dx00001FaYxZIAV,Education (non-degree),MA Theology,003dx00000m0opriae20110101matheology
+003Dx00000m0OpyIAE,1980-01-01,001Dx00001FaYxsIAF,Education (non-degree),BS,003dx00000m0opyiae19800101bs
+003Dx00000m0OpyIAE,1991-01-01,001Dx00001FaYrVIAV,Education (non-degree),MDiv,003dx00000m0opyiae19910101mdiv
+003Dx00000m0Oq1IAE,2009-01-01,001Dx00001FaYrVIAV,Education (non-degree),BA,003dx00000m0oq1iae20090101ba
+003Dx00000m0Oq1IAE,2013-01-01,001Dx00001FaYt7IAF,Education (non-degree),Master in Divinity,003dx00000m0oq1iae20130101masterindivinity
+003Dx00000m0Oq1IAE,2016-01-01,001Dx00001FaYtlIAF,Education (non-degree),Licentiate on Spiritual Theology and Formation,003dx00000m0oq1iae20160101licentiateonspiritualthe
+003Dx00000m0Oq5IAE,2016-01-01,001Dx00001FaYrbIAF,Education (non-degree),Master of Arts in Theology,003dx00000m0oq5iae20160101masterofartsintheology
+003Dx00000m0OqAIAU,2013-01-01,001Dx00001FaYtHIAV,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0oqaiau20130101masterofartsinpastoralmi
+003Dx00000m0OqEIAU,2019-01-01,001Dx00001FaYupIAF,Education (non-degree),Master of Divinity,003dx00000m0oqeiau20190101masterofdivinity
+003Dx00000m0OqIIAU,2004-01-01,001Dx00001FaYwgIAF,Education (non-degree),Agriculture Business Management,003dx00000m0oqiiau20040101agriculturebusinessmanag
+003Dx00000m0OqJIAU,1967-01-01,001Dx00001CwhypIAB,Education (non-degree),Bachelor of Arts,003dx00000m0oqjiau19670101bachelorofarts
+003Dx00000m0OqJIAU,1971-01-01,001Dx00001FaYqsIAF,Education (non-degree),MA Theology,003dx00000m0oqjiau19710101matheology
+003Dx00000m0OqJIAU,1972-01-01,001Dx00001FaYxxIAF,Education (non-degree),MA Communications,003dx00000m0oqjiau19720101macommunications
+003Dx00000m0OqKIAU,2004-01-01,001Dx00001FaYs4IAF,Education (non-degree),Certificate of Studies in Pastoral Ministries,003dx00000m0oqkiau20040101certificateofstudiesinpa
+003Dx00000m0OqRIAU,2011-01-01,001Dx00001FaYrNIAV,Education (non-degree),BA Pre-Law?,003dx00000m0oqriau20110101baprelaw?
+003Dx00000m0OqRIAU,2018-01-01,001Dx00001FaYy2IAF,Education (non-degree),Seminary Philosophy,003dx00000m0oqriau20180101seminaryphilosophy
+003Dx00000m0OqRIAU,2021-01-01,001Dx00001FaYsAIAV,Education (non-degree),STB/MA,003dx00000m0oqriau20210101stb/ma
+003Dx00000m0OqlIAE,2022-01-01,001Dx00001FaYy7IAF,Education (non-degree),MA Theology Equivalent,003dx00000m0oqliae20220101matheologyequivalent
+003Dx00000m0OqpIAE,1966-01-01,001Dx00001FaYtRIAV,Education (non-degree),BA,003dx00000m0oqpiae19660101ba
+003Dx00000m0OqpIAE,1969-01-01,001Dx00001FaYtRIAV,Education (non-degree),BA Philosophy,003dx00000m0oqpiae19690101baphilosophy
+003Dx00000m0OqpIAE,1970-01-01,001Dx00001FaYuuIAF,Education (non-degree),M.Div Theology,003dx00000m0oqpiae19700101mdivtheology
+003Dx00000m0OqpIAE,1981-01-01,001Dx00001FaYqiIAF,Education (non-degree),Ed. D. Human Development,003dx00000m0oqpiae19810101eddhumandevelopment
+003Dx00000m0OuPIAU,2010-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0oupiau20100101masterofartsinpastoralmi
+003Dx00000m0OuRIAU,1955-01-01,001Dx00001FaYsBIAV,Education (non-degree),,003dx00000m0ouriau19550101nan
+003Dx00000m0OuRIAU,1963-01-01,001Dx00001FaYwqIAF,Education (non-degree),Bachelor in Philosophy,003dx00000m0ouriau19630101bachelorinphilosophy
+003Dx00000m0OuRIAU,1963-01-01,001Dx00001FaYsZIAV,Education (non-degree),Master in Theology,003dx00000m0ouriau19630101masterintheology
+003Dx00000m0OuSIAU,1989-01-01,001Dx00001FaYwXIAV,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0ousiau19890101masterofartsinpastoralmi
+003Dx00000m0OulIAE,2017-01-01,001Dx00001FaYy8IAF,Education (non-degree),BA Philosophy and Letters,003dx00000m0ouliae20170101baphilosophyandletters
+003Dx00000m0OulIAE,2022-01-01,001Dx00001FaYqwIAF,Education (non-degree),Philosophy,003dx00000m0ouliae20220101philosophy
+003Dx00000m0OunIAE,1997-01-01,001Dx00001FaYyCIAV,Education (non-degree),LLB Law,003dx00000m0ouniae19970101llblaw
+003Dx00000m0OunIAE,2003-01-01,001Dx00001FaYyHIAV,Education (non-degree),LLM Law,003dx00000m0ouniae20030101llmlaw
+003Dx00000m0OunIAE,2009-01-01,001Dx00001FaYyMIAV,Education (non-degree),Ph.D. Asian and Comparative Law,003dx00000m0ouniae20090101phdasianandcomparativela
+003Dx00000m0OuoIAE,1993-01-01,001Dx00001FaYtHIAV,Education (non-degree),Bachelor of Science in Physics,003dx00000m0ouoiae19930101bachelorofscienceinphysi
+003Dx00000m0OuwIAE,2006-01-01,001Dx00001FaYrVIAV,Education (non-degree),Masters in Theology,003dx00000m0ouwiae20060101mastersintheology
+003Dx00000m0Ov9IAE,1994-01-01,001Dx00001FaYxeIAF,Education (non-degree),Bachelor of Arts,003dx00000m0ov9iae19940101bachelorofarts
+003Dx00000m0Ov9IAE,1998-01-01,001Dx00001FaYyRIAV,Education (non-degree),Masters of Divinity,003dx00000m0ov9iae19980101mastersofdivinity
+003Dx00000m0Ov9IAE,2010-01-01,001Dx00001FaYqjIAF,Education (non-degree),Masters of Arts in Liturgical Studies,003dx00000m0ov9iae20100101mastersofartsinliturgica
+003Dx00000m0OvGIAU,2008-01-01,001Dx00001FaYrVIAV,Education (non-degree),BA,003dx00000m0ovgiau20080101ba
+003Dx00000m0OvGIAU,2013-01-01,001Dx00001FaYrVIAV,Education (non-degree),M.Div.,003dx00000m0ovgiau20130101mdiv
+003Dx00000m0OveIAE,2010-01-01,001Dx00001FaYs4IAF,Education (non-degree),Certificate of Studies in Pastoral Ministries,003dx00000m0oveiae20100101certificateofstudiesinpa
+003Dx00000m0OvmIAE,2016-01-01,001Dx00001FaYqwIAF,Education (non-degree),Philosophy,003dx00000m0ovmiae20160101philosophy
+003Dx00000m0OvmIAE,2022-01-01,001Dx00001FaYrXIAV,Education (non-degree),"STD, Theology","003dx00000m0ovmiae20220101std,theology"
+003Dx00000m0OvoIAE,2001-01-01,001Dx00001FaYvXIAV,Education (non-degree),BS,003dx00000m0ovoiae20010101bs
+003Dx00000m0OvoIAE,2012-01-01,001Dx00001FaYtOIAV,Education (non-degree),MBA,003dx00000m0ovoiae20120101mba
+003Dx00000m0OvoIAE,2023-01-01,001Dx00001CwhypIAB,Education (non-degree),,003dx00000m0ovoiae20230101nan
+003Dx00000m0Ow5IAE,1989-01-01,001Dx00001FaYtrIAF,Education (non-degree),BS Math Education,003dx00000m0ow5iae19890101bsmatheducation
+003Dx00000m0Ow5IAE,1993-01-01,001Dx00001FaYtrIAF,Education (non-degree),MS Math Education,003dx00000m0ow5iae19930101msmatheducation
+003Dx00000m0Ow5IAE,2000-01-01,001Dx00001CwhypIAB,Education (non-degree),Mdiv,003dx00000m0ow5iae20000101mdiv
+003Dx00000m0Ow5IAE,2000-01-01,001Dx00001CwhypIAB,Education (non-degree),MA Theology,003dx00000m0ow5iae20000101matheology
+003Dx00000m0OwQIAU,1968-01-01,001Dx00001FaYvnIAF,Education (non-degree),BA,003dx00000m0owqiau19680101ba
+003Dx00000m0OwQIAU,1972-01-01,001Dx00001FaYySIAV,Education (non-degree),MA - Theology,003dx00000m0owqiau19720101matheology
+003Dx00000m0OwQIAU,1972-01-01,001Dx00001FaYuQIAV,Education (non-degree),STL - Theology,003dx00000m0owqiau19720101stltheology
+003Dx00000m0OwfIAE,1986-01-01,001Dx00001FaYxFIAV,Education (non-degree),"B.A., Philosophy","003dx00000m0owfiae19860101ba,philosophy"
+003Dx00000m0OwfIAE,1995-01-01,001Dx00001FaYtsIAF,Education (non-degree),"M.A., English","003dx00000m0owfiae19950101ma,english"
+003Dx00000m0OwfIAE,2003-01-01,001Dx00001FaYv4IAF,Education (non-degree),"M.A., Psychology","003dx00000m0owfiae20030101ma,psychology"
+003Dx00000m0OwfIAE,2004-01-01,001Dx00001FaYv4IAF,Education (non-degree),Post Graduate Diploma in Counselling,003dx00000m0owfiae20040101postgraduatediplomaincou
+003Dx00000m0OwgIAE,1987-01-01,001Dx00001FaYufIAF,Education (non-degree),BA,003dx00000m0owgiae19870101ba
+003Dx00000m0OwgIAE,1988-01-01,001Dx00001FaYygIAF,Education (non-degree),BA Education,003dx00000m0owgiae19880101baeducation
+003Dx00000m0OwgIAE,1995-01-01,001Dx00001FaYuKIAV,Education (non-degree),Licentiate in Church History,003dx00000m0owgiae19950101licentiateinchurchhistor
+003Dx00000m0OwgIAE,1997-01-01,001Dx00001FaYqnIAF,Education (non-degree),MA Education,003dx00000m0owgiae19970101maeducation
+003Dx00000m0OwgIAE,2010-01-01,001Dx00001FaYqnIAF,Education (non-degree),MA Philosophy,003dx00000m0owgiae20100101maphilosophy
+003Dx00000m0OwtIAE,1995-01-01,001Dx00001FaYueIAF,Education (non-degree),Certificicado de Catequista y Evangelizador,003dx00000m0owtiae19950101certificicadodecatequist
+003Dx00000m0OwuIAE,1962-01-01,001Dx00001FaYylIAF,Education (non-degree),Liberal Arts,003dx00000m0owuiae19620101liberalarts
+003Dx00000m0OwuIAE,1966-01-01,001Dx00001FaYthIAF,Education (non-degree),STL,003dx00000m0owuiae19660101stl
+003Dx00000m0OwuIAE,1972-01-01,001Dx00001FaYsfIAF,Education (non-degree),Counseling and Finance,003dx00000m0owuiae19720101counselingandfinance
+003Dx00000m0Ox6IAE,2000-01-01,001Dx00001FaYyqIAF,Education (non-degree),BA Spanish,003dx00000m0ox6iae20000101baspanish
+003Dx00000m0Ox6IAE,2009-01-01,001Dx00001FaYrVIAV,Education (non-degree),Mdiv,003dx00000m0ox6iae20090101mdiv
+003Dx00000m0Ox6IAE,2009-01-01,001Dx00001FaYrVIAV,Education (non-degree),MA Scripture,003dx00000m0ox6iae20090101mascripture
+003Dx00000m0Ox6IAE,2009-01-01,001Dx00001FaYulIAF,Education (non-degree),STB,003dx00000m0ox6iae20090101stb
+003Dx00000m0OxGIAU,2009-01-01,001Dx00001FaYueIAF,Education (non-degree),Hispanic Lay Ministry Formation Program,003dx00000m0oxgiau20090101hispaniclayministryforma
+003Dx00000m0OxLIAU,1973-01-01,001Dx00001FaYsCIAV,Education (non-degree),BA Philosophy/Theology,003dx00000m0oxliau19730101baphilosophy/theology
+003Dx00000m0OxLIAU,1988-01-01,001Dx00001FaYuLIAV,Education (non-degree),MA Theology/Catechetics,003dx00000m0oxliau19880101matheology/catechetics
+003Dx00000m0OxLIAU,1998-01-01,001Dx00001FaYyvIAF,Education (non-degree),MFT Counseling,003dx00000m0oxliau19980101mftcounseling
+003Dx00000m0OxUIAU,2015-01-01,001Dx00001FaYtHIAV,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0oxuiau20150101masterofartsinpastoralmi
+003Dx00000m0OspIAE,2017-01-01,001Dx00001FaYz0IAF,Education (non-degree),Theology,003dx00000m0ospiae20170101theology
+003Dx00000m0OszIAE,2016-01-01,001Dx00001FaYqwIAF,Education (non-degree),"Bachelor, Philosophy","003dx00000m0osziae20160101bachelor,philosophy"
+003Dx00000m0OszIAE,2019-01-01,001Dx00001FaYqwIAF,Education (non-degree),Master of Divinity,003dx00000m0osziae20190101masterofdivinity
+003Dx00000m0OszIAE,2019-01-01,001Dx00001FaYqwIAF,Education (non-degree),Master in Theology,003dx00000m0osziae20190101masterintheology
+003Dx00000m0OszIAE,2019-01-01,001Dx00001FaYrDIAV,Education (non-degree),STB,003dx00000m0osziae20190101stb
+003Dx00000m0OtUIAU,2013-01-01,001Dx00001FaYsgIAF,Education (non-degree),Mathmatics and Philosophy,003dx00000m0otuiau20130101mathmaticsandphilosophy
+003Dx00000m0OtUIAU,2019-01-01,001Dx00001FaYqsIAF,Education (non-degree),Theology,003dx00000m0otuiau20190101theology
+003Dx00000m0OtXIAU,1999-01-01,001Dx00001FaYyrIAF,Education (non-degree),Bachelor of  Theology,003dx00000m0otxiau19990101bacheloroftheology
+003Dx00000m0OtXIAU,2003-01-01,001Dx00001FaYyrIAF,Education (non-degree),Master of Arts Religion,003dx00000m0otxiau20030101masterofartsreligion
+003Dx00000m0OtXIAU,2007-01-01,001Dx00001FaYt3IAF,Education (non-degree),Doctor of Philosophy,003dx00000m0otxiau20070101doctorofphilosophy
+003Dx00000m0OtXIAU,2007-01-01,001Dx00001FaYywIAF,Education (non-degree),Postdoctoral Studies,003dx00000m0otxiau20070101postdoctoralstudies
+003Dx00000m0OtkIAE,1966-01-01,001Dx00001FaYxUIAV,Education (non-degree),BA,003dx00000m0otkiae19660101ba
+003Dx00000m0OtkIAE,1970-01-01,001Dx00001FaYz5IAF,Education (non-degree),,003dx00000m0otkiae19700101nan
+003Dx00000m0OtmIAE,1996-01-01,001Dx00001FaYysIAF,Education (non-degree),BS Electrical Engineer,003dx00000m0otmiae19960101bselectricalengineer
+003Dx00000m0OtmIAE,2014-01-01,001Dx00001FaYzAIAV,Education (non-degree),MDiv,003dx00000m0otmiae20140101mdiv
+003Dx00000m0OtuIAE,2009-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0otuiae20090101masterofartsinpastoralmi
+003Dx00000m0Ou3IAE,1975-01-01,001Dx00001FaYxAIAV,Education (non-degree),"BS, Business Administration","003dx00000m0ou3iae19750101bs,businessadministratio"
+003Dx00000m0Ou7IAE,2005-01-01,001Dx00001FaYzFIAV,Education (non-degree),BA Liberal Studies,003dx00000m0ou7iae20050101baliberalstudies
+003Dx00000m0OuAIAU,2019-01-01,001Dx00001CwhypIAB,Education (non-degree),BA Philosophy and Literature,003dx00000m0ouaiau20190101baphilosophyandliteratur
+003Dx00000m0OuAIAU,2023-01-01,001Dx00001FaYtAIAV,Education (non-degree),M.Div,003dx00000m0ouaiau20230101mdiv
+003Dx00000m0OxYIAU,1965-01-01,001Dx00001FaYxoIAF,Education (non-degree),B.A. Sociology,003dx00000m0oxyiau19650101basociology
+003Dx00000m0OxYIAU,1976-01-01,001Dx00001FaYzKIAV,Education (non-degree),MA Theology,003dx00000m0oxyiau19760101matheology
+003Dx00000m0OxaIAE,2005-01-01,001Dx00001FaYzPIAV,Education (non-degree),Master of Arts in Theology,003dx00000m0oxaiae20050101masterofartsintheology
+003Dx00000m0OxbIAE,1980-01-01,001Dx00001FaYzBIAV,Education (non-degree),"Bachelor, Foreign Literature","003dx00000m0oxbiae19800101bachelor,foreignliteratu"
+003Dx00000m0OxbIAE,1990-01-01,001Dx00001FaYsjIAF,Education (non-degree),Master of Divinity,003dx00000m0oxbiae19900101masterofdivinity
+003Dx00000m0OxbIAE,2003-01-01,001Dx00001FaYzUIAV,Education (non-degree),S,003dx00000m0oxbiae20030101s
+003Dx00000m0OxeIAE,1997-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0oxeiae19970101masteroftheologicalstudi
+003Dx00000m0OxjIAE,1959-01-01,001Dx00001FaYzZIAV,Education (non-degree),BA Philosophy,003dx00000m0oxjiae19590101baphilosophy
+003Dx00000m0OxjIAE,1963-01-01,001Dx00001FaYt4IAF,Education (non-degree),M.Div,003dx00000m0oxjiae19630101mdiv
+003Dx00000m0OxlIAE,2012-01-01,001Dx00001FaYtHIAV,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0oxliae20120101masterofartsinpastoralmi
+003Dx00000m0OxsIAE,2004-01-01,001Dx00001FaYzeIAF,Education (non-degree),History and Literature,003dx00000m0oxsiae20040101historyandliterature
+003Dx00000m0OxsIAE,2015-01-01,001Dx00001FaYtmIAF,Education (non-degree),Social Philosophy,003dx00000m0oxsiae20150101socialphilosophy
+003Dx00000m0OxsIAE,2020-01-01,001Dx00001FaYyxIAF,Education (non-degree),Theology,003dx00000m0oxsiae20200101theology
+003Dx00000m0Oy2IAE,2009-01-01,001Dx00001FaYzjIAF,Education (non-degree),BA Humanities,003dx00000m0oy2iae20090101bahumanities
+003Dx00000m0Oy2IAE,2011-01-01,001Dx00001FaYt5IAF,Education (non-degree),BA Philosophy,003dx00000m0oy2iae20110101baphilosophy
+003Dx00000m0Oy2IAE,2015-01-01,001Dx00001FaYt5IAF,Education (non-degree),BA Theology,003dx00000m0oy2iae20150101batheology
+003Dx00000m0Oy2IAE,2019-01-01,001Dx00001FaYzQIAV,Education (non-degree),PhD Catholic Theology,003dx00000m0oy2iae20190101phdcatholictheology
+003Dx00000m0Oy7IAE,1999-01-01,001Dx00001FaYyXIAV,Education (non-degree),Theology,003dx00000m0oy7iae19990101theology
+003Dx00000m0OyBIAU,1997-01-01,001Dx00001DLKIAIA5,Education (non-degree),,003dx00000m0oybiau19970101nan
+003Dx00000m0OyBIAU,2004-01-01,001Dx00001DLKIkIAP,Education (non-degree),,003dx00000m0oybiau20040101nan
+003Dx00000m0OyBIAU,2005-01-01,001Dx00001FaYtiIAF,Education (non-degree),,003dx00000m0oybiau20050101nan
+003Dx00000m0OyOIAU,1973-01-01,001Dx00001FaYvXIAV,Education (non-degree),Bachelor of Science Mathematics,003dx00000m0oyoiau19730101bachelorofsciencemathema
+003Dx00000m0OyOIAU,1975-01-01,001Dx00001FaYvXIAV,Education (non-degree),MST Mathematics Education,003dx00000m0oyoiau19750101mstmathematicseducation
+003Dx00000m0OyOIAU,1977-01-01,001Dx00001FaYzoIAF,Education (non-degree),MS Mathematics/Statistics,003dx00000m0oyoiau19770101msmathematics/statistics
+003Dx00000m0OyOIAU,1980-01-01,001Dx00001FaYztIAF,Education (non-degree),MS Industrial Engineering,003dx00000m0oyoiau19800101msindustrialengineering
+003Dx00000m0OySIAU,1967-01-01,001Dx00001FaYt6IAF,Education (non-degree),BS in Physics,003dx00000m0oysiau19670101bsinphysics
+003Dx00000m0OySIAU,1977-01-01,001Dx00001FaYzyIAF,Education (non-degree),PhD in Plant Pathology,003dx00000m0oysiau19770101phdinplantpathology
+003Dx00000m0OySIAU,1984-01-01,001Dx00001FaYrVIAV,Education (non-degree),MDiv,003dx00000m0oysiau19840101mdiv
+003Dx00000m0OySIAU,1984-01-01,001Dx00001FaYrVIAV,Education (non-degree),MA in Scripture,003dx00000m0oysiau19840101mainscripture
+003Dx00000m0OyaIAE,2008-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0oyaiae20080101masterofartsinpastoralmi
+003Dx00000m0Oz5IAE,2000-01-01,001Dx00001FaYzRIAV,Education (non-degree),BA Liberal Arts,003dx00000m0oz5iae20000101baliberalarts
+003Dx00000m0Oz5IAE,2004-01-01,001Dx00001FaYytIAF,Education (non-degree),Certificate of Pre-Theology,003dx00000m0oz5iae20040101certificateofpretheology
+003Dx00000m0Oz5IAE,2022-01-01,001Dx00001FaYy7IAF,Education (non-degree),MA Theology Equivalent,003dx00000m0oz5iae20220101matheologyequivalent
+003Dx00000m0Oo9IAE,1983-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Theological Studies,003dx00000m0oo9iae19830101masteroftheologicalstudi
+003Dx00000m0OzJIAU,2007-01-01,001Dx00001FaYrVIAV,Education (non-degree),Philosophy,003dx00000m0ozjiau20070101philosophy
+003Dx00000m0OzJIAU,2010-01-01,001Dx00001FaYzGIAV,Education (non-degree),STB,003dx00000m0ozjiau20100101stb
+003Dx00000m0OzJIAU,2013-01-01,001Dx00001FaYwhIAF,Education (non-degree),STL,003dx00000m0ozjiau20130101stl
+003Dx00000m0OzYIAU,1982-01-01,001Dx00001FaYr3IAF,Education (non-degree),Master of Pastoral Ministry,003dx00000m0ozyiau19820101masterofpastoralministry
+003Dx00000m0OzeIAE,1989-01-01,001Dx00001FaZ03IAF,Education (non-degree),Communications,003dx00000m0ozeiae19890101communications
+003Dx00000m0OzeIAE,1992-01-01,001Dx00001FaYzSIAV,Education (non-degree),Master of Divinity,003dx00000m0ozeiae19920101masterofdivinity
+003Dx00000m0OzeIAE,1996-01-01,001Dx00001FaZ08IAF,Education (non-degree),"Doctor of Ministry, Pastoral Counseling","003dx00000m0ozeiae19960101doctorofministry,pastora"
+003Dx00000m0P05IAE,1979-01-01,001Dx00001FaYu6IAF,Education (non-degree),BA Architecture,003dx00000m0p05iae19790101baarchitecture
+003Dx00000m0P05IAE,1988-01-01,001Dx00001FaYu6IAF,Education (non-degree),M Div.,003dx00000m0p05iae19880101mdiv
+003Dx00000m0P08IAE,2014-01-01,001Dx00001FaYtHIAV,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0p08iae20140101masterofartsinpastoralmi
+003Dx00000m0P0AIAU,1987-01-01,001Dx00001FaYzVIAV,Education (non-degree),BS in Computer Science,003dx00000m0p0aiau19870101bsincomputerscience
+003Dx00000m0P0AIAU,2014-01-01,001Dx00001FaZ0DIAV,Education (non-degree),Master of Divinity,003dx00000m0p0aiau20140101masterofdivinity
+003Dx00000m0P0HIAU,1997-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0p0hiau19970101masteroftheologicalstudi
+003Dx00000m0P0LIAU,1997-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0p0liau19970101masteroftheologicalstudi
+003Dx00000m0P0RIAU,2014-01-01,001Dx00001FaYzpIAF,Education (non-degree),"Master of Arts in Theology, Sacred Scripture","003dx00000m0p0riau20140101masterofartsintheology,s"
+003Dx00000m0P0bIAE,2000-01-01,001Dx00001FaYz1IAF,Education (non-degree),Philosophy/Literature,003dx00000m0p0biae20000101philosophy/literature
+003Dx00000m0P0bIAE,2004-01-01,001Dx00001FaYxpIAF,Education (non-degree),MDiv,003dx00000m0p0biae20040101mdiv
+003Dx00000m0P0pIAE,1989-01-01,001Dx00001FaYuLIAV,Education (non-degree),Computer Engineering,003dx00000m0p0piae19890101computerengineering
+003Dx00000m0P0pIAE,1994-01-01,001Dx00001FaYuLIAV,Education (non-degree),M.B.A. Business/Finance,003dx00000m0p0piae19940101mbabusiness/finance
+003Dx00000m0P0pIAE,2015-01-01,001Dx00001FaYtmIAF,Education (non-degree),Philosophy,003dx00000m0p0piae20150101philosophy
+003Dx00000m0P0pIAE,2020-01-01,001Dx00001FaYx9IAF,Education (non-degree),Theology,003dx00000m0p0piae20200101theology
+003Dx00000m0P0zIAE,2000-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Arts in Theology (equiv.),003dx00000m0p0ziae20000101masterofartsintheology(e
+003Dx00000m0P1FIAU,1976-01-01,001Dx00001FaYzzIAF,Education (non-degree),Philosophy,003dx00000m0p1fiau19760101philosophy
+003Dx00000m0P1FIAU,1980-01-01,001Dx00001FaYzaIAF,Education (non-degree),Theology,003dx00000m0p1fiau19800101theology
+003Dx00000m0P1XIAU,2008-01-01,001Dx00001FaZ0IIAV,Education (non-degree),BA History,003dx00000m0p1xiau20080101bahistory
+003Dx00000m0P1XIAU,2012-01-01,001Dx00001FaYzCIAV,Education (non-degree),Law- Juris Doctor,003dx00000m0p1xiau20120101lawjurisdoctor
+003Dx00000m0P1XIAU,2021-01-01,001Dx00001FaZ0NIAV,Education (non-degree),MA Philosphy,003dx00000m0p1xiau20210101maphilosphy
+003Dx00000m0P1rIAE,1997-01-01,001Dx00001FaYuWIAV,Education (non-degree),"Bachelor, Theology","003dx00000m0p1riae19970101bachelor,theology"
+003Dx00000m0P1rIAE,1993-01-01,001Dx00001FaYtSIAV,Education (non-degree),Philosophy,003dx00000m0p1riae19930101philosophy
+003Dx00000m0P1rIAE,1997-01-01,,Education (non-degree),,003dx00000m0p1riae19970101nan
+003Dx00000m0P2DIAU,1955-01-01,001Dx00001FaYtRIAV,Education (non-degree),"Bachelor of Arts, History","003dx00000m0p2diau19550101bachelorofarts,history"
+003Dx00000m0P2DIAU,1956-01-01,001Dx00001FaYtRIAV,Education (non-degree),Philosophy,003dx00000m0p2diau19560101philosophy
+003Dx00000m0P2DIAU,1963-01-01,001Dx00001FaYuLIAV,Education (non-degree),Master in Theology,003dx00000m0p2diau19630101masterintheology
+003Dx00000m0P2GIAU,1998-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0p2giau19980101masteroftheologicalstudi
+003Dx00000m0P2IIAU,1995-01-01,001Dx00001FaYvoIAF,Education (non-degree),BS,003dx00000m0p2iiau19950101bs
+003Dx00000m0P2IIAU,2000-01-01,001Dx00001FaYvDIAV,Education (non-degree),"MS, PhD","003dx00000m0p2iiau20000101ms,phd"
+003Dx00000m0P2IIAU,2008-01-01,001Dx00001FaYyyIAF,Education (non-degree),M.Div.,003dx00000m0p2iiau20080101mdiv
+003Dx00000m0P2YIAU,1984-01-01,001Dx00001FaYr3IAF,Education (non-degree),Economics,003dx00000m0p2yiau19840101economics
+003Dx00000m0P2YIAU,1988-01-01,001Dx00001FaYtRIAV,Education (non-degree),Philosophy,003dx00000m0p2yiau19880101philosophy
+003Dx00000m0P2YIAU,1996-01-01,001Dx00001FaYtCIAV,Education (non-degree),M. Div. Theology,003dx00000m0p2yiau19960101mdivtheology
+003Dx00000m0P2YIAU,2002-01-01,001Dx00001FaYtNIAV,Education (non-degree),M.F.A.Screenwriting,003dx00000m0p2yiau20020101mfascreenwriting
+003Dx00000m0P2eIAE,2023-01-01,001Dx00001FaYqwIAF,Education (non-degree),BA Philosophy,003dx00000m0p2eiae20230101baphilosophy
+003Dx00000m0P2lIAE,1964-01-01,001Dx00001FaZ0SIAV,Education (non-degree),B.A.,003dx00000m0p2liae19640101ba
+003Dx00000m0P2lIAE,1966-01-01,001Dx00001FaYtnIAF,Education (non-degree),"B.A., Theology","003dx00000m0p2liae19660101ba,theology"
+003Dx00000m0P2lIAE,1968-01-01,001Dx00001FaYtnIAF,Education (non-degree),"M.A., Theology","003dx00000m0p2liae19680101ma,theology"
+003Dx00000m0P2lIAE,1968-01-01,001Dx00001FaYtnIAF,Education (non-degree),S.T.B.,003dx00000m0p2liae19680101stb
+003Dx00000m0P2vIAE,2000-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0p2viae20000101masteroftheologicalstudi
+003Dx00000m0P33IAE,1999-01-01,001Dx00001FaYuMIAV,Education (non-degree),BA in Sacred Scripture,003dx00000m0p33iae19990101bainsacredscripture
+003Dx00000m0P33IAE,2007-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master’s in Divinity,003dx00000m0p33iae20070101master’sindivinity
+003Dx00000m0P33IAE,2007-01-01,001Dx00001FaYrVIAV,Education (non-degree),MA in Sacred Scripture,003dx00000m0p33iae20070101mainsacredscripture
+003Dx00000m0P33IAE,2015-01-01,001Dx00001FaYvpIAF,Education (non-degree),JCL,003dx00000m0p33iae20150101jcl
+003Dx00000m0P3OIAU,1999-01-01,001Dx00001FaYvqIAF,Education (non-degree),Diaconate Formation Program,003dx00000m0p3oiau19990101diaconateformationprogra
+003Dx00000m0P3TIAU,2006-01-01,001Dx00001FaZ0XIAV,Education (non-degree),Spiritual Orientation,003dx00000m0p3tiau20060101spiritualorientation
+003Dx00000m0P3TIAU,2010-01-01,001Dx00001FaZ0cIAF,Education (non-degree),Philosophy,003dx00000m0p3tiau20100101philosophy
+003Dx00000m0P3TIAU,2015-01-01,001Dx00001FaYtTIAV,Education (non-degree),Theology,003dx00000m0p3tiau20150101theology
+003Dx00000m0P3zIAE,1974-01-01,001Dx00001FaYrVIAV,Education (non-degree),"Liberal Arts, Humanities","003dx00000m0p3ziae19740101liberalarts,humanities"
+003Dx00000m0P3zIAE,1978-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Divinity,003dx00000m0p3ziae19780101masterofdivinity
+003Dx00000m0P3zIAE,1989-01-01,001Dx00001FaZ0hIAF,Education (non-degree),"Master of Science, Pastoral Counseling","003dx00000m0p3ziae19890101masterofscience,pastoral"
+003Dx00000m0P4CIAU,2011-01-01,001Dx00001FaYr7IAF,Education (non-degree),BA Education FHS,003dx00000m0p4ciau20110101baeducationfhs
+003Dx00000m0P4CIAU,2016-01-01,001Dx00001FaZ0mIAF,Education (non-degree),MA Clinical Mental Health Counselor,003dx00000m0p4ciau20160101maclinicalmentalhealthco
+003Dx00000m0P4aIAE,2003-01-01,001Dx00001FaYvOIAV,Education (non-degree),"BA, Philosophy and Theology","003dx00000m0p4aiae20030101ba,philosophyandtheology"
+003Dx00000m0P4aIAE,2005-01-01,001Dx00001FaZ0rIAF,Education (non-degree),Master of Theological Studies,003dx00000m0p4aiae20050101masteroftheologicalstudi
+003Dx00000m0P4cIAE,2010-01-01,001Dx00001FaYrIIAV,Education (non-degree),Integral Liberal Arts,003dx00000m0p4ciae20100101integralliberalarts
+003Dx00000m0P4cIAE,2016-01-01,001Dx00001FaYrkIAF,Education (non-degree),MA Theology,003dx00000m0p4ciae20160101matheology
+003Dx00000m0P4cIAE,2017-01-01,001Dx00001FaZ0wIAF,Education (non-degree),STL,003dx00000m0p4ciae20170101stl
+003Dx00000m0P4cIAE,2019-01-01,001Dx00001FaZ0wIAF,Education (non-degree),STD,003dx00000m0p4ciae20190101std
+003Dx00000m0P4dIAE,1988-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Theological Studies,003dx00000m0p4diae19880101masteroftheologicalstudi
+003Dx00000m0P4gIAE,2017-01-01,001Dx00001FaYwgIAF,Education (non-degree),BS MFG/IE,003dx00000m0p4giae20170101bsmfg/ie
+003Dx00000m0P4jIAE,1974-01-01,001Dx00001FaYszIAF,Education (non-degree),"AB, Religious Studies","003dx00000m0p4jiae19740101ab,religiousstudies"
+003Dx00000m0P4jIAE,1977-01-01,001Dx00001FaYs6IAF,Education (non-degree),MDiv,003dx00000m0p4jiae19770101mdiv
+003Dx00000m0P4mIAE,1958-01-01,001Dx00001FaYtHIAV,Education (non-degree),B.S.,003dx00000m0p4miae19580101bs
+003Dx00000m0P4mIAE,1960-01-01,001Dx00001FaYv3IAF,Education (non-degree),M.S.,003dx00000m0p4miae19600101ms
+003Dx00000m0P4mIAE,1972-01-01,001Dx00001FaYrJIAV,Education (non-degree),S.T.M.,003dx00000m0p4miae19720101stm
+003Dx00000m0P4pIAE,2002-01-01,001Dx00001FaZ0YIAV,Education (non-degree),Philosophy (Cum Laude),003dx00000m0p4piae20020101philosophy(cumlaude)
+003Dx00000m0P4pIAE,2014-01-01,001Dx00001FaYycIAF,Education (non-degree),"Master of Arts, Philosophy","003dx00000m0p4piae20140101masterofarts,philosophy"
+003Dx00000m0P4pIAE,2015-01-01,001Dx00001FaYycIAF,Education (non-degree),Masters of Divinity,003dx00000m0p4piae20150101mastersofdivinity
+003Dx00000m0P4tIAE,2013-01-01,001Dx00001FaYwgIAF,Education (non-degree),"Associate of Science, Music Emphasis","003dx00000m0p4tiae20130101associateofscience,music"
+003Dx00000m0P4tIAE,2015-01-01,001Dx00001FaYwgIAF,Education (non-degree),BA Choral Music,003dx00000m0p4tiae20150101bachoralmusic
+003Dx00000m0P4tIAE,2020-01-01,001Dx00001FaYtoIAF,Education (non-degree),MA Sacred Music,003dx00000m0p4tiae20200101masacredmusic
+003Dx00000m0P4uIAE,1990-01-01,,Education (non-degree),Doctorate in Systematic Theology,003dx00000m0p4uiae19900101doctorateinsystematicthe
+003Dx00000m0P4wIAE,1968-01-01,001Dx00001FaYtRIAV,Education (non-degree),Philosophy/Speech & Drama,003dx00000m0p4wiae19680101philosophy/speech&drama
+003Dx00000m0P4wIAE,1973-01-01,001Dx00001FaYtCIAV,Education (non-degree),M.Div. Theology,003dx00000m0p4wiae19730101mdivtheology
+003Dx00000m0P4wIAE,1982-01-01,001Dx00001FaZ11IAF,Education (non-degree),Ph.D. Theology and Arts,003dx00000m0p4wiae19820101phdtheologyandarts
+003Dx00000m0P4xIAE,1961-01-01,001Dx00001FaZ0SIAV,Education (non-degree),B.A.,003dx00000m0p4xiae19610101ba
+003Dx00000m0P4xIAE,1963-01-01,001Dx00001FaYtpIAF,Education (non-degree),S.T.B.,003dx00000m0p4xiae19630101stb
+003Dx00000m0P4xIAE,1972-01-01,001Dx00001FaYqkIAF,Education (non-degree),M.Ed.,003dx00000m0p4xiae19720101med
+003Dx00000m0P51IAE,2003-01-01,001Dx00001FaYshIAF,Education (non-degree),BS Mechanical Engineering,003dx00000m0p51iae20030101bsmechanicalengineering
+003Dx00000m0P51IAE,2015-01-01,001Dx00001FaYr8IAF,Education (non-degree),STB,003dx00000m0p51iae20150101stb
+003Dx00000m0P52IAE,2000-01-01,001Dx00001FaYvUIAV,Education (non-degree),Theology,003dx00000m0p52iae20000101theology
+003Dx00000m0P52IAE,2013-01-01,001Dx00001FaZ16IAF,Education (non-degree),Licentiate in Islamology,003dx00000m0p52iae20130101licentiateinislamology
+003Dx00000m0P53IAE,1969-01-01,001Dx00001FaYtUIAV,Education (non-degree),BA Philosophy,003dx00000m0p53iae19690101baphilosophy
+003Dx00000m0P53IAE,1973-01-01,001Dx00001FaYtUIAV,Education (non-degree),MA Theology,003dx00000m0p53iae19730101matheology
+003Dx00000m0P53IAE,1980-01-01,001Dx00001FaZ1BIAV,Education (non-degree),STL,003dx00000m0p53iae19800101stl
+003Dx00000m0P53IAE,1983-01-01,001Dx00001FaZ1BIAV,Education (non-degree),STD,003dx00000m0p53iae19830101std
+003Dx00000m0P53IAE,2014-01-01,001Dx00001FaYrkIAF,Education (non-degree),Doctor of Human Letters (Honoris Causa),003dx00000m0p53iae20140101doctorofhumanletters(hon
+003Dx00000m0P56IAE,2016-01-01,001Dx00001FaZ1CIAV,Education (non-degree),"Bachelor, Bible/Theology","003dx00000m0p56iae20160101bachelor,bible/theology"
+003Dx00000m0P5DIAU,1998-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0p5diau19980101masteroftheologicalstudi
+003Dx00000m0P5pIAE,2019-01-01,001Dx00001FaYpNIAV,Education (non-degree),BA Sacred Theology,003dx00000m0p5piae20190101basacredtheology
+003Dx00000m0P68IAE,1992-01-01,001Dx00001FaYqoIAF,Education (non-degree),BA Philosophy and Psychology,003dx00000m0p68iae19920101baphilosophyandpsycholog
+003Dx00000m0P68IAE,1998-01-01,001Dx00001FaZ1GIAV,Education (non-degree),MA Theology,003dx00000m0p68iae19980101matheology
+003Dx00000m0cuNIAQ,2004-01-01,001Dx00001FaZ1LIAV,Education (non-degree),BA,003dx00000m0cuniaq20040101ba
+003Dx00000m0cuNIAQ,2008-01-01,001Dx00001FaZ1QIAV,Education (non-degree),M.Div.,003dx00000m0cuniaq20080101mdiv
+003Dx00000m0P6FIAU,2010-01-01,001Dx00001FaZ1VIAV,Education (non-degree),,003dx00000m0p6fiau20100101nan
+003Dx00000m0P6FIAU,2016-01-01,001Dx00001FaYtjIAF,Education (non-degree),Philosophy,003dx00000m0p6fiau20160101philosophy
+003Dx00000m0P6FIAU,2019-01-01,001Dx00001FaZ0xIAF,Education (non-degree),Theology,003dx00000m0p6fiau20190101theology
+003Dx00000m0P6FIAU,2020-01-01,001Dx00001FaYudIAF,Education (non-degree),Intensive English,003dx00000m0p6fiau20200101intensiveenglish
+003Dx00000m0P6FIAU,2023-01-01,001Dx00001FaYtVIAV,Education (non-degree),Theology,003dx00000m0p6fiau20230101theology
+003Dx00000m0P6qIAE,1996-01-01,001Dx00001FaYwiIAF,Education (non-degree),BA/B Theology,003dx00000m0p6qiae19960101ba/btheology
+003Dx00000m0P6qIAE,2005-01-01,001Dx00001FaZ1HIAV,Education (non-degree),MBA,003dx00000m0p6qiae20050101mba
+003Dx00000m0P6qIAE,2014-01-01,001Dx00001FaYvtIAF,Education (non-degree),Ph.D,003dx00000m0p6qiae20140101phd
+003Dx00000m0P6uIAE,1989-01-01,001Dx00001FaZ0JIAV,Education (non-degree),"Bachelor, Philosophy","003dx00000m0p6uiae19890101bachelor,philosophy"
+003Dx00000m0P6uIAE,1993-01-01,001Dx00001FaZ0JIAV,Education (non-degree),"Bachelor, Theology","003dx00000m0p6uiae19930101bachelor,theology"
+003Dx00000m0P6uIAE,2011-01-01,001Dx00001FaZ1aIAF,Education (non-degree),"Licentiate, Sacred Theology","003dx00000m0p6uiae20110101licentiate,sacredtheolog"
+003Dx00000m0P6wIAE,1988-01-01,001Dx00001FaYytIAF,Education (non-degree),BA Psychology,003dx00000m0p6wiae19880101bapsychology
+003Dx00000m0P6wIAE,1995-01-01,001Dx00001FaZ0ZIAV,Education (non-degree),M. Div.,003dx00000m0p6wiae19950101mdiv
+003Dx00000m0P7AIAU,2021-01-01,001Dx00001FaYrbIAF,Education (non-degree),BA Philosophy,003dx00000m0p7aiau20210101baphilosophy
+003Dx00000m0P7AIAU,2022-01-01,001Dx00001FaYrbIAF,Education (non-degree),MA,003dx00000m0p7aiau20220101ma
+003Dx00000m0P7FIAU,1988-01-01,001Dx00001FaYzqIAF,Education (non-degree),Philosophy,003dx00000m0p7fiau19880101philosophy
+003Dx00000m0P7FIAU,1996-01-01,001Dx00001FaYzqIAF,Education (non-degree),MA Theology,003dx00000m0p7fiau19960101matheology
+003Dx00000m0P7FIAU,2002-01-01,001Dx00001FaYvVIAV,Education (non-degree),MA Communication,003dx00000m0p7fiau20020101macommunication
+003Dx00000m0P7FIAU,2005-01-01,001Dx00001FaZ1fIAF,Education (non-degree),PhD Communications,003dx00000m0p7fiau20050101phdcommunications
+003Dx00000m0P7OIAU,1990-01-01,001Dx00001FaYwrIAF,Education (non-degree),BA Philosophy,003dx00000m0p7oiau19900101baphilosophy
+003Dx00000m0P7OIAU,2002-01-01,001Dx00001FaZ1gIAF,Education (non-degree),MBA,003dx00000m0p7oiau20020101mba
+003Dx00000m0P7OIAU,2013-01-01,001Dx00001FaYx9IAF,Education (non-degree),M.Div Theology,003dx00000m0p7oiau20130101mdivtheology
+003Dx00000m0P7aIAE,1969-01-01,001Dx00001FaZ0TIAV,Education (non-degree),Scholastic Philosophy,003dx00000m0p7aiae19690101scholasticphilosophy
+003Dx00000m0P7aIAE,1973-01-01,001Dx00001FaYzrIAF,Education (non-degree),Magister der Theologie,003dx00000m0p7aiae19730101magisterdertheologie
+003Dx00000m0P7gIAE,2010-01-01,001Dx00001FaZ1kIAF,Education (non-degree),Diploma in Theological Studies,003dx00000m0p7giae20100101diplomaintheologicalstud
+003Dx00000m0P7oIAE,2003-01-01,001Dx00001FaYveIAF,Education (non-degree),Veterinary Medicine,003dx00000m0p7oiae20030101veterinarymedicine
+003Dx00000m0P7oIAE,2016-01-01,001Dx00001FaZ1pIAF,Education (non-degree),"Philosophy, Theology","003dx00000m0p7oiae20160101philosophy,theology"
+003Dx00000m0P80IAE,2010-01-01,001Dx00001FaZ1uIAF,Education (non-degree),MS in Psychology,003dx00000m0p80iae20100101msinpsychology
+003Dx00000m0P80IAE,1999-01-01,001Dx00001FaYrEIAV,Education (non-degree),BA in Sacred Theology,003dx00000m0p80iae19990101bainsacredtheology
+003Dx00000m0P80IAE,1992-01-01,001Dx00001FaYwHIAV,Education (non-degree),Philosophy,003dx00000m0p80iae19920101philosophy
+003Dx00000m0P8EIAU,1990-01-01,001Dx00001FaZ1zIAF,Education (non-degree),BA Philosophy,003dx00000m0p8eiau19900101baphilosophy
+003Dx00000m0P8EIAU,1995-01-01,001Dx00001FaYsjIAF,Education (non-degree),M.Div.,003dx00000m0p8eiau19950101mdiv
+003Dx00000m0P8HIAU,2006-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0p8hiau20060101masterofartsinpastoralmi
+003Dx00000m0P8QIAU,2007-01-01,001Dx00001FaYtBIAV,Education (non-degree),Bachelor of Philosophy,003dx00000m0p8qiau20070101bachelorofphilosophy
+003Dx00000m0P8QIAU,2011-01-01,001Dx00001FaYrgIAF,Education (non-degree),Master of Divinity,003dx00000m0p8qiau20110101masterofdivinity
+003Dx00000m0P8RIAU,2000-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0p8riau20000101masteroftheologicalstudi
+003Dx00000m0P8aIAE,2010-01-01,001Dx00001FaYqiIAF,Education (non-degree),Religious Studies,003dx00000m0p8aiae20100101religiousstudies
+003Dx00000m0P8aIAE,2018-01-01,001Dx00001FaZ24IAF,Education (non-degree),Master of Divinity,003dx00000m0p8aiae20180101masterofdivinity
+003Dx00000m0P8eIAE,1996-01-01,001Dx00001FaZ0aIAF,Education (non-degree),BS Business Administration,003dx00000m0p8eiae19960101bsbusinessadministration
+003Dx00000m0P8eIAE,2003-01-01,001Dx00001FaYvDIAV,Education (non-degree),M. Div,003dx00000m0p8eiae20030101mdiv
+003Dx00000m0P8eIAE,2008-01-01,001Dx00001FaYvDIAV,Education (non-degree),MA Nonprofit Adminstration,003dx00000m0p8eiae20080101manonprofitadminstration
+003Dx00000m0P8eIAE,2015-01-01,001Dx00001FaZ29IAF,Education (non-degree),Ph.D. Organizational Behavior and Management,003dx00000m0p8eiae20150101phdorganizationalbehavio
+003Dx00000m0P8hIAE,2000-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0p8hiae20000101masteroftheologicalstudi
+003Dx00000m0P8lIAE,2016-01-01,001Dx00001FaYs7IAF,Education (non-degree),Master of Arts & Advanced Apostolic Catechetical D,003dx00000m0p8liae20160101masterofarts&advancedapo
+003Dx00000m0P8pIAE,2005-01-01,001Dx00001FaYqwIAF,Education (non-degree),BA Philosophy and Religious Studies,003dx00000m0p8piae20050101baphilosophyandreligious
+003Dx00000m0P8pIAE,2010-01-01,001Dx00001FaYv3IAF,Education (non-degree),M.Div.,003dx00000m0p8piae20100101mdiv
+003Dx00000m0P8pIAE,2017-01-01,001Dx00001FaZ2EIAV,Education (non-degree),Licentiate in Spiritual Theology,003dx00000m0p8piae20170101licentiateinspiritualthe
+003Dx00000m0P8uIAE,1994-01-01,001Dx00001FaZ2JIAV,Education (non-degree),History/World Religions,003dx00000m0p8uiae19940101history/worldreligions
+003Dx00000m0P8uIAE,2008-01-01,001Dx00001FaYyvIAF,Education (non-degree),Master of Business Administration,003dx00000m0p8uiae20080101masterofbusinessadminist
+003Dx00000m0P9IIAU,2017-01-01,001Dx00001FaYsUIAV,Education (non-degree),B.S. Speech Communication,003dx00000m0p9iiau20170101bsspeechcommunication
+003Dx00000m0P9JIAU,2018-01-01,001Dx00001FaZ0sIAF,Education (non-degree),Master of Arts in Theology,003dx00000m0p9jiau20180101masterofartsintheology
+003Dx00000m0P9TIAU,2000-01-01,001Dx00001FaZ2OIAV,Education (non-degree),BA,003dx00000m0p9tiau20000101ba
+003Dx00000m0P9TIAU,2004-01-01,001Dx00001FaZ2TIAV,Education (non-degree),MA & MDiv,003dx00000m0p9tiau20040101ma&mdiv
+003Dx00000m0P9aIAE,2010-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0p9aiae20100101masterofartsinpastoralmi
+003Dx00000m0P9fIAE,1969-01-01,001Dx00001FaZ0nIAF,Education (non-degree),English,003dx00000m0p9fiae19690101english
+003Dx00000m0P9fIAE,1989-01-01,001Dx00001FaZ2YIAV,Education (non-degree),Master of Business Administration,003dx00000m0p9fiae19890101masterofbusinessadminist
+003Dx00000m0P9xIAE,2009-01-01,001Dx00001FaYw2IAF,Education (non-degree),Philosophy,003dx00000m0p9xiae20090101philosophy
+003Dx00000m0P9xIAE,2015-01-01,001Dx00001FaZ2dIAF,Education (non-degree),Theology,003dx00000m0p9xiae20150101theology
+003Dx00000m0P9xIAE,2017-01-01,001Dx00001FaZ2iIAF,Education (non-degree),Philosophy,003dx00000m0p9xiae20170101philosophy
+003Dx00000m0P9xIAE,2020-01-01,001Dx00001FaYuqIAF,Education (non-degree),"STB, MDiv","003dx00000m0p9xiae20200101stb,mdiv"
+003Dx00000m0PA4IAM,2006-01-01,001Dx00001FaYs4IAF,Education (non-degree),Certificate of Studies in Pastoral Ministries,003dx00000m0pa4iam20060101certificateofstudiesinpa
+003Dx00000m0PAIIA2,2014-01-01,001Dx00001FaZ2nIAF,Education (non-degree),BA Philosophy,003dx00000m0paiia220140101baphilosophy
+003Dx00000m0PAIIA2,2016-01-01,001Dx00001FaZ2nIAF,Education (non-degree),MA Philosophy,003dx00000m0paiia220160101maphilosophy
+003Dx00000m0PAIIA2,2017-01-01,001Dx00001FaZ2nIAF,Education (non-degree),Licentiate Philosophy,003dx00000m0paiia220170101licentiatephilosophy
+003Dx00000m0PAIIA2,2020-01-01,001Dx00001FaYuqIAF,Education (non-degree),BA Sacred Theology,003dx00000m0paiia220200101basacredtheology
+003Dx00000m0PAIIA2,2021-01-01,001Dx00001FaYuqIAF,Education (non-degree),M.Div.,003dx00000m0paiia220210101mdiv
+003Dx00000m0PARIA2,1981-01-01,001Dx00001FaYsZIAV,Education (non-degree),Master of Theological Studies,003dx00000m0paria219810101masteroftheologicalstudi
+003Dx00000m0PAbIAM,1988-01-01,001Dx00001FaZ3CIAV,Education (non-degree),Bachelor of Mechanical Engineering,003dx00000m0pabiam19880101bachelorofmechanicalengi
+003Dx00000m0PAbIAM,1990-01-01,001Dx00001FaZ3HIAV,Education (non-degree),Master of Mechanical Engineering,003dx00000m0pabiam19900101masterofmechanicalengine
+003Dx00000m0PAbIAM,1998-01-01,001Dx00001FaZ3MIAV,Education (non-degree),Ph.D. Mechanical Engineering,003dx00000m0pabiam19980101phdmechanicalengineering
+003Dx00000m0PAyIAM,1979-01-01,001Dx00001FaZ3RIAV,Education (non-degree),BA Biblical Literature,003dx00000m0payiam19790101babiblicalliterature
+003Dx00000m0PB0IAM,1976-01-01,001Dx00001FaYy9IAF,Education (non-degree),,003dx00000m0pb0iam19760101nan
+003Dx00000m0PB0IAM,1984-01-01,001Dx00001FaZ3WIAV,Education (non-degree),"DSPT, M. Div","003dx00000m0pb0iam19840101dspt,mdiv"
+003Dx00000m0PBHIA2,2006-01-01,001Dx00001FaYr3IAF,Education (non-degree),Masters of Pastoral Studies,003dx00000m0pbhia220060101mastersofpastoralstudies
+003Dx00000m0PBJIA2,1978-01-01,001Dx00001FaZ3gIAF,Education (non-degree),Master of Arts in Religious Studies,003dx00000m0pbjia219780101masterofartsinreligiouss
+003Dx00000m0PBQIA2,1984-01-01,001Dx00001FaYzfIAF,Education (non-degree),BS Mechanical Engineering,003dx00000m0pbqia219840101bsmechanicalengineering
+003Dx00000m0PBQIA2,1988-01-01,001Dx00001FaYr5IAF,Education (non-degree),MS Engineering and Science Management,003dx00000m0pbqia219880101msengineeringandsciencem
+003Dx00000m0PBYIA2,2020-01-01,001Dx00001FaYqwIAF,Education (non-degree),BA Philosophy,003dx00000m0pbyia220200101baphilosophy
+003Dx00000m0PBYIA2,2023-01-01,001Dx00001FaYqwIAF,Education (non-degree),MA Theology,003dx00000m0pbyia220230101matheology
+003Dx00000m0PBdIAM,1983-01-01,001Dx00001FaZ3qIAF,Education (non-degree),BA,003dx00000m0pbdiam19830101ba
+003Dx00000m0PBdIAM,2009-01-01,001Dx00001FaYrVIAV,Education (non-degree),MDiv,003dx00000m0pbdiam20090101mdiv
+003Dx00000m0PBoIAM,2008-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Arts in Theology,003dx00000m0pboiam20080101masterofartsintheology
+003Dx00000m0PBoIAM,2009-01-01,001Dx00001FaYrVIAV,Education (non-degree),Baccalaureate in Sacred Theology,003dx00000m0pboiam20090101baccalaureateinsacredthe
+003Dx00000m0PBoIAM,2009-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Divinity,003dx00000m0pboiam20090101masterofdivinity
+003Dx00000m0PC5IAM,1989-01-01,001Dx00001FaYtHIAV,Education (non-degree),Master of Arts in Theology,003dx00000m0pc5iam19890101masterofartsintheology
+003Dx00000m0PCGIA2,1990-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Theological Studies,003dx00000m0pcgia219900101masteroftheologicalstudi
+003Dx00000m0PCMIA2,2008-01-01,001Dx00001FaYs4IAF,Education (non-degree),Certificate of Studies in Pastoral Ministries,003dx00000m0pcmia220080101certificateofstudiesinpa
+003Dx00000m0PCSIA2,1989-01-01,001Dx00001FaYttIAF,Education (non-degree),BS Mechanical Engineering Technology,003dx00000m0pcsia219890101bsmechanicalengineeringt
+003Dx00000m0PCoIAM,1996-01-01,001Dx00001FaZ3vIAF,Education (non-degree),"BS, Civil Engineering","003dx00000m0pcoiam19960101bs,civilengineering"
+003Dx00000m0PCyIAM,1994-01-01,001Dx00001FaYs9IAF,Education (non-degree),BA Philosophy,003dx00000m0pcyiam19940101baphilosophy
+003Dx00000m0PCyIAM,2000-01-01,001Dx00001FaZ0yIAF,Education (non-degree),BA Theology,003dx00000m0pcyiam20000101batheology
+003Dx00000m0PDAIA2,2006-01-01,001Dx00001FaYqwIAF,Education (non-degree),"Bachelor, Philosophy","003dx00000m0pdaia220060101bachelor,philosophy"
+003Dx00000m0PDAIA2,2011-01-01,001Dx00001FaYv3IAF,Education (non-degree),Master of Divinity,003dx00000m0pdaia220110101masterofdivinity
+003Dx00000m0PDGIA2,2009-01-01,001Dx00001FaYqwIAF,Education (non-degree),BA Philosophy,003dx00000m0pdgia220090101baphilosophy
+003Dx00000m0PDGIA2,2015-01-01,001Dx00001FaYqwIAF,Education (non-degree),M.Div.,003dx00000m0pdgia220150101mdiv
+003Dx00000m0PDKIA2,2006-01-01,001Dx00001FaYyvIAF,Education (non-degree),BA Management,003dx00000m0pdkia220060101bamanagement
+003Dx00000m0PDMIA2,1994-01-01,001Dx00001FaZ3DIAV,Education (non-degree),Doctor of Ministry,003dx00000m0pdmia219940101doctorofministry
+003Dx00000m0PDTIA2,2002-01-01,001Dx00001FaZ40IAF,Education (non-degree),Computer Engineering,003dx00000m0pdtia220020101computerengineering
+003Dx00000m0PDTIA2,2008-01-01,001Dx00001FaYu6IAF,Education (non-degree),M. Div.,003dx00000m0pdtia220080101mdiv
+003Dx00000m0PDTIA2,2012-01-01,001Dx00001FaZ45IAF,Education (non-degree),"Masters, Clinical Mental Health Counseling","003dx00000m0pdtia220120101masters,clinicalmentalhe"
+003Dx00000m0PDaIAM,2009-01-01,001Dx00001FaZ09IAF,Education (non-degree),BA Catholic Theology,003dx00000m0pdaiam20090101bacatholictheology
+003Dx00000m0PDaIAM,2013-01-01,001Dx00001FaYv5IAF,Education (non-degree),"MA Theology, M. Div., STB","003dx00000m0pdaiam20130101matheology,mdiv,stb"
+003Dx00000m0PDeIAM,1961-01-01,001Dx00001FaYvDIAV,Education (non-degree),BA,003dx00000m0pdeiam19610101ba
+003Dx00000m0PDeIAM,1965-01-01,001Dx00001FaYr8IAF,Education (non-degree),STL,003dx00000m0pdeiam19650101stl
+003Dx00000m0PDeIAM,1970-01-01,001Dx00001FaYxGIAV,Education (non-degree),Ph.D. Theology,003dx00000m0pdeiam19700101phdtheology
+003Dx00000m0PE5IAM,2021-01-01,001Dx00001FaYrkIAF,Education (non-degree),BA Philosophy,003dx00000m0pe5iam20210101baphilosophy
+003Dx00000m0PE6IAM,2015-01-01,001Dx00001FaYrVIAV,Education (non-degree),BA,003dx00000m0pe6iam20150101ba
+003Dx00000m0PE6IAM,2020-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Divinity,003dx00000m0pe6iam20200101masterofdivinity
+003Dx00000m0PEAIA2,1995-01-01,001Dx00001FaZ4AIAV,Education (non-degree),BA Philosophy,003dx00000m0peaia219950101baphilosophy
+003Dx00000m0PEAIA2,2000-01-01,001Dx00001FaZ4FIAV,Education (non-degree),M. Div,003dx00000m0peaia220000101mdiv
+003Dx00000m0PERIA2,2008-01-01,001Dx00001FaYsZIAV,Education (non-degree),BA Philosophy,003dx00000m0peria220080101baphilosophy
+003Dx00000m0PERIA2,2008-01-01,001Dx00001FaYsZIAV,Education (non-degree),MDiv,003dx00000m0peria220080101mdiv
+003Dx00000m0PEqIAM,1996-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0peqiam19960101masteroftheologicalstudi
+003Dx00000m0PEsIAM,1998-01-01,001Dx00001FaZ0zIAF,Education (non-degree),BS Construction Science and Management,003dx00000m0pesiam19980101bsconstructionscienceand
+003Dx00000m0PEwIAM,2012-01-01,001Dx00001FaYtHIAV,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0pewiam20120101masterofartsinpastoralmi
+003Dx00000m0PFCIA2,2021-01-01,001Dx00001FaYtuIAF,Education (non-degree),Philosophy,003dx00000m0pfcia220210101philosophy
+003Dx00000m0PFbIAM,2000-01-01,001Dx00001FaYxqIAF,Education (non-degree),Associate in Fire Suppression,003dx00000m0pfbiam20000101associateinfiresuppressi
+003Dx00000m0PFdIAM,2017-01-01,001Dx00001FaYy8IAF,Education (non-degree),BA Philosophy and Letters,003dx00000m0pfdiam20170101baphilosophyandletters
+003Dx00000m0PFdIAM,2022-01-01,001Dx00001FaYqwIAF,Education (non-degree),Theology,003dx00000m0pfdiam20220101theology
+003Dx00000m0PFgIAM,2000-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0pfgiam20000101masteroftheologicalstudi
+003Dx00000m0PFiIAM,2016-01-01,001Dx00001FaZ4KIAV,Education (non-degree),BA Philosophy,003dx00000m0pfiiam20160101baphilosophy
+003Dx00000m0PFiIAM,2020-01-01,001Dx00001FaZ3WIAV,Education (non-degree),MA Philosophy,003dx00000m0pfiiam20200101maphilosophy
+003Dx00000m0PFiIAM,2022-01-01,001Dx00001FaZ3WIAV,Education (non-degree),M Div.,003dx00000m0pfiiam20220101mdiv
+003Dx00000m0PFlIAM,2007-01-01,001Dx00001FaZ3cIAF,Education (non-degree),Master of Theology,003dx00000m0pfliam20070101masteroftheology
+003Dx00000m0PFnIAM,1991-01-01,001Dx00001FaZ3dIAF,Education (non-degree),BA,003dx00000m0pfniam19910101ba
+003Dx00000m0PFnIAM,1996-01-01,001Dx00001FaZ4PIAV,Education (non-degree),Master of Divinity,003dx00000m0pfniam19960101masterofdivinity
+003Dx00000m0PFnIAM,1997-01-01,,Education (non-degree),MA,003dx00000m0pfniam19970101ma
+003Dx00000m0PG1IAM,1994-01-01,001Dx00001FaZ4UIAV,Education (non-degree),BA Biological and Cognitive Science,003dx00000m0pg1iam19940101babiologicalandcognitive
+003Dx00000m0PG1IAM,1997-01-01,001Dx00001FaZ4UIAV,Education (non-degree),MA Research Psychology,003dx00000m0pg1iam19970101maresearchpsychology
+003Dx00000m0PG4IAM,1986-01-01,001Dx00001FaYzTIAV,Education (non-degree),BS Journalism,003dx00000m0pg4iam19860101bsjournalism
+003Dx00000m0PGEIA2,1976-01-01,001Dx00001FaZ4ZIAV,Education (non-degree),Bachelor of Arts in Psychology,003dx00000m0pgeia219760101bachelorofartsinpsycholo
+003Dx00000m0PGEIA2,1979-01-01,001Dx00001FaZ4eIAF,Education (non-degree),Master of Social Work,003dx00000m0pgeia219790101masterofsocialwork
+003Dx00000m0PGEIA2,1984-01-01,001Dx00001FaZ4jIAF,Education (non-degree),"Master of Divinity, Theology","003dx00000m0pgeia219840101masterofdivinity,theolog"
+003Dx00000m0PGEIA2,1985-01-01,001Dx00001FaZ0dIAF,Education (non-degree),Master of Theological Studies,003dx00000m0pgeia219850101masteroftheologicalstudi
+003Dx00000m0PGNIA2,1993-01-01,001Dx00001FaZ4oIAF,Education (non-degree),B. Com,003dx00000m0pgnia219930101bcom
+003Dx00000m0PGNIA2,1996-01-01,001Dx00001FaZ4tIAF,Education (non-degree),B. Philosophy,003dx00000m0pgnia219960101bphilosophy
+003Dx00000m0PGNIA2,2001-01-01,001Dx00001FaZ4tIAF,Education (non-degree),B. Theology,003dx00000m0pgnia220010101btheology
+003Dx00000m0PGNIA2,2005-01-01,001Dx00001FaZ4yIAF,Education (non-degree),MA,003dx00000m0pgnia220050101ma
+003Dx00000m0PGNIA2,2007-01-01,001Dx00001FaZ4oIAF,Education (non-degree),M. Philosophy,003dx00000m0pgnia220070101mphilosophy
+003Dx00000m0PGYIA2,2008-01-01,001Dx00001FaYrsIAF,Education (non-degree),BS Construction Management,003dx00000m0pgyia220080101bsconstructionmanagement
+003Dx00000m0PGYIA2,2016-01-01,001Dx00001FaYrkIAF,Education (non-degree),Pre-Theology,003dx00000m0pgyia220160101pretheology
+003Dx00000m0PGYIA2,2022-01-01,001Dx00001FaYqwIAF,Education (non-degree),Theology,003dx00000m0pgyia220220101theology
+003Dx00000m0PGjIAM,1959-01-01,001Dx00001FaZ53IAF,Education (non-degree),"Bachelor, Philosophy","003dx00000m0pgjiam19590101bachelor,philosophy"
+003Dx00000m0PGjIAM,1965-01-01,001Dx00001FaYtRIAV,Education (non-degree),"Masters, Counseling","003dx00000m0pgjiam19650101masters,counseling"
+003Dx00000m0PGjIAM,1971-01-01,001Dx00001FaZ58IAF,Education (non-degree),M. Div. Theology,003dx00000m0pgjiam19710101mdivtheology
+003Dx00000m0PGjIAM,1973-01-01,001Dx00001FaZ58IAF,Education (non-degree),"Masters, Sacred Theology","003dx00000m0pgjiam19730101masters,sacredtheology"
+003Dx00000m0PGjIAM,1972-01-01,001Dx00001FaZ58IAF,Education (non-degree),M.T.S. Theology,003dx00000m0pgjiam19720101mtstheology
+003Dx00000m0PGyIAM,2004-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0pgyiam20040101masterofartsinpastoralmi
+003Dx00000m0PH4IAM,2003-01-01,001Dx00001FaZ20IAF,Education (non-degree),Geography/Social Studies,003dx00000m0ph4iam20030101geography/socialstudies
+003Dx00000m0PH4IAM,2007-01-01,001Dx00001FaYvOIAV,Education (non-degree),Theology/Christian Ministry,003dx00000m0ph4iam20070101theology/christianminist
+003Dx00000m0PH4IAM,2019-01-01,001Dx00001FaZ0AIAV,Education (non-degree),Clinical Pastoral Education (CPE),003dx00000m0ph4iam20190101clinicalpastoraleducatio
+003Dx00000m0PH9IAM,2010-01-01,001Dx00001FaZ5DIAV,Education (non-degree),"Bachelor of Science, Business Administration","003dx00000m0ph9iam20100101bachelorofscience,busine"
+003Dx00000m0PH9IAM,2012-01-01,001Dx00001FaZ5DIAV,Education (non-degree),Master of Business Administration,003dx00000m0ph9iam20120101masterofbusinessadminist
+003Dx00000m0PHCIA2,2017-01-01,001Dx00001FaZ5SIAV,Education (non-degree),Masters Degree Counseling & Human Development,003dx00000m0phcia220170101mastersdegreecounseling&
+003Dx00000m0PHDIA2,2017-01-01,001Dx00001FaZ5XIAV,Education (non-degree),"BA Sacred Theology, MDiv","003dx00000m0phdia220170101basacredtheology,mdiv"
+003Dx00000m0PHDIA2,2022-01-01,001Dx00001FaZ5XIAV,Education (non-degree),STL,003dx00000m0phdia220220101stl
+003Dx00000m0PHlIAM,1976-01-01,001Dx00001FaYrVIAV,Education (non-degree),BA,003dx00000m0phliam19760101ba
+003Dx00000m0PHlIAM,1983-01-01,001Dx00001FaYymIAF,Education (non-degree),Master of Divinity,003dx00000m0phliam19830101masterofdivinity
+003Dx00000m0PHlIAM,2002-01-01,001Dx00001FaZ5cIAF,Education (non-degree),Licentiate in Canon Law,003dx00000m0phliam20020101licentiateincanonlaw
+003Dx00000m0PHlIAM,2002-01-01,001Dx00001FaZ0iIAF,Education (non-degree),Master in Canon Law,003dx00000m0phliam20020101masterincanonlaw
+003Dx00000m0PI0IAM,2006-01-01,001Dx00001FaZ5hIAF,Education (non-degree),BA Humanities,003dx00000m0pi0iam20060101bahumanities
+003Dx00000m0PI0IAM,2009-01-01,001Dx00001FaZ5mIAF,Education (non-degree),"MTS, Scripture","003dx00000m0pi0iam20090101mts,scripture"
+003Dx00000m0PI4IAM,1966-01-01,001Dx00001FaYuMIAV,Education (non-degree),Philosophy,003dx00000m0pi4iam19660101philosophy
+003Dx00000m0PI4IAM,1972-01-01,001Dx00001FaYtCIAV,Education (non-degree),MA Theology,003dx00000m0pi4iam19720101matheology
+003Dx00000m0PI4IAM,1980-01-01,001Dx00001FaYx4IAF,Education (non-degree),Education Administration,003dx00000m0pi4iam19800101educationadministration
+003Dx00000m0PIJIA2,1988-01-01,001Dx00001FaZ3wIAF,Education (non-degree),B.S. Government,003dx00000m0pijia219880101bsgovernment
+003Dx00000m0PIJIA2,2009-01-01,001Dx00001FaYt0IAF,Education (non-degree),MA Theology,003dx00000m0pijia220090101matheology
+003Dx00000m0PIKIA2,2006-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0pikia220060101masterofartsinpastoralmi
+003Dx00000m0PITIA2,2012-01-01,001Dx00001FaYsjIAF,Education (non-degree),,003dx00000m0pitia220120101nan
+003Dx00000m0PIUIA2,1964-01-01,001Dx00001FaZ5iIAF,Education (non-degree),"B.A. Philosophy, Theology","003dx00000m0piuia219640101baphilosophy,theology"
+003Dx00000m0PIUIA2,1967-01-01,001Dx00001FaZ5rIAF,Education (non-degree),STL,003dx00000m0piuia219670101stl
+003Dx00000m0PIUIA2,1969-01-01,001Dx00001FaYzUIAV,Education (non-degree),SSL,003dx00000m0piuia219690101ssl
+003Dx00000m0PIUIA2,1975-01-01,001Dx00001FaZ5wIAF,Education (non-degree),Courses in International Law and Politics,003dx00000m0piuia219750101coursesininternationalla
+003Dx00000m0PIXIA2,1997-01-01,001Dx00001FaZ61IAF,Education (non-degree),Computer Science,003dx00000m0pixia219970101computerscience
+003Dx00000m0PIfIAM,2007-01-01,001Dx00001FaZ5JIAV,Education (non-degree),BS Physics,003dx00000m0pifiam20070101bsphysics
+003Dx00000m0PIfIAM,2009-01-01,001Dx00001FaZ66IAF,Education (non-degree),MS Physics,003dx00000m0pifiam20090101msphysics
+003Dx00000m0PIfIAM,2011-01-01,001Dx00001FaZ6BIAV,Education (non-degree),STB Theology,003dx00000m0pifiam20110101stbtheology
+003Dx00000m0PIfIAM,2017-01-01,001Dx00001FaZ5rIAF,Education (non-degree),STL Theology,003dx00000m0pifiam20170101stltheology
+003Dx00000m0PIkIAM,2010-01-01,001Dx00001FaZ6GIAV,Education (non-degree),BA,003dx00000m0pikiam20100101ba
+003Dx00000m0PIkIAM,2014-01-01,001Dx00001FaZ6LIAV,Education (non-degree),Theology,003dx00000m0pikiam20140101theology
+003Dx00000m0PIkIAM,2018-01-01,001Dx00001FaZ6QIAV,Education (non-degree),MSC Psychology,003dx00000m0pikiam20180101mscpsychology
+003Dx00000m0PIpIAM,1974-01-01,001Dx00001FaZ6VIAV,Education (non-degree),BA Arts Psychology,003dx00000m0pipiam19740101baartspsychology
+003Dx00000m0PIpIAM,1978-01-01,001Dx00001FaYwWIAV,Education (non-degree),MA Theology,003dx00000m0pipiam19780101matheology
+003Dx00000m0PIsIAM,2018-01-01,001Dx00001FaZ6aIAF,Education (non-degree),BS Chemical Engineering,003dx00000m0pisiam20180101bschemicalengineering
+003Dx00000m0PIyIAM,2010-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Theology,003dx00000m0piyiam20100101masteroftheology
+003Dx00000m0PJSIA2,2002-01-01,001Dx00001FaZ17IAF,Education (non-degree),BS Computer Engineering,003dx00000m0pjsia220020101bscomputerengineering
+003Dx00000m0PJgIAM,1982-01-01,001Dx00001CwhypIAB,Education (non-degree),Theology,003dx00000m0pjgiam19820101theology
+003Dx00000m0PJiIAM,2004-01-01,001Dx00001FaYyvIAF,Education (non-degree),English and Writing,003dx00000m0pjiiam20040101englishandwriting
+003Dx00000m0PJiIAM,2012-01-01,001Dx00001FaYvXIAV,Education (non-degree),Master of English and Composition,003dx00000m0pjiiam20120101masterofenglishandcompos
+003Dx00000m0PJvIAM,1996-01-01,001Dx00001FaYvPIAV,Education (non-degree),BA Philosophy,003dx00000m0pjviam19960101baphilosophy
+003Dx00000m0PJvIAM,1999-01-01,001Dx00001FaZ4FIAV,Education (non-degree),MA,003dx00000m0pjviam19990101ma
+003Dx00000m0PJvIAM,2007-01-01,001Dx00001FaYu5IAF,Education (non-degree),M Div.,003dx00000m0pjviam20070101mdiv
+003Dx00000m0PJyIAM,2009-01-01,001Dx00001FaZ6fIAF,Education (non-degree),Philosophy,003dx00000m0pjyiam20090101philosophy
+003Dx00000m0PJyIAM,2016-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Divinity,003dx00000m0pjyiam20160101masterofdivinity
+003Dx00000m0PKLIA2,1982-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Theological Studies,003dx00000m0pklia219820101masteroftheologicalstudi
+003Dx00000m0PKbIAM,2012-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Arts in Theology,003dx00000m0pkbiam20120101masterofartsintheology
+003Dx00000m0PKfIAM,1991-01-01,001Dx00001FaZ2UIAV,Education (non-degree),"BA Theatre, English","003dx00000m0pkfiam19910101batheatre,english"
+003Dx00000m0PKfIAM,1993-01-01,001Dx00001FaZ6kIAF,Education (non-degree),BA Theology,003dx00000m0pkfiam19930101batheology
+003Dx00000m0PKpIAM,2004-01-01,001Dx00001FaYvXIAV,Education (non-degree),BA Pre-Med,003dx00000m0pkpiam20040101bapremed
+003Dx00000m0PKpIAM,2012-01-01,001Dx00001FaYvXIAV,Education (non-degree),Master of Business Administration,003dx00000m0pkpiam20120101masterofbusinessadminist
+003Dx00000m0PKpIAM,2008-01-01,001Dx00001FaZ6pIAF,Education (non-degree),Ph.D. Pharmacology,003dx00000m0pkpiam20080101phdpharmacology
+003Dx00000m0PKwIAM,2013-01-01,001Dx00001FaZ6uIAF,Education (non-degree),Theology,003dx00000m0pkwiam20130101theology
+003Dx00000m0PKwIAM,2016-01-01,001Dx00001FaZ0xIAF,Education (non-degree),Theology,003dx00000m0pkwiam20160101theology
+003Dx00000m0PL6IAM,2021-01-01,001Dx00001FaYwWIAV,Education (non-degree),Philosophy,003dx00000m0pl6iam20210101philosophy
+003Dx00000m0PLBIA2,2011-01-01,001Dx00001FaZ6zIAF,Education (non-degree),"Bachelor, Banking and Finance","003dx00000m0plbia220110101bachelor,bankingandfinan"
+003Dx00000m0PLLIA2,2000-01-01,001Dx00001FaYrWIAV,Education (non-degree),Master of Theological Studies,003dx00000m0pllia220000101masteroftheologicalstudi
+003Dx00000m0PLUIA2,1990-01-01,001Dx00001FaZ74IAF,Education (non-degree),BS Marketing,003dx00000m0pluia219900101bsmarketing
+003Dx00000m0PLUIA2,1991-01-01,001Dx00001FaZ74IAF,Education (non-degree),Masters of Business Administration (MBA) - Marketi,003dx00000m0pluia219910101mastersofbusinessadminis
+003Dx00000m0PLUIA2,1999-01-01,001Dx00001FaYrVIAV,Education (non-degree),Masters of Theology - Scripture,003dx00000m0pluia219990101mastersoftheologyscriptu
+003Dx00000m0PLUIA2,1999-01-01,001Dx00001FaYrVIAV,Education (non-degree),Masters of Divinity,003dx00000m0pluia219990101mastersofdivinity
+003Dx00000m0PLdIAM,1984-01-01,001Dx00001FaZ5jIAF,Education (non-degree),BA English,003dx00000m0pldiam19840101baenglish
+003Dx00000m0PLdIAM,1988-01-01,001Dx00001FaYu6IAF,Education (non-degree),M. Div,003dx00000m0pldiam19880101mdiv
+003Dx00000m0PLdIAM,1993-01-01,001Dx00001FaZ79IAF,Education (non-degree),M.A. English,003dx00000m0pldiam19930101maenglish
+003Dx00000m0PMfIAM,1969-01-01,001Dx00001FaYw7IAF,Education (non-degree),S.T.L.,003dx00000m0pmfiam19690101stl
+003Dx00000m0PMmIAM,2007-01-01,001Dx00001FaZ7EIAV,Education (non-degree),BS History and Geography,003dx00000m0pmmiam20070101bshistoryandgeography
+003Dx00000m0PMmIAM,2017-01-01,001Dx00001FaYvDIAV,Education (non-degree),M. Div,003dx00000m0pmmiam20170101mdiv
+003Dx00000m0PMxIAM,1979-01-01,001Dx00001FaZ7FIAV,Education (non-degree),BS - Finance,003dx00000m0pmxiam19790101bsfinance
+003Dx00000m0PN8IAM,1964-01-01,001Dx00001FaZ7JIAV,Education (non-degree),Bachelor of Arts in Philosophy and Psychology,003dx00000m0pn8iam19640101bachelorofartsinphilosop
+003Dx00000m0PN8IAM,1968-01-01,001Dx00001FaZ7OIAV,Education (non-degree),Bachelor of Sacred Theology,003dx00000m0pn8iam19680101bachelorofsacredtheology
+003Dx00000m0PN8IAM,1987-01-01,001Dx00001FaZ7TIAV,Education (non-degree),Master of Arts in Pastoral Counseling,003dx00000m0pn8iam19870101masterofartsinpastoralco
+003Dx00000m0PN9IAM,1973-01-01,001Dx00001FaZ7YIAV,Education (non-degree),BS Foreign Studies,003dx00000m0pn9iam19730101bsforeignstudies
+003Dx00000m0PN9IAM,1976-01-01,001Dx00001FaYvDIAV,Education (non-degree),MA,003dx00000m0pn9iam19760101ma
+003Dx00000m0PN9IAM,1979-01-01,001Dx00001FaYvDIAV,Education (non-degree),Ph.D. Philosophy,003dx00000m0pn9iam19790101phdphilosophy
+003Dx00000m0PN9IAM,1983-01-01,001Dx00001FaYvDIAV,Education (non-degree),M. Div,003dx00000m0pn9iam19830101mdiv
+003Dx00000m0PNDIA2,2000-01-01,001Dx00001FaYtlIAF,Education (non-degree),BA Philosophy,003dx00000m0pndia220000101baphilosophy
+003Dx00000m0PNDIA2,2003-01-01,001Dx00001FaYtlIAF,Education (non-degree),BA Theology,003dx00000m0pndia220030101batheology
+003Dx00000m0PNMIA2,2006-01-01,001Dx00001FaZ7dIAF,Education (non-degree),Masters in Pastoral Studies,003dx00000m0pnmia220060101mastersinpastoralstudies
+003Dx00000m0PNYIA2,2008-01-01,001Dx00001FaYs4IAF,Education (non-degree),Master of Arts in Pastoral Ministry,003dx00000m0pnyia220080101masterofartsinpastoralmi
+003Dx00000m0PNxIAM,1996-01-01,001Dx00001FaYrVIAV,Education (non-degree),Master of Arts in Theology,003dx00000m0pnxiam19960101masterofartsintheology
+003Dx00000m0PLuIAM,2022-01-01,001Dx00001FaZ2dIAF,Education (non-degree),BA Philosophy,003dx00000m0pluiam20220101baphilosophy
+003Dx00000m0PLzIAM,2002-01-01,001Dx00001FaYtkIAF,Education (non-degree),"BA Film, Television, and Theater","003dx00000m0plziam20020101bafilm,television,andthe"
+003Dx00000m0PLzIAM,2004-01-01,001Dx00001FaYtkIAF,Education (non-degree),MA Education,003dx00000m0plziam20040101maeducation
+003Dx00000m0PLzIAM,2010-01-01,001Dx00001FaYtkIAF,Education (non-degree),M.Div,003dx00000m0plziam20100101mdiv
+003Dx00000m0PM1IAM,1970-01-01,001Dx00001FaZ6HIAV,Education (non-degree),,003dx00000m0pm1iam19700101nan
+003Dx00000m0PM1IAM,1993-01-01,001Dx00001FaYrkIAF,Education (non-degree),Master of Divinity,003dx00000m0pm1iam19930101masterofdivinity
+003Dx00000m0PM3IAM,2010-01-01,001Dx00001FaYyhIAF,Education (non-degree),BM Music Technology,003dx00000m0pm3iam20100101bmmusictechnology
+003Dx00000m0PM3IAM,2018-01-01,001Dx00001FaYsZIAV,Education (non-degree),MA Philosophy and M Div. Theology,003dx00000m0pm3iam20180101maphilosophyandmdivtheol
+003Dx00000m0PM3IAM,2018-01-01,001Dx00001FaZ0bIAF,Education (non-degree),S.T.L. Theology/Ecclesiology,003dx00000m0pm3iam20180101stltheology/ecclesiology
