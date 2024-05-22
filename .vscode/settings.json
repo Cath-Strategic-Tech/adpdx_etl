@@ -1,4 +1,5 @@
 {
     "todo-tree.tree.showBadges": true,
-    "todo-tree.tree.scanMode": "workspace"
+    "todo-tree.tree.scanMode": "workspace",
+    "CodeGPT.apiKey": "OpenAI"
 }
