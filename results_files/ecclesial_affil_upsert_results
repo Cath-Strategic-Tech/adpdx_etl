@@ -1,3 +1,4 @@
+Unexpected error: 'external_id'
 Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'FIELD_CUSTOM_VALIDATION_EXCEPTION', 'message': 'Context is required', 'fields': []}]}
 Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'REQUIRED_FIELD_MISSING', 'message': 'Required fields are missing: [mbfc__Person__c]', 'fields': ['mbfc__Person__c']}]}
 Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'REQUIRED_FIELD_MISSING', 'message': 'Required fields are missing: [mbfc__Person__c]', 'fields': ['mbfc__Person__c']}]}
@@ -10,5 +11,15 @@ Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors
 Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'FIELD_CUSTOM_VALIDATION_EXCEPTION', 'message': 'Context is required', 'fields': []}]}
 Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'REQUIRED_FIELD_MISSING', 'message': 'Required fields are missing: [mbfc__Person__c]', 'fields': ['mbfc__Person__c']}]}
 Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'REQUIRED_FIELD_MISSING', 'message': 'Required fields are missing: [mbfc__Person__c]', 'fields': ['mbfc__Person__c']}]}
-Failed to upsert batch. Error: Object of type NAType is not JSON serializable
-Failed to upsert batch. Error: Object of type NAType is not JSON serializable
+Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'FIELD_CUSTOM_VALIDATION_EXCEPTION', 'message': 'Context is required', 'fields': []}]}
+Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'REQUIRED_FIELD_MISSING', 'message': 'Required fields are missing: [mbfc__Person__c]', 'fields': ['mbfc__Person__c']}]}
+Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'REQUIRED_FIELD_MISSING', 'message': 'Required fields are missing: [mbfc__Person__c]', 'fields': ['mbfc__Person__c']}]}
+Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'FIELD_CUSTOM_VALIDATION_EXCEPTION', 'message': 'Context is required', 'fields': []}]}
+Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'REQUIRED_FIELD_MISSING', 'message': 'Required fields are missing: [mbfc__Person__c]', 'fields': ['mbfc__Person__c']}]}
+Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'REQUIRED_FIELD_MISSING', 'message': 'Required fields are missing: [mbfc__Person__c]', 'fields': ['mbfc__Person__c']}]}
+Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'FIELD_CUSTOM_VALIDATION_EXCEPTION', 'message': 'Context is required', 'fields': []}]}
+Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'REQUIRED_FIELD_MISSING', 'message': 'Required fields are missing: [mbfc__Person__c]', 'fields': ['mbfc__Person__c']}]}
+Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'REQUIRED_FIELD_MISSING', 'message': 'Required fields are missing: [mbfc__Person__c]', 'fields': ['mbfc__Person__c']}]}
+Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'FIELD_CUSTOM_VALIDATION_EXCEPTION', 'message': 'Context is required', 'fields': []}]}
+Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'REQUIRED_FIELD_MISSING', 'message': 'Required fields are missing: [mbfc__Person__c]', 'fields': ['mbfc__Person__c']}]}
+Failed to upsert record: {'success': False, 'created': True, 'id': None, 'errors': [{'statusCode': 'REQUIRED_FIELD_MISSING', 'message': 'Required fields are missing: [mbfc__Person__c]', 'fields': ['mbfc__Person__c']}]}

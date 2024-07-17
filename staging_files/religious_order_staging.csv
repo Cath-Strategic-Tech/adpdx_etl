@@ -1,63 +1,63 @@
 ﻿,Description,Name,mbfc__Abbreviation__c,mbfc__Religious_Suffix__c,mbfc__Type_Members__c,Archdpdx_Migration_Id__c,Pontifical_or_Diocesan_Order__c,Religious_Secular_Order__c,mbfc__Religious_Type__c,RecordTypeId
-186,Societas Iesu,Colombiere Jesuit Community,Jesuits,SJ,Men,societasiesu,,Religious Order,Congregation,012Dx0000003p52IAA
-187,Ordo Cisterciensis Strictioris Observantiae,Abbey of Our Lady of Guadalupe,Trappists,OCSO,Men,ordocisterciensisstrictiorisobservantiae,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
-189,Ordo Sancti Benedicti,Benedictine Monks of Mount Angel Abbey,Benedictines,OSB,Men,ordosanctibenedicti,,Religious Order,Congregation,012Dx0000003p52IAA
-190,Misioneros del Espíritu Santo,Missionaries of the Holy Spirit Provincial House,"Missionaries of the Holy Spirit, Christ the Priest",MSpS,Men,misionerosdelespíritusanto,,,Congregation,012Dx0000003p52IAA
-191,Apostles of Jesus,Apostles of Jesus,Apostles of Jesus,AJ,Men,apostlesofjesus,Diocesan Order,Religious Order,Congregation,012Dx0000003p52IAA
-192,Franciscan Sisters of the Eucharist,Franciscan Sisters of the Eucharist,Franciscan Sisters of the Eucharist,FSE,Women,franciscansistersoftheeucharist,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
-193,Apostolic Life Community of Priests in the Opus Spiritus Sancti,Apostolic Life Community,Holy Spirit Fathers,ALCP,Men,apostoliclifecommunityofpriestsintheopus,,,Congregation,012Dx0000003p52IAA
-194,Augustinians,Blessed Stephen Bellesini Community,Augustinians,OSA,Men,augustinians,,,Congregation,012Dx0000003p52IAA
-197,Brotherhood of the People of Praise,Brotherhood of the People of Praise,Brotherhood of the People of Praise,,Men,brotherhoodofthepeopleofpraise,Diocesan Order,,Congregation,012Dx0000003p52IAA
-198,Ordo Carmelitarum Discalceatorum,Carmelite House of Studies,Discalced Carmelite Friars,OCD,Men,ordocarmelitarumdiscalceatorum,,Religious Order,Congregation,012Dx0000003p52IAA
-199,Ordo Praedicatorum,Holy Rosary Priory,Dominicans,OP,Men,ordopraedicatorum,,,Congregation,012Dx0000003p52IAA
-200,Domus Dei Clerical Society of Apostolic Life,Society of Domus Dei Holy House Monasteries,Domus Dei,SDD,Men,domusdeiclericalsocietyofapostoliclife,,Religious Order,Congregation,012Dx0000003p52IAA
-201,Ordo Fratrum Minorum Province of Saint Barbara,Franciscan Friars,Franciscans,OFM,Men,ordofratrumminorumprovinceofsaintbarbara,,Religious Order,Congregation,012Dx0000003p52IAA
-202,Congregatio a Sancta Cruce,Congregation of the Holy Cross,Holy Cross,CSC,Men,congregatioasanctacruce,,Religious Order,Congregation,012Dx0000003p52IAA
-203,Sociedad San Juan,Saint John Society,Saint John Society,SSJ,Men,sociedadsanjuan,,,Congregation,012Dx0000003p52IAA
-204,Ordo Servorum Beatae Mariae Virginis,Servite Friars,Servites,OSM,Men,ordoservorumbeataemariaevirginis,,Religious Order,Congregation,012Dx0000003p52IAA
-205,Adorers of the Holy Cross,Adorers of the Holy Cross,Adorers of the Holy Cross,MTG,Women,adorersoftheholycross,,,Congregation,012Dx0000003p52IAA
-206,Dominican Sisters of Adrian,Adrian Dominican Sisters,Dominicans,OP,Women,dominicansistersofadrian,Pontifical Order,,Congregation,012Dx0000003p52IAA
-209,Congregación de Oblatas de Santa Marta,Oblates of St. Martha,Servites,OSM,Women,congregacióndeoblatasdesantamarta,,,Congregation,012Dx0000003p52IAA
-210,Sisters of St. Dominic of Caldwell,Sisters of St. Dominic of Caldwell,Sisters of St. Dominic,OP,Women,sistersofst.dominicofcaldwell,,Religious Order,Congregation,012Dx0000003p52IAA
-211,Franciscan Missionary Sisters of Our Lady of Sorrows,Sisters of Our Lady of Sorrows,Franciscans,OSF,Women,franciscanmissionarysistersofourladyofso,Diocesan Order,Religious Order,Congregation,012Dx0000003p52IAA
-212,Apostolic Life Community of Sisters,Holy Spirit Sisters,Holy Spirit Sisters,ALCS,Women,apostoliclifecommunityofsisters,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
-213,Lovers of Thuthiem Holy Cross Sisters,Thu Thiem Sisters,Thu Thiem Sisters,LHC,Women,loversofthuthiemholycrosssisters,,,Congregation,012Dx0000003p52IAA
-214,Maryknoll Sisters of St. Dominic,Maryknoll Sisters of St. Dominic,Maryknoll Sisters,MM,Women,maryknollsistersofst.dominic,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
-215,Misioneros del Rosario de Fátima,Missionary Sisters of the Rosary of Fatima,Missionaries of the Rosary of Fatima,HMRF,Women,misionerosdelrosariodefátima,Diocesan Order,,Congregation,012Dx0000003p52IAA
-216,Order of Servants of Mary,Servants of Mary,Servites,OSM,Women,orderofservantsofmary,,,Congregation,012Dx0000003p52IAA
-217,Sisters For Christian Community,Sisters For Christian Community,Sisters For Christian Community,SFCC,Women,sistersforchristiancommunity,,,Congregation,012Dx0000003p52IAA
-218,Sisters of Charity of the Blessed Virgin Mary,Sisters of Charity of the Blessed Virgin Mary,Sisters of Charity of the Blessed Virgin Mary,BVM,Women,sistersofcharityoftheblessedvirginmary,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
-219,Congregation of Our Lady of Charity of the Good Shepherd,Good Shepherd Sisters,Good Shepherd Sisters,RGS,Women,congregationofourladyofcharityofthegoods,,Religious Order,Congregation,012Dx0000003p52IAA
-220,Sisters of the Holy Names of Jesus and Mary U.S. - Ontario,Sisters of the Holy Names of Jesus and Mary,Holy Names Sisters,SNJM,Women,sistersoftheholynamesofjesusandmaryu.s.-,,Religious Order,Congregation,012Dx0000003p52IAA
-221,Sisters of Jesus the Saviour,Sisters of Jesus the Saviour,Sisters of Jesus the Saviour,SJS,Women,sistersofjesusthesaviour,,,Congregation,012Dx0000003p52IAA
-222,Sisters of Mary of Kakamega,Sisters of Mary of Kakamega,Sisters of Mary of Kakamega,SMK,Women,sistersofmaryofkakamega,,,Congregation,012Dx0000003p52IAA
-223,Sisters of Mercy of the Americas West/Midwest Region,Sisters of Mercy of the Americas,Sisters of Mercy,RSM,Women,sistersofmercyoftheamericaswest/midwestr,,,Congregation,012Dx0000003p52IAA
-224,"Sisters of Providence, Mother Joseph Province",Sisters of Providence,Sisters of Providence,SP,Women,"sistersofprovidence,motherjosephprovince",,,Congregation,012Dx0000003p52IAA
-225,Sisters of Reparation of the Sacred Wounds of Jesus,Sisters of Reparation,Sisters of Reparation,SR,Women,sistersofreparationofthesacredwoundsofje,Diocesan Order,Religious Order,Congregation,012Dx0000003p52IAA
-226,"Sisters of St. Francis, Clinton, Iowa",Sisters of St. Francis,Sisters of St. Francis,OSF,Women,"sistersofst.francis,clinton,iowa",,,Congregation,012Dx0000003p52IAA
-227,Sisters of St. Francis of Philadelphia,Sisters of St. Francis of Philadelphia,Sisters of St. Francis of Philadelphia,OSF,Women,sistersofst.francisofphiladelphia,,,Congregation,012Dx0000003p52IAA
-228,Congregation of the Sisters of St. Joseph of Peace,Sisters of St. Joseph of Peace,Sisters of St. Joseph,CSJP,Women,congregationofthesistersofst.josephofpea,,,Congregation,012Dx0000003p52IAA
-229,Sisters of St. Mary of Oregon,Sisters of St. Mary of Oregon,Sisters of St. Mary of Oregon,SSMO,Women,sistersofst.maryoforegon,,Religious Order,Congregation,012Dx0000003p52IAA
-230,Sociedad de María,Society of Mary,Society of Mary,SdM,Women,sociedaddemaría,Diocesan Order,Religious Order,Congregation,012Dx0000003p52IAA
-231,Society of the Holy Child Jesus,Society of the Holy Child Jesus,Society of the Holy Child Jesus,SHCJ,Women,societyoftheholychildjesus,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
-232,Maronite Monks Of Jesus Mary and Joseph,Sacred Heart Maronite Monastery,Maronite Monks,MMJMJ,Men,maronitemonksofjesusmaryandjoseph,,,Congregation,012Dx0000003p52IAA
-233,"Brigittine Monks, Order of the Most Holy Savior",Priory of Our Lady of Consolation,Brigittines,OSsS,Men,"brigittinemonks,orderofthemostholysavior",,,Congregation,012Dx0000003p52IAA
-235,Towarzystwo Chrystusowe,Society of Christ Fathers Province in the United States and Canada,Society of Christ,SCH,Men,towarzystwochrystusowe,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
-236,Opera di Gesù Sommo Sacerdote,Work of Jesus the High Priest,Work of Jesus the High Priest,OJSS,Men,operadigesùsommosacerdote,,Religious Order,Congregation,012Dx0000003p52IAA
-237,Society of the Missionaries of St. Francis Xavier,Society of the Missionaries of St. Francis Xavier,Society of the Missionaries of St. Francis Xavier,SFX,Men,societyofthemissionariesofst.francisxavi,,,Congregation,012Dx0000003p52IAA
-238,Heralds of the Good News,Heralds of the Good News,Heralds of the Good News,HGN,Men,heraldsofthegoodnews,,,Congregation,012Dx0000003p52IAA
-239,Missionary Oblates of Mary Immaculate,Missionary Oblates of Mary Immaculate,Oblates of Mary Immaculate,OMI,Men,missionaryoblatesofmaryimmaculate,,,Congregation,012Dx0000003p52IAA
-240,"Order of Friars Minor, Capuchins","Order of Friars Minor, Capuchins",Capuchins,OFM Cap,Men,"orderoffriarsminor,capuchins",,,Congregation,012Dx0000003p52IAA
-241,"Order of Friars Minor, Conventual","Order of Friars Minor, Conventual","Franciscans, Conventual",OFM Conv,Men,"orderoffriarsminor,conventual",,,Congregation,012Dx0000003p52IAA
-242,Societas Sacerdotum Missionariorum a Sancto Paulo Apostolo,Paulist Fathers,Paulists,CSP,Men,societassacerdotummissionariorumasanctop,,,Congregation,012Dx0000003p52IAA
-243,Congregatio Sanctissimi Redemptoris,Redemptorists,Redemptorists,CSsR,Men,congregatiosanctissimiredemptoris,,,Congregation,012Dx0000003p52IAA
-244,Fratres Franciscani a Renovatione,Franciscan Friars of the Renewal,Franciscan Friars of the Renewal,CFR,Men,fratresfranciscaniarenovatione,,,Congregation,012Dx0000003p52IAA
-245,Oblates of the Virgin Mary,Oblates of the Virgin Mary,Oblates of the Virgin Mary,OMV,Men,oblatesofthevirginmary,,,Congregation,012Dx0000003p52IAA
-246,Societas Sancti Francisci Salesii,Salesians of Don Bosco,Society of Saint Francis de Sales,SDB,Men,societassanctifranciscisalesii,,,Congregation,012Dx0000003p52IAA
-247,Brothers of Saint John,Brothers of Saint John,Brothers of Saint John,CSJ,Men,brothersofsaintjohn,,,Congregation,012Dx0000003p52IAA
-248,Sub Mariae Nomine,Society of Mary,Marists,SM,Men,submariaenomine,,,Congregation,012Dx0000003p52IAA
-249,Fraternità san Carlo Borromeo,Priestly Fraternity of the Missionaries of St. Charles Borromeo,Fraternity of St. Charles,FSCB,Men,fraternitàsancarloborromeo,,,Congregation,012Dx0000003p52IAA
-250,"Sons of Mary, Mother of Mercy","Sons of Mary, Mother of Mercy","Sons of Mary, Mother of Mercy",SMMM,Men,"sonsofmary,motherofmercy",,,Congregation,012Dx0000003p52IAA
-251,Society of the Divine Word,Society of the Divine Word,Society of the Divine Word,SVD,Men,societyofthedivineword,,,Congregation,012Dx0000003p52IAA
-252,Society of the Divine Saviour,Society of the Divine Saviour,Society of the Divine Saviour,SDS,Men,societyofthedivinesaviour,,,Congregation,012Dx0000003p52IAA
-253,Society of Our Lady of the Most Holy Trinity,Society of Our Lady of the Most Holy Trinity,Society of Our Lady of the Most Holy Trinity,SOLT,Men,societyofourladyofthemostholytrinity,,,Congregation,012Dx0000003p52IAA
+186,Societas Iesu,"Colombiere Jesuit Community, Portland (SJ)",Jesuits,SJ,Men,societasiesu,,Religious Order,Congregation,012Dx0000003p52IAA
+187,Ordo Cisterciensis Strictioris Observantiae,"Abbey of Our Lady of Guadalupe, Carlton (OCSO)",Trappists,OCSO,Men,ordocisterciensisstrictiorisobservantiae,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
+189,Ordo Sancti Benedicti,"Benedictine Monks of Mount Angel Abbey, Saint Benedict (OSB)",Benedictines,OSB,Men,ordosanctibenedicti,,Religious Order,Congregation,012Dx0000003p52IAA
+190,Misioneros del Espíritu Santo,"Missionaries of the Holy Spirit Provincial House, Milwaukie (MSpS)","Missionaries of the Holy Spirit, Christ the Priest",MSpS,Men,misionerosdelespíritusanto,,,Congregation,012Dx0000003p52IAA
+191,Apostles of Jesus,"Apostles of Jesus, Beaverton (AJ)",Apostles of Jesus,AJ,Men,apostlesofjesus,Diocesan Order,Religious Order,Congregation,012Dx0000003p52IAA
+192,Franciscan Sisters of the Eucharist,"Franciscan Sisters of the Eucharist, Bridal Veil (FSE)",Franciscan Sisters of the Eucharist,FSE,Women,franciscansistersoftheeucharist,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
+193,Apostolic Life Community of Priests in the Opus Spiritus Sancti,"Apostolic Life Community, Portland (ALCP)",Holy Spirit Fathers,ALCP,Men,apostoliclifecommunityofpriestsintheopus,,,Congregation,012Dx0000003p52IAA
+194,Augustinians,"Blessed Stephen Bellesini Community, c/o Chancellor (OSA)",Augustinians,OSA,Men,augustinians,,,Congregation,012Dx0000003p52IAA
+197,Brotherhood of the People of Praise,"Brotherhood of the People of Praise, Portland",Brotherhood of the People of Praise,,Men,brotherhoodofthepeopleofpraise,Diocesan Order,,Congregation,012Dx0000003p52IAA
+198,Ordo Carmelitarum Discalceatorum,"Carmelite House of Studies, Mount Angel (OCD)",Discalced Carmelite Friars,OCD,Men,ordocarmelitarumdiscalceatorum,,Religious Order,Congregation,012Dx0000003p52IAA
+199,Ordo Praedicatorum,"Holy Rosary Priory, Portland (OP)",Dominicans,OP,Men,ordopraedicatorum,,,Congregation,012Dx0000003p52IAA
+200,Domus Dei Clerical Society of Apostolic Life,"Society of Domus Dei Holy House Monasteries, Washougal, WA (SDD)",Domus Dei,SDD,Men,domusdeiclericalsocietyofapostoliclife,,Religious Order,Congregation,012Dx0000003p52IAA
+201,Ordo Fratrum Minorum Province of Saint Barbara,"Franciscan Friars, Oakland (OFM)",Franciscans,OFM,Men,ordofratrumminorumprovinceofsaintbarbara,,Religious Order,Congregation,012Dx0000003p52IAA
+202,Congregatio a Sancta Cruce,"Congregation of the Holy Cross, Portland (CSC)",Holy Cross,CSC,Men,congregatioasanctacruce,,Religious Order,Congregation,012Dx0000003p52IAA
+203,Sociedad San Juan,"Saint John Society, Corvallis (SSJ)",Saint John Society,SSJ,Men,sociedadsanjuan,,,Congregation,012Dx0000003p52IAA
+204,Ordo Servorum Beatae Mariae Virginis,"Servite Friars, Portland (OSM)",Servites,OSM,Men,ordoservorumbeataemariaevirginis,,Religious Order,Congregation,012Dx0000003p52IAA
+205,Adorers of the Holy Cross,"Adorers of the Holy Cross, Portland (MTG)",Adorers of the Holy Cross,MTG,Women,adorersoftheholycross,,,Congregation,012Dx0000003p52IAA
+206,Dominican Sisters of Adrian,"Adrian Dominican Sisters, Adrian, MI (OP)",Dominicans,OP,Women,dominicansistersofadrian,Pontifical Order,,Congregation,012Dx0000003p52IAA
+209,Congregación de Oblatas de Santa Marta,"Oblates of St. Martha, Portland (OSM)",Servites,OSM,Women,congregacióndeoblatasdesantamarta,,,Congregation,012Dx0000003p52IAA
+210,Sisters of St. Dominic of Caldwell,"Sisters of St. Dominic of Caldwell, Caldwell, NJ (OP)",Sisters of St. Dominic,OP,Women,sistersofst.dominicofcaldwell,,Religious Order,Congregation,012Dx0000003p52IAA
+211,Franciscan Missionary Sisters of Our Lady of Sorrows,"Sisters of Our Lady of Sorrows, Beaverton (OSF)",Franciscans,OSF,Women,franciscanmissionarysistersofourladyofso,Diocesan Order,Religious Order,Congregation,012Dx0000003p52IAA
+212,Apostolic Life Community of Sisters,"Holy Spirit Sisters, Portland (ALCS)",Holy Spirit Sisters,ALCS,Women,apostoliclifecommunityofsisters,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
+213,Lovers of Thuthiem Holy Cross Sisters,"Thu Thiem Sisters, Beaverton (LHC)",Thu Thiem Sisters,LHC,Women,loversofthuthiemholycrosssisters,,,Congregation,012Dx0000003p52IAA
+214,Maryknoll Sisters of St. Dominic,"Maryknoll Sisters of St. Dominic, Eugene (MM)",Maryknoll Sisters,MM,Women,maryknollsistersofst.dominic,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
+215,Misioneros del Rosario de Fátima,"Missionary Sisters of the Rosary of Fatima, Woodburn (HMRF)",Missionaries of the Rosary of Fatima,HMRF,Women,misionerosdelrosariodefátima,Diocesan Order,,Congregation,012Dx0000003p52IAA
+216,Order of Servants of Mary,"Servants of Mary, Portland (OSM)",Servites,OSM,Women,orderofservantsofmary,,,Congregation,012Dx0000003p52IAA
+217,Sisters For Christian Community,"Sisters For Christian Community, Hillsboro (SFCC)",Sisters For Christian Community,SFCC,Women,sistersforchristiancommunity,,,Congregation,012Dx0000003p52IAA
+218,Sisters of Charity of the Blessed Virgin Mary,"Sisters of Charity of the Blessed Virgin Mary, Portland (BVM)",Sisters of Charity of the Blessed Virgin Mary,BVM,Women,sistersofcharityoftheblessedvirginmary,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
+219,Congregation of Our Lady of Charity of the Good Shepherd,"Good Shepherd Sisters, Portland (RGS)",Good Shepherd Sisters,RGS,Women,congregationofourladyofcharityofthegoods,,Religious Order,Congregation,012Dx0000003p52IAA
+220,Sisters of the Holy Names of Jesus and Mary U.S. - Ontario,"Sisters of the Holy Names of Jesus and Mary, Marylhurst (SNJM)",Holy Names Sisters,SNJM,Women,sistersoftheholynamesofjesusandmaryu.s.-,,Religious Order,Congregation,012Dx0000003p52IAA
+221,Sisters of Jesus the Saviour,"Sisters of Jesus the Saviour, Gold Beach (SJS)",Sisters of Jesus the Saviour,SJS,Women,sistersofjesusthesaviour,,,Congregation,012Dx0000003p52IAA
+222,Sisters of Mary of Kakamega,"Sisters of Mary of Kakamega, Portland (SMK)",Sisters of Mary of Kakamega,SMK,Women,sistersofmaryofkakamega,,,Congregation,012Dx0000003p52IAA
+223,Sisters of Mercy of the Americas West/Midwest Region,"Sisters of Mercy of the Americas, Portland (RSM)",Sisters of Mercy,RSM,Women,sistersofmercyoftheamericaswest/midwestr,,,Congregation,012Dx0000003p52IAA
+224,"Sisters of Providence, Mother Joseph Province","Sisters of Providence, Renton, WA (SP)",Sisters of Providence,SP,Women,"sistersofprovidence,motherjosephprovince",,,Congregation,012Dx0000003p52IAA
+225,Sisters of Reparation of the Sacred Wounds of Jesus,"Sisters of Reparation, Portland (SR)",Sisters of Reparation,SR,Women,sistersofreparationofthesacredwoundsofje,Diocesan Order,Religious Order,Congregation,012Dx0000003p52IAA
+226,"Sisters of St. Francis, Clinton, Iowa","Sisters of St. Francis, Lake Oswego (OSF)",Sisters of St. Francis,OSF,Women,"sistersofst.francis,clinton,iowa",,,Congregation,012Dx0000003p52IAA
+227,Sisters of St. Francis of Philadelphia,"Sisters of St. Francis of Philadelphia, Portland (OSF)",Sisters of St. Francis of Philadelphia,OSF,Women,sistersofst.francisofphiladelphia,,,Congregation,012Dx0000003p52IAA
+228,Congregation of the Sisters of St. Joseph of Peace,"Sisters of St. Joseph of Peace, Eugene (CSJP)",Sisters of St. Joseph,CSJP,Women,congregationofthesistersofst.josephofpea,,,Congregation,012Dx0000003p52IAA
+229,Sisters of St. Mary of Oregon,"Sisters of St. Mary of Oregon, Beaverton (SSMO)",Sisters of St. Mary of Oregon,SSMO,Women,sistersofst.maryoforegon,,Religious Order,Congregation,012Dx0000003p52IAA
+230,Sociedad de María,"Society of Mary, Corvallis (SdM)",Society of Mary,SdM,Women,sociedaddemaría,Diocesan Order,Religious Order,Congregation,012Dx0000003p52IAA
+231,Society of the Holy Child Jesus,"Society of the Holy Child Jesus, West Linn (SHCJ)",Society of the Holy Child Jesus,SHCJ,Women,societyoftheholychildjesus,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
+232,Maronite Monks Of Jesus Mary and Joseph,"Sacred Heart Maronite Monastery, Beaverton (MMJMJ)",Maronite Monks,MMJMJ,Men,maronitemonksofjesusmaryandjoseph,,,Congregation,012Dx0000003p52IAA
+233,"Brigittine Monks, Order of the Most Holy Savior","Priory of Our Lady of Consolation, Amity (OSsS)",Brigittines,OSsS,Men,"brigittinemonks,orderofthemostholysavior",,,Congregation,012Dx0000003p52IAA
+235,Towarzystwo Chrystusowe,"Society of Christ Fathers Province in the United States and Canada, Lombard, IL (SCH)",Society of Christ,SCH,Men,towarzystwochrystusowe,Pontifical Order,Religious Order,Congregation,012Dx0000003p52IAA
+236,Opera di Gesù Sommo Sacerdote,"Work of Jesus the High Priest, Gresham (OJSS)",Work of Jesus the High Priest,OJSS,Men,operadigesùsommosacerdote,,Religious Order,Congregation,012Dx0000003p52IAA
+237,Society of the Missionaries of St. Francis Xavier,"Society of the Missionaries of St. Francis Xavier, Portland (SFX)",Society of the Missionaries of St. Francis Xavier,SFX,Men,societyofthemissionariesofst.francisxavi,,,Congregation,012Dx0000003p52IAA
+238,Heralds of the Good News,"Heralds of the Good News, Portland (HGN)",Heralds of the Good News,HGN,Men,heraldsofthegoodnews,,,Congregation,012Dx0000003p52IAA
+239,Missionary Oblates of Mary Immaculate,"Missionary Oblates of Mary Immaculate, Rome, ITALY (OMI)",Oblates of Mary Immaculate,OMI,Men,missionaryoblatesofmaryimmaculate,,,Congregation,012Dx0000003p52IAA
+240,"Order of Friars Minor, Capuchins","Order of Friars Minor, Capuchins, Portland (OFM Cap)",Capuchins,OFM Cap,Men,"orderoffriarsminor,capuchins",,,Congregation,012Dx0000003p52IAA
+241,"Order of Friars Minor, Conventual","Order of Friars Minor, Conventual, Portland (OFM Conv)","Franciscans, Conventual",OFM Conv,Men,"orderoffriarsminor,conventual",,,Congregation,012Dx0000003p52IAA
+242,Societas Sacerdotum Missionariorum a Sancto Paulo Apostolo,"Paulist Fathers, New York, NY (CSP)",Paulists,CSP,Men,societassacerdotummissionariorumasanctop,,,Congregation,012Dx0000003p52IAA
+243,Congregatio Sanctissimi Redemptoris,"Redemptorists, Rome, Italy (CSsR)",Redemptorists,CSsR,Men,congregatiosanctissimiredemptoris,,,Congregation,012Dx0000003p52IAA
+244,Fratres Franciscani a Renovatione,"Franciscan Friars of the Renewal, New York, NY (CFR)",Franciscan Friars of the Renewal,CFR,Men,fratresfranciscaniarenovatione,,,Congregation,012Dx0000003p52IAA
+245,Oblates of the Virgin Mary,"Oblates of the Virgin Mary, Boston, MA (OMV)",Oblates of the Virgin Mary,OMV,Men,oblatesofthevirginmary,,,Congregation,012Dx0000003p52IAA
+246,Societas Sancti Francisci Salesii,"Salesians of Don Bosco, Rome, Italy (SDB)",Society of Saint Francis de Sales,SDB,Men,societassanctifranciscisalesii,,,Congregation,012Dx0000003p52IAA
+247,Brothers of Saint John,"Brothers of Saint John, Laredo, TX (CSJ)",Brothers of Saint John,CSJ,Men,brothersofsaintjohn,,,Congregation,012Dx0000003p52IAA
+248,Sub Mariae Nomine,"Society of Mary, Washington, DC (SM)",Marists,SM,Men,submariaenomine,,,Congregation,012Dx0000003p52IAA
+249,Fraternità san Carlo Borromeo,"Priestly Fraternity of the Missionaries of St. Charles Borromeo, Rome, Italy (FSCB)",Fraternity of St. Charles,FSCB,Men,fraternitàsancarloborromeo,,,Congregation,012Dx0000003p52IAA
+250,"Sons of Mary, Mother of Mercy","Sons of Mary, Mother of Mercy, Umuahia, Nigeria (SMMM)","Sons of Mary, Mother of Mercy",SMMM,Men,"sonsofmary,motherofmercy",,,Congregation,012Dx0000003p52IAA
+251,Society of the Divine Word,"Society of the Divine Word, Techny, IL (SVD)",Society of the Divine Word,SVD,Men,societyofthedivineword,,,Congregation,012Dx0000003p52IAA
+252,Society of the Divine Saviour,"Society of the Divine Saviour, Rome, Italy (SDS)",Society of the Divine Saviour,SDS,Men,societyofthedivinesaviour,,,Congregation,012Dx0000003p52IAA
+253,Society of Our Lady of the Most Holy Trinity,"Society of Our Lady of the Most Holy Trinity, Corpus Christi, TX (SOLT)",Society of Our Lady of the Most Holy Trinity,SOLT,Men,societyofourladyofthemostholytrinity,,,Congregation,012Dx0000003p52IAA
