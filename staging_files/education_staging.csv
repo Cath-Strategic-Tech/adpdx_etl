@@ -90,7 +90,7 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Dx00000nKjBgIAK,2000-01-01,001Dx00001HwF0YIAV,Education/Studies,Master of Theological Studies,003dx00000nkjbgiak20000101masteroftheologicalstudi
 003Dx00000nKjBmIAK,1975-01-01,001Dx00001HwF1SIAV,Education/Studies,BA Journalism,003dx00000nkjbmiak19750101bajournalism
 003Dx00000nKjBmIAK,1983-01-01,001Dx00001HwF2wIAF,Education/Studies,MDIV,003dx00000nkjbmiak19830101mdiv
-003Dx00000nKjBnIAK,2017-01-01,001Dx00001HwE2sIAF,Education/Studies,Priestly Formation,003dx00000nkjbniak20170101priestlyformation
+003Dx00000nKjBnIAK,2017-01-01,001O300000b4pMoIAI,Education/Studies,Priestly Formation,003dx00000nkjbniak20170101priestlyformation
 003Dx00000nKjBnIAK,2002-01-01,001Dx00001HwF31IAF,Education/Studies,Associate of Applied Science Electronic Engineerin,003dx00000nkjbniak20020101associateofappliedscienc
 003Dx00000nKjC5IAK,2007-01-01,001Dx00001HwF0NIAV,Education/Studies,Master of Arts in Pastoral Ministry,003dx00000nkjc5iak20070101masterofartsinpastoralmi
 003Dx00000nKjCCIA0,2004-01-01,001Dx00001HwF1BIAV,Education/Studies,Theology,003dx00000nkjccia020040101theology
@@ -109,8 +109,8 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Dx00000nKjRJIA0,2009-01-01,001Dx00001HwEy0IAF,Education/Studies,"Diploma, Religious Education","003dx00000nkjrjia020090101diploma,religiouseducati"
 003Dx00000nKjRUIA0,2003-01-01,001Dx00001HwF3GIAV,Education/Studies,Hispanic Lay Ministry Formation Program,003dx00000nkjruia020030101hispaniclayministryforma
 003Dx00000nKjRpIAK,2001-01-01,001Dx00001HwEvoIAF,Education/Studies,BS Electrical Engineering,003dx00000nkjrpiak20010101bselectricalengineering
-,2018-01-01,001Dx00001HwF2nIAF,Education/Studies,Priestly Formation,none20180101priestlyformation
-,2015-01-01,001Dx00001HwE2sIAF,Education/Studies,Bachelor of Arts,none20150101bachelorofarts
+003O300000dMWuwIAG,2018-01-01,001Dx00001HwF2nIAF,Education/Studies,Priestly Formation,003o300000dmwuwiag20180101priestlyformation
+003O300000dMWuwIAG,2015-01-01,001O300000b4pMoIAI,Education/Studies,Bachelor of Arts,003o300000dmwuwiag20150101bachelorofarts
 003Dx00000nKjS2IAK,1994-01-01,001Dx00001HwF3LIAV,Education/Studies,Masters in Spirituality,003dx00000nkjs2iak19940101mastersinspirituality
 003Dx00000nKjS4IAK,1992-01-01,001Dx00001HwF0IIAV,Education/Studies,Philosophy and Theology,003dx00000nkjs4iak19920101philosophyandtheology
 003Dx00000nKjS4IAK,1996-01-01,001Dx00001HwF2oIAF,Education/Studies,S.T.B.,003dx00000nkjs4iak19960101stb
@@ -138,7 +138,7 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Dx00000nKinaIAC,2016-01-01,001Dx00001HwF3aIAF,Education/Studies,BA of Science Major Agricultural Sciences,003dx00000nkinaiac20160101baofsciencemajoragricult
 003Dx00000nKincIAC,2010-01-01,001Dx00001HwF0NIAV,Education/Studies,Master of Arts in Pastoral Ministry,003dx00000nkinciac20100101masterofartsinpastoralmi
 003Dx00000nKingIAC,2005-01-01,001Dx00001HwF3fIAF,Education/Studies,Master of Arts in Spirituality,003dx00000nkingiac20050101masterofartsinspirituali
-,1988-01-01,001Dx00001HwF3kIAF,Education/Studies,Master of Arts in Theology,none19880101masterofartsintheology
+003O300000dMfHNIA0,1988-01-01,001Dx00001HwF3kIAF,Education/Studies,Master of Arts in Theology,003o300000dmfhnia019880101masterofartsintheology
 003Dx00000nKinxIAC,1995-01-01,001Dx00001HwF1aIAF,Education/Studies,"D.D., Systematic Theology","003dx00000nkinxiac19950101dd,systematictheology"
 003Dx00000nKioCIAS,2006-01-01,001Dx00001HwF16IAF,Education/Studies,"Bachelor Psychology, Political Science, Law","003dx00000nkiocias20060101bachelorpsychology,polit"
 003Dx00000nKiojIAC,1998-01-01,001Dx00001HwF0YIAV,Education/Studies,Master of Theological Studies,003dx00000nkiojiac19980101masteroftheologicalstudi
@@ -173,7 +173,7 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Dx00000nKjD3IAK,2007-01-01,001Dx00001HwF0eIAF,Education/Studies,Philosophy,003dx00000nkjd3iak20070101philosophy
 003Dx00000nKjD8IAK,2019-01-01,001Dx00001HwF2JIAV,Education/Studies,B.A. Economics,003dx00000nkjd8iak20190101baeconomics
 003Dx00000nKjDAIA0,2009-01-01,001Dx00001HwF03IAF,Education/Studies,AAS in Fire Science and Emergency Medical Services,003dx00000nkjdaia020090101aasinfirescienceandemerg
-003Dx00000nKjDAIA0,2019-01-01,001Dx00001HwE2sIAF,Education/Studies,BA Philosophy,003dx00000nkjdaia020190101baphilosophy
+003Dx00000nKjDAIA0,2019-01-01,001O300000b4pMoIAI,Education/Studies,BA Philosophy,003dx00000nkjdaia020190101baphilosophy
 003Dx00000nKjDCIA0,2007-01-01,001Dx00001HwF3HIAV,Education/Studies,BA Theology,003dx00000nkjdcia020070101batheology
 003Dx00000nKjDCIA0,2022-01-01,001Dx00001HwF3uIAF,Education/Studies,"Phd, Cannon Law","003dx00000nkjdcia020220101phd,cannonlaw"
 003Dx00000nKjDIIA0,1987-01-01,001Dx00001HwF0pIAF,Education/Studies,MA Theology,003dx00000nkjdiia019870101matheology
@@ -195,8 +195,8 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Dx00000nKjERIA0,1999-01-01,001Dx00001HwF3IIAV,Education/Studies,Bachelor of Engineering,003dx00000nkjeria019990101bachelorofengineering
 003Dx00000nKjERIA0,2008-01-01,001Dx00001HwF3DIAV,Education/Studies,Bachelor in Theology,003dx00000nkjeria020080101bachelorintheology
 003Dx00000nKjERIA0,2019-01-01,001Dx00001HwF3EIAV,Education/Studies,STL Pastoral Theology,003dx00000nkjeria020190101stlpastoraltheology
-,2012-01-01,001Dx00001HwF0NIAV,Education/Studies,Master of Arts in Pastoral Ministry,none20120101masterofartsinpastoralministry
-003Dx00000nKjFUIA0,1979-01-01,001Dx00001HwE2rIAF,Education/Studies,Philosophy,003dx00000nkjfuia019790101philosophy
+003O300000dMfHOIA0,2012-01-01,001Dx00001HwF0NIAV,Education/Studies,Master of Arts in Pastoral Ministry,003o300000dmfhoia020120101masterofartsinpastoralmi
+003Dx00000nKjFUIA0,1979-01-01,001O300000b4f34IAA,Education/Studies,Philosophy,003dx00000nkjfuia019790101philosophy
 003Dx00000nKjFWIA0,1998-01-01,001Dx00001HwF1QIAV,Education/Studies,Bachelor of Science in Aerospace Engineering,003dx00000nkjfwia019980101bachelorofscienceinaeros
 003Dx00000nKjFWIA0,2006-01-01,001Dx00001HwF1QIAV,Education/Studies,Master of Divinity,003dx00000nkjfwia020060101masterofdivinity
 003Dx00000nKjFaIAK,1999-01-01,001Dx00001HwF4YIAV,Education/Studies,BA Political Science and Asian Studies,003dx00000nkjfaiak19990101bapoliticalscienceandasi
@@ -239,7 +239,7 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Dx00000nKiteIAC,2013-01-01,001Dx00001HwF1GIAV,Education/Studies,Master of Arts in Pastoral Ministry,003dx00000nkiteiac20130101masterofartsinpastoralmi
 003Dx00000nKitiIAC,2019-01-01,001Dx00001HwF53IAF,Education/Studies,Master of Divinity,003dx00000nkitiiac20190101masterofdivinity
 003Dx00000nKitmIAC,2004-01-01,001Dx00001HwEzBIAV,Education/Studies,Agriculture Business Management,003dx00000nkitmiac20040101agriculturebusinessmanag
-003Dx00000nKitnIAC,1967-01-01,001Dx00001HwE2sIAF,Education/Studies,Bachelor of Arts,003dx00000nkitniac19670101bachelorofarts
+003Dx00000nKitnIAC,1967-01-01,001O300000b4pMoIAI,Education/Studies,Bachelor of Arts,003dx00000nkitniac19670101bachelorofarts
 003Dx00000nKitnIAC,1971-01-01,001Dx00001HwF1UIAV,Education/Studies,MA Theology,003dx00000nkitniac19710101matheology
 003Dx00000nKitnIAC,1972-01-01,001Dx00001HwF5MIAV,Education/Studies,MA Communications,003dx00000nkitniac19720101macommunications
 003Dx00000nKitoIAC,2004-01-01,001Dx00001HwF0NIAV,Education/Studies,Certificate of Studies in Pastoral Ministries,003dx00000nkitoiac20040101certificateofstudiesinpa
@@ -273,11 +273,11 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Dx00000nKiw3IAC,2022-01-01,001Dx00001HwF24IAF,Education/Studies,"STD, Theology","003dx00000nkiw3iac20220101std,theology"
 003Dx00000nKiw5IAC,2001-01-01,001Dx00001HwF2EIAV,Education/Studies,BS,003dx00000nkiw5iac20010101bs
 003Dx00000nKiw5IAC,2012-01-01,001Dx00001HwF36IAF,Education/Studies,MBA,003dx00000nkiw5iac20120101mba
-003Dx00000nKiw5IAC,2023-01-01,001Dx00001HwE2sIAF,Education/Studies,,003dx00000nkiw5iac20230101nan
+003Dx00000nKiw5IAC,2023-01-01,001O300000b4pMoIAI,Education/Studies,,003dx00000nkiw5iac20230101nan
 003Dx00000nKiwMIAS,1989-01-01,001Dx00001HwF3aIAF,Education/Studies,BS Math Education,003dx00000nkiwmias19890101bsmatheducation
 003Dx00000nKiwMIAS,1993-01-01,001Dx00001HwF3aIAF,Education/Studies,MS Math Education,003dx00000nkiwmias19930101msmatheducation
-003Dx00000nKiwMIAS,2000-01-01,001Dx00001HwE2sIAF,Education/Studies,Mdiv,003dx00000nkiwmias20000101mdiv
-003Dx00000nKiwMIAS,2000-01-01,001Dx00001HwE2sIAF,Education/Studies,MA Theology,003dx00000nkiwmias20000101matheology
+003Dx00000nKiwMIAS,2000-01-01,001O300000b4pMoIAI,Education/Studies,Mdiv,003dx00000nkiwmias20000101mdiv
+003Dx00000nKiwMIAS,2000-01-01,001O300000b4pMoIAI,Education/Studies,MA Theology,003dx00000nkiwmias20000101matheology
 003Dx00000nKj6MIAS,1968-01-01,001Dx00001HwF5KIAV,Education/Studies,BA,003dx00000nkj6mias19680101ba
 003Dx00000nKj6MIAS,1972-01-01,001Dx00001HwF5LIAV,Education/Studies,MA - Theology,003dx00000nkj6mias19720101matheology
 003Dx00000nKj6MIAS,1972-01-01,001Dx00001HwF5hIAF,Education/Studies,STL - Theology,003dx00000nkj6mias19720101stltheology
@@ -321,7 +321,7 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Dx00000nKj8gIAC,2009-01-01,001Dx00001HwF0NIAV,Education/Studies,Master of Arts in Pastoral Ministry,003dx00000nkj8giac20090101masterofartsinpastoralmi
 003Dx00000nKj8pIAC,1975-01-01,001Dx00001HwF6PIAV,Education/Studies,"BS, Business Administration","003dx00000nkj8piac19750101bs,businessadministratio"
 003Dx00000nKj8tIAC,2005-01-01,001Dx00001HwF6UIAV,Education/Studies,BA Liberal Studies,003dx00000nkj8tiac20050101baliberalstudies
-003Dx00000nKj8wIAC,2019-01-01,001Dx00001HwE2sIAF,Education/Studies,BA Philosophy and Literature,003dx00000nkj8wiac20190101baphilosophyandliteratur
+003Dx00000nKj8wIAC,2019-01-01,001O300000b4pMoIAI,Education/Studies,BA Philosophy and Literature,003dx00000nkj8wiac20190101baphilosophyandliteratur
 003Dx00000nKj8wIAC,2023-01-01,001Dx00001HwEyoIAF,Education/Studies,M.Div,003dx00000nkj8wiac20230101mdiv
 003Dx00000nKj96IAC,1965-01-01,001Dx00001HwF6ZIAV,Education/Studies,B.A. Sociology,003dx00000nkj96iac19650101basociology
 003Dx00000nKj96IAC,1976-01-01,001Dx00001HwF6eIAF,Education/Studies,MA Theology,003dx00000nkj96iac19760101matheology
@@ -571,7 +571,7 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Dx00000nKjVzIAK,2000-01-01,001Dx00001HwF9BIAV,Education/Studies,M. Div,003dx00000nkjvziak20000101mdiv
 003Dx00000nKjWGIA0,2008-01-01,001Dx00001HwF1zIAF,Education/Studies,BA Philosophy,003dx00000nkjwgia020080101baphilosophy
 003Dx00000nKjWGIA0,2008-01-01,001Dx00001HwF1zIAF,Education/Studies,MDiv,003dx00000nkjwgia020080101mdiv
-,1996-01-01,001Dx00001HwF0YIAV,Education/Studies,Master of Theological Studies,none19960101masteroftheologicalstudies
+003O300000dMT8CIAW,1996-01-01,001Dx00001HwF0YIAV,Education/Studies,Master of Theological Studies,003o300000dmt8ciaw19960101masteroftheologicalstudi
 003Dx00000nKjWgIAK,1998-01-01,001Dx00001HwF1wIAF,Education/Studies,BS Construction Science and Management,003dx00000nkjwgiak19980101bsconstructionscienceand
 003Dx00000nKjWkIAK,2012-01-01,001Dx00001HwF1GIAV,Education/Studies,Master of Arts in Pastoral Ministry,003dx00000nkjwkiak20120101masterofartsinpastoralmi
 003Dx00000nKjX0IAK,2021-01-01,001Dx00001HwF1xIAF,Education/Studies,Philosophy,003dx00000nkjx0iak20210101philosophy
@@ -645,7 +645,7 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Dx00000nKj6CIAS,2018-01-01,001Dx00001HwEukIAF,Education/Studies,BS Chemical Engineering,003dx00000nkj6cias20180101bschemicalengineering
 003Dx00000nKjMKIA0,2010-01-01,001Dx00001HwF0lIAF,Education/Studies,Master of Theology,003dx00000nkjmkia020100101masteroftheology
 003Dx00000nKjMoIAK,2002-01-01,001Dx00001HwF9sIAF,Education/Studies,BS Computer Engineering,003dx00000nkjmoiak20020101bscomputerengineering
-003Dx00000nKjN2IAK,1982-01-01,001Dx00001HwE2sIAF,Education/Studies,Theology,003dx00000nkjn2iak19820101theology
+003Dx00000nKjN2IAK,1982-01-01,001O300000b4pMoIAI,Education/Studies,Theology,003dx00000nkjn2iak19820101theology
 003Dx00000nKjN4IAK,2004-01-01,001Dx00001HwF65IAF,Education/Studies,English and Writing,003dx00000nkjn4iak20040101englishandwriting
 003Dx00000nKjN4IAK,2012-01-01,001Dx00001HwF2EIAV,Education/Studies,Master of English and Composition,003dx00000nkjn4iak20120101masterofenglishandcompos
 003Dx00000nKjNHIA0,1996-01-01,001Dx00001HwEulIAF,Education/Studies,BA Philosophy,003dx00000nkjnhia019960101baphilosophy
@@ -664,7 +664,7 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Dx00000nKjOIIA0,2016-01-01,001Dx00001HwF86IAF,Education/Studies,Theology,003dx00000nkjoiia020160101theology
 003Dx00000nKjOSIA0,2021-01-01,001Dx00001HwEwgIAF,Education/Studies,Philosophy,003dx00000nkjosia020210101philosophy
 003Dx00000nKjOXIA0,2011-01-01,001Dx00001HwF4aIAF,Education/Studies,"Bachelor, Banking and Finance","003dx00000nkjoxia020110101bachelor,bankingandfinan"
-,2000-01-01,001Dx00001HwF0YIAV,Education/Studies,Master of Theological Studies,none20000101masteroftheologicalstudies
+003O300000dMJTxIAO,2000-01-01,001Dx00001HwF0YIAV,Education/Studies,Master of Theological Studies,003o300000dmjtxiao20000101masteroftheologicalstudi
 003Dx00000nKjOpIAK,1990-01-01,001Dx00001HwF18IAF,Education/Studies,BS Marketing,003dx00000nkjopiak19900101bsmarketing
 003Dx00000nKjOpIAK,1991-01-01,001Dx00001HwF18IAF,Education/Studies,Masters of Business Administration (MBA) - Marketi,003dx00000nkjopiak19910101mastersofbusinessadminis
 003Dx00000nKjOpIAK,1999-01-01,001Dx00001HwF0lIAF,Education/Studies,Masters of Theology - Scripture,003dx00000nkjopiak19990101mastersoftheologyscriptu

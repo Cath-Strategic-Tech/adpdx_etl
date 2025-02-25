@@ -160,11 +160,11 @@
 012Dx0000003p5AIAQ,003Dx00000nKjRpIAK,2012-08-25,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,003dx00000nkjrpiak20120825acolyteinstallation
 012Dx0000003p5AIAQ,003Dx00000nKjRpIAK,2010-08-28,,001Dx00001HwDsgIAF,Installations,Candidate Installation,003dx00000nkjrpiak20100828candidateinstallation
 012Dx0000003p5AIAQ,003Dx00000nKjS0IAK,1978-01-05,,001Dx00001HwFFlIAN,Ecclesial Affiliations,Incardinated,003dx00000nkjs0iak19780105incardinated
-012Dx0000003p5DIAQ,,,2018-05-19,001Dx00001HwDsgIAF,Faculties,Faculties,none20180519faculties
-012Dx0000003p5DIAQ,,2020-06-17,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),none20200617faculties(withdrawn)
-012Dx0000003p5AIAQ,,2016-01-10,,001Dx00001HwDsgIAF,Installations,Reader Installation,none20160110readerinstallation
-012Dx0000003p5AIAQ,,2017-02-26,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,none20170226acolyteinstallation
-012Dx0000003p5AIAQ,,2015-05-02,,001Dx00001HwDsgIAF,Installations,Candidate Installation,none20150502candidateinstallation
+012Dx0000003p5DIAQ,003O300000dMWuwIAG,,2018-05-19,001Dx00001HwDsgIAF,Faculties,Faculties,003o300000dmwuwiag20180519faculties
+012Dx0000003p5DIAQ,003O300000dMWuwIAG,2020-06-17,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),003o300000dmwuwiag20200617faculties(withdrawn)
+012Dx0000003p5AIAQ,003O300000dMWuwIAG,2016-01-10,,001Dx00001HwDsgIAF,Installations,Reader Installation,003o300000dmwuwiag20160110readerinstallation
+012Dx0000003p5AIAQ,003O300000dMWuwIAG,2017-02-26,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,003o300000dmwuwiag20170226acolyteinstallation
+012Dx0000003p5AIAQ,003O300000dMWuwIAG,2015-05-02,,001Dx00001HwDsgIAF,Installations,Candidate Installation,003o300000dmwuwiag20150502candidateinstallation
 012Dx0000003p5DIAQ,003Dx00000nKjS2IAK,,1997-11-29,001Dx00001HwDsgIAF,Faculties,Faculties (Diaconal),003dx00000nkjs2iak19971129faculties(diaconal)
 012Dx0000003p5AIAQ,003Dx00000nKjS2IAK,1996-08-03,,001Dx00001HwDsgIAF,Installations,Reader Installation,003dx00000nkjs2iak19960803readerinstallation
 012Dx0000003p5AIAQ,003Dx00000nKjS2IAK,1996-08-03,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,003dx00000nkjs2iak19960803acolyteinstallation
@@ -203,10 +203,10 @@
 012Dx0000003p5AIAQ,003Dx00000nKincIAC,2008-10-25,,001Dx00001HwDsgIAF,Installations,Reader Installation,003dx00000nkinciac20081025readerinstallation
 012Dx0000003p5AIAQ,003Dx00000nKincIAC,2009-10-31,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,003dx00000nkinciac20091031acolyteinstallation
 012Dx0000003p5AIAQ,003Dx00000nKincIAC,2010-11-06,,001Dx00001HwDsgIAF,Installations,Candidate Installation,003dx00000nkinciac20101106candidateinstallation
-012Dx0000003p5DIAQ,,1995-07-21,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),none19950721faculties(withdrawn)
-012Dx0000003p5AIAQ,,1986-11-15,,001Dx00001HwDsgIAF,Installations,Reader Installation,none19861115readerinstallation
-012Dx0000003p5AIAQ,,1988-03-19,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,none19880319acolyteinstallation
-012Dx0000003p5AIAQ,,1993-04-17,,001Dx00001HwDsgIAF,Installations,Candidate Installation,none19930417candidateinstallation
+012Dx0000003p5DIAQ,003O300000dMfHNIA0,1995-07-21,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),003o300000dmfhnia019950721faculties(withdrawn)
+012Dx0000003p5AIAQ,003O300000dMfHNIA0,1986-11-15,,001Dx00001HwDsgIAF,Installations,Reader Installation,003o300000dmfhnia019861115readerinstallation
+012Dx0000003p5AIAQ,003O300000dMfHNIA0,1988-03-19,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,003o300000dmfhnia019880319acolyteinstallation
+012Dx0000003p5AIAQ,003O300000dMfHNIA0,1993-04-17,,001Dx00001HwDsgIAF,Installations,Candidate Installation,003o300000dmfhnia019930417candidateinstallation
 012Dx0000003p5DIAQ,003Dx00000nKinmIAC,,2018-06-02,001Dx00001HwDsgIAF,Faculties,Faculties (General),003dx00000nkinmiac20180602faculties(general)
 012Dx0000003p5AIAQ,003Dx00000nKinvIAC,1981-11-23,,001Dx00001HwFFqIAN,Ecclesial Affiliations,Incardinated,003dx00000nkinviac19811123incardinated
 012Dx0000003p5DIAQ,003Dx00000nKinxIAC,,1998-10-23,001Dx00001HwDsgIAF,Faculties,Faculties (Diaconal),003dx00000nkinxiac19981023faculties(diaconal)
@@ -300,10 +300,10 @@
 012Dx0000003p5DIAQ,003Dx00000nKjERIA0,,2019-04-03,001Dx00001HwDsgIAF,Faculties,Faculties (Confessional),003dx00000nkjeria020190403faculties(confessional)
 012Dx0000003p5DIAQ,003Dx00000nKjEXIA0,,2018-07-01,001Dx00001HwDsgIAF,Faculties,Faculties (General),003dx00000nkjexia020180701faculties(general)
 012Dx0000003p5DIAQ,003Dx00000nKjEZIA0,,1996-04-23,001Dx00001HwDsgIAF,Faculties,Faculties (Diaconal),003dx00000nkjezia019960423faculties(diaconal)
-012Dx0000003p5DIAQ,,2017-04-18,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),none20170418faculties(withdrawn)
-012Dx0000003p5AIAQ,,2005-11-05,,001Dx00001HwDsgIAF,Installations,Reader Installation,none20051105readerinstallation
-012Dx0000003p5AIAQ,,2006-12-09,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,none20061209acolyteinstallation
-012Dx0000003p5AIAQ,,2009-10-31,,001Dx00001HwDsgIAF,Installations,Candidate Installation,none20091031candidateinstallation
+012Dx0000003p5DIAQ,003O300000dMfHOIA0,2017-04-18,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),003o300000dmfhoia020170418faculties(withdrawn)
+012Dx0000003p5AIAQ,003O300000dMfHOIA0,2005-11-05,,001Dx00001HwDsgIAF,Installations,Reader Installation,003o300000dmfhoia020051105readerinstallation
+012Dx0000003p5AIAQ,003O300000dMfHOIA0,2006-12-09,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,003o300000dmfhoia020061209acolyteinstallation
+012Dx0000003p5AIAQ,003O300000dMfHOIA0,2009-10-31,,001Dx00001HwDsgIAF,Installations,Candidate Installation,003o300000dmfhoia020091031candidateinstallation
 012Dx0000003p5AIAQ,003Dx00000nKjEkIAK,2006-08-08,,001Dx00001HwFFqIAN,Ecclesial Affiliations,Incardinated,003dx00000nkjekiak20060808incardinated
 012Dx0000003p5DIAQ,003Dx00000nKjFLIA0,,2015-06-05,001Dx00001HwDsgIAF,Faculties,Faculties (General),003dx00000nkjflia020150605faculties(general)
 012Dx0000003p5DIAQ,003Dx00000nKjFUIA0,,2021-06-26,001Dx00001HwDsgIAF,Faculties,Faculties (General),003dx00000nkjfuia020210626faculties(general)
@@ -608,9 +608,9 @@
 012Dx0000003p5AIAQ,003Dx00000nKjHJIA0,2012-11-03,,001Dx00001HwDsgIAF,Installations,Reader Installation,003dx00000nkjhjia020121103readerinstallation
 012Dx0000003p5AIAQ,003Dx00000nKjHJIA0,2014-02-23,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,003dx00000nkjhjia020140223acolyteinstallation
 012Dx0000003p5AIAQ,003Dx00000nKjHJIA0,2015-03-01,,001Dx00001HwDsgIAF,Installations,Candidate Installation,003dx00000nkjhjia020150301candidateinstallation
-012Dx0000003p5AIAQ,,1988-10-28,,001Dx00001HwDsgIAF,Installations,Reader Installation,none19881028readerinstallation
-012Dx0000003p5AIAQ,,1987-10-28,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,none19871028acolyteinstallation
-012Dx0000003p5AIAQ,,1988-03-08,,001Dx00001HwDsgIAF,Installations,Candidate Installation,none19880308candidateinstallation
+012Dx0000003p5AIAQ,003O300000dMfKcIAK,1988-10-28,,001Dx00001HwDsgIAF,Installations,Reader Installation,003o300000dmfkciak19881028readerinstallation
+012Dx0000003p5AIAQ,003O300000dMfKcIAK,1987-10-28,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,003o300000dmfkciak19871028acolyteinstallation
+012Dx0000003p5AIAQ,003O300000dMfKcIAK,1988-03-08,,001Dx00001HwDsgIAF,Installations,Candidate Installation,003o300000dmfkciak19880308candidateinstallation
 012Dx0000003p5DIAQ,003Dx00000nKjHTIA0,,2019-07-01,001Dx00001HwDsgIAF,Faculties,Faculties,003dx00000nkjhtia020190701faculties
 012Dx0000003p5DIAQ,003Dx00000nKjHcIAK,,2020-02-18,001Dx00001HwDsgIAF,Faculties,Faculties (Confessional),003dx00000nkjhciak20200218faculties(confessional)
 012Dx0000003p5AIAQ,003Dx00000nKjHdIAK,1993-04-17,,001Dx00001HwDsgIAF,Installations,Reader Installation,003dx00000nkjhdiak19930417readerinstallation
@@ -767,8 +767,8 @@
 012Dx0000003p5DIAQ,003Dx00000nKjK0IAK,,2009-06-13,001Dx00001HwDsgIAF,Faculties,Faculties (General),003dx00000nkjk0iak20090613faculties(general)
 012Dx0000003p5DIAQ,003Dx00000nKjKBIA0,,2021-09-11,001Dx00001HwDsgIAF,Faculties,Faculties (Diaconal),003dx00000nkjkbia020210911faculties(diaconal)
 012Dx0000003p5DIAQ,003Dx00000nKjKCIA0,1900-01-01,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),003dx00000nkjkcia019000101faculties(withdrawn)
-012Dx0000003p5DIAQ,,,1977-06-05,001Dx00001HwDsgIAF,Faculties,Faculties,none19770605faculties
-012Dx0000003p5DIAQ,,1985-07-01,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),none19850701faculties(withdrawn)
+012Dx0000003p5DIAQ,003O300000dMT8BIAW,,1977-06-05,001Dx00001HwDsgIAF,Faculties,Faculties,003o300000dmt8biaw19770605faculties
+012Dx0000003p5DIAQ,003O300000dMT8BIAW,1985-07-01,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),003o300000dmt8biaw19850701faculties(withdrawn)
 012Dx0000003p5DIAQ,003Dx00000nKjKGIA0,,2000-12-09,001Dx00001HwDsgIAF,Faculties,Faculties (Diaconal),003dx00000nkjkgia020001209faculties(diaconal)
 012Dx0000003p5AIAQ,003Dx00000nKjKGIA0,1999-10-23,,001Dx00001HwDsgIAF,Installations,Reader Installation,003dx00000nkjkgia019991023readerinstallation
 012Dx0000003p5AIAQ,003Dx00000nKjKGIA0,1999-10-23,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,003dx00000nkjkgia019991023acolyteinstallation
@@ -819,9 +819,9 @@
 012Dx0000003p5DIAQ,003Dx00000nKjWHIA0,,2006-12-01,001Dx00001HwDsgIAF,Faculties,Faculties,003dx00000nkjwhia020061201faculties
 012Dx0000003p5DIAQ,003Dx00000nKjWHIA0,2014-08-21,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),003dx00000nkjwhia020140821faculties(withdrawn)
 012Dx0000003p5DIAQ,003Dx00000nKjWXIA0,,2001-06-09,001Dx00001HwDsgIAF,Faculties,Faculties (General),003dx00000nkjwxia020010609faculties(general)
-012Dx0000003p5AIAQ,,2006-12-09,,001Dx00001HwDsgIAF,Installations,Reader Installation,none20061209readerinstallation
-012Dx0000003p5AIAQ,,2006-12-09,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,none20061209acolyteinstallation
-012Dx0000003p5AIAQ,,2006-12-09,,001Dx00001HwDsgIAF,Installations,Candidate Installation,none20061209candidateinstallation
+012Dx0000003p5AIAQ,003O300000dMT8CIAW,2006-12-09,,001Dx00001HwDsgIAF,Installations,Reader Installation,003o300000dmt8ciaw20061209readerinstallation
+012Dx0000003p5AIAQ,003O300000dMT8CIAW,2006-12-09,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,003o300000dmt8ciaw20061209acolyteinstallation
+012Dx0000003p5AIAQ,003O300000dMT8CIAW,2006-12-09,,001Dx00001HwDsgIAF,Installations,Candidate Installation,003o300000dmt8ciaw20061209candidateinstallation
 012Dx0000003p5DIAQ,003Dx00000nKjWfIAK,1900-01-01,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),003dx00000nkjwfiak19000101faculties(withdrawn)
 012Dx0000003p5DIAQ,003Dx00000nKjWkIAK,,2013-10-26,001Dx00001HwDsgIAF,Faculties,Faculties (Diaconal),003dx00000nkjwkiak20131026faculties(diaconal)
 012Dx0000003p5AIAQ,003Dx00000nKjWkIAK,2010-11-06,,001Dx00001HwDsgIAF,Installations,Reader Installation,003dx00000nkjwkiak20101106readerinstallation
@@ -942,11 +942,11 @@
 012Dx0000003p5AIAQ,003Dx00000nKjOXIA0,2018-05-28,,001Dx00001HwDsgIAF,Installations,Reader Installation,003dx00000nkjoxia020180528readerinstallation
 012Dx0000003p5AIAQ,003Dx00000nKjOXIA0,2021-03-10,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,003dx00000nkjoxia020210310acolyteinstallation
 012Dx0000003p5DIAQ,003Dx00000nKjOcIAK,,2005-06-11,001Dx00001HwDsgIAF,Faculties,Faculties (General),003dx00000nkjociak20050611faculties(general)
-012Dx0000003p5DIAQ,,,2002-12-23,001Dx00001HwDsgIAF,Faculties,Faculties,none20021223faculties
-012Dx0000003p5DIAQ,,2013-09-15,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),none20130915faculties(withdrawn)
-012Dx0000003p5AIAQ,,2001-09-08,,001Dx00001HwDsgIAF,Installations,Reader Installation,none20010908readerinstallation
-012Dx0000003p5AIAQ,,2001-09-08,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,none20010908acolyteinstallation
-012Dx0000003p5AIAQ,,2001-09-08,,001Dx00001HwDsgIAF,Installations,Candidate Installation,none20010908candidateinstallation
+012Dx0000003p5DIAQ,003O300000dMJTxIAO,,2002-12-23,001Dx00001HwDsgIAF,Faculties,Faculties,003o300000dmjtxiao20021223faculties
+012Dx0000003p5DIAQ,003O300000dMJTxIAO,2013-09-15,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),003o300000dmjtxiao20130915faculties(withdrawn)
+012Dx0000003p5AIAQ,003O300000dMJTxIAO,2001-09-08,,001Dx00001HwDsgIAF,Installations,Reader Installation,003o300000dmjtxiao20010908readerinstallation
+012Dx0000003p5AIAQ,003O300000dMJTxIAO,2001-09-08,,001Dx00001HwDsgIAF,Installations,Acolyte Installation,003o300000dmjtxiao20010908acolyteinstallation
+012Dx0000003p5AIAQ,003O300000dMJTxIAO,2001-09-08,,001Dx00001HwDsgIAF,Installations,Candidate Installation,003o300000dmjtxiao20010908candidateinstallation
 012Dx0000003p5AIAQ,003Dx00000nKjOnIAK,2011-06-24,,001Dx00001HwFFSIA3,Ecclesial Affiliations,Incardinated,003dx00000nkjoniak20110624incardinated
 012Dx0000003p5DIAQ,003Dx00000nKjOpIAK,,1999-06-12,001Dx00001HwDsgIAF,Faculties,Faculties (General),003dx00000nkjopiak19990612faculties(general)
 012Dx0000003p5DIAQ,003Dx00000nKjOqIAK,1900-01-01,,001Dx00001HwDsgIAF,Faculties,Faculties (Withdrawn),003dx00000nkjoqiak19000101faculties(withdrawn)
