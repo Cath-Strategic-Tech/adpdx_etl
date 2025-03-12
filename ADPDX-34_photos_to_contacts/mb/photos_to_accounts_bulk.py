@@ -15,7 +15,7 @@ from googleapiclient.errors import HttpError
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    filename='photo_upload.log',  
+    filename='photo_upload.log',
     filemode='a'
 )
 
@@ -36,7 +36,7 @@ SERVICE_ACCOUNT_FILE = os.getenv('SERVICE_ACCOUNT_FILE')
 FOLDER_ID = os.getenv('FOLDER_ID')
 
 # URL base de Salesforce Files
-FILE_DOMAIN = os.getenv('FILE_DOMAIN') 
+FILE_DOMAIN = os.getenv('FILE_DOMAIN')
 
 # Photo field to update in Salesforce
 PHOTO_FIELD_ACCOUNT = os.getenv('PHOTO_FIELD_ACCOUNT')
@@ -73,13 +73,13 @@ def get_image_from_drive(service, file_id):
                 status, done = downloader.next_chunk()
             return fh.getvalue()
         except HttpError as error:
-            if error.resp.status in [429, 500, 502, 503, 504]: 
-                if attempt < retries - 1: 
-                    wait_time = 2 ** attempt 
+            if error.resp.status in [429, 500, 502, 503, 504]:
+                if attempt < retries - 1:
+                    wait_time = 2 ** attempt
                     print(f"Rate limit exceeded. Retrying in {wait_time} seconds...")
                     time.sleep(wait_time)
                 else:
-                    raise error 
+                    raise error
             else:
                 raise error
 
@@ -87,13 +87,13 @@ def upload_image_and_get_update_data(sf, file_info, existing_images):
     """Uploads image to Salesforce, links to Account, and updates PHOTO_FIELD_ACCOUNT."""
     try:
         file_id, file_name, sf_account_id = file_info['file_id'], file_info['file_name'], file_info['sf_account_id']
-        
+
         # Scenario 2: Image exists, check PHOTO_FIELD format
         account = sf.Account.get(sf_account_id)
         if not account:
-            raise Exception(f"No account found with Id = {sf_account_id}")           
+            raise Exception(f"No account found with Id = {sf_account_id}")
         # Verifica si la imagen ya existe en Salesforce para este contacto (usando sf_account_id)
-        if file_name in existing_images.get(sf_account_id, []):
+        if file_name in existing_images.get(sf_account_id,):
             # Query para encontrar la versión de contenido (ContentVersion) correspondiente
             query = f"SELECT Id, ContentDocumentId FROM ContentVersion WHERE PathOnClient = '{file_name}' AND FirstPublishLocationId = '{sf_account_id}'"
             result = sf.query(query)
@@ -105,7 +105,7 @@ def upload_image_and_get_update_data(sf, file_info, existing_images):
                 image_url = f'{FILE_DOMAIN}/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Jpg&amp;versionId={content_version_id}&amp;operationContext=CHATTER&amp;contentId={content_document_id}'
                 expected_image_tag = f'<p><img src="{image_url}" alt="{file_name}"></img></p>'
 
-                if account.get(PHOTO_FIELD_ACCOUNT,'') != expected_image_tag:
+                if account.get(PHOTO_FIELD_ACCOUNT, '') != expected_image_tag:
                     print(f"Image exists, but {PHOTO_FIELD_ACCOUNT} needs update for {file_name}. Updating field...")
                     return {'Id': sf_account_id, PHOTO_FIELD_ACCOUNT: expected_image_tag}
                 else:
@@ -114,7 +114,7 @@ def upload_image_and_get_update_data(sf, file_info, existing_images):
 
             else:
                 raise Exception(f"Image file found in drive but not in Salesforce for {file_name}.")
-           
+
         # Scenario 1: Image does not exist, upload and update
         image_data = get_image_from_drive(drive_service, file_id)
         encoded_image = base64.b64encode(image_data).decode('utf-8')
@@ -122,16 +122,16 @@ def upload_image_and_get_update_data(sf, file_info, existing_images):
         # Check if the account exists
         account = sf.Account.get(sf_account_id)
         if not account:
-            raise Exception(f"No account found with Id = {sf_account_id}")        
+            raise Exception(f"No account found with Id = {sf_account_id}")
 
         result = sf.ContentVersion.create({
             'PathOnClient': file_name,
             'Title': file_name,
             'VersionData': encoded_image,
-            'FirstPublishLocationId': sf_account_id  
+            'FirstPublishLocationId': sf_account_id
         })
 
-        content_version_id = result['id']  
+        content_version_id = result['id']
         content_version = sf.ContentVersion.get(content_version_id)
         content_document_id = content_version['ContentDocumentId']
 
@@ -139,57 +139,94 @@ def upload_image_and_get_update_data(sf, file_info, existing_images):
         image_url = f'{FILE_DOMAIN}/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Jpg&versionId={content_version_id}&operationContext=CHATTER&contentId={content_document_id}'
         image_tag = f'<p><img src="{image_url}" alt="{file_name}" /></p>'
 
-        return {'Id': sf_account_id, PHOTO_FIELD_ACCOUNT: image_tag}  
+        return {'Id': sf_account_id, PHOTO_FIELD_ACCOUNT: image_tag}
     except Exception as e:
         print(f"Error uploading/linking image {file_name} to Account: {e}")
         logging.error(f"Error processing {file_name}: {e}")
-        return None 
+        return None
+
+def get_or_create_subdirectory(drive_service, parent_folder_id, subdirectory_name):
+    """
+    Gets or creates a subdirectory within a parent folder.
+    """
+    try:
+        # Check if the subdirectory exists
+        results = drive_service.files().list(
+            q=f"'{parent_folder_id}' in parents and mimeType='application/vnd.google-apps.folder' and name='{subdirectory_name}'",
+            fields="files(id)"
+        ).execute()
+        items = results.get('files',)
+        if items:
+            return items[0]['id']  # Return the existing subdirectory ID
+        else:
+            # Create the subdirectory if it doesn't exist
+            file_metadata = {
+                'name': subdirectory_name,
+                'parents': [parent_folder_id],
+                'mimeType': 'application/vnd.google-apps.folder'
+            }
+            file = drive_service.files().create(body=file_metadata, fields='id').execute()
+            return file.get('id')  # Return the ID of the newly created subdirectory
+    except HttpError as error:
+        print(f"An error occurred: {error}")
+        return None
 
 def main():
+    # Initialize collections
+    updated_accounts =[]# Initialize updated_accounts
+    existing_images = {}   # Initialize existing_images
+
     # Fetch all account IDs in one query, for efficiency
     query = f"SELECT Id, Archdpdx_Migration_Id__c, {PHOTO_FIELD_ACCOUNT} FROM Account"
     account_results = sf.query_all(query)
-    account_id_map = {c['Archdpdx_Migration_Id__c']: c['Id'] 
-           for c in account_results['records'] 
-           if 'Archdpdx_Migration_Id__c' in c and c['Archdpdx_Migration_Id__c']}
+    account_id_map = {c['Archdpdx_Migration_Id__c']: c['Id']
+                       for c in account_results['records']
+                       if 'Archdpdx_Migration_Id__c' in c and c['Archdpdx_Migration_Id__c']}
 
     # Verify access to Google Drive folder on startup
     if not check_drive_access(drive_service, FOLDER_ID):
         print("Error: Access denied to Google Drive folder. Check your credentials and permissions.")
         return  # Exit the program if no access
 
-    updated_accounts = []
+    # Get the 'Accounts' subdirectory ID
+    accounts_folder_id = get_or_create_subdirectory(drive_service, FOLDER_ID, 'Accounts')
+    if not accounts_folder_id:
+        print("Error: Could not find or create the 'Accounts' subdirectory.")
+        return
+
     page_token = None
 
-    # Consulta única para obtener todas las imágenes existentes
+    # Process Salesforce data and initialize existing_images
     query = "SELECT Id, PathOnClient, FirstPublishLocationId FROM ContentVersion"
     existing_images_results = sf.query_all(query)
 
-    # Crear un diccionario para almacenar las imágenes existentes por contacto
-    existing_images = {}
+    for account in account_results['records']:
+        if 'Id' in account:
+            account_id = account['Id']
+            existing_images[account_id] =[] # Initialize with an empty list
+
     for image in existing_images_results['records']:
         account_id = image['FirstPublishLocationId']
-        if account_id not in existing_images:
-            existing_images[account_id] = []
-        existing_images[account_id].append(image['PathOnClient'])
+        if account_id in existing_images:
+            existing_images[account_id].append(image['PathOnClient'])
 
     while True:
         try:
             results = drive_service.files().list(
-                q=f"'{FOLDER_ID}' in parents and mimeType contains 'image'",
+                q=f"'{accounts_folder_id}' in parents and mimeType contains 'image'",
                 fields="nextPageToken, files(id, name)",
-                pageSize=1000,  
+                pageSize=1000,
                 pageToken=page_token
             ).execute()
-            items = results.get('files', [])
+            items = results.get('files',)
 
             # Initialize update_records before the for loop
             update_records = []
 
             batch_size = 50
             for i in range(0, len(items), batch_size):
-                batch = items[i:i+batch_size]
-                for item in batch:  
+                batch = items[i:i + batch_size]
+                for item in batch:
                     file_id = item['id']
                     file_name = item['name']
                     if file_name.startswith("photo") and file_name.endswith(".jpg"):
@@ -197,17 +234,22 @@ def main():
                             account_id = file_name[5:11].lstrip('0')
                             sf_account_id = account_id_map.get(f"Parishes_{account_id}")
                             if sf_account_id is not None:
-                                update_record = upload_image_and_get_update_data(sf, {'file_id': file_id, 'file_name': file_name, 'sf_account_id': sf_account_id}, existing_images)
+                                update_record = upload_image_and_get_update_data(sf,
+                                                                                {'file_id': file_id,
+                                                                                 'file_name': file_name,
+                                                                                 'sf_account_id': sf_account_id},
+                                                                                existing_images)
                                 if update_record is not None:
                                     update_records.append(update_record)
                             else:
-                                print(f"Error: No account found with Archdpdx_Migration_Id__c = {account_id}")
+                                print(
+                                    f"Error: No account found with Archdpdx_Migration_Id__c = {account_id}")
                         except ValueError:
                             print(f"Error: Invalid file name format for {file_name}. Skipping.")
 
             if update_records:
-                for i in range(0, len(update_records), 100): 
-                    sf.bulk.Account.update(update_records[i:i+100])
+                for i in range(0, len(update_records), 100):
+                    sf.bulk.Account.update(update_records[i:i + 100])
                 updated_accounts.extend(update_records)
 
             page_token = results.get('nextPageToken', None)
@@ -215,16 +257,16 @@ def main():
                 break
 
         except HttpError as error:
-            if error.resp.status == 429: 
+            if error.resp.status == 429:
                 retry_after = int(error.resp.headers.get('Retry-After', 1))
                 print(f"Rate limit exceeded. Retrying in {retry_after} seconds...")
-                time.sleep(retry_after + 1) 
+                time.sleep(retry_after + 1)
             else:
-                raise error  
+                raise error
 
     # Write updated accounts to a CSV file
     with open('updated_accounts.csv', 'w', newline='') as csvfile:
-        fieldnames = ['Id', 'Name', 'Archdpdx_Migration_Id__c']  
+        fieldnames = ['Id', 'Name', 'Archdpdx_Migration_Id__c']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         for account in updated_accounts:
@@ -233,10 +275,9 @@ def main():
             migration_id = next((k for k, v in account_id_map.items() if v == sf_account_id), None)
             writer.writerow({
                 'Id': sf_account_id,
-                'Name': account_details['Name'], 
+                'Name': account_details['Name'],
                 'Archdpdx_Migration_Id__c': migration_id
             })
-
 
 if __name__ == '__main__':
     main()
