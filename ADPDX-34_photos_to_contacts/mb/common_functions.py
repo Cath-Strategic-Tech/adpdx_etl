@@ -277,8 +277,8 @@ def upload_new_image(sf, drive_service, file_id, file_name, sf_record_id, object
 
 def process_image(sf, drive_service, file_info, existing_images, object_name, photo_field, file_domain):
     """
-    Processes an image for a Salesforce record (Account, Contact, etc.): 
-    checks if it exists or uploads a new one, and returns update data.
+    Processes an image for a Salesforce record (Account, Contact, etc.):
+    checks if it exists or uploads a new one, and returns update data along with a result message.
     
     Args:
         sf: Salesforce connection object.
@@ -290,47 +290,42 @@ def process_image(sf, drive_service, file_info, existing_images, object_name, ph
         file_domain: The Salesforce file domain.
     
     Returns:
-        dict or None: Update data if changes are needed, otherwise None.
+        tuple: (update_data, result_message)
+            update_data (dict or None): Update data if changes are needed.
+            result_message (str): A string indicating the result (e.g., "Updated", "Loaded-Linked (Pass)", "Skipped").
     """
     file_id = file_info['file_id']
     file_name = file_info['file_name']
     sf_record_id = file_info[f'sf_{object_name.lower()}_id']
-    current_photo_field_value = file_info.get('sf_photo_c', '')  # Default empty if not provided
-    
     try:
-        # Verify that the record exists
+        # Retrieve the Salesforce record
         sf_record = get_sf_record(sf, object_name, sf_record_id)
 
         # Check if the image already exists
         image_tag = check_existing_image(sf, file_name, sf_record_id, existing_images, file_domain)
-
         if image_tag:
-            # Normalize HTML using Beautiful Soup
-            if image_tag is None:
-                image_tag = ""  # or some default value
+            # Normalize HTML using BeautifulSoup
             soup_image_tag = BeautifulSoup(image_tag, 'html.parser')
-            normalized_image_tag = str(soup_image_tag)  # Convert back to string
-
+            normalized_image_tag = str(soup_image_tag)
             field_value = sf_record.get(photo_field, '')
             if field_value is None:
-                field_value = ""  # or some default value
+                field_value = ""
             soup_field_value = BeautifulSoup(field_value, 'html.parser')
-            normalized_field_value = str(soup_field_value)  # Convert back to string
+            normalized_field_value = str(soup_field_value)
 
             if normalized_field_value != normalized_image_tag:
-                x = sf_record.get(photo_field, '')
-                logging.info("Existing image found but field needs update for %s", file_name)
-                return {'Id': sf_record_id, photo_field: image_tag}
+                #logging.info("Existing image found but field needs update for %s", file_name)
+                return ({'Id': sf_record_id, photo_field: image_tag}, "Updated")
             else:
-                logging.info("Image and field already updated for %s. Skipping.", file_name)
-                return None
+                #logging.info("Image and field already updated for %s. Skipping.", file_name)
+                return (None, "Skipped")
         else:
             # Upload new image
             image_tag = upload_new_image(sf, drive_service, file_id, file_name, sf_record_id, object_name, file_domain)
-            return {'Id': sf_record_id, photo_field: image_tag}
+            return ({'Id': sf_record_id, photo_field: image_tag}, "Loaded-Linked (Pass)")
     except Exception as e:
         logging.error("Error processing image %s: %s", file_name, e)
-        return None
+        return (None, f"Error: {e}")
 
 def load_sf_data(sf, object_name, photo_field):
     """
@@ -373,13 +368,14 @@ def load_sf_data(sf, object_name, photo_field):
     return id_map, photo_field_map, existing_images
 
 
-def process_drive_files(sf, service, folder_id, object_name, id_map, photo_field_map, existing_images, file_regex, photo_field, file_domain):
+def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo_field_map, existing_images, file_regex, photo_field, file_domain):
     """
     Processes drive files from the 'Accounts' or 'Contacts' subdirectory and returns a list of update records.
-
+    While processing, it prints details for each file in a formatted table.
+    
     Args:
-        sf: Salesforce connection object
-        service: The authenticated Google Drive service object.
+        sf: Salesforce connection object.
+        drive_service: The authenticated Google Drive service object.
         folder_id: The parent Google Drive folder ID.
         object_name: The Salesforce object type ('Account' or 'Contact').
         id_map: A dictionary mapping migration IDs to Salesforce record IDs.
@@ -387,10 +383,10 @@ def process_drive_files(sf, service, folder_id, object_name, id_map, photo_field
         existing_images: A dictionary of existing images in Salesforce.
         file_regex: A compiled regular expression to match file names.
         photo_field: The name of the field to update with the image tag.
-        file_domain: The domain of salesforce for the file 
-
+        file_domain: The Salesforce file domain.
+    
     Returns:
-        A list of dictionaries, where each dictionary contains the ID and the photo field to update for a record.
+        list: A list of dictionaries, where each dictionary contains the ID and the photo field to update for a record.
     """
     update_records = []
     object_id_key = f"sf_{object_name.lower()}_id"  # Construct key based on object_name
@@ -399,22 +395,29 @@ def process_drive_files(sf, service, folder_id, object_name, id_map, photo_field
     subdirectory_name = "Accounts" if object_name == "Account" else "Contacts"
 
     # Get or create the subdirectory inside the parent folder
-    subdirectory_id = get_or_create_subdirectory(service, folder_id, subdirectory_name)
+    subdirectory_id = get_or_create_subdirectory(drive_service, folder_id, subdirectory_name)
     if not subdirectory_id:
         logging.error(f"Failed to find or create subdirectory '{subdirectory_name}' in folder {folder_id}")
         return update_records
 
+    # Print header once
+    header = f"{'Processing Photo File':25} {'Record Name':20} {'External ID':20} {'Result':20}"
+    separator = "-" * len(header)
+    print(header)
+    print(separator)
+
     page_token = None
     while True:
         try:
-            results = service.files().list(
+            results = drive_service.files().list(
                 q=f"'{subdirectory_id}' in parents and mimeType contains 'image'",
                 fields="nextPageToken, files(id, name)",
                 pageSize=1000,
                 pageToken=page_token
             ).execute()
             items = results.get('files', [])
-            print(f'Found {len(items)} image files in {subdirectory_name}')
+            # Print number of files found for debugging
+            #print(f"Found {len(items)} image files in {subdirectory_name}")
             
             batch_size = 50
             for i in range(0, len(items), batch_size):
@@ -427,25 +430,37 @@ def process_drive_files(sf, service, folder_id, object_name, id_map, photo_field
                         record_number = match.group(1).lstrip('0')
                         migration_id = f"Parishes_{record_number}" if object_name == 'Account' else str(record_number)
                         sf_record_id = id_map.get(migration_id)
-                        print(f"Processing file {file_name} for {object_name}, found record ID: {sf_record_id}")
-                        sf_photo_c = photo_field_map.get(migration_id, '') if object_name == 'Contact' else None  # Only used for Contact
+                        # Retrieve record details to get the record name
+                        if sf_record_id:
+                            record_details = get_sf_record(sf, object_name, sf_record_id)
+                            record_name = record_details.get("Name", "Unknown")
+                        else:
+                            record_name = "Unknown"
+                        # Print processing information even if no record found
+                        print(f"{file_name:25} {record_name:20} {migration_id:20}", end=" ")
+                        
+                        # For Contacts, get the current photo field value if available
+                        sf_photo_c = photo_field_map.get(migration_id, '') if object_name == 'Contact' else None
 
                         if sf_record_id:
                             file_info = {
                                 'file_id': file_id,
                                 'file_name': file_name,
-                                object_id_key: sf_record_id  # Use the constructed key
+                                object_id_key: sf_record_id
                             }
                             if sf_photo_c is not None:
-                                file_info['sf_photo_c'] = sf_photo_c  # Add sf_photo_c only for Contact
+                                file_info['sf_photo_c'] = sf_photo_c
 
-                            update_data = process_image(sf, service, file_info, existing_images, object_name, photo_field,file_domain)
+                            update_data, result_msg = process_image(sf, drive_service, file_info, existing_images, object_name, photo_field, file_domain)
+                            print(f"{result_msg:20}")
                             if update_data:
                                 update_records.append(update_data)
                         else:
                             logging.error(f"No {object_name} found with Archdpdx_Migration_Id__c = {migration_id}")
+                            print(f"{'Not Found':20}")
                     else:
                         logging.error(f"Invalid file name format: {file_name}")
+                        print(f"{file_name:25} {'-':20} {'-':20} {'Invalid Format':20}")
             
             page_token = results.get('nextPageToken', None)
             if not page_token:
@@ -458,7 +473,6 @@ def process_drive_files(sf, service, folder_id, object_name, id_map, photo_field
             else:
                 logging.error("Unexpected error: %s", error)
                 raise
-
     return update_records
 
 def perform_bulk_updates(sf, update_records, object_name):

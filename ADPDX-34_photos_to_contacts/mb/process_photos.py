@@ -130,7 +130,7 @@ def process_photos(sf, drive_service, object_name):
 
     update_records = process_drive_files(
         sf,  # Pass sf connection
-        service=drive_service,
+        drive_service=drive_service,
         folder_id=FOLDER_ID,
         object_name=object_name,
         id_map=id_map,
