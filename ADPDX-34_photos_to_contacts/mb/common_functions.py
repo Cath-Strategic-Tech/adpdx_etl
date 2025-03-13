@@ -18,10 +18,12 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 from googleapiclient.errors import HttpError
 from google.oauth2 import service_account
-from dotenv import load_dotenv
+from bs4 import BeautifulSoup
 
 # Optional: load environment variables from a .env file if available.
-load_dotenv()
+if os.path.exists('mb/.env'):
+    from dotenv import load_dotenv
+    load_dotenv()
 
 # --- Logging Setup ---
 logging.basicConfig(
@@ -193,11 +195,11 @@ def decode_image_from_base64(encoded_image):
     """
     return base64.b64decode(encoded_image)
 
-def check_existing_image(sf, file_name, sf_object_id, existing_images):
+def check_existing_image(sf, file_name, sf_object_id, existing_images, file_domain):
     """
     Checks if an image already exists in Salesforce for the account and returns its HTML tag.
     """
-    if file_name in existing_images.get(sf_account_id, []):
+    if file_name in existing_images.get(sf_object_id, []):
         query = (
             f"SELECT Id, ContentDocumentId FROM ContentVersion "
             f"WHERE PathOnClient = '{file_name}' AND FirstPublishLocationId = '{sf_object_id}'"
@@ -207,7 +209,7 @@ def check_existing_image(sf, file_name, sf_object_id, existing_images):
             content_version_id = result['records'][0]['Id']
             content_document_id = result['records'][0]['ContentDocumentId']
             image_url = (
-                f'{FILE_DOMAIN}/sfc/servlet.shepherd/version/renditionDownload?'
+                f'{file_domain}/sfc/servlet.shepherd/version/renditionDownload?'
                 f'rendition=ORIGINAL_Jpg&versionId={content_version_id}&operationContext=CHATTER&contentId={content_document_id}'
             )
             return f'<p><img src="{image_url}" alt="{file_name}"></img></p>'
@@ -233,7 +235,7 @@ def get_sf_record(sf, object_name, record_id):
     except AttributeError:
         raise Exception(f"Invalid Salesforce object: {object_name}")
 
-def upload_new_image(sf, file_id, file_name, sf_record_id, object_name):
+def upload_new_image(sf, file_id, file_name, sf_record_id, object_name, file_domain):
     """
     Uploads a new image to Salesforce and returns the HTML tag with the image URL.
     
@@ -243,6 +245,7 @@ def upload_new_image(sf, file_id, file_name, sf_record_id, object_name):
         file_name: Name of the file.
         sf_record_id: Salesforce record ID where the image will be uploaded.
         object_name: Salesforce object type (e.g., 'Account', 'Contact').
+        file_domain: The domain of salesforce
 
     Returns:
         str: HTML tag with the image URL.
@@ -265,13 +268,13 @@ def upload_new_image(sf, file_id, file_name, sf_record_id, object_name):
     content_document_id = content_version['ContentDocumentId']
     
     image_url = (
-        f'{FILE_DOMAIN}/sfc/servlet.shepherd/version/renditionDownload?'
+        f'{file_domain}/sfc/servlet.shepherd/version/renditionDownload?'
         f'rendition=ORIGINAL_Jpg&versionId={content_version_id}&operationContext=CHATTER&contentId={content_document_id}'
     )
     
     return f'<p><img src="{image_url}" alt="{file_name}" /></p>'
 
-def process_image(sf, file_info, existing_images, object_name, photo_field):
+def process_image(sf, file_info, existing_images, object_name, photo_field, file_domain):
     """
     Processes an image for a Salesforce record (Account, Contact, etc.): 
     checks if it exists or uploads a new one, and returns update data.
@@ -296,9 +299,23 @@ def process_image(sf, file_info, existing_images, object_name, photo_field):
         sf_record = get_sf_record(sf, object_name, sf_record_id)
 
         # Check if the image already exists
-        image_tag = check_existing_image(sf, file_name, sf_record_id, existing_images)
+        image_tag = check_existing_image(sf, file_name, sf_record_id, existing_images, file_domain)
+
         if image_tag:
-            if sf_record.get(photo_field, '') != image_tag:
+            # Normalize HTML using Beautiful Soup
+            if image_tag is None:
+                image_tag = ""  # or some default value
+            soup_image_tag = BeautifulSoup(image_tag, 'html.parser')
+            normalized_image_tag = str(soup_image_tag)  # Convert back to string
+
+            field_value = sf_record.get(photo_field, '')
+            if field_value is None:
+                field_value = ""  # or some default value
+            soup_field_value = BeautifulSoup(field_value, 'html.parser')
+            normalized_field_value = str(soup_field_value)  # Convert back to string
+
+            if normalized_field_value != normalized_image_tag:
+                x = sf_record.get(photo_field, '')
                 logging.info("Existing image found but field needs update for %s", file_name)
                 return {'Id': sf_record_id, photo_field: image_tag}
             else:
@@ -306,7 +323,7 @@ def process_image(sf, file_info, existing_images, object_name, photo_field):
                 return None
         else:
             # Upload new image
-            image_tag = upload_new_image(sf, file_id, file_name, sf_record_id, object_name)
+            image_tag = upload_new_image(sf, file_id, file_name, sf_record_id, object_name, file_domain)
             return {'Id': sf_record_id, photo_field: image_tag}
     except Exception as e:
         logging.error("Error processing image %s: %s", file_name, e)
@@ -353,36 +370,49 @@ def load_sf_data(sf, object_name, photo_field):
     return id_map, photo_field_map, existing_images
 
 
-def process_drive_files(service, folder_id, object_name, id_map, photo_field_map, existing_images, file_regex, photo_field):
+def process_drive_files(sf, service, folder_id, object_name, id_map, photo_field_map, existing_images, file_regex, photo_field, file_domain):
     """
-    Processes drive files and returns a list of update records for either Accounts or Contacts.
+    Processes drive files from the 'Accounts' or 'Contacts' subdirectory and returns a list of update records.
 
     Args:
+        sf: Salesforce connection object
         service: The authenticated Google Drive service object.
-        folder_id: The ID of the folder to process files from.
+        folder_id: The parent Google Drive folder ID.
         object_name: The Salesforce object type ('Account' or 'Contact').
         id_map: A dictionary mapping migration IDs to Salesforce record IDs.
         photo_field_map: A dictionary mapping migration IDs to the current value of the photo field in Salesforce.
         existing_images: A dictionary of existing images in Salesforce.
         file_regex: A compiled regular expression to match file names.
         photo_field: The name of the field to update with the image tag.
+        file_domain: The domain of salesforce for the file 
 
     Returns:
         A list of dictionaries, where each dictionary contains the ID and the photo field to update for a record.
     """
     update_records = []
-    page_token = None
     object_id_key = f"sf_{object_name.lower()}_id"  # Construct key based on object_name
 
+    # Determine subdirectory name based on object type
+    subdirectory_name = "Accounts" if object_name == "Account" else "Contacts"
+
+    # Get or create the subdirectory inside the parent folder
+    subdirectory_id = get_or_create_subdirectory(service, folder_id, subdirectory_name)
+    if not subdirectory_id:
+        logging.error(f"Failed to find or create subdirectory '{subdirectory_name}' in folder {folder_id}")
+        return update_records
+
+    page_token = None
     while True:
         try:
             results = service.files().list(
-                q=f"'{folder_id}' in parents and mimeType contains 'image'",
+                q=f"'{subdirectory_id}' in parents and mimeType contains 'image'",
                 fields="nextPageToken, files(id, name)",
                 pageSize=1000,
                 pageToken=page_token
             ).execute()
             items = results.get('files', [])
+            print(f'Found {len(items)} image files in {subdirectory_name}')
+            
             batch_size = 50
             for i in range(0, len(items), batch_size):
                 batch = items[i:i + batch_size]
@@ -394,6 +424,7 @@ def process_drive_files(service, folder_id, object_name, id_map, photo_field_map
                         record_number = match.group(1).lstrip('0')
                         migration_id = f"Parishes_{record_number}" if object_name == 'Account' else str(record_number)
                         sf_record_id = id_map.get(migration_id)
+                        print(f"Processing file {file_name} for {object_name}, found record ID: {sf_record_id}")
                         sf_photo_c = photo_field_map.get(migration_id, '') if object_name == 'Contact' else None  # Only used for Contact
 
                         if sf_record_id:
@@ -405,13 +436,14 @@ def process_drive_files(service, folder_id, object_name, id_map, photo_field_map
                             if sf_photo_c is not None:
                                 file_info['sf_photo_c'] = sf_photo_c  # Add sf_photo_c only for Contact
 
-                            update_data = process_image(sf, file_info, existing_images, object_name, photo_field)
+                            update_data = process_image(sf, file_info, existing_images, object_name, photo_field,file_domain)
                             if update_data:
                                 update_records.append(update_data)
                         else:
                             logging.error(f"No {object_name} found with Archdpdx_Migration_Id__c = {migration_id}")
                     else:
                         logging.error(f"Invalid file name format: {file_name}")
+            
             page_token = results.get('nextPageToken', None)
             if not page_token:
                 break
@@ -423,6 +455,7 @@ def process_drive_files(service, folder_id, object_name, id_map, photo_field_map
             else:
                 logging.error("Unexpected error: %s", error)
                 raise
+
     return update_records
 
 def perform_bulk_updates(sf, update_records, object_name):

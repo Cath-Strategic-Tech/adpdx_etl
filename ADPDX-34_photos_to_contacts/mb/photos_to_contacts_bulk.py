@@ -1,8 +1,7 @@
 import os
 import re
-import time
-import csv
 import logging
+import sys
 from dotenv import load_dotenv
 from simple_salesforce import Salesforce
 from googleapiclient.errors import HttpError
@@ -26,15 +25,44 @@ logging.basicConfig(
     filemode='a'
 )
 
-# --- Load environment variables ---
-load_dotenv()
 
+# Get the directory of the current script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+env_path = os.path.join(script_dir, '.env')
+
+# Try to load environment variables from .env if it exists,
+# otherwise assume system environment variables are set.
+if os.path.exists(env_path):
+    from dotenv import load_dotenv
+    load_dotenv(env_path)
+    print(f"Loaded environment variables from {env_path}")
+else:
+    print(f".env file not found in {env_path}. Assuming system environment variables are defined.")
+
+# List of required environment variables
+required_vars = [
+    "SF_USERNAME",
+    "SF_SECURITY_TOKEN",
+    "SF_DOMAIN",
+    "FILE_DOMAIN",
+    "SERVICE_ACCOUNT_FILE",
+    "FOLDER_ID",
+    "PHOTO_FIELD"
+]
+
+# Check if all required variables are defined; abort if any is missing.
+missing_vars = [var for var in required_vars if not os.getenv(var)]
+if missing_vars:
+    print(f"Error: The following required environment variables are missing: {', '.join(missing_vars)}")
+    sys.exit(1)
+
+
+# Now load the environment variables (they are guaranteed to be defined) and other paramters requeried
 # --- Salesforce Configuration ---
 SF_USERNAME = os.getenv('SF_USERNAME')
 SF_PASSWORD = os.getenv('SF_PASSWORD')
 SF_SECURITY_TOKEN = os.getenv('SF_SECURITY_TOKEN')
 SF_DOMAIN = os.getenv('SF_DOMAIN')
-sf = Salesforce(username=SF_USERNAME, password=SF_PASSWORD, security_token=SF_SECURITY_TOKEN, domain=SF_DOMAIN)
 
 # --- Google Drive Configuration ---
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
@@ -44,9 +72,18 @@ FILE_DOMAIN = os.getenv('FILE_DOMAIN')  # Base URL for Salesforce Files
 
 # Photo field to update in Salesforce Contact
 PHOTO_FIELD = os.getenv('PHOTO_FIELD')
+print("All required environment variables are loaded successfully.")
+
+# --- Connect to Salesforce Configuration---
+sf = Salesforce(
+    username=SF_USERNAME,
+    password=SF_PASSWORD,
+    security_token=SF_SECURITY_TOKEN,
+    domain=SF_DOMAIN
+)
 
 # Initialize Google Drive service using common function
-drive_service = init_drive_service(SERVICE_ACCOUNT_FILE, SCOPES)
+drive_service = init_drive_service(script_dir+'/'+SERVICE_ACCOUNT_FILE, SCOPES)
 
 def main():
     # Load contact mapping and existing images from Salesforce
@@ -62,6 +99,7 @@ def main():
     
     # Process drive files to collect update records
     update_records = process_drive_files(
+        sf,
         service=drive_service,
         folder_id=FOLDER_ID,
         object_name='Contact',  # Specify the object type
@@ -69,7 +107,8 @@ def main():
         photo_field_map=contact_photo_field_map,
         existing_images=existing_images,
         file_regex=file_regex,
-        photo_field=PHOTO_FIELD
+        photo_field=PHOTO_FIELD,
+        file_domain=FILE_DOMAIN
     )
     
     # Perform bulk updates in Salesforce
