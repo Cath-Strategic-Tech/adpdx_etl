@@ -148,7 +148,10 @@ def main():
     """
     Main function to orchestrate the photo processing for Accounts or Contacts.
     """
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6ff08761fbbefa1ff3e0746ccd0469d95c669a04
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     setup_logging()
@@ -168,8 +171,6 @@ def main():
     sf = initialize_salesforce_connection()
     drive_service = initialize_drive_service(script_dir)
     
-    from colorama import init, Fore, Style
-    init() # Initialize colorama
 
     while True:
         clear_screen()
