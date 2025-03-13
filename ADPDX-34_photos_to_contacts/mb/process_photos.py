@@ -148,10 +148,6 @@ def main():
     """
     Main function to orchestrate the photo processing for Accounts or Contacts.
     """
-<<<<<<< HEAD
-
-=======
->>>>>>> 6ff08761fbbefa1ff3e0746ccd0469d95c669a04
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     setup_logging()

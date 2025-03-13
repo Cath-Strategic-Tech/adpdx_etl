@@ -235,18 +235,19 @@ def get_sf_record(sf, object_name, record_id):
     except AttributeError:
         raise Exception(f"Invalid Salesforce object: {object_name}")
 
-def upload_new_image(sf, file_id, file_name, sf_record_id, object_name, file_domain):
+def upload_new_image(sf, drive_service, file_id, file_name, sf_record_id, object_name, file_domain):
     """
     Uploads a new image to Salesforce and returns the HTML tag with the image URL.
     
     Args:
         sf: Salesforce connection object.
+        drive_service: The authenticated Google Drive service object.
         file_id: ID of the file in Google Drive.
         file_name: Name of the file.
         sf_record_id: Salesforce record ID where the image will be uploaded.
         object_name: Salesforce object type (e.g., 'Account', 'Contact').
-        file_domain: The domain of salesforce
-
+        file_domain: The Salesforce file domain.
+    
     Returns:
         str: HTML tag with the image URL.
     """
@@ -274,18 +275,20 @@ def upload_new_image(sf, file_id, file_name, sf_record_id, object_name, file_dom
     
     return f'<p><img src="{image_url}" alt="{file_name}" /></p>'
 
-def process_image(sf, file_info, existing_images, object_name, photo_field, file_domain):
+def process_image(sf, drive_service, file_info, existing_images, object_name, photo_field, file_domain):
     """
     Processes an image for a Salesforce record (Account, Contact, etc.): 
     checks if it exists or uploads a new one, and returns update data.
-
+    
     Args:
         sf: Salesforce connection object.
+        drive_service: The authenticated Google Drive service object.
         file_info: Dictionary with file details.
         existing_images: Dictionary of existing images for comparison.
         object_name: Salesforce object type (e.g., 'Account', 'Contact').
         photo_field: Field name where the image tag is stored.
-
+        file_domain: The Salesforce file domain.
+    
     Returns:
         dict or None: Update data if changes are needed, otherwise None.
     """
@@ -323,7 +326,7 @@ def process_image(sf, file_info, existing_images, object_name, photo_field, file
                 return None
         else:
             # Upload new image
-            image_tag = upload_new_image(sf, file_id, file_name, sf_record_id, object_name, file_domain)
+            image_tag = upload_new_image(sf, drive_service, file_id, file_name, sf_record_id, object_name, file_domain)
             return {'Id': sf_record_id, photo_field: image_tag}
     except Exception as e:
         logging.error("Error processing image %s: %s", file_name, e)
@@ -436,7 +439,7 @@ def process_drive_files(sf, service, folder_id, object_name, id_map, photo_field
                             if sf_photo_c is not None:
                                 file_info['sf_photo_c'] = sf_photo_c  # Add sf_photo_c only for Contact
 
-                            update_data = process_image(sf, file_info, existing_images, object_name, photo_field,file_domain)
+                            update_data = process_image(sf, service, file_info, existing_images, object_name, photo_field,file_domain)
                             if update_data:
                                 update_records.append(update_data)
                         else:
