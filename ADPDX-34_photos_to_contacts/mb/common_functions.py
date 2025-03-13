@@ -401,7 +401,7 @@ def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo
         return update_records
 
     # Print header once
-    header = f"{'Processing Photo File':25} {'Record Name':20} {'External ID':20} {'Result':20}"
+    header = f"{'Processing File':17} {'Record Name':80} {'External ID':17} {'Result':20}"
     separator = "-" * len(header)
     print(header)
     print(separator)
@@ -437,7 +437,7 @@ def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo
                         else:
                             record_name = "Unknown"
                         # Print processing information even if no record found
-                        print(f"{file_name:25} {record_name:20} {migration_id:20}", end=" ")
+                        print(f"{file_name:17} {record_name:80} {migration_id:14}", end=" ")
                         
                         # For Contacts, get the current photo field value if available
                         sf_photo_c = photo_field_map.get(migration_id, '') if object_name == 'Contact' else None
@@ -459,8 +459,8 @@ def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo
                             logging.error(f"No {object_name} found with Archdpdx_Migration_Id__c = {migration_id}")
                             print(f"{'Not Found':20}")
                     else:
-                        logging.error(f"Invalid file name format: {file_name}")
-                        print(f"{file_name:25} {'-':20} {'-':20} {'Invalid Format':20}")
+                        #logging.error(f"Invalid file name format: {file_name}")
+                        print(f"{file_name:17} {'-':80} {'-':14} {'Invalid Format':20}")
             
             page_token = results.get('nextPageToken', None)
             if not page_token:
