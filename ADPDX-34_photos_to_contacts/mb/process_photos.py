@@ -5,6 +5,9 @@ import sys
 from dotenv import load_dotenv
 from simple_salesforce import Salesforce
 from googleapiclient.errors import HttpError
+from colorama import init, Fore, Style
+init() # Initialize colorama
+
 
 # Import common functions from common_functions.py
 from common_functions import (
@@ -145,6 +148,7 @@ def main():
     """
     Main function to orchestrate the photo processing for Accounts or Contacts.
     """
+
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     setup_logging()
@@ -163,31 +167,51 @@ def main():
 
     sf = initialize_salesforce_connection()
     drive_service = initialize_drive_service(script_dir)
+    
+    from colorama import init, Fore, Style
+    init() # Initialize colorama
 
     while True:
-        clear_screen()  # Clear the screen before displaying the menu
-        print("Please select an option:")
-        print("1. Process Accounts")
-        print("2. Process Contacts")
-        print("3. Exit")
+        clear_screen()
 
-        choice = input("Enter your choice (1-3): ")
+        print(" --------------------------------------- ")
+        print("    Loading Photos to Salesforce Menu    ")
+        print(" --------------------------------------- ")
+        print(Fore.GREEN + "  1. PROCESS ACCOUNTS" + Style.RESET_ALL)
+        print(Fore.BLUE + "  2. PROCESS CONTACTS" + Style.RESET_ALL)
+        print(Fore.RED + "  3. EXIT" + Style.RESET_ALL)
+        print("---------------------------------------")
+
+        choice = input("  Enter your choice (1-3): ")
 
         if choice == '1':
+            clear_screen()
+            print(" --------------------------------------- ")
+            print(Fore.GREEN+"         PROCESSING ACCOUNTS             " + Style.RESET_ALL)
+            print(" --------------------------------------- ")
+            print("")
             required_vars_account = required_vars_common + ["PHOTO_FIELD_ACCOUNT"]
             validate_environment_variables(required_vars_account)
             process_photos(sf, drive_service, 'Account')
-            break
+            print("")
+            input("  Press Enter to continue...")  # Pause to show the message
         elif choice == '2':
+            clear_screen()
+            print(" --------------------------------------- ")
+            print(Fore.BLUE + "         PROCESSING CONTACTS             " + Style.RESET_ALL)
+            print(" --------------------------------------- ")
+            print("")
             required_vars_contact = required_vars_common + ["PHOTO_FIELD"]
             validate_environment_variables(required_vars_contact)
             process_photos(sf, drive_service, 'Contact')
-            break
+            print("")
+            input("  Press Enter to continue...")  # Pause to show the message
         elif choice == '3':
-            print("Exiting program.")
+            print("  Exiting program. Goodbye!")
             break
         else:
-            print("Invalid choice. Please enter a number between 1 and 3.")
+            print(Fore.YELLOW + "  Invalid choice. Please enter a number between 1 and 3." + Style.RESET_ALL)
+            input("  Press Enter to continue...")  # Pause to show the message
 
 if __name__ == "__main__":
     main()
