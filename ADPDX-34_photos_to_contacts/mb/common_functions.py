@@ -20,6 +20,7 @@ from googleapiclient.http import MediaIoBaseDownload
 from googleapiclient.errors import HttpError
 from google.oauth2 import service_account
 from bs4 import BeautifulSoup
+from colorama import init, Fore, Style
 
 # Optional: load environment variables from a .env file if available.
 if os.path.exists('mb/.env'):
@@ -316,14 +317,14 @@ def process_image(sf, drive_service, file_info, existing_images, object_name, ph
 
             if normalized_field_value != normalized_image_tag:
                 #logging.info("Existing image found but field needs update for %s", file_name)
-                return ({'Id': sf_record_id, photo_field: image_tag}, "Updated")
+                return ({'Id': sf_record_id, photo_field: image_tag}, Fore.GREEN + "Updated" + Style.RESET_ALL)
             else:
                 #logging.info("Image and field already updated for %s. Skipping.", file_name)
                 return (None, "Skipped")
         else:
             # Upload new image
             image_tag = upload_new_image(sf, drive_service, file_id, file_name, sf_record_id, object_name, file_domain)
-            return ({'Id': sf_record_id, photo_field: image_tag}, "Loaded-Linked (Pass)")
+            return ({'Id': sf_record_id, photo_field: image_tag}, Fore.GREEN + "Loaded-Linked (Pass)" + Style.RESET_ALL)
     except Exception as e:
         logging.error("Error processing image %s: %s", file_name, e)
         return (None, f"Error: {e}")
@@ -380,38 +381,38 @@ def print_at(x, y, text):
 
 def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo_field_map, existing_images, file_regex, photo_field, file_domain):
     """
-    Procesa los archivos de Drive desde el subdirectorio 'Accounts' o 'Contacts' y devuelve una lista de registros de actualización.
-    Mientras se procesa, muestra una barra de progreso en el lugar en una línea reservada que se actualiza sin sobrescribir
-    los detalles del archivo impresos a continuación.
-    
+    Processes drive files from the 'Accounts' or 'Contacts' subdirectory and returns a list of update records.
+    While processing, displays an in-place progress bar on a reserved line that updates without overwriting
+    the file details printed below.
+
     Args:
-        sf: Objeto de conexión de Salesforce.
-        drive_service: El objeto de servicio autenticado de Google Drive.
-        folder_id: El ID de la carpeta principal de Google Drive.
-        object_name: El tipo de objeto de Salesforce ('Account' o 'Contact').
-        id_map: Un diccionario que asigna los ID de migración a los ID de registro de Salesforce.
-        photo_field_map: Un diccionario que asigna los ID de migración al valor actual del campo de la foto en Salesforce.
-        existing_images: Un diccionario de las imágenes existentes en Salesforce.
-        file_regex: Una expresión regular compilada para coincidir con los nombres de los archivos.
-        photo_field: El nombre del campo que se va a actualizar con la etiqueta de la imagen.
-        file_domain: El dominio del archivo de Salesforce.
-    
+        sf: Salesforce connection object.
+        drive_service: The authenticated Google Drive service object.
+        folder_id: The ID of the main Google Drive folder.
+        object_name: The Salesforce object type ('Account' or 'Contact').
+        id_map: A dictionary mapping migration IDs to Salesforce record IDs.
+        photo_field_map: A dictionary mapping migration IDs to the current value of the photo field in Salesforce.
+        existing_images: A dictionary of existing images in Salesforce.
+        file_regex: A compiled regular expression to match file names.
+        photo_field: The name of the field to update with the image tag.
+        file_domain: The Salesforce file domain.
+
     Returns:
-        Una lista de diccionarios, donde cada diccionario contiene el ID y el campo de la foto para actualizar para un registro.
+        A list of dictionaries, where each dictionary contains the ID and photo field to update for a record.
     """
     update_records = []
-    object_id_key = f"sf_{object_name.lower()}_id"  # Construye la clave basada en object_name
+    object_id_key = f"sf_{object_name.lower()}_id"  # Builds the key based on object_name
 
-    # Determina el nombre del subdirectorio basado en el tipo de objeto
+    # Determines the subdirectory name based on the object type
     subdirectory_name = "Accounts" if object_name == "Account" else "Contacts"
 
-    # Obtiene o crea el subdirectorio dentro de la carpeta principal
+    # Gets or creates the subdirectory within the main folder
     subdirectory_id = get_or_create_subdirectory(drive_service, folder_id, subdirectory_name)
     if not subdirectory_id:
-        logging.error(f"Error al encontrar o crear el subdirectorio '{subdirectory_name}' en la carpeta {folder_id}")
+        logging.error(f"Error finding or creating the subdirectory '{subdirectory_name}' in folder {folder_id}")
         return update_records
 
-    # Primero, reúne todos los archivos de imagen del subdirectorio
+    # First, gather all image files from the subdirectory
     all_items = []
     page_token = None
     while True:
@@ -430,74 +431,79 @@ def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo
         except HttpError as error:
             if error.resp.status == 429:
                 retry_after = int(error.resp.headers.get('Retry-After', 1))
-                logging.warning("Límite de velocidad excedido. Reintentando en %s segundos...", retry_after)
+                logging.warning("Rate limit exceeded. Retrying in %s seconds...", retry_after)
                 time.sleep(retry_after + 1)
             else:
-                logging.error("Error inesperado: %s", error)
+                logging.error("Unexpected error: %s", error)
                 raise
 
     total_files = len(all_items)
     if total_files == 0:
-        print(f"No se encontraron archivos de imagen en el subdirectorio '{subdirectory_name}'")
+        print(f"No image files found in the subdirectory '{subdirectory_name}'")
         return update_records
-    
-    # Línea en blanco
+
+    # Initialize counters for statistics
+    total_files_processed = 0
+    records_updated = 0
+    records_skipped = 0
+    processing_errors = 0
+
+    # Blank line
     print("")
     print("")
-    
-    # Separador
+
+    # Separator
     header = f"{'Processing File':17} {'Record Name':80} {'External ID':14} {'Result':20}"
     separator = "-" * len(header)
     print(separator)
-    
-    # Encabezado
+
+    # Header
     print(header)
-    
-    # Otro separador
+
+    # Another separator
     print(separator)
 
-    # details_count cuenta el número de líneas de detalles de archivo impresas.
+    # details_count counts the number of file details lines printed.
     details_count = 0
 
-    # Procesa cada archivo.
+    # Process each file.
     for idx, item in enumerate(all_items, start=1):
         file_id = item['id']
         file_name = item['name']
         match = file_regex.match(file_name)
-        
-        # Calcular el progreso
+
+        # Calculate progress
         progress = idx / total_files
         bar_length = 20
         filled_length = int(progress * bar_length)
-        progress_bar_str = '[' + '▒' * filled_length + ' ' * (bar_length - filled_length) + f'] {int(progress * 100)}%  Photo {idx} of {total_files}'
-        
-        # Guarda la posición actual del cursor
+        progress_bar_str = '[' +  Fore.GREEN + '▒' * filled_length + ' ' * (bar_length - filled_length) +  Style.RESET_ALL + f'] {int(progress * 100)}%  Photo {idx} of {total_files}' 
+
+
+        # Save the current cursor position
         sys.stdout.write("\033[s")
-        # Mueve el cursor hacia arriba (details_count + 5) líneas para alcanzar la línea reservada de la barra de progreso.
+        # Move the cursor up (details_count + 5) lines to reach the reserved progress bar line.
         sys.stdout.write(f"\033[{details_count + 5}A")
-        # Borra la línea de la barra de progreso e imprime la nueva barra de progreso
+        # Clear the progress bar line and print the new progress bar
         sys.stdout.write("\033[K" + progress_bar_str + "\n")
-        # Imprime una línea en blanco adicional
+        # Print an additional blank line
         sys.stdout.write("\033[K" + "\n")
-        # Restaura la posición del cursor para que la nueva línea de detalles del archivo se imprima en la parte inferior
+        # Restore the cursor position so that the new file details line is printed at the bottom
         sys.stdout.write("\033[u")
         sys.stdout.flush()
-       
 
-        
         if match:
             record_number = match.group(1).lstrip('0')
             migration_id = f"Parishes_{record_number}" if object_name == 'Account' else str(record_number)
             sf_record_id = id_map.get(migration_id)
-            
-            # Recupera los detalles del registro para el nombre del registro (si está disponible)
+
+            # Retrieve record details for the record name (if available)
             if sf_record_id:
                 record_details = get_sf_record(sf, object_name, sf_record_id)
                 record_name = record_details.get("Name", "Unknown")
             else:
                 record_name = "Unknown"
-            
-            # Imprime los detalles del archivo en una nueva línea (añade en la parte inferior)
+
+            # Print file details on a new line (adds at the bottom)
             print(f"{file_name:17} {record_name:80} {migration_id:14}", end=" ")
             sf_photo_c = photo_field_map.get(migration_id, '') if object_name == 'Contact' else None
 
@@ -512,19 +518,41 @@ def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo
 
                 update_data, result_msg = process_image(sf, drive_service, file_info, existing_images, object_name, photo_field, file_domain)
                 print(f"{result_msg:20}")
+                total_files_processed += 1  # Increment the counter here
+
                 if update_data:
                     update_records.append(update_data)
-            else:
-                logging.error(f"No se encontró {object_name} con Archdpdx_Migration_Id__c = {migration_id}")
-                print(f"{'No encontrado':20}")
-        else:
-            logging.error(f"Formato de nombre de archivo no válido: {file_name}")
-            print(f"{file_name:17} {'-':80} {'-':14} {'Formato no válido':20}")
-        
-        details_count += 1  # Incrementa el recuento de detalles del archivo después de imprimir una línea de detalles
+                    records_updated += 1
+                elif result_msg == "Skipped":
+                    records_skipped += 1
+                else:
+                    processing_errors += 1
 
-    # Imprime una nueva línea final para que la salida subsiguiente no sea sobrescrita por la barra de progreso
+            else:
+                logging.error(f"No {object_name} found with Archdpdx_Migration_Id__c = {migration_id}")
+                print(f"{'Not found':20}")
+                processing_errors += 1  # Increment errors when record not found
+
+        else:
+            logging.error(f"Invalid file name format: {file_name}")
+            print(f"{file_name:17} {'-':80} {'-':14} {'Invalid format':20}")
+            processing_errors += 1  # Increment errors for invalid format
+
+        details_count += 1  # Increment the file details count after printing a details line
+
+    # Print a final newline so that subsequent output is not overwritten by the progress bar
     print()
+
+    # Output statistics 
+    print("\n----------------------")
+    print("  Processing Summary  ")
+    print("----------------------")
+    print(f"Total files processed: {total_files_processed}")
+    print(f"{object_name} updated:       {records_updated}")
+    print(f"{object_name} skipped:       {records_skipped}")
+    print(f"Processing errors:     {processing_errors}")
+    print("----------------------\n")
+
     return update_records
 
 
