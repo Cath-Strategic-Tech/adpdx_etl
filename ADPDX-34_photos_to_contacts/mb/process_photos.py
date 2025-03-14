@@ -176,7 +176,7 @@ def main():
         print(" --------------------------------------- ")
         print(Fore.GREEN + "  1. PROCESS ACCOUNTS" + Style.RESET_ALL)
         print(Fore.BLUE + "  2. PROCESS CONTACTS" + Style.RESET_ALL)
-        print(Fore.RED + "  3. EXIT" + Style.RESET_ALL)
+        print(Fore.RED + "  3. EXIT" + Style.RESET_ALL)1
         print("---------------------------------------")
 
         choice = input("  Enter your choice (1-3): ")

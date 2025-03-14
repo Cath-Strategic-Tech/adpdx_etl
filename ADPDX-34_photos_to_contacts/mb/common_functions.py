@@ -8,6 +8,7 @@ imported in multiple notebooks to avoid code duplication.
 
 import os
 import io
+import sys
 import csv
 import time
 import base64
@@ -367,45 +368,51 @@ def load_sf_data(sf, object_name, photo_field):
 
     return id_map, photo_field_map, existing_images
 
+import sys
+
+import sys
+
+import sys
+
+def print_at(x, y, text):
+    """Moves the cursor to position (x, y) and prints text without moving to a new line."""
+    print(f"\033[{y};{x}H{text}", end="", flush=True)
 
 def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo_field_map, existing_images, file_regex, photo_field, file_domain):
     """
-    Processes drive files from the 'Accounts' or 'Contacts' subdirectory and returns a list of update records.
-    While processing, it prints details for each file in a formatted table.
+    Procesa los archivos de Drive desde el subdirectorio 'Accounts' o 'Contacts' y devuelve una lista de registros de actualización.
+    Mientras se procesa, muestra una barra de progreso en el lugar en una línea reservada que se actualiza sin sobrescribir
+    los detalles del archivo impresos a continuación.
     
     Args:
-        sf: Salesforce connection object.
-        drive_service: The authenticated Google Drive service object.
-        folder_id: The parent Google Drive folder ID.
-        object_name: The Salesforce object type ('Account' or 'Contact').
-        id_map: A dictionary mapping migration IDs to Salesforce record IDs.
-        photo_field_map: A dictionary mapping migration IDs to the current value of the photo field in Salesforce.
-        existing_images: A dictionary of existing images in Salesforce.
-        file_regex: A compiled regular expression to match file names.
-        photo_field: The name of the field to update with the image tag.
-        file_domain: The Salesforce file domain.
+        sf: Objeto de conexión de Salesforce.
+        drive_service: El objeto de servicio autenticado de Google Drive.
+        folder_id: El ID de la carpeta principal de Google Drive.
+        object_name: El tipo de objeto de Salesforce ('Account' o 'Contact').
+        id_map: Un diccionario que asigna los ID de migración a los ID de registro de Salesforce.
+        photo_field_map: Un diccionario que asigna los ID de migración al valor actual del campo de la foto en Salesforce.
+        existing_images: Un diccionario de las imágenes existentes en Salesforce.
+        file_regex: Una expresión regular compilada para coincidir con los nombres de los archivos.
+        photo_field: El nombre del campo que se va a actualizar con la etiqueta de la imagen.
+        file_domain: El dominio del archivo de Salesforce.
     
     Returns:
-        list: A list of dictionaries, where each dictionary contains the ID and the photo field to update for a record.
+        Una lista de diccionarios, donde cada diccionario contiene el ID y el campo de la foto para actualizar para un registro.
     """
     update_records = []
-    object_id_key = f"sf_{object_name.lower()}_id"  # Construct key based on object_name
+    object_id_key = f"sf_{object_name.lower()}_id"  # Construye la clave basada en object_name
 
-    # Determine subdirectory name based on object type
+    # Determina el nombre del subdirectorio basado en el tipo de objeto
     subdirectory_name = "Accounts" if object_name == "Account" else "Contacts"
 
-    # Get or create the subdirectory inside the parent folder
+    # Obtiene o crea el subdirectorio dentro de la carpeta principal
     subdirectory_id = get_or_create_subdirectory(drive_service, folder_id, subdirectory_name)
     if not subdirectory_id:
-        logging.error(f"Failed to find or create subdirectory '{subdirectory_name}' in folder {folder_id}")
+        logging.error(f"Error al encontrar o crear el subdirectorio '{subdirectory_name}' en la carpeta {folder_id}")
         return update_records
 
-    # Print header once
-    header = f"{'Processing File':17} {'Record Name':80} {'External ID':17} {'Result':20}"
-    separator = "-" * len(header)
-    print(header)
-    print(separator)
-
+    # Primero, reúne todos los archivos de imagen del subdirectorio
+    all_items = []
     page_token = None
     while True:
         try:
@@ -415,65 +422,111 @@ def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo
                 pageSize=1000,
                 pageToken=page_token
             ).execute()
-            items = results.get('files', [])
-            # Print number of files found for debugging
-            #print(f"Found {len(items)} image files in {subdirectory_name}")
-            
-            batch_size = 50
-            for i in range(0, len(items), batch_size):
-                batch = items[i:i + batch_size]
-                for item in batch:
-                    file_id = item['id']
-                    file_name = item['name']
-                    match = file_regex.match(file_name)
-                    if match:
-                        record_number = match.group(1).lstrip('0')
-                        migration_id = f"Parishes_{record_number}" if object_name == 'Account' else str(record_number)
-                        sf_record_id = id_map.get(migration_id)
-                        # Retrieve record details to get the record name
-                        if sf_record_id:
-                            record_details = get_sf_record(sf, object_name, sf_record_id)
-                            record_name = record_details.get("Name", "Unknown")
-                        else:
-                            record_name = "Unknown"
-                        # Print processing information even if no record found
-                        print(f"{file_name:17} {record_name:80} {migration_id:14}", end=" ")
-                        
-                        # For Contacts, get the current photo field value if available
-                        sf_photo_c = photo_field_map.get(migration_id, '') if object_name == 'Contact' else None
-
-                        if sf_record_id:
-                            file_info = {
-                                'file_id': file_id,
-                                'file_name': file_name,
-                                object_id_key: sf_record_id
-                            }
-                            if sf_photo_c is not None:
-                                file_info['sf_photo_c'] = sf_photo_c
-
-                            update_data, result_msg = process_image(sf, drive_service, file_info, existing_images, object_name, photo_field, file_domain)
-                            print(f"{result_msg:20}")
-                            if update_data:
-                                update_records.append(update_data)
-                        else:
-                            logging.error(f"No {object_name} found with Archdpdx_Migration_Id__c = {migration_id}")
-                            print(f"{'Not Found':20}")
-                    else:
-                        #logging.error(f"Invalid file name format: {file_name}")
-                        print(f"{file_name:17} {'-':80} {'-':14} {'Invalid Format':20}")
-            
+            items = results.get('files',)
+            all_items.extend(items)
             page_token = results.get('nextPageToken', None)
             if not page_token:
                 break
         except HttpError as error:
             if error.resp.status == 429:
                 retry_after = int(error.resp.headers.get('Retry-After', 1))
-                logging.warning("Rate limit exceeded. Retrying in %s seconds...", retry_after)
+                logging.warning("Límite de velocidad excedido. Reintentando en %s segundos...", retry_after)
                 time.sleep(retry_after + 1)
             else:
-                logging.error("Unexpected error: %s", error)
+                logging.error("Error inesperado: %s", error)
                 raise
+
+    total_files = len(all_items)
+    if total_files == 0:
+        print(f"No se encontraron archivos de imagen en el subdirectorio '{subdirectory_name}'")
+        return update_records
+    
+    # Línea en blanco
+    print("")
+    print("")
+    
+    # Separador
+    header = f"{'Processing File':17} {'Record Name':80} {'External ID':14} {'Result':20}"
+    separator = "-" * len(header)
+    print(separator)
+    
+    # Encabezado
+    print(header)
+    
+    # Otro separador
+    print(separator)
+
+    # details_count cuenta el número de líneas de detalles de archivo impresas.
+    details_count = 0
+
+    # Procesa cada archivo.
+    for idx, item in enumerate(all_items, start=1):
+        file_id = item['id']
+        file_name = item['name']
+        match = file_regex.match(file_name)
+        
+        # Calcular el progreso
+        progress = idx / total_files
+        bar_length = 20
+        filled_length = int(progress * bar_length)
+        progress_bar_str = '[' + '▒' * filled_length + ' ' * (bar_length - filled_length) + f'] {int(progress * 100)}%  Photo {idx} of {total_files}'
+        
+        # Guarda la posición actual del cursor
+        sys.stdout.write("\033[s")
+        # Mueve el cursor hacia arriba (details_count + 5) líneas para alcanzar la línea reservada de la barra de progreso.
+        sys.stdout.write(f"\033[{details_count + 5}A")
+        # Borra la línea de la barra de progreso e imprime la nueva barra de progreso
+        sys.stdout.write("\033[K" + progress_bar_str + "\n")
+        # Imprime una línea en blanco adicional
+        sys.stdout.write("\033[K" + "\n")
+        # Restaura la posición del cursor para que la nueva línea de detalles del archivo se imprima en la parte inferior
+        sys.stdout.write("\033[u")
+        sys.stdout.flush()
+       
+
+        
+        if match:
+            record_number = match.group(1).lstrip('0')
+            migration_id = f"Parishes_{record_number}" if object_name == 'Account' else str(record_number)
+            sf_record_id = id_map.get(migration_id)
+            
+            # Recupera los detalles del registro para el nombre del registro (si está disponible)
+            if sf_record_id:
+                record_details = get_sf_record(sf, object_name, sf_record_id)
+                record_name = record_details.get("Name", "Unknown")
+            else:
+                record_name = "Unknown"
+            
+            # Imprime los detalles del archivo en una nueva línea (añade en la parte inferior)
+            print(f"{file_name:17} {record_name:80} {migration_id:14}", end=" ")
+            sf_photo_c = photo_field_map.get(migration_id, '') if object_name == 'Contact' else None
+
+            if sf_record_id:
+                file_info = {
+                    'file_id': file_id,
+                    'file_name': file_name,
+                    object_id_key: sf_record_id
+                }
+                if sf_photo_c is not None:
+                    file_info['sf_photo_c'] = sf_photo_c
+
+                update_data, result_msg = process_image(sf, drive_service, file_info, existing_images, object_name, photo_field, file_domain)
+                print(f"{result_msg:20}")
+                if update_data:
+                    update_records.append(update_data)
+            else:
+                logging.error(f"No se encontró {object_name} con Archdpdx_Migration_Id__c = {migration_id}")
+                print(f"{'No encontrado':20}")
+        else:
+            logging.error(f"Formato de nombre de archivo no válido: {file_name}")
+            print(f"{file_name:17} {'-':80} {'-':14} {'Formato no válido':20}")
+        
+        details_count += 1  # Incrementa el recuento de detalles del archivo después de imprimir una línea de detalles
+
+    # Imprime una nueva línea final para que la salida subsiguiente no sea sobrescrita por la barra de progreso
+    print()
     return update_records
+
 
 def perform_bulk_updates(sf, update_records, object_name):
     """
