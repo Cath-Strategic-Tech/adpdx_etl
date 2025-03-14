@@ -548,8 +548,8 @@ def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo
     print("  Processing Summary  ")
     print("----------------------")
     print(f"Total files processed: {total_files_processed}")
-    print(f"{object_name} updated:       {records_updated}")
-    print(f"{object_name} skipped:       {records_skipped}")
+    print(f"{object_name}s updated:      {records_updated}")
+    print(f"{object_name}s skipped:      {records_skipped}")
     print(f"Processing errors:     {processing_errors}")
     print("----------------------\n")
 
