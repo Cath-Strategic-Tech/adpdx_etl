@@ -545,13 +545,13 @@ def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo
 
     # Output statistics 
     print("\n-----------------------------------------------------------")
-    print("  Processing Summary  ")
+    print("                  Processing Summary  ")
     print("-----------------------------------------------------------")
-    print(f"                           Total files processed: {total_files_processed}")
-    print(f"{object_name}s updated (Loaded-Linked & Updated): {records_updated}")
-    print(f"                          {object_name}s skipped: {records_skipped}")
-    print(f"                               Processing errors: {processing_errors}")
-    print("-----------------------------------------------------------n")
+    print(f"                      Total files processed: {total_files_processed}")
+    print(f" {object_name}s updated (Loaded-Linked & Updated): {records_updated}")
+    print(f"                           {object_name}s skipped: {records_skipped}")
+    print(f"                          Processing errors: {processing_errors}")
+    print("-----------------------------------------------------------")
 
     return update_records
 
