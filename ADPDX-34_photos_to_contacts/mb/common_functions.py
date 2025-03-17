@@ -14,6 +14,7 @@ import time
 import base64
 import logging
 from functools import wraps
+from typing import Tuple, Dict, List, Optional
 
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
@@ -34,7 +35,7 @@ logging.basicConfig(
 )
 
 # --- Retry Decorator ---
-def retry_on_failure(max_retries=3, exceptions=(HttpError,), initial_wait=1, backoff=2):
+def retry_on_failure(max_retries: int = 3, exceptions: Tuple = (HttpError,), initial_wait: int = 1, backoff: int = 2):
     """
     Decorator to retry a function upon specified exceptions.
     
@@ -73,7 +74,7 @@ def retry_on_failure(max_retries=3, exceptions=(HttpError,), initial_wait=1, bac
 
 # --- Google Drive Functions ---
 @retry_on_failure()
-def get_image_from_drive(service, file_id):
+def get_image_from_drive(service, file_id: str) -> bytes:
     """
     Downloads an image from Google Drive using retries on failure.
     
@@ -92,7 +93,7 @@ def get_image_from_drive(service, file_id):
         status, done = downloader.next_chunk()
     return fh.getvalue()
 
-def check_drive_access(service, folder_id):
+def check_drive_access(service, folder_id: str) -> bool:
     """
     Checks if the specified Google Drive folder is accessible.
     
@@ -113,7 +114,7 @@ def check_drive_access(service, folder_id):
         else:
             raise error
 
-def get_or_create_subdirectory(service, parent_folder_id, subdirectory_name):
+def get_or_create_subdirectory(service, parent_folder_id: str, subdirectory_name: str) -> Optional[str]:
     """
     Retrieves or creates a subdirectory within the specified parent folder in Google Drive.
     
@@ -145,7 +146,7 @@ def get_or_create_subdirectory(service, parent_folder_id, subdirectory_name):
         logging.error("Error getting/creating subdirectory %s: %s", subdirectory_name, error)
         return None
 
-def get_service_account_creds(service_account_file, scopes):
+def get_service_account_creds(service_account_file: str, scopes: List[str]):
     """
     Returns a credentials object using a service account file and scopes.
     
@@ -158,7 +159,7 @@ def get_service_account_creds(service_account_file, scopes):
     """
     return service_account.Credentials.from_service_account_file(service_account_file, scopes=scopes)
 
-def init_drive_service(service_account_file, scopes):
+def init_drive_service(service_account_file: str, scopes: List[str]):
     """
     Initializes the Google Drive service using the service account file and scopes.
     
@@ -173,7 +174,7 @@ def init_drive_service(service_account_file, scopes):
     return build('drive', 'v3', credentials=creds)
 
 # --- Utility Functions ---
-def encode_image_to_base64(image_data):
+def encode_image_to_base64(image_data: bytes) -> str:
     """
     Encodes image data to a base64 string.
     
@@ -185,7 +186,7 @@ def encode_image_to_base64(image_data):
     """
     return base64.b64encode(image_data).decode('utf-8')
 
-def decode_image_from_base64(encoded_image):
+def decode_image_from_base64(encoded_image: str) -> bytes:
     """
     Decodes a base64-encoded image back to bytes.
     
@@ -197,7 +198,7 @@ def decode_image_from_base64(encoded_image):
     """
     return base64.b64decode(encoded_image)
 
-def check_existing_image(sf, file_name, sf_object_id, existing_images, file_domain):
+def check_existing_image(sf, file_name: str, sf_object_id: str, existing_images: Dict[str, List[str]], file_domain: str) -> Optional[str]:
     """
     Checks if an image already exists in Salesforce for the account and returns its HTML tag.
     """
@@ -220,7 +221,7 @@ def check_existing_image(sf, file_name, sf_object_id, existing_images, file_doma
     return None
 # Additional common functions can be added here if needed.
 
-def get_sf_record(sf, object_name, record_id):
+def get_sf_record(sf, object_name: str, record_id: str) -> Dict:
     """
     Retrieves a Salesforce record (Account, Contact, etc.) or raises an exception if not found.
     
@@ -237,7 +238,7 @@ def get_sf_record(sf, object_name, record_id):
     except AttributeError:
         raise Exception(f"Invalid Salesforce object: {object_name}")
 
-def upload_new_image(sf, drive_service, file_id, file_name, sf_record_id, object_name, file_domain):
+def upload_new_image(sf, drive_service, file_id: str, file_name: str, sf_record_id: str, object_name: str, file_domain: str) -> str:
     """
     Uploads a new image to Salesforce and returns the HTML tag with the image URL.
     
@@ -277,7 +278,7 @@ def upload_new_image(sf, drive_service, file_id, file_name, sf_record_id, object
     
     return f'<p><img src="{image_url}" alt="{file_name}" /></p>'
 
-def process_image(sf, drive_service, file_info, existing_images, object_name, photo_field, file_domain):
+def process_image(sf, drive_service, file_info: Dict, existing_images: Dict[str, List[str]], object_name: str, photo_field: str, file_domain: str) -> Tuple[Optional[Dict], str]:
     """
     Processes an image for a Salesforce record (Account, Contact, etc.):
     checks if it exists or uploads a new one, and returns update data along with a result message.
@@ -329,7 +330,7 @@ def process_image(sf, drive_service, file_info, existing_images, object_name, ph
         logging.error("Error processing image %s: %s", file_name, e)
         return (None, f"Error: {e}")
 
-def load_sf_data(sf, object_name, photo_field):
+def load_sf_data(sf, object_name: str, photo_field: str) -> Tuple[Dict[str, str], Dict[str, str], Dict[str, List[str]]]:
     """
     Loads Salesforce data for a given object (Account, Contact, etc.) and returns:
     - A mapping of Migration ID -> Salesforce ID
@@ -379,7 +380,7 @@ def print_at(x, y, text):
     """Moves the cursor to position (x, y) and prints text without moving to a new line."""
     print(f"\033[{y};{x}H{text}", end="", flush=True)
 
-def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo_field_map, existing_images, file_regex, photo_field, file_domain):
+def process_drive_files(sf, drive_service, folder_id: str, object_name: str, id_map: Dict[str, str], photo_field_map: Dict[str, str], existing_images: Dict[str, List[str]], file_regex, photo_field: str, file_domain: str) -> List[Dict[str, str]]:
     """
     Processes drive files from the 'Accounts' or 'Contacts' subdirectory and returns a list of update records.
     While processing, displays an in-place progress bar on a reserved line that updates without overwriting
@@ -556,7 +557,7 @@ def process_drive_files(sf, drive_service, folder_id, object_name, id_map, photo
     return update_records
 
 
-def perform_bulk_updates(sf, update_records, object_name):
+def perform_bulk_updates(sf, update_records: List[Dict[str, str]], object_name: str) -> List[Dict[str, str]]:
     """
     Performs bulk updates in Salesforce for a specified object (Account or Contact).
 
@@ -581,7 +582,7 @@ def perform_bulk_updates(sf, update_records, object_name):
             updated_records_list.extend(batch)
     return updated_records_list
 
-def write_updated_records_to_csv(sf, updated_records, id_map, object_name, output_file):
+def write_updated_records_to_csv(sf, updated_records: List[Dict[str, str]], id_map: Dict[str, str], object_name: str, output_file: str):
     """
     Writes updated record details (Accounts or Contacts) to a CSV file.
 

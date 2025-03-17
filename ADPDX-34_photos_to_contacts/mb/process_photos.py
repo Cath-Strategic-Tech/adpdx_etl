@@ -45,7 +45,7 @@ def load_environment_variables(script_dir):
         str: Path to the .env file (if loaded), or None.
     """
     env_path = os.path.join(script_dir, '.env')
-    if os.path.exists(env_path):
+    if (os.path.exists(env_path)):
         load_dotenv(env_path)
         print(f"Loaded environment variables from {env_path}")
         return env_path
@@ -80,12 +80,16 @@ def initialize_salesforce_connection():
     SF_SECURITY_TOKEN = os.getenv('SF_SECURITY_TOKEN')
     SF_DOMAIN = os.getenv('SF_DOMAIN')
 
-    return Salesforce(
-        username=SF_USERNAME,
-        password=SF_PASSWORD,
-        security_token=SF_SECURITY_TOKEN,
-        domain=SF_DOMAIN
-    )
+    try:
+        return Salesforce(
+            username=SF_USERNAME,
+            password=SF_PASSWORD,
+            security_token=SF_SECURITY_TOKEN,
+            domain=SF_DOMAIN
+        )
+    except Exception as e:
+        logging.error("Failed to connect to Salesforce: %s", e)
+        sys.exit(1)
 
 def initialize_drive_service(script_dir):
     """
@@ -99,7 +103,11 @@ def initialize_drive_service(script_dir):
     """
     SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
     SERVICE_ACCOUNT_FILE = os.getenv('SERVICE_ACCOUNT_FILE')
-    return init_drive_service(os.path.join(script_dir, SERVICE_ACCOUNT_FILE), SCOPES)
+    try:
+        return init_drive_service(os.path.join(script_dir, SERVICE_ACCOUNT_FILE), SCOPES)
+    except HttpError as error:
+        logging.error("Failed to initialize Google Drive service: %s", error)
+        sys.exit(1)
 
 def process_photos(sf, drive_service, object_name):
     """
@@ -144,6 +152,49 @@ def process_photos(sf, drive_service, object_name):
     updated_records = perform_bulk_updates(sf, update_records, object_name)
     write_updated_records_to_csv(sf, updated_records, id_map, object_name, f'updated_{object_name.lower()}s.csv')
 
+def display_menu():
+    """Displays the main menu and returns the user's choice."""
+    clear_screen()
+    print(" --------------------------------------- ")
+    print("    Loading Photos to Salesforce Menu    ")
+    print(" --------------------------------------- ")
+    print(Fore.BLUE + "  1. PROCESS ACCOUNTS")
+    print("  2. PROCESS CONTACTS")
+    print("  3. EXIT" + Style.RESET_ALL)
+    print("---------------------------------------")
+    return input("  Enter your choice (1-3): ")
+
+def process_choice(choice, sf, drive_service, required_vars_common):
+    """Processes the user's menu choice."""
+    if choice == '1':
+        clear_screen()
+        print(" --------------------------------------- ")
+        print(Fore.GREEN+"         PROCESSING ACCOUNTS             " + Style.RESET_ALL)
+        print(" --------------------------------------- ")
+        print("")
+        required_vars_account = required_vars_common + ["PHOTO_FIELD_ACCOUNT"]
+        validate_environment_variables(required_vars_account)
+        process_photos(sf, drive_service, 'Account')
+        print("")
+        input("  Press Enter to continue...")  # Pause to show the message
+    elif choice == '2':
+        clear_screen()
+        print(" --------------------------------------- ")
+        print(Fore.BLUE + "         PROCESSING CONTACTS             " + Style.RESET_ALL)
+        print(" --------------------------------------- ")
+        print("")
+        required_vars_contact = required_vars_common + ["PHOTO_FIELD"]
+        validate_environment_variables(required_vars_contact)
+        process_photos(sf, drive_service, 'Contact')
+        print("")
+        input("  Press Enter to continue...")  # Pause to show the message
+    elif choice == '3':
+        print("  Exiting program. Goodbye!")
+        sys.exit(0)
+    else:
+        print(Fore.YELLOW + "  Invalid choice. Please enter a number between 1 and 3." + Style.RESET_ALL)
+        input("  Press Enter to continue...")  # Pause to show the message
+
 def main():
     """
     Main function to orchestrate the photo processing for Accounts or Contacts.
@@ -166,49 +217,10 @@ def main():
 
     sf = initialize_salesforce_connection()
     drive_service = initialize_drive_service(script_dir)
-    
 
     while True:
-        clear_screen()
-
-        print(" --------------------------------------- ")
-        print("    Loading Photos to Salesforce Menu    ")
-        print(" --------------------------------------- ")
-        print(Fore.BLUE + "  1. PROCESS ACCOUNTS")
-        print("  2. PROCESS CONTACTS")
-        print("  3. EXIT" + Style.RESET_ALL)
-        print("---------------------------------------")
-
-        choice = input("  Enter your choice (1-3): ")
-
-        if choice == '1':
-            clear_screen()
-            print(" --------------------------------------- ")
-            print(Fore.GREEN+"         PROCESSING ACCOUNTS             " + Style.RESET_ALL)
-            print(" --------------------------------------- ")
-            print("")
-            required_vars_account = required_vars_common + ["PHOTO_FIELD_ACCOUNT"]
-            validate_environment_variables(required_vars_account)
-            process_photos(sf, drive_service, 'Account')
-            print("")
-            input("  Press Enter to continue...")  # Pause to show the message
-        elif choice == '2':
-            clear_screen()
-            print(" --------------------------------------- ")
-            print(Fore.BLUE + "         PROCESSING CONTACTS             " + Style.RESET_ALL)
-            print(" --------------------------------------- ")
-            print("")
-            required_vars_contact = required_vars_common + ["PHOTO_FIELD"]
-            validate_environment_variables(required_vars_contact)
-            process_photos(sf, drive_service, 'Contact')
-            print("")
-            input("  Press Enter to continue...")  # Pause to show the message
-        elif choice == '3':
-            print("  Exiting program. Goodbye!")
-            break
-        else:
-            print(Fore.YELLOW + "  Invalid choice. Please enter a number between 1 and 3." + Style.RESET_ALL)
-            input("  Press Enter to continue...")  # Pause to show the message
+        choice = display_menu()
+        process_choice(choice, sf, drive_service, required_vars_common)
 
 if __name__ == "__main__":
     main()
