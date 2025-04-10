@@ -1,6 +1,8 @@
 RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,mbfc__Ordination_Type__c,Date,Place,Prelate,mbfc__Matrimonial_Wife__c
 2766,Notation,,Notice of Holy Orders,Presbyteral,1997-05-03,,"Diocese of Lokoja, Nigeria",
 601,Notation,,Notice of Holy Orders,Presbyteral,1980-09-13,"St. Mary’s Parish, Corvallis",Most Rev. Cornelius Power,
+3390,Notation,,Notice of Matrimony,,1991-02-25,,,0
+3388,Notation,,Notice of Matrimony,,2013-07-06,"San Pablo Parish, Zapopan, Jalisco, Mexico",,0
 1592,Notation,,Proof of Baptism,,2000-09-23,"St. Mary Catholic Church, Eugene, OR",,
 1592,Notation,,Notice of Confirmation,,2014-05-09,,,
 557,Notation,,Proof of Baptism,,1985-02-11,"Our Lady of Fatima, Karlo, Nigeria",,
@@ -14,6 +16,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 672,Notation,,Notice of Confirmation,,1986-11-16,,,
 672,Notation,,Notice of Holy Orders,Diaconate,2011-11-19,"Abbey Church, Mount Angel Abbey, Saint Benedict, OR",,
 672,Notation,,Notice of Holy Orders,Presbyteral,2012-06-09,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
+3478,Notation,,Proof of Baptism,,2000-01-22,,,
 577,Notation,,Notice of Holy Orders,Presbyteral,1983-05-07,"Maryknoll, New York",His Eminence Terence J. Cooke,
 558,Notation,,Notice of Holy Orders,Diaconate,2014-07-01,,,
 558,Notation,,Notice of Holy Orders,Presbyteral,2014-12-27,,,
@@ -25,9 +28,9 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 287,Notation,,Notice of Matrimony,,1965-12-27,,,152
 287,Notation,,Notice of Holy Orders,Diaconate,2000-12-09,"Cathedral of the Immaculate Conception, Portland, OR",,
 624,Notation,,Notice of Holy Orders,Presbyteral,1959-05-23,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. Edward D. Howard,
+307,Notation,,Notice of Matrimony,,1985-07-27,,,0
 1595,Notation,,Proof of Baptism,,2001-01-06,"Jesus el Buen Pastor, Guayaquil, Ecuador",,
 1595,Notation,,Notice of Confirmation,,2005-10-22,,,
-307,Notation,,Notice of Matrimony,,1985-07-27,,,0
 837,Notation,,Notice of Holy Orders,Presbyteral,1978-05-29,"Melapudur, Tiruchirapalli, India",,
 1525,Notation,,Notice of Holy Orders,Presbyteral,1981-11-07,"Cathedral of Chihuahua, Mexico",Most Rev. Adalberto Almeida,
 179,Notation,,Notice of Matrimony,,1988-10-01,,,86
@@ -48,6 +51,9 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 254,Notation,,Notice of Holy Orders,Diaconate,2007-12-15,"Cathedral of the Immaculate Conception, Portland, OR",,
 254,Notation,,Notice of Holy Orders,Presbyteral,2009-06-13,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
 815,Notation,,Notice of Holy Orders,Presbyteral,1965-12-18,,,
+3334,Notation,,Proof of Baptism,,1987-05-16,"St. George, Seattle, WA",,
+3334,Notation,,Notice of Holy Orders,Diaconate,2022-09-24,"St. Ignatius Church, Chestnut Hill, MA",,
+3334,Notation,,Notice of Holy Orders,Presbyteral,2023-06-10,"Blessed Sacrament Parish, Hollywood, CA",Most Rev. Gerald F. Kicanas,
 752,Notation,,Notice of Holy Orders,Presbyteral,1999-05-22,"Vadasery, India",Rt. Rev. Leon Tharmaraj,
 211,Notation,,Notice of Matrimony,,1970-08-08,,,237
 237,Notation,,Proof of Baptism,,1947-02-02,"St. John the Evangelist, Butte MT",,
@@ -69,6 +75,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 2082,Notation,,Notice of Matrimony,,2008-12-27,,,0
 675,Notation,,Notice of Holy Orders,Presbyteral,1988-07-03,"Moshi, Tanzania",Amadeus Misarikie,
 1538,Notation,,Notice of Holy Orders,Presbyteral,2014-05-23,"Holy Family Parish, Yakima, WA",Most Rev. Joseph J. Tyson,
+3369,Notation,,Notice of Matrimony,,2010-06-26,"St. Elizabeth Ann Seton Parish, Aloha, OR",,3368
 816,Notation,,Notice of Holy Orders,Presbyteral,1994-06-25,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. William J. Levada,
 46,Notation,,Proof of Baptism,,1942-04-19,"St. Mary, Corvallis OR",,
 46,Notation,,Notice of Holy Orders,Diaconate,2012-06-29,"Abbey Church, Mount Angel Abbey, Saint Benedict, OR",,
@@ -100,6 +107,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 426,Notation,,Proof of Baptism,,1958-01-19,"Zion Lutheran Church, Pittsburgh, PA",,
 426,Notation,,Notice of Matrimony,,1991-12-20,,,0
 677,Notation,,Notice of Holy Orders,Presbyteral,1968-05-18,"Portland, OR",Most Rev. Robert J. Dwyer,
+3405,Notation,,Notice of Matrimony,,2013-04-20,,,0
 1553,Notation,,Proof of Baptism,,1999-01-10,"St. Mary’s Catholic Church, Mount Angel, OR",,
 1553,Notation,,Notice of Confirmation,,2007-05-06,,,
 2052,Notation,,Proof of Baptism,,1984-03-18,"St. Philomeme’s, Sacramento, CA",,
@@ -113,15 +121,15 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 159,Notation,,Notice of Matrimony,,1970-07-11,,,153
 159,Notation,,Notice of Holy Orders,Diaconate,2007-11-03,"Cathedral of the Immaculate Conception, Portland, OR",,
 153,Notation,,Notice of Matrimony,,1970-07-11,,,159
+3053,Notation,,Proof of Baptism,,1994-11-26,"St. Patrick Gannon Univeristy Chapel, Erie, PA",,
 585,Notation,,Notice of Holy Orders,Presbyteral,1974-06-29,"St. James Cathedral, Seattle, WA",Most Rev. Thomas J. Connolly,
 634,Notation,,Notice of Holy Orders,Presbyteral,2015-06-05,"Cathedral of the Immaculate Conception, Portland, OR","Most Rev. Alexander K. Sample, J.C.L., D.D.",
 25,Notation,,Notice of Matrimony,,1977-08-20,,,169
 169,Notation,,Proof of Baptism,,1950-01-22,"St. James, Wyoming OH",,
 169,Notation,,Notice of Matrimony,,1977-08-20,,,25
 169,Notation,,Notice of Holy Orders,Diaconate,1996-06-15,"Cathedral of the Blessed Sacrament, Sacramento CA",,
-3110,Notation,,Notice of Matrimony,,1994-06-18,"St. Anthony Parish, Tigard, OR",,3109
 3109,Notation,,Proof of Baptism,,1989-03-26,"Sacred Heart Parish, Medford, OR",,
-3109,Notation,,Notice of Matrimony,,1994-06-18,"St. Anthony Parish, Tigard, OR",,3110
+3109,Notation,,Notice of Matrimony,,1994-06-18,"St. Anthony Parish, Tigard, OR",,0
 383,Notation,,Proof of Baptism,,1958-03-02,"St. Anselm, Tooting Bec, London, England",,
 383,Notation,,Notice of Holy Orders,Presbyteral,1997-03-08,"St. Anselm, Tooting Bec, London",Most Rev. Michael Bowen,
 818,Notation,,Notice of Holy Orders,Presbyteral,1984-05-04,Servites,,
@@ -143,6 +151,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 297,Notation,,Proof of Baptism,,1948-09-26,"St. Mary’s Church, St. Clair MI",,
 297,Notation,,Notice of Holy Orders,Diaconate,1988-05-21,"St. Mary’s Cathedral, Peoria IL",,
 646,Notation,,Notice of Holy Orders,Presbyteral,2015-06-05,"Cathedral of the Immaculate Conception, Portland, OR","Most Rev. Alexander K. Sample, J.C.L., D.D.",
+3481,Notation,,Proof of Baptism,,2002-10-06,"Due West UMC, Kennesaw, GA",,
 678,Notation,,Notice of Holy Orders,Presbyteral,1956-05-19,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. Edward D. Howard,
 109,Notation,,Notice of Matrimony,,1973-12-27,,,82
 82,Notation,,Proof of Baptism,,1950-08-25,"Cathedral of the Immaculate Conception, Lake Charles LA",,
@@ -165,6 +174,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 2794,Notation,,Notice of Matrimony,,1987-06-20,"Our Lady of Lavang Parish, Portland, OR",,2793
 2079,Notation,,Proof of Baptism,,1944-10-22,"St. Patrick Church, Tacoma, WA",,
 2079,Notation,,Notice of Holy Orders,Presbyteral,1974-11-09,"Seattle, WA",,
+3425,Notation,,Notice of Holy Orders,Diaconate,2024-06-08,"Our Lady of the Angels Church, Kenai, Alaska",,
 227,Notation,,Notice of Matrimony,,1994-08-13,,,188
 188,Notation,,Proof of Baptism,,1966-07-10,"Our Lady Queen of the Universe, Black Rock, Barbados West Indies",,
 188,Notation,,Notice of Matrimony,,1994-08-13,,,227
@@ -249,6 +259,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 181,Notation,,Proof of Baptism,,1947-01-09,"St. Mary’s Church, Evanston IL",,
 181,Notation,,Notice of Matrimony,,2001-05-25,,,0
 735,Notation,,Notice of Holy Orders,Presbyteral,1973-06-29,Jesuits,,
+3401,Notation,,Notice of Matrimony,,2018-12-15,,,0
 682,Notation,,Notice of Holy Orders,Presbyteral,1972-08-26,San Diego,Most Rev. Timothy Manning,
 1518,Notation,,Notice of Holy Orders,Diaconate,2011-10-01,"San Carlos Cathedral, Monterey, CA",,
 1518,Notation,,Notice of Holy Orders,Presbyteral,2012-05-19,"Old Mission Church, San Luis Obispo, CA",Most Rev. Richard Garcia,
@@ -256,6 +267,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 2002,Notation,,Proof of Baptism,,1962-07-04,"St. Patrick Church, Walla Walla, WA",,
 2002,Notation,,Notice of Holy Orders,Diaconate,1993-05-29,Our Lady of Lourdes Church,,
 2002,Notation,,Notice of Holy Orders,Presbyteral,1994-06-18,"St. Joseph Church, Seattle, WA",,
+3432,Notation,,Proof of Baptism,,1989-12-23,"Our Lady of Perpetual Help, Indio, CA",,
 32,Notation,,Proof of Baptism,,2001-04-14,"St. Mary Cathedral, Portland OR",,
 32,Notation,,Notice of Matrimony,,2001-04-01,,,0
 627,Notation,,Notice of Holy Orders,Presbyteral,1986-11-07,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. William J. Levada,
@@ -265,6 +277,9 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 984,Notation,,Notice of Holy Orders,Diaconate,1978-10-15,,,
 984,Notation,,Notice of Holy Orders,Presbyteral,1979-05-19,,,
 312,Notation,,Notice of Matrimony,,1990-12-29,,,0
+3380,Notation,,Proof of Baptism,,2022-04-16,"St. Cecilia Parish, Beaverton, OR",,
+3380,Notation,,Notice of Confirmation,,2022-04-16,"St. Cecilia Parish, Beaverton, OR",,
+3380,Notation,,Notice of Matrimony,,2020-07-16,,,0
 1571,Notation,,Proof of Baptism,,1948-03-26,"Ithaca, New York",,
 1571,Notation,,Notice of Confirmation,,1998-12-20,,,
 1571,Notation,,Notice of Holy Orders,Diaconate,2000-11-28,"St. John’s Cathedral, Fresno, CA",,
@@ -282,10 +297,16 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 232,Notation,,Proof of Baptism,,1942-09-13,"St. Peter’s Parish, Dorchester MA",,
 232,Notation,,Notice of Matrimony,,1970-09-26,,,295
 232,Notation,,Notice of Holy Orders,Diaconate,2006-12-09,"Cathedral of the Immaculate Conception, Portland, OR",,
+3407,Notation,,Notice of Matrimony,,1992-05-30,,,0
+3332,Notation,,Proof of Baptism,,1958-06-01,"St. Francis of Assisi Parish, Auburn, NY",,
+3332,Notation,,Notice of Matrimony,,1980-08-23,"Our Lady of Perpetual Help, St. Mary’s, Albany, OR",,0
 2750,Notation,,Proof of Baptism,,1990-12-29,,,
 2750,Notation,,Notice of Confirmation,,2007-04-25,,,
 2750,Notation,,Notice of Holy Orders,Diaconate,2021-08-29,,,
 2750,Notation,,Notice of Holy Orders,Presbyteral,2022-04-23,,,
+3410,Notation,,Notice of Matrimony,,2021-09-18,,,0
+3477,Notation,,Proof of Baptism,,1998-10-11,"St. Pius X Parish, Westerly, RI",,
+3477,Notation,,Notice of Confirmation,,2013-05-08,"Sacred Heart Parish, West Warwick, RI",,
 997,Notation,,Notice of Holy Orders,Presbyteral,2016-06-11,"St. Aloysius Church, Spokane, WA",Most Rev. Thomas Daly,
 310,Notation,,Proof of Baptism,,1960-06-19,"Nativity of the Blessed Virgin Mary, Rainier OR",,
 310,Notation,,Notice of Matrimony,,1986-10-11,,,6
@@ -321,6 +342,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 474,Notation,,Notice of Matrimony,,1994-04-02,,,0
 793,Notation,,Notice of Holy Orders,Presbyteral,2013-06-08,"Cathedral of the Immaculate Conception, Portland, OR","Most Rev. Alexander K. Sample, J.C.L., D.D.",
 759,Notation,,Notice of Holy Orders,Presbyteral,1996-05-08,"Mother of God Church, Majorda, Goa, India",Most Rev. Filip N. Farrao,
+3112,Notation,,Notice of Matrimony,,2002-02-09,"St. Joseph Parish, Limpio, Paraguay",,3111
 240,Notation,,Notice of Matrimony,,1987-11-08,,,260
 820,Notation,,Notice of Holy Orders,Presbyteral,2012-06-09,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
 348,Notation,,Notice of Matrimony,,1977-09-03,,,164
@@ -334,6 +356,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 142,Notation,,Proof of Baptism,,1958-06-08,"Epiphany Catholic Church, South El Monte CA",,
 142,Notation,,Notice of Matrimony,,1983-08-20,,,216
 142,Notation,,Notice of Holy Orders,Diaconate,2006-12-09,"Cathedral of the Immaculate Conception, Portland, OR",,
+3403,Notation,,Notice of Matrimony,,2022-03-26,,,0
 846,Notation,,Notice of Holy Orders,Presbyteral,1962-12-22,"Oakland, CA",Most Rev. Merlin Guilfoyle,
 2977,Notation,,Notice of Holy Orders,Presbyteral,2003-12-12,"Basilica of the Holy House of Loreto, Italy",,
 563,Notation,,Notice of Holy Orders,Presbyteral,1953-12-19,Rome,Most Rev. Martin J. O’Connor,
@@ -361,7 +384,6 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 436,Notation,,Notice of Confirmation,,1977-03-06,,,
 794,Notation,,Notice of Holy Orders,Diaconate,2008-01-12,"Basilica of the National Shrine of the Immaculate Conception, Washington, DC",,
 794,Notation,,Notice of Holy Orders,Presbyteral,2009-05-30,"St. Dominic Church, San Francisco, CA","Most Rev. Thomas C. Kelly, OP",
-1027,Notation,,Notice of Holy Orders,Presbyteral,2009-01-10,"New Orleans, LA","Bishop John H. Ricard, SSJ",
 363,Notation,,Proof of Baptism,,1968-03-17,"Holy Cross Parish, Miramar, New Zealand",,
 363,Notation,,Notice of Matrimony,,1993-07-16,,,0
 898,Notation,,Notice of Holy Orders,Presbyteral,1996-02-18,"Manila, Philippines",Cardinal Sin,
@@ -374,6 +396,8 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 687,Notation,,Notice of Holy Orders,Presbyteral,1994-04-09,"Notre Dame, IN",Most Rev. J. MacDonald,
 688,Notation,,Notice of Holy Orders,Presbyteral,1956-06-17,"All Hallows College, Dublin, Ireland",Most Rev. O’Reilly,
 689,Notation,,Notice of Holy Orders,Presbyteral,1981-09-12,"Abbey Church, Mount Angel Abbey, Saint Benedict, OR",Most Rev. Cornelius Power,
+3327,Notation,,Notice of Holy Orders,Diaconate,1992-12-08,"Fatima, Portugal",,
+3327,Notation,,Notice of Holy Orders,Presbyteral,1993-12-24,Stara Halic,Most Rev. Eduard Kojnik,
 649,Notation,,Notice of Holy Orders,Presbyteral,1964-05-01,,,
 1530,Notation,,Proof of Baptism,,1957-06-23,"St. Paul’s United Church, Orillia, Ontario, Canada",,
 1530,Notation,,Notice of Confirmation,,1975-09-21,"Archdiocese for the Military Services, USA",,
@@ -388,6 +412,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 3018,Notation,,Notice of Confirmation,,2013-05-20,"St. James Parish, McMinnville, OR",,
 609,Notation,,Notice of Holy Orders,Presbyteral,1958-12-20,Rome,Most Rev. Martin J. O’Connor,
 527,Notation,,Notice of Holy Orders,Diaconate,2022-09-29,"St. Peter’s Basilica, Vatican",,
+527,Notation,,Notice of Holy Orders,Presbyteral,2024-06-22,"St. Mary Cathedral of the Immaculate Conception, Portland, OR",Most Rev. Alexander K. Sample,
 1,Notation,,Notice of Matrimony,,1987-05-02,,,0
 2799,Notation,,Notice of Holy Orders,Diaconate,2008-01-26,,,
 2799,Notation,,Notice of Holy Orders,Presbyteral,2008-08-23,,,
@@ -395,8 +420,8 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 799,Notation,,Notice of Holy Orders,Presbyteral,1968-05-11,,,
 1582,Notation,,Notice of Holy Orders,Presbyteral,2013-11-23,"Sacred Heart Cathedral, Eldoret, Kenya",Most. Rev. Cornelius Kipng’eno Arap Korir,
 546,Notation,,Notice of Holy Orders,Diaconate,2022-09-29,"St. Peter’s Basilica, Vatican",,
-3322,Notation,,Notice of Matrimony,,2000-05-06,"Newberg Assembly of God, Newberg, OR",,3323
-3323,Notation,,Notice of Matrimony,,2000-05-06,"Newberg Assembly of God, Newberg, OR",,3322
+546,Notation,,Notice of Holy Orders,Presbyteral,2024-06-22,"St. Mary Cathedral of the Immaculate Conception, Portland, OR",Most Rev. Alexander K. Sample,
+3322,Notation,,Notice of Matrimony,,2000-05-06,"Newberg Assembly of God, Newberg, OR",,0
 202,Notation,,Proof of Baptism,,1967-06-11,"St. John the Baptist, Joliet IL",,
 202,Notation,,Notice of Matrimony,,1998-07-11,,,253
 202,Notation,,Notice of Holy Orders,Diaconate,2005-11-05,"Cathedral of the Immaculate Conception, Portland, OR",,
@@ -428,20 +453,26 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 2775,Notation,,Notice of Confirmation,,1979-03-01,"Assumption of the Blessed Virgin Mary Parish, Belmont, MI",,
 2775,Notation,,Notice of Matrimony,,1991-06-01,,,0
 586,Notation,,Notice of Holy Orders,Presbyteral,2015-07-11,"Austin, TX",Bishop A. Elias Zaidan,
+3387,Notation,,Notice of Holy Orders,Presbyteral,2007-06-01,,,
 1586,Notation,,Notice of Holy Orders,Presbyteral,2010-04-10,"Mangalore, India",Aloysius Paul D’souza,
-3111,Notation,,Proof of Baptism,,1979-05-07,"St. Joseph, Limpio, Paraguay",,
+3111,Notation,,Proof of Baptism,,1979-04-07,"San José, Limpio, Paraguay",,
 3111,Notation,,Notice of Matrimony,,2002-02-09,"St. Joseph Parish, Limpio, Paraguay",,3112
+3394,Notation,,Notice of Matrimony,,2010-09-11,,,0
+3352,Notation,,Proof of Baptism,,1981-03-22,"Holy Family Parish, Glendale, CA",,
+3352,Notation,,Notice of Matrimony,,2007-04-14,"Our Lady of the Rosary Parish, San Diego, CA",,0
 1526,Notation,,Notice of Holy Orders,Presbyteral,1997-05-31,,"Don Luis Reynoso Cervantes, IX",
 108,Notation,,Notice of Matrimony,,1969-11-08,,,63
 63,Notation,,Proof of Baptism,,1946-04-26,"Regina Coeli, Pittsburgh PA",,
 63,Notation,,Notice of Matrimony,,1969-11-08,,,108
 63,Notation,,Notice of Holy Orders,Diaconate,1991-11-09,"Cathedral of Sts. Simon and Jude, Phoenix AZ",,
-128,Notation,,Notice of Matrimony,,1980-03-14,,,18
 18,Notation,,Proof of Baptism,,1956-08-19,"St. Clement, St. Louis MO",,
-18,Notation,,Notice of Matrimony,,1980-03-14,,,128
 18,Notation,,Notice of Holy Orders,Diaconate,2010-11-06,"Cathedral of the Immaculate Conception, Portland, OR",,
 638,Notation,,Notice of Holy Orders,Presbyteral,1982-01-10,"Prince of Peace Abbey, Oceanside, CA",Most Rev. Leo T. Maher,
 2406,Notation,,Notice of Holy Orders,Diaconate,2023-12-16,"Mount Angel Abbey, St. Benedict, OR",,
+3341,Notation,,Notice of Matrimony,,1988-02-20,"Nuestra Señora de la Esperanza, Lima, Perú",,372
+3399,Notation,,Proof of Baptism,,1970-02-28,,,
+3399,Notation,,Notice of Matrimony,,2024-02-08,,,0
+3351,Notation,,Notice of Holy Orders,Presbyteral,1994-12-15,,Most Rev. Thomas Savundranayagam,
 847,Notation,,Notice of Holy Orders,Presbyteral,1972-08-19,"St. Charles, Portland",Most Rev. Robert J. Dwyer,
 848,Notation,,Notice of Holy Orders,Presbyteral,2015-06-05,"Cathedral of the Immaculate Conception, Portland, OR","Most Rev. Alexander K. Sample, J.C.L., D.D.",
 103,Notation,,Proof of Baptism,,1971-12-05,"St. Thomas á Becket, Jefferson Hills PA",,
@@ -458,13 +489,16 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 276,Notation,,Proof of Baptism,,1973-11-08,,,
 276,Notation,,Notice of Matrimony,,2003-06-29,,,296
 276,Notation,,Notice of Holy Orders,Diaconate,2011-10-29,"Cathedral of the Immaculate Conception, Portland, OR",,
+3411,Notation,,Notice of Matrimony,,2021-07-31,,,0
 587,Notation,,Notice of Holy Orders,Presbyteral,1966-06-04,,,
+3328,Notation,,Notice of Holy Orders,Presbyteral,1984-06-05,,,
 2867,Notation,,Notice of Holy Orders,Diaconate,2021-06-05,"St. Dominic Catholic Church, San Francisco, CA",,
 2867,Notation,,Notice of Holy Orders,Presbyteral,2022-06-24,"St. Dominic Catholic Church, San Francisco, CA",Bishop Robert Barron,
 1519,Notation,,Notice of Holy Orders,Presbyteral,1987-04-25,,,
 465,Notation,,Notice of Matrimony,,1992-12-02,,,0
 839,Notation,,Notice of Holy Orders,Presbyteral,2006-06-10,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
 610,Notation,,Notice of Holy Orders,Presbyteral,1967-06-16,Dominicans,,
+761,Notation,,Notice of Holy Orders,Presbyteral,1988-04-09,,,
 119,Notation,,Proof of Baptism,,1953-02-01,"Zoar Lutheran Church, Canby OR",,
 119,Notation,,Notice of Confirmation,,1987-04-04,"St. Patrick, Canby OR",,
 119,Notation,,Notice of Profession of Faith,,1987-04-04,"St. Patrick, Canby OR",,
@@ -475,6 +509,10 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 763,Notation,,Proof of Baptism,,1966-05-08,"St. Paul Newman Center, Fresno, CA",,
 763,Notation,,Notice of Holy Orders,Diaconate,2001-10-13,"Jesuit School of Theology at Berkeley, CA",,
 763,Notation,,Notice of Holy Orders,Presbyteral,2002-06-08,"St. Ignatius Church, San Francisco, CA",,
+3368,Notation,,Proof of Baptism,,1985-10-01,"San Antonio de Padua, Chaco, Argentina",,
+3368,Notation,,Notice of Confirmation,,2000-04-11,"San Antonio de Padua, Chaco, Argentina",,
+3368,Notation,,Notice of Matrimony,,2010-06-26,"St. Elizabeth Ann Seton Parish, Aloha, OR",,3369
+3336,Notation,,Notice of Holy Orders,Presbyteral,2005-06-01,,"Alhambra, CA",
 2407,Notation,,Notice of Holy Orders,Diaconate,2022-12-10,"Mount Angel Abbey, St. Benedict, OR",,
 2407,Notation,,Notice of Holy Orders,Presbyteral,2023-11-04,"Mount Angel Abbey, Mount Angel, OR",Most Rev. Liam Cary,
 293,Notation,,Proof of Baptism,,1971-02-18,"Párroco de Inmaculada Concepción de María, Ciudad Arce, El Salvador",,
@@ -511,6 +549,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 651,Notation,,Notice of Holy Orders,Presbyteral,2000-08-12,,,
 662,Notation,,Notice of Holy Orders,Presbyteral,2010-06-05,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
 3054,Notation,,Notice of Holy Orders,Diaconate,2023-08-27,,,
+3054,Notation,,Notice of Holy Orders,Presbyteral,2024-04-06,"Notre Dame, South Bend, IN",,
 565,Notation,,Proof of Baptism,,1977-11-19,"St. John the Baptist Parish, Camalig, Albay",,
 565,Notation,,Notice of Confirmation,,1989-05-01,,,
 565,Notation,,Notice of Holy Orders,Presbyteral,2013-06-08,"Cathedral of the Immaculate Conception, Portland, OR","Most Rev. Alexander K. Sample, J.C.L., D.D.",
@@ -548,6 +587,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 1102,Notation,,Proof of Baptism,,1944-08-21,"St. Charles Church, Salmon, ID",,
 1102,Notation,,Notice of Holy Orders,Diaconate,1974-11-30,"Toronto, ON",,
 1102,Notation,,Notice of Holy Orders,Presbyteral,1975-06-14,"Portland, OR",,
+3392,Notation,,Notice of Matrimony,,2015-10-25,,,0
 1104,Notation,,Notice of Holy Orders,Presbyteral,1992-05-02,"Ascension Church, Portland, OR","Most Rev. Paul Waldschmidt, CSC, STD",
 36,Notation,,Notice of Matrimony,,1969-08-23,,,16
 16,Notation,,Proof of Baptism,,1948-05-30,"Holy Redeemer, Montrose CA",,
@@ -580,6 +620,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 73,Notation,,Notice of Matrimony,,1985-03-30,,,0
 715,Notation,,Notice of Holy Orders,Presbyteral,1970-10-18,"Sublimity, Oregon",Most Rev. Robert J. Dwyer,
 784,Notation,,Notice of Holy Orders,Presbyteral,1967-06-11,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. Peter Birch,
+1113,Notation,,Notice of Holy Orders,Presbyteral,2008-05-31,,,
 3061,Notation,,Notice of Matrimony,,1979-06-01,"First Lutheran Church, Lake Lillian, Minnesota (with dispensation)",,3060
 3060,Notation,,Proof of Baptism,,1954-11-28,"Cathedral of the Holy Spirit, Bismarck, North Dakota",,
 3060,Notation,,Notice of Matrimony,,1979-06-01,"First Lutheran Church, Lake Lillian, Minnesota (with dispensation)",,3061
@@ -592,6 +633,8 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 218,Notation,,Notice of Holy Orders,Diaconate,2011-10-29,"Cathedral of the Immaculate Conception, Portland, OR",,
 206,Notation,,Notice of Matrimony,,1980-06-14,,,218
 699,Notation,,Notice of Holy Orders,Presbyteral,1999-06-12,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
+3325,Notation,,Proof of Baptism,,2002-06-02,"Hoang Mai Church, Saigon, Go Vap, Vietnam",,
+3325,Notation,,Notice of Confirmation,,2019-05-17,"Christ Cathedral Parish, Garden Grove, CA",,
 2793,Notation,,Proof of Baptism,,1960-06-19,"Than Tam Catholic Church, Bao Loc, Vietnam",,
 2793,Notation,,Notice of Confirmation,,1968-03-03,"Than Tam Catholic Church, Bao Loc, Vietnam",,
 2793,Notation,,Notice of Matrimony,,1987-06-20,"Our Lady of Lavang Parish, Portland, OR",,2794
@@ -624,12 +667,14 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 823,Notation,,Notice of Holy Orders,Presbyteral,1973-06-23,"St. Joseph, Salem",Most Rev. Robert J. Dwyer,
 122,Notation,,Proof of Baptism,,1964-02-09,"St. Louis Church, Lucerne Mines PA",,
 122,Notation,,Notice of Matrimony,,1964-10-10,,,0
+3376,Notation,,Notice of Matrimony,,2014-09-06,,,0
 579,Notation,,Notice of Holy Orders,Presbyteral,1984-12-29,"Las Vegas, Nevada",Most Rev. James P. Lyke,
 667,Notation,,Notice of Holy Orders,Diaconate,1990-09-27,"St. Mary’s Cathedral, Trichy, India",,
 667,Notation,,Notice of Holy Orders,Presbyteral,1991-05-09,"Dindigul, India",Very Rev. SL Gabriel,
 2738,Notation,,Proof of Baptism,,1963-12-15,,,
 2738,Notation,,Notice of Confirmation,,1978-06-18,,,
 2738,Notation,,Notice of Holy Orders,Presbyteral,1994-07-08,"St. Anthony’s Church, Nallamanayakkanpatti, Dindigul, India",Bishop Lawrence Gabriel,
+3319,Notation,,Notice of Confirmation,,2012-05-25,"Queen of Peace, Salem, OR",,
 478,Notation,,Proof of Baptism,,1983-06-12,"St. John Paul II Parish, Pawtucket, RI",,
 478,Notation,,Notice of Confirmation,,1999-05-05,,,
 478,Notation,,Notice of Matrimony,,2010-08-22,,,0
@@ -642,6 +687,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 652,Notation,,Notice of Confirmation,,1943-11-01,"The Madeleine Parish, Portland, OR",,
 652,Notation,,Notice of Profession of Faith,,1943-11-01,"The Madeleine Parish, Portland, OR",,
 652,Notation,,Notice of Holy Orders,Presbyteral,1965-05-22,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. Edward D. Howard,
+3339,Notation,,Notice of Holy Orders,Presbyteral,2001-05-04,,,
 612,Notation,,Notice of Holy Orders,Presbyteral,1975-05-25,"St. Charles, Portland, OR",Most Rev. Cornelius M. Power,
 458,Notation,,Proof of Baptism,,1954-04-25,"Assumption of the Blessed Virgin Mary Church, Pulaski, WI",,
 458,Notation,,Notice of Confirmation,,1965-04-20,,,
@@ -686,6 +732,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 2030,Notation,,Proof of Baptism,,1983-07-31,"Tedim, Myanmar",,
 2030,Notation,,Notice of Matrimony,,2012-04-21,,,0
 1144,Notation,,Notice of Holy Orders,Presbyteral,1970-06-13,St. Charles Parish,Most Rev. Robert Dwyer,
+3338,Notation,,Notice of Holy Orders,Presbyteral,2009-12-30,"Cathedral of Namcheon, Busan, South Korea",Most Rev. Paul Hwang,
 2740,Notation,,Notice of Confirmation,,1983-08-21,,,
 2740,Notation,,Notice of Holy Orders,Presbyteral,2015-01-10,"St. Joseph Vietnamese Church, Dallas, TX",,
 1543,Notation,,Notice of Holy Orders,Presbyteral,1988-04-09,,,
@@ -699,6 +746,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 1998,Notation,,Notice of Holy Orders,Diaconate,2010-02-06,"Cathedral of Christ the King, Atlanta, GA",,
 2010,Notation,,Notice of Matrimony,,1975-04-18,,,1998
 1791,Notation,,Notice of Matrimony,,2017-08-19,,,0
+3480,Notation,,Proof of Baptism,,2014-06-08,,,
 536,Notation,,Proof of Baptism,,1996-05-19,"First United Methodist Church, Roseburg, OR",,
 536,Notation,,Notice of Confirmation,,2012-04-27,"St. Joseph Parish, Roseburg, OR",,
 536,Notation,,Notice of Profession of Faith,,2012-04-27,"St. Joseph Parish, Roseburg, OR",,
@@ -722,6 +770,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 29,Notation,,Notice of Holy Orders,Diaconate,2013-10-26,"Cathedral of the Immaculate Conception, Portland, OR",,
 160,Notation,,Notice of Matrimony,,1974-05-04,,,29
 3055,Notation,,Notice of Holy Orders,Diaconate,2023-08-27,,,
+3055,Notation,,Notice of Holy Orders,Presbyteral,2024-04-06,"Notre Dame, South Bend, IN",,
 2864,Notation,,Proof of Baptism,,1982-04-25,"St. James Catholic Church, Falls Church, VA",,
 2864,Notation,,Notice of Holy Orders,Diaconate,2020-06-20,"Saint Ignace Catholic Church, Paris, France",,
 2864,Notation,,Notice of Holy Orders,Presbyteral,2021-06-12,"Blessed Sacrament Parish, Hollywood, CA",,
@@ -735,12 +784,12 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 2067,Notation,,Notice of Holy Orders,Presbyteral,1999-07-04,"Kambuga Parish, Kabale Diocese, Uganda",Most Rev. Robert M. Gay,
 744,Notation,,Notice of Holy Orders,Presbyteral,2005-03-12,"Villa Dolores, Cordoba, Argentina",Msgr. Cmar F. Colome,
 547,Notation,,Notice of Holy Orders,Diaconate,2023-05-20,"St. Mary Cathedral of the Immaculate Conception, Portland, OR",,
+547,Notation,,Notice of Holy Orders,Presbyteral,2024-06-22,"St. Mary Cathedral of the Immaculate Conception, Portland, OR",Most Rev. Alexander K.Sample,
+3427,Notation,,Notice of Holy Orders,Diaconate,2024-06-24,"St. Francis Xavier Parish, Vancouver, BC, Canada",,
 1545,Notation,,Notice of Matrimony,,2013-02-06,,,0
 852,Notation,,Notice of Holy Orders,Presbyteral,2009-06-13,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
 866,Notation,,Notice of Holy Orders,Presbyteral,1984-06-29,"St. Helena Cathedral, Helena, MT",Most Rev. Elden Curtiss,
-255,Notation,,Notice of Matrimony,,1972-06-24,,,55
 55,Notation,,Proof of Baptism,,1958-06-25,"St. Patrick’s Church, North Hollywood, CA",,
-55,Notation,,Notice of Matrimony,,1972-06-24,,,255
 55,Notation,,Notice of Holy Orders,Diaconate,2009-10-31,"Cathedral of the Immaculate Conception, Portland, OR",,
 769,Notation,,Notice of Holy Orders,Presbyteral,1961-04-03,"Messina, Italy",Most Rev. Francis Ricceri,
 580,Notation,,Notice of Holy Orders,Presbyteral,2014-06-14,"Abbey Church, Mount Angel Abbey, Saint Benedict, OR","Most Rev. Alexander K. Sample, J.C.L., D.D.",
@@ -762,6 +811,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 259,Notation,,Notice of Matrimony,,1993-07-16,,,0
 2025,Notation,,Notice of Holy Orders,Diaconate,2020-02-04,,,
 2025,Notation,,Notice of Holy Orders,Presbyteral,2022-10-02,,,
+1172,Notation,,Notice of Holy Orders,Presbyteral,1993-08-28,"Obollo, Nigeria",Rt. Rev. Ir. A. Ilonu,
 9,Notation,,Proof of Baptism,,1955-04-10,"Sacred Heart Church, Gervais OR",,
 9,Notation,,Notice of Matrimony,,1978-06-09,,,0
 420,Notation,,Proof of Baptism,,1943-04-18,"St. Anthony Church, Missoula, MT",,
@@ -784,6 +834,10 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 439,Notation,,Proof of Baptism,,1980-11-09,"St. Vincent Ferrer, Cataingan, Masbate, Philippines",,
 439,Notation,,Notice of Confirmation,,1989-04-25,,,
 439,Notation,,Notice of Matrimony,,2008-12-20,,,0
+3418,Notation,,Proof of Baptism,,1995-12-17,"Nuestra Señora de Guadalupe, Apatzingán, Michoacán, Mexico",,
+3418,Notation,,Notice of Confirmation,,1996-12-06,"Nuestra Señora de Guadalupe, Apatzingán, Michoacán, Mexico",,
+3418,Notation,,Notice of Matrimony,,2017-07-01,"St. Cecilia Parish, Beaverton, OR",,3419
+3419,Notation,,Notice of Matrimony,,2017-07-01,"St. Cecilia Parish, Beaverton, OR",,3418
 3004,Notation,,Proof of Baptism,,1985-01-26,"Santiago Apostol, Puebla, Mexico",,
 1185,Notation,,Notice of Holy Orders,Presbyteral,1989-04-01,,,
 116,Notation,,Notice of Matrimony,,1979-07-21,,,252
@@ -796,6 +850,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 895,Notation,,Notice of Holy Orders,Diaconate,2014-05-31,"St. Dominic Catholic Church, San Francisco, CA",,
 895,Notation,,Notice of Holy Orders,Presbyteral,2014-10-25,"St. Dominic Catholic Church, Benicia, CA","H.E. Charles Morerod, OP",
 220,Notation,,Notice of Matrimony,,1967-08-18,,,0
+3426,Notation,,Notice of Holy Orders,Diaconate,2024-06-29,,,
 106,Notation,,Proof of Baptism,,1957-03-03,"Our Lady of Guadalupe Shrine, Riverside CA",,
 106,Notation,,Notice of Matrimony,,1981-08-22,,,0
 129,Notation,,Notice of Matrimony,,1989-02-04,,,31
@@ -889,6 +944,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 710,Notation,,Notice of Holy Orders,Presbyteral,2007-06-09,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
 2749,Notation,,Proof of Baptism,,1981-10-10,,,
 2749,Notation,,Notice of Confirmation,,2004-09-14,,,
+3415,Notation,,Notice of Matrimony,,2004-10-09,,,0
 711,Notation,,Notice of Holy Orders,Presbyteral,1964-06-13,Mission Dolores Basilica San Francisco,Most Rev. Joseph T. McGucken,
 223,Notation,,Proof of Baptism,,1944-04-15,"Parroquia de San Miguelito, San Luis Potosí, Mexico",,
 223,Notation,,Notice of Matrimony,,1965-07-24,,,248
@@ -896,6 +952,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 248,Notation,,Notice of Matrimony,,1965-07-24,,,223
 3041,Notation,,Proof of Baptism,,1995-05-21,"St. Mary Parish, Mount Angel, OR",,
 3041,Notation,,Notice of Confirmation,,2018-05-15,"St. Joseph Parish, Salem, OR",,
+3431,Notation,,Proof of Baptism,,2007-09-16,"Parroquia de Jesus Nazareno, Tepalcigno Morelos, Mexico",,
 118,Notation,,Proof of Baptism,,1948-05-09,"Our Lady of Loretto, Los Angeles CA",,
 118,Notation,,Notice of Matrimony,,1968-12-07,,,249
 118,Notation,,Notice of Holy Orders,Diaconate,1999-06-12,"Blessed Junipero Serra Church, Camarillo CA",,
@@ -971,6 +1028,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 2068,Notation,,Notice of Holy Orders,Presbyteral,2003-08-23,"Robidire Adjumani Refugee Camp, Northern Uganda","Rt. Rev. Paride Taban, Bishop of Torit Diocese, So",
 582,Notation,,Proof of Baptism,,1947-01-27,"St. Anthony of Padua, Syracuse, NY",,
 582,Notation,,Notice of Holy Orders,Presbyteral,1972-06-16,"Cathedral, Oakland, CA",Most Rev. Floyd Begin,
+3420,Notation,,Notice of Holy Orders,Presbyteral,2024-08-23,,,
 1594,Notation,,Proof of Baptism,,2009-11-16,"Edgewater Christian Fellowship, Grants Pass, OR",,
 1594,Notation,,Notice of Confirmation,,2017-06-04,"St. Stephen Catholic Church, Portland, OR",,
 1594,Notation,,Notice of Profession of Faith,,2017-06-04,"St. Stephen Catholic Church, Portland, OR",,
@@ -997,13 +1055,15 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 2087,Notation,,Notice of Matrimony,,1980-09-26,"St. Francis Xavier Parish, Bali Nyonga, Cameroon",,2092
 2098,Notation,,Notice of Holy Orders,Diaconate,2020-07-25,"Our Lady of La Vang Church, Portland, OR",,
 2098,Notation,,Notice of Holy Orders,Presbyteral,2021-06-19,"Our Lady of La Vang Church, Portland, OR","Most Rev. Alexander K. Sample, J.C.L., D.D.",
-543,Notation,,Proof of Baptism,,1999-03-06,Our Lady of Lavang Parish,,
-543,Notation,,Notice of Confirmation,,2014-05-01,,,
+543,Notation,,Proof of Baptism,,1999-03-06,"Our Lady of Lavang Parish, Portland, OR",,
+543,Notation,,Notice of Confirmation,,2004-05-01,"Our Lady of Lavang Parish, Portland, OR",,
 87,Notation,,Proof of Baptism,,1975-08-10,"Tracoi Parish, Xuan Loc, Vietnam",,
 87,Notation,,Notice of Matrimony,,2000-01-07,,,0
 2251,Notation,,Proof of Baptism,,2003-05-26,"Our Lady of Lavang Parish, Portland, OR",,
 2251,Notation,,Notice of Confirmation,,2003-05-26,"Our Lady of Lavang Church, Portland, OR",,
 642,Notation,,Notice of Holy Orders,Presbyteral,2015-01-10,"Grand Prairie, TX",Most Rev. Vincent H. Nguyen,
+3326,Notation,,Proof of Baptism,,2000-03-04,"Our Lady of Lavang, Portland, OR",,
+3326,Notation,,Notice of Confirmation,,2016-05-15,"Our Lady of Lavang, Portland, OR",,
 698,Notation,,Notice of Holy Orders,Presbyteral,1969-05-01,"Da Lat Cathedral, Da Lat, Vietnam",Most Rev. Simon Hoa Nguyen Van Hien,
 2985,Notation,,Proof of Baptism,,1959-10-08,"Tan-viet Parish, Saigon, Vietnam",,
 2985,Notation,,Notice of Confirmation,,1967-11-26,"Tan-viet Parish, Saigon, Vietnam",,
@@ -1014,7 +1074,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 712,Notation,,Notice of Holy Orders,Presbyteral,2010-06-05,,,
 743,Notation,,Notice of Holy Orders,Presbyteral,1994-06-11,,,
 746,Notation,,Notice of Holy Orders,Presbyteral,2008-06-07,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
-3321,Notation,,Notice of Holy Orders,Diaconate,2023-06-09,,,
+3321,Notation,,Notice of Holy Orders,Diaconate,2023-06-09,"Our Lady of Lavang Parish, Happy Valley, OR",,
 2831,Notation,,Notice of Holy Orders,Presbyteral,1995-10-14,,,
 1252,Notation,,Notice of Holy Orders,Presbyteral,2012-01-14,,,
 473,Notation,,Notice of Matrimony,,1977-11-19,,,472
@@ -1030,6 +1090,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 643,Notation,,Notice of Holy Orders,Presbyteral,1998-12-12,,,
 1514,Notation,,Notice of Holy Orders,Presbyteral,1996-08-22,"Bukinda Parish, Kabale Diocese, Uganda",Most. Rev. Robert Grey,
 1581,Notation,,Notice of Holy Orders,Presbyteral,1994-04-09,"Diocese of Umuahia, Abia State, Nigeria",,
+1027,Notation,,Notice of Holy Orders,Presbyteral,2009-01-10,"New Orleans, LA","Bishop John H. Ricard, SSJ",
 629,Notation,,Notice of Holy Orders,Diaconate,1995-03-04,"St. Agustine, Oakland, CA",,
 629,Notation,,Notice of Holy Orders,Presbyteral,1996-04-13,"Basilica of the Sacred Heart, Notre Dame, IN",Bishop John M. D’Arcy,
 809,Notation,,Notice of Holy Orders,Presbyteral,2005-06-11,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
@@ -1042,8 +1103,12 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 3071,Notation,,Proof of Baptism,,1964-06-28,"St. Theresa of Avila Parish, West Roxbury, MA",,
 3071,Notation,,Notice of Holy Orders,Diaconate,2012-10-20,"Mission Santa Clara, Santa Clara, CA",,
 3071,Notation,,Notice of Holy Orders,Presbyteral,2013-06-08,"Blessed Sacrament Church, Hollywood, CA","Most Rev. John Wester, D.D.",
+3375,Notation,,Notice of Holy Orders,Diaconate,1998-08-23,,,
+3375,Notation,,Notice of Holy Orders,Presbyteral,1998-12-19,"Nairobi, Kenya",Rt. Rev. Bishop Luigi Locati,
 1602,Notation,,Notice of Holy Orders,Presbyteral,2004-07-10,,,
 658,Notation,,Notice of Holy Orders,Presbyteral,2010-04-01,,,
+3343,Notation,,Proof of Baptism,,2013-06-22,"St. Cecilia Parish, Beaverton, OR",,
+3343,Notation,,Notice of Confirmation,,2021-05-11,"St. Cecilia Parish, Beaverton, OR",,
 738,Notation,,Notice of Holy Orders,Presbyteral,1973-02-02,"Innsbruck, Austria",Dr. Paulus Rusch,
 1576,Notation,,Notice of Holy Orders,Presbyteral,1982-12-01,,,
 228,Notation,,Notice of Matrimony,,1981-10-10,,,316
@@ -1052,15 +1117,17 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 316,Notation,,Notice of Holy Orders,Diaconate,2010-05-29,"St. Michael’s Cathedral, Toronto, Ontario",,
 1265,Notation,,Notice of Holy Orders,Presbyteral,1973-02-02,"Innsbruck, Austria",Dr. Paulus Rusch,
 747,Notation,,Notice of Holy Orders,Presbyteral,2007-05-30,Kibuye,Most Rev. Zacchaeus Okoth,
-568,Notation,,Notice of Holy Orders,Presbyteral,1983-07-09,St. Paul Parish Amiri Orlu,Most Rev. Ochiagha,
+568,Notation,,Notice of Holy Orders,Presbyteral,1983-09-07,St. Paul Parish Amiri Orlu,Most Rev. Ochiagha,
 2978,Notation,,Notice of Holy Orders,Presbyteral,2017-12-08,,,
 146,Notation,,Notice of Matrimony,,1998-07-11,,,0
 716,Notation,,Notice of Holy Orders,Presbyteral,1966-06-04,Mexico City,Octaviano Marquez,
+3424,Notation,,Notice of Holy Orders,Diaconate,2024-06-15,,,
 885,Notation,,Notice of Holy Orders,Diaconate,1998-08-12,"Apostles of Jesus Shrine, Nairobi, Kenya",,
 885,Notation,,Notice of Holy Orders,Presbyteral,1999-08-13,"Apostles of Jesus Shrine, Nairobi, Kenya",,
 594,Notation,,Notice of Holy Orders,Presbyteral,1974-03-24,"Rome, Italy",Agnelo Cardinal Rossi,
 595,Notation,,Notice of Holy Orders,Diaconate,2012-10-12,"Abbey Church, Mount Angel Abbey, Saint Benedict, OR",,
 595,Notation,,Notice of Holy Orders,Presbyteral,2013-06-08,"Cathedral of the Immaculate Conception, Portland, OR","Most Rev. Alexander K. Sample, J.C.L., D.D.",
+3114,Notation,,Notice of Matrimony,,2017-04-22,"St. Clare Parish, Portland, OR",,3113
 877,Notation,,Notice of Holy Orders,Presbyteral,2017-06-03,"Cathedral of the Immaculate Conception, Portland, OR","Most Rev. Alexander K. Sample, J.C.L., D.D.",
 775,Notation,,Proof of Baptism,,1963-11-03,"Sts. Peter and Paul , Tucson, AZ",,
 775,Notation,,Notice of Holy Orders,Presbyteral,1995-05-27,"St. Dominic, San Francisco, CA","Most Rev. Carlos Sevilla, S.J.",
@@ -1076,6 +1143,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 191,Notation,,Notice of Holy Orders,Diaconate,2005-11-05,"Cathedral of the Immaculate Conception, Portland, OR",,
 107,Notation,,Notice of Matrimony,,1962-11-17,,,191
 717,Notation,,Notice of Holy Orders,Presbyteral,2001-12-28,"Busan, South Korea",Most. Rev. Chul-Soo Paul Hwang,
+3473,Notation,,Notice of Holy Orders,Presbyteral,2016-08-27,,,
 352,Notation,,Proof of Baptism,,1947-04-13,"St. John the Baptist, San Lorenzo CA",,
 352,Notation,,Notice of Matrimony,,1971-08-15,,,0
 352,Notation,,Notice of Holy Orders,Diaconate,1998-12-05,"Cathedral of the Annunciation, Stockton CA",,
@@ -1089,8 +1157,12 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 424,Notation,,Notice of Confirmation,,1998-04-11,,,
 424,Notation,,Notice of Matrimony,,2000-07-22,,,425
 424,Notation,,Notice of Holy Orders,Diaconate,2019-10-26,"Cathedral of the Immaculate Conception, Portland, OR",,
+3330,Notation,,Proof of Baptism,,1952-11-06,"Parroquia de la Madra Santisima de la Luz, Ciudad de Nuestra Señora de Monterrey, N.L., Mexico",,
+3330,Notation,,Notice of Matrimony,,1978-05-20,"St. Michaels Parish, Waterloo, Ontario, Canada",,3331
+3330,Notation,,Notice of Holy Orders,Diaconate,2007-05-26,"Cathedral of the Immaculate Conception in Denver, CO",,
 718,Notation,,Notice of Holy Orders,Diaconate,2010-06-26,,,
 718,Notation,,Notice of Holy Orders,Presbyteral,2011-09-03,,,
+3331,Notation,,Notice of Matrimony,,1978-05-20,"St. Michaels Parish, Waterloo, Ontario, Canada",,3330
 776,Notation,,Notice of Holy Orders,Presbyteral,1983-07-28,"Jaffna, Sri Lanka",Rt. Rev. B. Deogupillai,
 1563,Notation,,Notice of Matrimony,,1991-03-23,,,0
 2733,Notation,,Proof of Baptism,,1996-06-16,"Holy Family Parish, Keenesburg, CO",,
@@ -1104,6 +1176,8 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 269,Notation,,Notice of Holy Orders,Diaconate,2019-10-26,"Cathedral of the Immaculate Conception, Portland, OR",,
 161,Notation,,Notice of Matrimony,,1983-02-12,,,0
 810,Notation,,Notice of Holy Orders,Presbyteral,1971-06-19,"St. Rose, Portland",Most Rev. Robert J. Dwyer,
+3479,Notation,,Proof of Baptism,,2001-04-10,,,
+3475,Notation,,Proof of Baptism,,2016-06-05,,,
 670,Notation,,Notice of Holy Orders,Presbyteral,2001-03-30,,,
 2803,Notation,,Notice of Matrimony,,1997-08-15,,,2805
 2803,Notation,,Notice of Holy Orders,Diaconate,2016-11-26,"Immaculate Heart of Mary Cathedral, Weno, Chuuk, Federated States of Micronesia",,
@@ -1113,7 +1187,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 183,Notation,,Notice of Holy Orders,Diaconate,2010-11-06,"Cathedral of the Immaculate Conception, Portland, OR",,
 1287,Notation,,Notice of Holy Orders,Presbyteral,2003-05-24,,,
 719,Notation,,Notice of Holy Orders,Presbyteral,1967-04-29,"Saigon, Vietnam",Most Rev. Joseph Pham Van Thien,
-214,Notation,,Proof of Baptism,,1959-09-27,"Cathedral, Dalat, Vietnam",,
+214,Notation,,Proof of Baptism,,1959-09-27,"St. Nicholas Cathedral, Dalat, Vietnam",,
 214,Notation,,Notice of Matrimony,,1985-12-28,,,236
 214,Notation,,Notice of Holy Orders,Diaconate,2011-10-29,"Cathedral of the Immaculate Conception, Portland, OR",,
 236,Notation,,Notice of Matrimony,,1985-12-28,,,214
@@ -1124,7 +1198,12 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 68,Notation,,Notice of Matrimony,,1967-09-23,,,309
 200,Notation,,Proof of Baptism,,1944-05-21,"Saint Anastasia, Fort Pierce FL",,
 200,Notation,,Notice of Matrimony,,1977-04-09,,,0
+3474,Notation,,Proof of Baptism,,1989-03-25,,,
+3474,Notation,,Notice of Holy Orders,Diaconate,2017-05-27,"St. Dominic Church, San Francisco, CA",,
+3474,Notation,,Notice of Holy Orders,Presbyteral,2018-06-22,,Most Rev. Robert Christian,
 170,Notation,,Notice of Matrimony,,1994-08-20,,,0
+3371,Notation,,Proof of Baptism,,1965-12-18,"Lourdes, Mérida, Yucatan, Mexico",,
+3371,Notation,,Notice of Matrimony,,1989-02-04,"Concépcion Morelton, Los Angeles, CA",,0
 2064,Notation,,Notice of Holy Orders,Diaconate,2020-05-30,"St. Michael the Archangel Parish, Portland, OR",,
 2064,Notation,,Notice of Holy Orders,Presbyteral,2021-08-15,"St. Mary Parish, Corvallis, OR","Most Rev. Alexander K. Sample, J.C.L., D.D.",
 294,Notation,,Notice of Matrimony,,1984-06-09,,,79
@@ -1148,14 +1227,23 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 1534,Notation,,Proof of Baptism,,1958-10-05,"St. Cecilia Parish, Harvey, North Dakota",,
 1534,Notation,,Notice of Confirmation,,1970-04-12,,,
 1534,Notation,,Notice of Matrimony,,1993-10-30,"St. Mary Star of the Sea, Seaside, OR",,0
+3398,Notation,,Proof of Baptism,,1972-02-06,,,
+3398,Notation,,Notice of Holy Orders,Diaconate,2017-09-02,,,
+3398,Notation,,Notice of Holy Orders,Presbyteral,2018-06-09,,,
 155,Notation,,Notice of Matrimony,,1998-10-10,,,0
 721,Notation,,Notice of Holy Orders,Presbyteral,1965-05-22,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. Edward D. Howard,
 2781,Notation,,Notice of Matrimony,,1979-09-01,,,0
 1303,Notation,,Notice of Holy Orders,Presbyteral,1984-06-22,,Most Rev. Thomas Kelly,
 139,Notation,,Notice of Matrimony,,1992-06-04,,,0
+1304,Notation,,Notice of Holy Orders,Presbyteral,2024-08-04,,,
 2090,Notation,,Notice of Matrimony,,1998-04-25,,,0
 1597,Notation,,Proof of Baptism,,1989-01-15,"Nuestra Senora de Guadalupe, Tehuantepec, Oaxaca, Mexico",,
 1597,Notation,,Notice of Confirmation,,2002-12-29,,,
+3428,Notation,,Proof of Baptism,,1956-06-28,"St. Augustine Parish, Alquízar, Havana, Cuba",,
+3428,Notation,,Notice of Confirmation,,1964-08-27,"St. Augustine Parish, Alquízar, Havana, Cuba",,
+3428,Notation,,Notice of Matrimony,,1987-09-17,"Civil Marriage, Baton Rouge, LA",,3429
+3428,Notation,,Notice of Holy Orders,Diaconate,2013-06-22,"Cathedral of the Nativity of the Blessed Virgin Mary, Biloxi, MS",,
+3429,Notation,,Notice of Matrimony,,1987-09-17,"Civil Marriage, Baton Rouge, LA",,3428
 555,Notation,,Proof of Baptism,,1944-11-27,"O’Connor Hospital (St. Mary’s Church), Los Gatos, CA",,
 555,Notation,,Notice of Confirmation,,1954-05-12,,,
 555,Notation,,Notice of Matrimony,,1967-06-10,,,0
@@ -1181,8 +1269,8 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 748,Notation,,Notice of Holy Orders,Presbyteral,1965-05-22,Portland,Most Rev. Edward D. Howard,
 597,Notation,,Notice of Holy Orders,Diaconate,2008-04-19,"Cathedral of the Immaculate Conception, Portland, OR",,
 597,Notation,,Notice of Holy Orders,Presbyteral,2009-06-13,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
-372,Notation,,Proof of Baptism,,1961-10-01,"Chachapoyas, Perú",,
-372,Notation,,Notice of Matrimony,,1988-02-20,,,0
+1309,Notation,,Notice of Holy Orders,Presbyteral,1990-04-21,,,
+372,Notation,,Notice of Matrimony,,1988-02-20,"Nuestra Señora de la Esperanza, Lima, Perú",,3341
 2768,Notation,,Notice of Holy Orders,Diaconate,2021-06-19,,,
 2752,Notation,,Notice of Holy Orders,Presbyteral,1977-06-05,,,
 221,Notation,,Proof of Baptism,,1946-02-03,"Christ the King Church, Dallas TX",,
@@ -1194,7 +1282,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 80,Notation,,Proof of Baptism,,1923-01-28,"St. Mary Magdelene, Portland OR",,
 80,Notation,,Notice of Matrimony,,1948-02-14,,,130
 80,Notation,,Notice of Holy Orders,Diaconate,1993-11-05,"Cathedral of the Immaculate Conception, Portland, OR",,
-723,Notation,,Notice of Holy Orders,Presbyteral,1966-01-01,,,
+723,Notation,,Notice of Holy Orders,Presbyteral,1966-05-14,,,
 101,Notation,,Notice of Matrimony,,1969-07-05,,,0
 101,Notation,,Notice of Holy Orders,Diaconate,1999-06-24,"Cathedral of Our Lady of Lourdes, Spokane WA",,
 226,Notation,,Notice of Matrimony,,1987-06-06,,,77
@@ -1204,7 +1292,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 724,Notation,,Notice of Holy Orders,Presbyteral,1994-04-09,"Notre Dame, IN","Archbishop Hector MacDonald, CSC",
 2784,Notation,,Proof of Baptism,,1966-08-07,"St. Gregory the Great Parish, Williamsville, NY",,
 2784,Notation,,Notice of Confirmation,,1980-05-18,"St. Gregory the Great Parish, Williamsville, NY",,
-630,Notation,,Notice of Holy Orders,Presbyteral,2015-06-05,2006-05-15,"Most Rev. Alexander K. Sample, J.C.L., D.D.",
+630,Notation,,Notice of Holy Orders,Presbyteral,2015-06-05,06/05/15,"Most Rev. Alexander K. Sample, J.C.L., D.D.",
 2078,Notation,,Proof of Baptism,,1969-03-12,"Beaverton Foursquare Church, Beaverton, Oregon",,
 2078,Notation,,Notice of Confirmation,,2012-04-07,"St. Cecilia Parish, Beaverton, Oregon",,
 2078,Notation,,Notice of Profession of Faith,,2012-04-07,"St. Matthew Parish, Hillsboro, Oregon",,
@@ -1238,9 +1326,11 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 1328,Notation,,Notice of Holy Orders,Presbyteral,2015-09-19,,,
 665,Notation,,Notice of Holy Orders,Presbyteral,2001-06-09,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
 2737,Notation,,Proof of Baptism,,1975-05-18,"Stuttgart, West Germany, US Military Ord.",,
-2737,Notation,,Notice of Holy Orders,Presbyteral,2013-05-25,"St. Patrick’s Cathedral, New York, NY",,
+2737,Notation,,Notice of Holy Orders,Presbyteral,2013-05-25,"St. Patrick’s Cathedral, New York, NY",Most Rev. Timothy Cardinal Dolan,
 832,Notation,,Notice of Holy Orders,Presbyteral,1964-12-01,Rome,,
 1511,Notation,,Notice of Holy Orders,Presbyteral,2000-08-12,,,
+3350,Notation,,Notice of Holy Orders,Diaconate,2006-06-06,"St. Joseph’s Major Seminary, Khammam, India",,
+3350,Notation,,Notice of Holy Orders,Presbyteral,2006-12-26,"St. Joseph’s Major Seminary, Khammam, India",Most Rev. Paul Maipan -Bishop of Khammam,
 117,Notation,,Proof of Baptism,,1948-03-29,"Our Lady of Guadalupe Church, Mission TX",,
 117,Notation,,Notice of Matrimony,,1974-06-22,,,0
 811,Notation,,Notice of Holy Orders,Presbyteral,1967-06-16,,,
@@ -1260,6 +1350,9 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 299,Notation,,Notice of Matrimony,,1970-06-20,,,0
 840,Notation,,Notice of Holy Orders,Presbyteral,2000-05-27,"Los Angeles, California",John Quinn,
 833,Notation,,Notice of Holy Orders,Presbyteral,1963-05-11,Benedictines: Mt Angel,Most Rev. Edward D. Howard,
+3356,Notation,,Proof of Baptism,,1984-01-01,,,
+3356,Notation,,Notice of Holy Orders,Diaconate,2008-06-05,"St. Joseph’s Major Seminary, Khammam, India",,
+3356,Notation,,Notice of Holy Orders,Presbyteral,2009-02-05,"Our Lady of Snow’s Church, K. Udayapatty, India",Most Rev. Antony Devotta,
 466,Notation,,Proof of Baptism,,1967-08-01,"First Baptist Church, Eugene",,
 618,Notation,,Notice of Holy Orders,Presbyteral,2008-05-31,"St. Dominic Church, San Francisco, CA","Most Rev. Allen Vigneron, DD",
 250,Notation,,Notice of Matrimony,,1973-10-19,,,0
@@ -1279,6 +1372,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 740,Notation,,Notice of Holy Orders,Presbyteral,1965-05-22,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. Edward D. Howard,
 1593,Notation,,Proof of Baptism,,1997-01-26,"St. Elizabeth Ann Seton, Aloha, OR",,
 1593,Notation,,Notice of Confirmation,,2012-05-10,,,
+1593,Notation,,Notice of Holy Orders,Diaconate,2024-10-03,"Basilica of St. Peter, Vatican City State, Italy",,
 632,Notation,,Notice of Holy Orders,Presbyteral,1960-05-21,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. Edward D. Howard,
 573,Notation,,Notice of Holy Orders,Diaconate,2013-10-30,"Abbey Church, Mount Angel Abbey, Saint Benedict, OR",,
 573,Notation,,Notice of Holy Orders,Presbyteral,2014-06-14,"Abbey Church, Mount Angel Abbey, Saint Benedict, OR","Most Rev. Alexander K. Sample, J.C.L., D.D.",
@@ -1290,6 +1384,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 2772,Notation,,Proof of Baptism,,1994-05-08,"St. Patrick’s, Raton, NM",,
 2772,Notation,,Notice of Confirmation,,2012-04-07,"St. Joseph’s Church Raton, NM",,
 2772,Notation,,Notice of Holy Orders,Diaconate,2021-05-20,"St. Joseph on the Rio Grande, Albuquerque, NM",,
+3409,Notation,,Notice of Matrimony,,2011-12-29,,,0
 11,Notation,,Proof of Baptism,,1962-11-04,"St. Mary Parish, Mount Angel OR",,
 11,Notation,,Notice of Matrimony,,1991-11-30,,,0
 11,Notation,,Notice of Holy Orders,Diaconate,2002-11-23,"Cathedral of the Immaculate Conception, Portland, OR",,
@@ -1301,9 +1396,8 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 887,Notation,,Notice of Holy Orders,Presbyteral,1996-06-01,"St. Dominic’s Church, San Francisco, CA","Most Rev. Carlos A. Sevilla, SJ, D.D.",
 1559,Notation,,Proof of Baptism,,2000-10-14,"Mary Immaculate Parish, Pacoima, CA",,
 1559,Notation,,Notice of Confirmation,,2016-05-26,"St. Joseph Parish, Salem, OR",,
-3130,Notation,,Notice of Matrimony,,2021-09-25,,,3129
 3129,Notation,,Proof of Baptism,,1994-01-24,"St. Mary Parish, Mount Angel, OR",,
-3129,Notation,,Notice of Matrimony,,2021-09-25,,,3130
+3129,Notation,,Notice of Matrimony,,2021-09-25,,,0
 620,Notation,,Notice of Holy Orders,Presbyteral,2006-06-10,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
 1353,Notation,,Notice of Holy Orders,Presbyteral,1995-06-25,,,
 500,Notation,,Proof of Baptism,,1959-10-18,"Anglican Church of the Ascension, Springvale, Victoria, Australia",,
@@ -1311,8 +1405,8 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 500,Notation,,Notice of Profession of Faith,,2015-04-04,"St. Michael the Archangel, Portland, Oregon",,
 500,Notation,,Notice of Matrimony,,1985-12-21,,,0
 3107,Notation,,Proof of Baptism,,1962-12-09,"St. Nicholas Parish, New Jersey",,
-3107,Notation,,Notice of Matrimony,,2010-10-08,"Holy Rosary Parish, Portland, OR",,3108
-3108,Notation,,Notice of Matrimony,,2010-10-08,"Holy Rosary Parish, Portland, OR",,3107
+3107,Notation,,Notice of Confirmation,,1974-12-06,"St. Ignatius Parish, Chicago, IL",,
+3107,Notation,,Notice of Matrimony,,2010-10-08,"Holy Rosary Parish, Portland, OR",,0
 897,Notation,,Notice of Holy Orders,Diaconate,1983-11-05,"St. Paul Church, Cambridge, MA",,
 897,Notation,,Notice of Holy Orders,Presbyteral,1984-06-09,"Loyola Marymount University, Los Angeles, CA",,
 1356,Notation,,Notice of Holy Orders,Presbyteral,1999-07-17,,Rt.Rev. Amedeus Msarikie,
@@ -1350,8 +1444,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 778,Notation,,Notice of Holy Orders,Presbyteral,1972-05-27,"St. Andrew Parish, Portland",Most Rev. Robert J. Dwyer,
 2806,Notation,,Proof of Baptism,,1977-02-27,"St. Frances Cabrini Parish, San Jose, CA",,
 2806,Notation,,Notice of Confirmation,,1991-05-04,"St. Frances Cabrini Parish, San Jose, CA",,
-2806,Notation,,Notice of Matrimony,,1997-02-15,"St. Francis de Sales, Las Vegas, NV",,2807
-2807,Notation,,Notice of Matrimony,,1997-02-15,"St. Francis de Sales, Las Vegas, NV",,2806
+2806,Notation,,Notice of Matrimony,,1997-02-15,"St. Francis de Sales, Las Vegas, NV",,0
 1568,Notation,,Proof of Baptism,,1966-09-16,,,
 1568,Notation,,Notice of Holy Orders,Presbyteral,1996-08-10,"Sacred Heart Cathedral, Lubaga",,
 3073,Notation,,Notice of Holy Orders,Presbyteral,2018-08-04,,,
@@ -1393,8 +1486,9 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 2033,Notation,,Proof of Baptism,,1999-04-11,"St. Stephen Parish, Alhambra, CA",,
 2033,Notation,,Notice of Matrimony,,2006-02-18,,,0
 444,Notation,,Proof of Baptism,,2002-03-30,"St. Mary Parish, Eugene, OR",,
-444,Notation,,Notice of Matrimony,,1994-03-04,,,3106
-3106,Notation,,Notice of Matrimony,,1994-03-04,,,444
+444,Notation,,Notice of Confirmation,,2002-03-30,"St. Mary Parish, Eugene, OR",,
+444,Notation,,Notice of Matrimony,,1994-03-04,"St. Mary Parish, Eugene, OR",,3106
+3106,Notation,,Notice of Matrimony,,1994-03-04,"St. Mary Parish, Eugene, OR",,444
 492,Notation,,Proof of Baptism,,1960-02-20,"Sacred Heart, Gervais, OR",,
 492,Notation,,Notice of Matrimony,,1990-05-02,,,0
 2763,Notation,,Notice of Holy Orders,Presbyteral,2016-06-11,"St. Columban Church, Garden Grove, CA",Most Rev. Kevin W. Vann,
@@ -1404,9 +1498,15 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 2758,Notation,,Notice of Holy Orders,Diaconate,2014-11-29,"Divine Mercy Shrine, Kikwawila, Tanzania",,
 2758,Notation,,Notice of Holy Orders,Presbyteral,2015-06-27,"Holy Spirit Church, Agraharam","Most Rev. Singaroyan, Bishop of Salem",
 575,Notation,,Notice of Holy Orders,Presbyteral,2005-06-11,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
+1501,Notation,,Proof of Baptism,,2020-05-30,"Holy Trinity Parish, Beaverton, OR",,
+1501,Notation,,Notice of Confirmation,,2020-05-30,"Holy Trinity Parish, Beaverton, OR",,
+1501,Notation,,Notice of Profession of Faith,,2020-05-30,"Holy Trinity Parish, Beaverton, OR",,
+1501,Notation,,Notice of Matrimony,,2007-05-18,"Spokane, WA (civil)",,2965
 813,Notation,,Notice of Holy Orders,Presbyteral,1982-08-28,,,
 3116,Notation,,Notice of Holy Orders,Diaconate,1978-01-01,,,
 3116,Notation,,Notice of Holy Orders,Presbyteral,1979-06-23,Holy Hill Monaster,,
+2965,Notation,,Notice of Matrimony,,2007-05-18,"Spokane, WA (civil)",,1501
+3483,Notation,,Proof of Baptism,,1985-10-06,"Shepherd of the Valley, Central Point, OR",,
 835,Notation,,Notice of Holy Orders,Presbyteral,1995-06-09,"St. John, Oregon City",Most Rev. William J. Levada,
 378,Notation,,Proof of Baptism,,1978-09-10,"St. Henry, Gresham OR",,
 378,Notation,,Notice of Matrimony,,2009-05-30,,,379
@@ -1415,6 +1515,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 446,Notation,,Proof of Baptism,,1952-12-07,"St. Lawrence Church, Upper Darby, PA",,
 446,Notation,,Notice of Confirmation,,1964-04-20,,,
 446,Notation,,Notice of Matrimony,,1975-01-11,,,0
+859,Notation,,Notice of Holy Orders,Presbyteral,1982-11-27,,,
 731,Notation,,Notice of Holy Orders,Presbyteral,1987-12-19,"Chicago, IL",Most Rev. Daniel Ryan,
 732,Notation,,Notice of Holy Orders,Presbyteral,2014-06-06,"Cathedral of the Immaculate Conception, Portland, OR","Most Rev. Alexander K. Sample, J.C.L., D.D.",
 469,Notation,,Notice of Matrimony,,2003-06-09,,,0
@@ -1453,16 +1554,21 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 311,Notation,,Notice of Matrimony,,1969-08-09,,,0
 2732,Notation,,Proof of Baptism,,2003-05-25,"St. John the Apostle, Oregon City, OR",,
 2732,Notation,,Notice of Confirmation,,2018-09-18,"St. Stephen, Portland, OR",,
+3320,Notation,,Proof of Baptism,,2002-08-03,"St. Mary of the Desert, Rosamond, CA",,
+3320,Notation,,Notice of Confirmation,,2017-05-18,"St. Anthony, Tigard, OR",,
 192,Notation,,Proof of Baptism,,1943-02-21,"Holy Cross, Dayton OH",,
 2247,Notation,,Notice of Holy Orders,Presbyteral,2015-08-15,,,
-3112,Notation,,Notice of Matrimony,,2002-02-09,"St. Joseph Parish, Limpio, Paraguay",,3111
 1521,Notation,,Notice of Holy Orders,Presbyteral,2004-07-03,,,
-3113,Notation,,Proof of Baptism,,1969-12-07,,,
+3113,Notation,,Proof of Baptism,,1969-10-19,"Sacred Heart Church, Albuquerque, New Mexico",,
+3113,Notation,,Notice of Confirmation,,1971-10-08,"Sacred Heart Church, Albuquerque, New Mexico",,
+3113,Notation,,Notice of Matrimony,,2017-04-22,"St. Clare Parish, Portland, OR",,3114
 644,Notation,,Notice of Holy Orders,Presbyteral,1987-03-17,"Libmanan, Camarines Sur Philippines",,
 41,Notation,,Notice of Holy Orders,Presbyteral,1961-12-20,"St. Peter Basilica, Vatican",Most Rev. Martin J. O’Connor,
 41,Notation,,Notice of Holy Orders,Episcopal,1984-12-13,"Holy Name Cathedral, Chicago, IL",Joseph Cardinal Bernardin,
 541,Notation,,Proof of Baptism,,1997-02-01,"St. Pius X, Portland, OR",,
 541,Notation,,Notice of Confirmation,,2012-05-10,"St. Juan Diego, Portland, OR",,
+541,Notation,,Notice of Holy Orders,Diaconate,2024-05-25,"St. Mary’s Cathedral of the Immaculate Conception, Portland, OR",,
+541,Notation,,Notice of Holy Orders,Presbyteral,2024-11-16,"St. Mary’s Cathedral of the Immaculate Conception, Portland, OR",Most Rev. Alexander K. Sample,
 1441,Notation,,Notice of Holy Orders,Presbyteral,2016-06-25,"St. James Cathedral, Seattle, WA",Most Rev. J. Peter Sartain,
 3057,Notation,,Notice of Holy Orders,Presbyteral,1988-06-11,,,
 2744,Notation,,Proof of Baptism,,1997-06-10,"Nossa Senhora das Gracas, Recife, PE, Brazil",,
@@ -1505,6 +1611,7 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 576,Notation,,Notice of Holy Orders,Presbyteral,1984-04-28,,,
 3043,Notation,,Notice of Holy Orders,Diaconate,2003-05-11,Strara Halic,,
 3043,Notation,,Notice of Holy Orders,Presbyteral,2003-10-18,"Fatima, Portugal",S.E. John J. Myers,
+3422,Notation,,Notice of Holy Orders,Presbyteral,2023-02-07,,,
 875,Notation,,Notice of Holy Orders,Presbyteral,1981-04-25,,,
 516,Notation,,Notice of Matrimony,,1994-12-31,,,515
 515,Notation,,Notice of Confirmation,,2000-11-26,"Nativity of Our Lady Church, San Luis Obispo, CA",,
@@ -1520,12 +1627,14 @@ RecordNumber,mbfc__Register_Entry_Type__c,mbfc__Type__c,mbfc__Notation_Type__c,m
 734,Notation,,Notice of Holy Orders,Presbyteral,1979-04-21,Holy Cross,,
 273,Notation,,Notice of Matrimony,,1993-03-29,,,0
 836,Notation,,Notice of Holy Orders,Presbyteral,2010-06-05,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
+3396,Notation,,Notice of Matrimony,,2009-05-30,,,0
 65,Notation,,Notice of Matrimony,,1983-12-31,,,0
 599,Notation,,Notice of Holy Orders,Presbyteral,2000-07-01,"Cathedral of the Immaculate Conception, Portland, OR",Most Rev. John G. Vlazny,
 1560,Notation,,Proof of Baptism,,2000-06-27,"Our Lady of Victory, Seaside, OR",,
 1560,Notation,,Notice of Confirmation,,2016-05-20,"Queen of Peace, Salem, OR",,
 3045,Notation,,Notice of Holy Orders,Presbyteral,2011-04-30,,,
 660,Notation,,Notice of Holy Orders,Presbyteral,1993-05-22,"Corpus Christi Abbey, Sandia, TX",Most Rev. Rene Gracida,
+3423,Notation,,Notice of Holy Orders,Presbyteral,2017-06-03,,,
 2884,Notation,,Notice of Holy Orders,Presbyteral,2018-06-22,"St. Dominic Catholic Church, San Francisco, CA","Most Rev. Robert Christian, O.P.",
 862,Notation,,Notice of Holy Orders,Presbyteral,1976-06-05,"St. Paul Parish, Eugene",Most Rev. Cornelius M. Power,
 600,Notation,,Notice of Holy Orders,Presbyteral,1973-06-02,"Mt. Michael Abbey, Elkhorn, NE",Most Rev. Daniel E. Sheehan,
