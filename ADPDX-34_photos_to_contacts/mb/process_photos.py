@@ -1,3 +1,7 @@
+# Comprehensive guide to processing photos
+# https://docs.google.com/document/d/18mTnn-adNK5Kgqsj8g9RM-6-QfG_2skTAI21O5ADQFo/edit?tab=t.0#heading=h.5n5gc729syf
+
+
 import os
 import re
 import logging
