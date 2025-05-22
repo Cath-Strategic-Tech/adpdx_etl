@@ -127,11 +127,11 @@ def process_photos(sf, drive_service, object_name):
     
     if object_name == 'Account':
         PHOTO_FIELD = os.getenv('PHOTO_FIELD_ACCOUNT')
-        id_map, photo_field_map, existing_images = load_sf_data(sf, object_name, PHOTO_FIELD)
+        id_map, existing_images = load_sf_data(sf, object_name, PHOTO_FIELD) # photo_field_map removed
         file_regex = re.compile(r"photo(\d+)\.jpg", re.IGNORECASE)
     elif object_name == 'Contact':
         PHOTO_FIELD = os.getenv('PHOTO_FIELD')
-        id_map, photo_field_map, existing_images = load_sf_data(sf, object_name, PHOTO_FIELD)
+        id_map, existing_images = load_sf_data(sf, object_name, PHOTO_FIELD) # photo_field_map removed
         file_regex = re.compile(r"photo(\d+)\.jpg", re.IGNORECASE)
     else:
         raise ValueError("Invalid object_name. Must be 'Account' or 'Contact'.")
@@ -140,21 +140,27 @@ def process_photos(sf, drive_service, object_name):
         logging.error("Access denied to Google Drive folder %s", FOLDER_ID)
         return
 
-    update_records = process_drive_files(
-        sf,  # Pass sf connection
+    update_records, all_processed_sf_records_info = process_drive_files( # Capture both returned lists
+        sf,
         drive_service=drive_service,
         folder_id=FOLDER_ID,
         object_name=object_name,
         id_map=id_map,
-        photo_field_map=photo_field_map,
+        # photo_field_map removed
         existing_images=existing_images,
         file_regex=file_regex,
         photo_field=PHOTO_FIELD,
         file_domain=FILE_DOMAIN
     )
 
-    updated_records = perform_bulk_updates(sf, update_records, object_name)
-    write_updated_records_to_csv(sf, updated_records, id_map, object_name, f'updated_{object_name.lower()}s.csv')
+    if update_records: # Only perform bulk updates if there are records to update
+        perform_bulk_updates(sf, update_records, object_name)
+    
+    # Write all processed SF records to CSV, regardless of whether they were updated
+    if all_processed_sf_records_info:
+        write_updated_records_to_csv(all_processed_sf_records_info, object_name, f'updated_{object_name.lower()}s.csv')
+    else:
+        print(f"No records were processed to write to updated_{object_name.lower()}s.csv")
 
 def display_menu():
     """Displays the main menu and returns the user's choice."""
