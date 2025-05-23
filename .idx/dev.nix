@@ -6,9 +6,10 @@
 
   # Use https://search.nixos.org/packages to find packages
   packages = [
-    pkgs.python312Full
-    # pkgs.python311
-    # pkgs.python311Packages.pip
+    #pkgs.go
+    pkgs.python311
+    pkgs.python311Packages.python-dotenv
+    pkgs.python311Packages.pip
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
   ];
@@ -52,4 +53,4 @@
       };
     };
   };
-} 
+}
