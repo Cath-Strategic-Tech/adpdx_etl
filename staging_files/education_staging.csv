@@ -1,15 +1,15 @@
 mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc__Affiliation__c,RecordTypeId,Archdpdx_Migration_Id__c
-,1996-01-01,,Education/Studies,Theology,012Ps000002fU2pIAE,none19960101theology
-,2013-01-01,001Ps00000l5mLvIAI,Education/Studies,MA Pastoral Studies,012Ps000002fU2pIAE,none20130101mapastoralstudies
+003Ps00000gmW8fIAE,1996-01-01,,Education/Studies,Theology,012Ps000002fU2pIAE,003ps00000gmw8fiae19960101theology
+003Ps00000gmW8fIAE,2013-01-01,001Ps00000l5mLvIAI,Education/Studies,MA Pastoral Studies,012Ps000002fU2pIAE,003ps00000gmw8fiae20130101mapastoralstudies
 003Ps00000frjISIAY,1976-01-01,001Ps00000l5uGDIAY,Education/Studies,BA Liberal Arts,012Ps000002fU2pIAE,003ps00000frjisiay19760101baliberalarts
 003Ps00000frjISIAY,1980-01-01,001Ps00000l5seEIAQ,Education/Studies,M.Div.,012Ps000002fU2pIAE,003ps00000frjisiay19800101mdiv
-003Ps00000frjIdIAI,1996-01-01,001Ps00000l5dTvIAI,Education/Studies,"Bachelor of Science, Electronics",012Ps000002fU2pIAE,"003ps00000frjidiai19960101bachelorofscience,electr"
+003Ps00000frjIdIAI,1996-01-01,001Ps00000mCW0TIAW,Education/Studies,"Bachelor of Science, Electronics",012Ps000002fU2pIAE,"003ps00000frjidiai19960101bachelorofscience,electr"
 003Ps00000frjIdIAI,2000-01-01,001Ps00000l5ilKIAQ,Education/Studies,"Master of Science, Electronics",012Ps000002fU2pIAE,"003ps00000frjidiai20000101masterofscience,electron"
 003Ps00000frjIdIAI,2006-01-01,001Ps00000l5ilKIAQ,Education/Studies,"Ph. D., Electronics",012Ps000002fU2pIAE,"003ps00000frjidiai20060101phd,electronics"
 003Ps00000frjIhIAI,2004-01-01,001Ps00000l5ZuxIAE,Education/Studies,"Bachelor, Philosophy",012Ps000002fU2pIAE,"003ps00000frjihiai20040101bachelor,philosophy"
 003Ps00000frjIhIAI,2011-01-01,001Ps00000l5uHpIAI,Education/Studies,Theology,012Ps000002fU2pIAE,003ps00000frjihiai20110101theology
-,2003-01-01,001Ps00000l5SFCIA2,Education/Studies,Philosophy,012Ps000002fU2pIAE,none20030101philosophy
-,2012-01-01,001Ps00000l5kOZIAY,Education/Studies,Master of Divinity,012Ps000002fU2pIAE,none20120101masterofdivinity
+003Ps00000gmW8iIAE,2003-01-01,001Ps00000l5SFCIA2,Education/Studies,Philosophy,012Ps000002fU2pIAE,003ps00000gmw8iiae20030101philosophy
+003Ps00000gmW8iIAE,2012-01-01,001Ps00000l5kOZIAY,Education/Studies,Master of Divinity,012Ps000002fU2pIAE,003ps00000gmw8iiae20120101masterofdivinity
 003Ps00000frjvRIAQ,2014-01-01,001Ps00000l5pWgIAI,Education/Studies,History & Spanish,012Ps000002fU2pIAE,003ps00000frjvriaq20140101history&spanish
 003Ps00000frjvRIAQ,2016-01-01,001Ps00000l5NAeIAM,Education/Studies,MA Philosophy,012Ps000002fU2pIAE,003ps00000frjvriaq20160101maphilosophy
 003Ps00000frjvYIAQ,1973-01-01,001Ps00000l5Mo5IAE,Education/Studies,Education,012Ps000002fU2pIAE,003ps00000frjvyiaq19730101education
@@ -40,8 +40,8 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frjwlIAA,1993-01-01,001Ps00000l5uPtIAI,Education/Studies,Associate in Arts,012Ps000002fU2pIAE,003ps00000frjwliaa19930101associateinarts
 003Ps00000frjwlIAA,1996-01-01,001Ps00000l5Z27IAE,Education/Studies,BS Forestry,012Ps000002fU2pIAE,003ps00000frjwliaa19960101bsforestry
 003Ps00000frjwlIAA,2018-01-01,001Ps00000l5sfqIAA,Education/Studies,MA,012Ps000002fU2pIAE,003ps00000frjwliaa20180101ma
-,2010-01-01,001Ps00000l5uGDIAY,Education/Studies,"Bachelor, Philosophy",012Ps000002fU2pIAE,"none20100101bachelor,philosophy"
-,2014-01-01,001Ps00000l5Qi1IAE,Education/Studies,Master of Divinity,012Ps000002fU2pIAE,none20140101masterofdivinity
+003Ps00000gmW8wIAE,2010-01-01,001Ps00000l5uGDIAY,Education/Studies,"Bachelor, Philosophy",012Ps000002fU2pIAE,"003ps00000gmw8wiae20100101bachelor,philosophy"
+003Ps00000gmW8wIAE,2014-01-01,001Ps00000l5Qi1IAE,Education/Studies,Master of Divinity,012Ps000002fU2pIAE,003ps00000gmw8wiae20140101masterofdivinity
 003Ps00000frjx2IAA,1969-01-01,001Ps00000l5XRiIAM,Education/Studies,BA,012Ps000002fU2pIAE,003ps00000frjx2iaa19690101ba
 003Ps00000frjx2IAA,1974-01-01,001Ps00000l5XRiIAM,Education/Studies,MA,012Ps000002fU2pIAE,003ps00000frjx2iaa19740101ma
 003Ps00000frjx2IAA,1981-01-01,001Ps00000l5YFjIAM,Education/Studies,MS Counseling Psychology,012Ps000002fU2pIAE,003ps00000frjx2iaa19810101mscounselingpsychology
@@ -60,9 +60,9 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frjxnIAA,1997-01-01,001Ps00000l5HzhIAE,Education/Studies,Master of Theological Studies,012Ps000002fU2pIAE,003ps00000frjxniaa19970101masteroftheologicalstudi
 003Ps00000frjxpIAA,1969-01-01,001Ps00000l5uWLIAY,Education/Studies,Ph.D. Psychology,012Ps000002fU2pIAE,003ps00000frjxpiaa19690101phdpsychology
 003Ps00000frjxqIAA,2002-01-01,001Ps00000l5NAeIAM,Education/Studies,Master of Theological Studies,012Ps000002fU2pIAE,003ps00000frjxqiaa20020101masteroftheologicalstudi
-,2006-01-01,001Ps00000l5SFEIA2,Education/Studies,BA Psychology and Political Science,012Ps000002fU2pIAE,none20060101bapsychologyandpoliticalscience
-,2009-01-01,001Ps00000l5uZZIAY,Education/Studies,Pre-Theology,012Ps000002fU2pIAE,none20090101pretheology
-,2014-01-01,001Ps00000l5ubBIAQ,Education/Studies,STB,012Ps000002fU2pIAE,none20140101stb
+003Ps00000gmW92IAE,2006-01-01,001Ps00000l5SFEIA2,Education/Studies,BA Psychology and Political Science,012Ps000002fU2pIAE,003ps00000gmw92iae20060101bapsychologyandpolitical
+003Ps00000gmW92IAE,2009-01-01,001Ps00000l5uZZIAY,Education/Studies,Pre-Theology,012Ps000002fU2pIAE,003ps00000gmw92iae20090101pretheology
+003Ps00000gmW92IAE,2014-01-01,001Ps00000l5ubBIAQ,Education/Studies,STB,012Ps000002fU2pIAE,003ps00000gmw92iae20140101stb
 003Ps00000frkNgIAI,2006-01-01,001Ps00000l5M4uIAE,Education/Studies,Bachelor of Philosophy,012Ps000002fU2pIAE,003ps00000frkngiai20060101bachelorofphilosophy
 003Ps00000frkNgIAI,2014-01-01,001Ps00000l5nZiIAI,Education/Studies,,012Ps000002fU2pIAE,003ps00000frkngiai20140101nan
 003Ps00000frkNgIAI,2020-01-01,001Ps00000l5KEXIA2,Education/Studies,Theology,012Ps000002fU2pIAE,003ps00000frkngiai20200101theology
@@ -82,8 +82,8 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frkrkIAA,1980-01-01,001Ps00000l5lfzIAA,Education/Studies,STL,012Ps000002fU2pIAE,003ps00000frkrkiaa19800101stl
 003Ps00000frkrkIAA,1985-01-01,001Ps00000l5WDxIAM,Education/Studies,JCL,012Ps000002fU2pIAE,003ps00000frkrkiaa19850101jcl
 003Ps00000frkrmIAA,2007-01-01,001Ps00000l5AYOIA2,Education/Studies,Certificate of Studies in Pastoral Ministries,012Ps000002fU2pIAE,003ps00000frkrmiaa20070101certificateofstudiesinpa
-,2004-01-01,001Ps00000l5V1qIAE,Education/Studies,A. B. Philosophy,012Ps000002fU2pIAE,none20040101abphilosophy
-,2014-01-01,001Ps00000l5s1WIAQ,Education/Studies,Master in Divinity,012Ps000002fU2pIAE,none20140101masterindivinity
+003Ps00000gmW9EIAU,2004-01-01,001Ps00000l5V1qIAE,Education/Studies,A. B. Philosophy,012Ps000002fU2pIAE,003ps00000gmw9eiau20040101abphilosophy
+003Ps00000gmW9EIAU,2014-01-01,001Ps00000l5s1WIAQ,Education/Studies,Master in Divinity,012Ps000002fU2pIAE,003ps00000gmw9eiau20140101masterindivinity
 003Ps00000frkrtIAA,1980-01-01,001Ps00000l5Xd0IAE,Education/Studies,B.Arch,012Ps000002fU2pIAE,003ps00000frkrtiaa19800101barch
 003Ps00000frkrtIAA,1986-01-01,001Ps00000l5ujFIAQ,Education/Studies,M.Div.,012Ps000002fU2pIAE,003ps00000frkrtiaa19860101mdiv
 003Ps00000frkrtIAA,2014-01-01,001Ps00000l5ukrIAA,Education/Studies,STB,012Ps000002fU2pIAE,003ps00000frkrtiaa20140101stb
@@ -97,12 +97,12 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frksNIAQ,2012-01-01,001Ps00000l5qEEIAY,Education/Studies,STB Theology,012Ps000002fU2pIAE,003ps00000frksniaq20120101stbtheology
 003Ps00000frksNIAQ,2012-01-01,001Ps00000l5qEEIAY,Education/Studies,M. Div,012Ps000002fU2pIAE,003ps00000frksniaq20120101mdiv
 003Ps00000frksNIAQ,2017-01-01,001Ps00000l5WDxIAM,Education/Studies,JCL,012Ps000002fU2pIAE,003ps00000frksniaq20170101jcl
-,1969-01-01,001Ps00000l57IrIAI,Education/Studies,Sociology /Psychology,012Ps000002fU2pIAE,none19690101sociology/psychology
-,1983-01-01,001Ps00000l5dwxIAA,Education/Studies,MA Patristics,012Ps000002fU2pIAE,none19830101mapatristics
+003Ps00000gmW9GIAU,1969-01-01,001Ps00000l57IrIAI,Education/Studies,Sociology /Psychology,012Ps000002fU2pIAE,003ps00000gmw9giau19690101sociology/psychology
+003Ps00000gmW9GIAU,1983-01-01,001Ps00000l5dwxIAA,Education/Studies,MA Patristics,012Ps000002fU2pIAE,003ps00000gmw9giau19830101mapatristics
 003Ps00000frksXIAQ,1969-01-01,001Ps00000l5iN8IAI,Education/Studies,Philosophy,012Ps000002fU2pIAE,003ps00000frksxiaq19690101philosophy
 003Ps00000frksgIAA,2000-01-01,001Ps00000l5HzhIAE,Education/Studies,Master of Theological Studies,012Ps000002fU2pIAE,003ps00000frksgiaa20000101masteroftheologicalstudi
-,1975-01-01,001Ps00000l5AGgIAM,Education/Studies,BA Journalism,012Ps000002fU2pIAE,none19750101bajournalism
-,1983-01-01,001Ps00000l5TSzIAM,Education/Studies,MDIV,012Ps000002fU2pIAE,none19830101mdiv
+003Ps00000gmW9IIAU,1975-01-01,001Ps00000l5AGgIAM,Education/Studies,BA Journalism,012Ps000002fU2pIAE,003ps00000gmw9iiau19750101bajournalism
+003Ps00000gmW9IIAU,1983-01-01,001Ps00000l5TSzIAM,Education/Studies,MDIV,012Ps000002fU2pIAE,003ps00000gmw9iiau19830101mdiv
 003Ps00000frkslIAA,2017-01-01,001Ps00000l5WvXIAU,Education/Studies,Priestly Formation,012Ps000002fU2pIAE,003ps00000frksliaa20170101priestlyformation
 003Ps00000frkslIAA,2002-01-01,001Ps00000l4uzIIAQ,Education/Studies,Associate of Applied Science Electronic Engineerin,012Ps000002fU2pIAE,003ps00000frksliaa20020101associateofappliedscienc
 003Ps00000frkt4IAA,2007-01-01,001Ps00000l5AYOIA2,Education/Studies,Master of Arts in Pastoral Ministry,012Ps000002fU2pIAE,003ps00000frkt4iaa20070101masterofartsinpastoralmi
@@ -123,8 +123,8 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frlo1IAA,2024-01-01,001Ps00000l56RZIAY,Education/Studies,Master of Arts in Theology,012Ps000002fU2pIAE,003ps00000frlo1iaa20240101masterofartsintheology
 003Ps00000frloBIAQ,2003-01-01,001Ps00000l5uuXIAQ,Education/Studies,Hispanic Lay Ministry Formation Program,012Ps000002fU2pIAE,003ps00000frlobiaq20030101hispaniclayministryforma
 003Ps00000frloWIAQ,2001-01-01,001Ps00000l5eL8IAI,Education/Studies,BS Electrical Engineering,012Ps000002fU2pIAE,003ps00000frlowiaq20010101bselectricalengineering
-,2018-01-01,001Ps00000l5n8IIAQ,Education/Studies,Priestly Formation,012Ps000002fU2pIAE,none20180101priestlyformation
-,2015-01-01,001Ps00000l5WvXIAU,Education/Studies,Bachelor of Arts,012Ps000002fU2pIAE,none20150101bachelorofarts
+003Ps00000gmW9YIAU,2018-01-01,001Ps00000l5n8IIAQ,Education/Studies,Priestly Formation,012Ps000002fU2pIAE,003ps00000gmw9yiau20180101priestlyformation
+003Ps00000gmW9YIAU,2015-01-01,001Ps00000l5WvXIAU,Education/Studies,Bachelor of Arts,012Ps000002fU2pIAE,003ps00000gmw9yiau20150101bachelorofarts
 003Ps00000frlogIAA,1994-01-01,001Ps00000l5uw9IAA,Education/Studies,Masters in Spirituality,012Ps000002fU2pIAE,003ps00000frlogiaa19940101mastersinspirituality
 003Ps00000frloiIAA,1992-01-01,001Ps00000l5jsgIAA,Education/Studies,Philosophy and Theology,012Ps000002fU2pIAE,003ps00000frloiiaa19920101philosophyandtheology
 003Ps00000frloiIAA,1996-01-01,001Ps00000l5X1vIAE,Education/Studies,S.T.B.,012Ps000002fU2pIAE,003ps00000frloiiaa19960101stb
@@ -137,10 +137,10 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frloqIAA,1981-01-01,001Ps00000l4wonIAA,Education/Studies,STL Biblical Studies,012Ps000002fU2pIAE,003ps00000frloqiaa19810101stlbiblicalstudies
 003Ps00000frloyIAA,2010-01-01,001Ps00000l5e0BIAQ,Education/Studies,"Bachelor of Science, Psychology",012Ps000002fU2pIAE,"003ps00000frloyiaa20100101bachelorofscience,psycho"
 003Ps00000frloyIAA,2015-01-01,001Ps00000l5GluIAE,Education/Studies,"Master of Arts, Bible and Theology",012Ps000002fU2pIAE,"003ps00000frloyiaa20150101masterofarts,bibleandthe"
-,2000-01-01,001Ps00000l516vIAA,Education/Studies,BA,012Ps000002fU2pIAE,none20000101ba
-,2011-01-01,001Ps00000l5tKAIAY,Education/Studies,MA,012Ps000002fU2pIAE,none20110101ma
-,2011-01-01,001Ps00000l5lUgIAI,Education/Studies,STB,012Ps000002fU2pIAE,none20110101stb
-,2012-01-01,001Ps00000l5tKAIAY,Education/Studies,MDiv,012Ps000002fU2pIAE,none20120101mdiv
+003Ps00000gmA4zIAE,2000-01-01,001Ps00000l516vIAA,Education/Studies,BA,012Ps000002fU2pIAE,003ps00000gma4ziae20000101ba
+003Ps00000gmA4zIAE,2011-01-01,001Ps00000l5tKAIAY,Education/Studies,MA,012Ps000002fU2pIAE,003ps00000gma4ziae20110101ma
+003Ps00000gmA4zIAE,2011-01-01,001Ps00000l5lUgIAI,Education/Studies,STB,012Ps000002fU2pIAE,003ps00000gma4ziae20110101stb
+003Ps00000gmA4zIAE,2012-01-01,001Ps00000l5tKAIAY,Education/Studies,MDiv,012Ps000002fU2pIAE,003ps00000gma4ziae20120101mdiv
 003Ps00000frjGzIAI,1987-01-01,001Ps00000l290yIAA,Education/Studies,Philosophy,012Ps000002fU2pIAE,003ps00000frjgziai19870101philosophy
 003Ps00000frjGzIAI,1993-01-01,001Ps00000l5v5pIAA,Education/Studies,Master of Divinity,012Ps000002fU2pIAE,003ps00000frjgziai19930101masterofdivinity
 003Ps00000frjH1IAI,2020-01-01,001Ps00000l5eMlIAI,Education/Studies,BA Philosophy/Theology,012Ps000002fU2pIAE,003ps00000frjh1iai20200101baphilosophy/theology
@@ -159,7 +159,7 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frjmVIAQ,2016-01-01,001Ps00000l5FbQIAU,Education/Studies,BA of Science Major Agricultural Sciences,012Ps000002fU2pIAE,003ps00000frjmviaq20160101baofsciencemajoragricult
 003Ps00000frjmYIAQ,2010-01-01,001Ps00000l5AYOIA2,Education/Studies,Master of Arts in Pastoral Ministry,012Ps000002fU2pIAE,003ps00000frjmyiaq20100101masterofartsinpastoralmi
 003Ps00000frjmcIAA,2005-01-01,001Ps00000l5sskIAA,Education/Studies,Master of Arts in Spirituality,012Ps000002fU2pIAE,003ps00000frjmciaa20050101masterofartsinspirituali
-,1988-01-01,001Ps00000l5odqIAA,Education/Studies,Master of Arts in Theology,012Ps000002fU2pIAE,none19880101masterofartsintheology
+003Ps00000gmA54IAE,1988-01-01,001Ps00000l5odqIAA,Education/Studies,Master of Arts in Theology,012Ps000002fU2pIAE,003ps00000gma54iae19880101masterofartsintheology
 003Ps00000frjmsIAA,1995-01-01,001Ps00000l5UDjIAM,Education/Studies,"D.D., Systematic Theology",012Ps000002fU2pIAE,"003ps00000frjmsiaa19950101dd,systematictheology"
 003Ps00000frjn8IAA,2006-01-01,001Ps00000l5WKQIA2,Education/Studies,"Bachelor Psychology, Political Science, Law",012Ps000002fU2pIAE,"003ps00000frjn8iaa20060101bachelorpsychology,polit"
 003Ps00000frjnaIAA,1998-01-01,001Ps00000l5HzhIAE,Education/Studies,Master of Theological Studies,012Ps000002fU2pIAE,003ps00000frjnaiaa19980101masteroftheologicalstudi
@@ -174,10 +174,10 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frkC7IAI,1979-01-01,001Ps00000l290yIAA,Education/Studies,BA Philosophy,012Ps000002fU2pIAE,003ps00000frkc7iai19790101baphilosophy
 003Ps00000frkC7IAI,1979-01-01,001Ps00000l5vCHIAY,Education/Studies,BS English,012Ps000002fU2pIAE,003ps00000frkc7iai19790101bsenglish
 003Ps00000frkC7IAI,1987-01-01,001Ps00000l5h2sIAA,Education/Studies,M.Div. Theology,012Ps000002fU2pIAE,003ps00000frkc7iai19870101mdivtheology
-,1986-01-01,001Ps00000l5ds6IAA,Education/Studies,Bachelor of Science,012Ps000002fU2pIAE,none19860101bachelorofscience
-,1998-01-01,001Ps00000l55X9IAI,Education/Studies,MA Theology,012Ps000002fU2pIAE,none19980101matheology
-,2017-01-01,001Ps00000l5uGDIAY,Education/Studies,Philosophy,012Ps000002fU2pIAE,none20170101philosophy
-,2022-01-01,001Ps00000l5uGDIAY,Education/Studies,Thelogy,012Ps000002fU2pIAE,none20220101thelogy
+003Ps00000gmA5JIAU,1986-01-01,001Ps00000l5ds6IAA,Education/Studies,Bachelor of Science,012Ps000002fU2pIAE,003ps00000gma5jiau19860101bachelorofscience
+003Ps00000gmA5JIAU,1998-01-01,001Ps00000l55X9IAI,Education/Studies,MA Theology,012Ps000002fU2pIAE,003ps00000gma5jiau19980101matheology
+003Ps00000gmA5KIAU,2017-01-01,001Ps00000l5uGDIAY,Education/Studies,Philosophy,012Ps000002fU2pIAE,003ps00000gma5kiau20170101philosophy
+003Ps00000gmA5KIAU,2022-01-01,001Ps00000l5uGDIAY,Education/Studies,Thelogy,012Ps000002fU2pIAE,003ps00000gma5kiau20220101thelogy
 003Ps00000frkCBIAY,2006-01-01,001Ps00000l5YFjIAM,Education/Studies,BS Biochemistry,012Ps000002fU2pIAE,003ps00000frkcbiay20060101bsbiochemistry
 003Ps00000frkCBIAY,2001-01-01,001Ps00000l50IwIAI,Education/Studies,MS Chemistry,012Ps000002fU2pIAE,003ps00000frkcbiay20010101mschemistry
 003Ps00000frkCBIAY,2009-01-01,001Ps00000l5ffOIAQ,Education/Studies,M. Div,012Ps000002fU2pIAE,003ps00000frkcbiay20090101mdiv
@@ -194,8 +194,8 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frkD2IAI,2019-01-01,001Ps00000l56HrIAI,Education/Studies,B.A. Economics,012Ps000002fU2pIAE,003ps00000frkd2iai20190101baeconomics
 003Ps00000frkD4IAI,2009-01-01,001Ps00000l5eEhIAI,Education/Studies,AAS in Fire Science and Emergency Medical Services,012Ps000002fU2pIAE,003ps00000frkd4iai20090101aasinfirescienceandemerg
 003Ps00000frkD4IAI,2019-01-01,001Ps00000l5WvXIAU,Education/Studies,BA Philosophy,012Ps000002fU2pIAE,003ps00000frkd4iai20190101baphilosophy
-,2007-01-01,001Ps00000l5vH7IAI,Education/Studies,BA Theology,012Ps000002fU2pIAE,none20070101batheology
-,2022-01-01,001Ps00000l5tGxIAI,Education/Studies,"Phd, Cannon Law",012Ps000002fU2pIAE,"none20220101phd,cannonlaw"
+003Ps00000gmA5SIAU,2007-01-01,001Ps00000l5vH7IAI,Education/Studies,BA Theology,012Ps000002fU2pIAE,003ps00000gma5siau20070101batheology
+003Ps00000gmA5SIAU,2022-01-01,001Ps00000l5tGxIAI,Education/Studies,"Phd, Cannon Law",012Ps000002fU2pIAE,"003ps00000gma5siau20220101phd,cannonlaw"
 003Ps00000frkD9IAI,1987-01-01,001Ps00000l5VbEIAU,Education/Studies,MA Theology,012Ps000002fU2pIAE,003ps00000frkd9iai19870101matheology
 003Ps00000frkD9IAI,1993-01-01,001Ps00000l5fE0IAI,Education/Studies,Licentiate,012Ps000002fU2pIAE,003ps00000frkd9iai19930101licentiate
 003Ps00000frkZnIAI,2014-01-01,001Ps00000l5vIjIAI,Education/Studies,History with minor in Communications,012Ps000002fU2pIAE,003ps00000frkzniai20140101historywithminorincommun
@@ -212,17 +212,17 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frkaVIAQ,1988-01-01,001Ps00000l54KyIAI,Education/Studies,Doctor of Dental Surgery,012Ps000002fU2pIAE,003ps00000frkaviaq19880101doctorofdentalsurgery
 003Ps00000frkaVIAQ,2014-01-01,001Ps00000l5hPSIAY,Education/Studies,MA Theology,012Ps000002fU2pIAE,003ps00000frkaviaq20140101matheology
 003Ps00000frkaVIAQ,2020-01-01,001Ps00000l5SFFIA2,Education/Studies,Master of Healthcare Administration,012Ps000002fU2pIAE,003ps00000frkaviaq20200101masterofhealthcareadmini
-,2001-01-01,001Ps00000l5Qq8IAE,Education/Studies,BS Psychology,012Ps000002fU2pIAE,none20010101bspsychology
-,2007-01-01,001Ps00000l5uGDIAY,Education/Studies,M.Div.,012Ps000002fU2pIAE,none20070101mdiv
-,2019-01-01,001Ps00000l5hPSIAY,Education/Studies,JCL,012Ps000002fU2pIAE,none20190101jcl
-,1999-01-01,001Ps00000l5PFlIAM,Education/Studies,Bachelor of Engineering,012Ps000002fU2pIAE,none19990101bachelorofengineering
-,2008-01-01,001Ps00000l5oKUIAY,Education/Studies,Bachelor in Theology,012Ps000002fU2pIAE,none20080101bachelorintheology
-,2019-01-01,001Ps00000l5NAgIAM,Education/Studies,STL Pastoral Theology,012Ps000002fU2pIAE,none20190101stlpastoraltheology
+003Ps00000gmA5YIAU,2001-01-01,001Ps00000l5Qq8IAE,Education/Studies,BS Psychology,012Ps000002fU2pIAE,003ps00000gma5yiau20010101bspsychology
+003Ps00000gmA5YIAU,2007-01-01,001Ps00000l5uGDIAY,Education/Studies,M.Div.,012Ps000002fU2pIAE,003ps00000gma5yiau20070101mdiv
+003Ps00000gmA5YIAU,2019-01-01,001Ps00000l5hPSIAY,Education/Studies,JCL,012Ps000002fU2pIAE,003ps00000gma5yiau20190101jcl
+003Ps00000gmA5ZIAU,1999-01-01,001Ps00000l5PFlIAM,Education/Studies,Bachelor of Engineering,012Ps000002fU2pIAE,003ps00000gma5ziau19990101bachelorofengineering
+003Ps00000gmA5ZIAU,2008-01-01,001Ps00000l5oKUIAY,Education/Studies,Bachelor in Theology,012Ps000002fU2pIAE,003ps00000gma5ziau20080101bachelorintheology
+003Ps00000gmA5ZIAU,2019-01-01,001Ps00000l5NAgIAM,Education/Studies,STL Pastoral Theology,012Ps000002fU2pIAE,003ps00000gma5ziau20190101stlpastoraltheology
 003Ps00000frkaqIAA,1989-01-01,001Ps00000l5vLxIAI,Education/Studies,BA English Literature,012Ps000002fU2pIAE,003ps00000frkaqiaa19890101baenglishliterature
 003Ps00000frkaqIAA,1995-01-01,001Ps00000l5YFjIAM,Education/Studies,Master of Urban Planning,012Ps000002fU2pIAE,003ps00000frkaqiaa19950101masterofurbanplanning
 003Ps00000frkarIAA,2003-01-01,001Ps00000l5NAhIAM,Education/Studies,BA Mathematics and Philosophy,012Ps000002fU2pIAE,003ps00000frkariaa20030101bamathematicsandphilosop
 003Ps00000frkarIAA,2011-01-01,001Ps00000l5prgIAA,Education/Studies,Doctorate of Mathematics,012Ps000002fU2pIAE,003ps00000frkariaa20110101doctorateofmathematics
-,2012-01-01,001Ps00000l5AYOIA2,Education/Studies,Master of Arts in Pastoral Ministry,012Ps000002fU2pIAE,none20120101masterofartsinpastoralministry
+003Ps00000gmA5cIAE,2012-01-01,001Ps00000l5AYOIA2,Education/Studies,Master of Arts in Pastoral Ministry,012Ps000002fU2pIAE,003ps00000gma5ciae20120101masterofartsinpastoralmi
 003Ps00000frlcZIAQ,1979-01-01,001Ps00000l5vPBIAY,Education/Studies,Philosophy,012Ps000002fU2pIAE,003ps00000frlcziaq19790101philosophy
 003Ps00000frlcbIAA,1998-01-01,001Ps00000l5uUjIAI,Education/Studies,Bachelor of Science in Aerospace Engineering,012Ps000002fU2pIAE,003ps00000frlcbiaa19980101bachelorofscienceinaeros
 003Ps00000frlcbIAA,2006-01-01,001Ps00000l5uUjIAI,Education/Studies,Master of Divinity,012Ps000002fU2pIAE,003ps00000frlcbiaa20060101masterofdivinity
@@ -232,10 +232,10 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frlcgIAA,2013-01-01,001Ps00000l5FQlIAM,Education/Studies,M. Divinity,012Ps000002fU2pIAE,003ps00000frlcgiaa20130101mdivinity
 003Ps00000frlcgIAA,2017-01-01,001Ps00000l5ubCIAQ,Education/Studies,MSM Sacred Music,012Ps000002fU2pIAE,003ps00000frlcgiaa20170101msmsacredmusic
 003Ps00000frlcmIAA,2005-01-01,001Ps00000l5tiMIAQ,Education/Studies,,012Ps000002fU2pIAE,003ps00000frlcmiaa20050101nan
-,1987-01-01,001Ps00000l4zHzIAI,Education/Studies,"MA, B. Education",012Ps000002fU2pIAE,"none19870101ma,beducation"
-,1991-01-01,001Ps00000l5vKMIAY,Education/Studies,Licentiate in Sacred Liturgy,012Ps000002fU2pIAE,none19910101licentiateinsacredliturgy
-,1996-01-01,001Ps00000l57loIAA,Education/Studies,BA Catechetics and Pastoral Theology,012Ps000002fU2pIAE,none19960101bacatecheticsandpastoraltheology
-,2000-01-01,001Ps00000l5iTbIAI,Education/Studies,PhD Theology,012Ps000002fU2pIAE,none20000101phdtheology
+003Ps00000gmA5oIAE,1987-01-01,001Ps00000l4zHzIAI,Education/Studies,"MA, B. Education",012Ps000002fU2pIAE,"003ps00000gma5oiae19870101ma,beducation"
+003Ps00000gmA5oIAE,1991-01-01,001Ps00000l5vKMIAY,Education/Studies,Licentiate in Sacred Liturgy,012Ps000002fU2pIAE,003ps00000gma5oiae19910101licentiateinsacredliturg
+003Ps00000gmA5oIAE,1996-01-01,001Ps00000l57loIAA,Education/Studies,BA Catechetics and Pastoral Theology,012Ps000002fU2pIAE,003ps00000gma5oiae19960101bacatecheticsandpastoral
+003Ps00000gmA5oIAE,2000-01-01,001Ps00000l5iTbIAI,Education/Studies,PhD Theology,012Ps000002fU2pIAE,003ps00000gma5oiae20000101phdtheology
 003Ps00000frld0IAA,2006-01-01,001Ps00000l5vQnIAI,Education/Studies,BS Medical Technology,012Ps000002fU2pIAE,003ps00000frld0iaa20060101bsmedicaltechnology
 003Ps00000frld0IAA,2022-01-01,001Ps00000l5ffOIAQ,Education/Studies,MDiv / MA Theology,012Ps000002fU2pIAE,003ps00000frld0iaa20220101mdiv/matheology
 003Ps00000frld1IAA,1980-01-01,001Ps00000l5uUjIAI,Education/Studies,BA Sociology/Theology,012Ps000002fU2pIAE,003ps00000frld1iaa19800101basociology/theology
@@ -265,8 +265,8 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frjXDIAY,2012-01-01,001Ps00000l5WMQIA2,Education/Studies,Master of Divinity,012Ps000002fU2pIAE,003ps00000frjxdiay20120101masterofdivinity
 003Ps00000frjyzIAA,2018-01-01,001Ps00000l5LbrIAE,Education/Studies,BA Theology,012Ps000002fU2pIAE,003ps00000frjyziaa20180101batheology
 003Ps00000frjyzIAA,2023-01-01,001Ps00000l5u06IAA,Education/Studies,M.Div.,012Ps000002fU2pIAE,003ps00000frjyziaa20230101mdiv
-,2007-01-01,001Ps00000l5NKKIA2,Education/Studies,BA Philosophy,012Ps000002fU2pIAE,none20070101baphilosophy
-,2011-01-01,001Ps00000l5Us4IAE,Education/Studies,MA Theology,012Ps000002fU2pIAE,none20110101matheology
+003Ps00000gltDvIAI,2007-01-01,001Ps00000l5NKKIA2,Education/Studies,BA Philosophy,012Ps000002fU2pIAE,003ps00000gltdviai20070101baphilosophy
+003Ps00000gltDvIAI,2011-01-01,001Ps00000l5Us4IAE,Education/Studies,MA Theology,012Ps000002fU2pIAE,003ps00000gltdviai20110101matheology
 003Ps00000frjz9IAA,1980-01-01,001Ps00000l5osMIAQ,Education/Studies,BS,012Ps000002fU2pIAE,003ps00000frjz9iaa19800101bs
 003Ps00000frjz9IAA,1991-01-01,001Ps00000l5NAeIAM,Education/Studies,MDiv,012Ps000002fU2pIAE,003ps00000frjz9iaa19910101mdiv
 003Ps00000frjzBIAQ,2009-01-01,001Ps00000l5NAeIAM,Education/Studies,BA,012Ps000002fU2pIAE,003ps00000frjzbiaq20090101ba
@@ -293,8 +293,8 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frk0KIAQ,1963-01-01,001Ps00000l5vgvIAA,Education/Studies,Bachelor in Philosophy,012Ps000002fU2pIAE,003ps00000frk0kiaq19630101bachelorinphilosophy
 003Ps00000frk0KIAQ,1963-01-01,001Ps00000l5ffOIAQ,Education/Studies,Master in Theology,012Ps000002fU2pIAE,003ps00000frk0kiaq19630101masterintheology
 003Ps00000frk0LIAQ,1989-01-01,001Ps00000l5viXIAQ,Education/Studies,Master of Arts in Pastoral Ministry,012Ps000002fU2pIAE,003ps00000frk0liaq19890101masterofartsinpastoralmi
-,2017-01-01,001Ps00000l5T4mIAE,Education/Studies,BA Philosophy and Letters,012Ps000002fU2pIAE,none20170101baphilosophyandletters
-,2022-01-01,001Ps00000l5uGDIAY,Education/Studies,Philosophy,012Ps000002fU2pIAE,none20220101philosophy
+003Ps00000gltE4IAI,2017-01-01,001Ps00000l5T4mIAE,Education/Studies,BA Philosophy and Letters,012Ps000002fU2pIAE,003ps00000glte4iai20170101baphilosophyandletters
+003Ps00000gltE4IAI,2022-01-01,001Ps00000l5uGDIAY,Education/Studies,Philosophy,012Ps000002fU2pIAE,003ps00000glte4iai20220101philosophy
 003Ps00000frk0dIAA,1997-01-01,001Ps00000l5uheIAA,Education/Studies,LLB Law,012Ps000002fU2pIAE,003ps00000frk0diaa19970101llblaw
 003Ps00000frk0dIAA,2003-01-01,001Ps00000l5vk9IAA,Education/Studies,LLM Law,012Ps000002fU2pIAE,003ps00000frk0diaa20030101llmlaw
 003Ps00000frk0dIAA,2009-01-01,001Ps00000l5n8JIAQ,Education/Studies,Ph.D. Asian and Comparative Law,012Ps000002fU2pIAE,003ps00000frk0diaa20090101phdasianandcomparativela
@@ -322,10 +322,10 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frkRaIAI,1972-01-01,001Ps00000l5pQGIAY,Education/Studies,STL - Theology,012Ps000002fU2pIAE,003ps00000frkraiai19720101stltheology
 003Ps00000frkmfIAA,2000-01-01,001Ps00000l5n0EIAQ,Education/Studies,BS Mechanical Engineering,012Ps000002fU2pIAE,003ps00000frkmfiaa20000101bsmechanicalengineering
 003Ps00000frkmfIAA,2017-01-01,001Ps00000l5vqbIAA,Education/Studies,Master of Business Administration,012Ps000002fU2pIAE,003ps00000frkmfiaa20170101masterofbusinessadminist
-,1986-01-01,001Ps00000l5DcjIAE,Education/Studies,"B.A., Philosophy",012Ps000002fU2pIAE,"none19860101ba,philosophy"
-,1995-01-01,001Ps00000l5vsDIAQ,Education/Studies,"M.A., English",012Ps000002fU2pIAE,"none19950101ma,english"
-,2003-01-01,001Ps00000l5sZOIAY,Education/Studies,"M.A., Psychology",012Ps000002fU2pIAE,"none20030101ma,psychology"
-,2004-01-01,001Ps00000l5sZOIAY,Education/Studies,Post Graduate Diploma in Counselling,012Ps000002fU2pIAE,none20040101postgraduatediplomaincounselling
+003Ps00000gltECIAY,1986-01-01,001Ps00000l5DcjIAE,Education/Studies,"B.A., Philosophy",012Ps000002fU2pIAE,"003ps00000glteciay19860101ba,philosophy"
+003Ps00000gltECIAY,1995-01-01,001Ps00000l5vsDIAQ,Education/Studies,"M.A., English",012Ps000002fU2pIAE,"003ps00000glteciay19950101ma,english"
+003Ps00000gltECIAY,2003-01-01,001Ps00000l5sZOIAY,Education/Studies,"M.A., Psychology",012Ps000002fU2pIAE,"003ps00000glteciay20030101ma,psychology"
+003Ps00000gltECIAY,2004-01-01,001Ps00000l5sZOIAY,Education/Studies,Post Graduate Diploma in Counselling,012Ps000002fU2pIAE,003ps00000glteciay20040101postgraduatediplomaincou
 003Ps00000frkmlIAA,1987-01-01,001Ps00000l5rrqIAA,Education/Studies,BA,012Ps000002fU2pIAE,003ps00000frkmliaa19870101ba
 003Ps00000frkmlIAA,1988-01-01,001Ps00000l59VqIAI,Education/Studies,BA Education,012Ps000002fU2pIAE,003ps00000frkmliaa19880101baeducation
 003Ps00000frkmlIAA,1995-01-01,001Ps00000l5e8FIAQ,Education/Studies,Licentiate in Church History,012Ps000002fU2pIAE,003ps00000frkmliaa19950101licentiateinchurchhistor
@@ -333,14 +333,14 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frkmlIAA,2010-01-01,001Ps00000l5oPKIAY,Education/Studies,MA Philosophy,012Ps000002fU2pIAE,003ps00000frkmliaa20100101maphilosophy
 003Ps00000frkmrIAA,2019-01-01,001Ps00000l5uWLIAY,Education/Studies,BS Computer Science,012Ps000002fU2pIAE,003ps00000frkmriaa20190101bscomputerscience
 003Ps00000frkmyIAA,1995-01-01,001Ps00000l5uuXIAQ,Education/Studies,Certificicado de Catequista y Evangelizador,012Ps000002fU2pIAE,003ps00000frkmyiaa19950101certificicadodecatequist
-,1962-01-01,001Ps00000l5BW3IAM,Education/Studies,Liberal Arts,012Ps000002fU2pIAE,none19620101liberalarts
-,1966-01-01,001Ps00000l5SgZIAU,Education/Studies,STL,012Ps000002fU2pIAE,none19660101stl
-,1972-01-01,001Ps00000l5svyIAA,Education/Studies,Counseling and Finance,012Ps000002fU2pIAE,none19720101counselingandfinance
-,1995-01-01,001Ps00000l5gbTIAQ,Education/Studies,Philosophy,012Ps000002fU2pIAE,none19950101philosophy
-,2001-01-01,001Ps00000l5ml4IAA,Education/Studies,MA Theology,012Ps000002fU2pIAE,none20010101matheology
-,2004-01-01,001Ps00000l5Xl7IAE,Education/Studies,MA English Literature,012Ps000002fU2pIAE,none20040101maenglishliterature
-,2009-01-01,001Ps00000l5uksIAA,Education/Studies,MS Counseling Psychology,012Ps000002fU2pIAE,none20090101mscounselingpsychology
-,2010-01-01,001Ps00000l5spXIAQ,Education/Studies,MA Philosophy in English,012Ps000002fU2pIAE,none20100101maphilosophyinenglish
+003Ps00000gltEDIAY,1962-01-01,001Ps00000l5BW3IAM,Education/Studies,Liberal Arts,012Ps000002fU2pIAE,003ps00000gltediay19620101liberalarts
+003Ps00000gltEDIAY,1966-01-01,001Ps00000l5SgZIAU,Education/Studies,STL,012Ps000002fU2pIAE,003ps00000gltediay19660101stl
+003Ps00000gltEDIAY,1972-01-01,001Ps00000l5svyIAA,Education/Studies,Counseling and Finance,012Ps000002fU2pIAE,003ps00000gltediay19720101counselingandfinance
+003Ps00000gltEGIAY,1995-01-01,001Ps00000l5gbTIAQ,Education/Studies,Philosophy,012Ps000002fU2pIAE,003ps00000gltegiay19950101philosophy
+003Ps00000gltEGIAY,2001-01-01,001Ps00000l5ml4IAA,Education/Studies,MA Theology,012Ps000002fU2pIAE,003ps00000gltegiay20010101matheology
+003Ps00000gltEGIAY,2004-01-01,001Ps00000l5Xl7IAE,Education/Studies,MA English Literature,012Ps000002fU2pIAE,003ps00000gltegiay20040101maenglishliterature
+003Ps00000gltEGIAY,2009-01-01,001Ps00000l5uksIAA,Education/Studies,MS Counseling Psychology,012Ps000002fU2pIAE,003ps00000gltegiay20090101mscounselingpsychology
+003Ps00000gltEGIAY,2010-01-01,001Ps00000l5spXIAQ,Education/Studies,MA Philosophy in English,012Ps000002fU2pIAE,003ps00000gltegiay20100101maphilosophyinenglish
 003Ps00000frkn7IAA,2000-01-01,001Ps00000l5n8KIAQ,Education/Studies,BA Spanish,012Ps000002fU2pIAE,003ps00000frkn7iaa20000101baspanish
 003Ps00000frkn7IAA,2009-01-01,001Ps00000l5NAeIAM,Education/Studies,Mdiv,012Ps000002fU2pIAE,003ps00000frkn7iaa20090101mdiv
 003Ps00000frkn7IAA,2009-01-01,001Ps00000l5NAeIAM,Education/Studies,MA Scripture,012Ps000002fU2pIAE,003ps00000frkn7iaa20090101mascripture
@@ -361,10 +361,10 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frkoBIAQ,2003-01-01,001Ps00000l5hCaIAI,Education/Studies,Master of Arts Religion,012Ps000002fU2pIAE,003ps00000frkobiaq20030101masterofartsreligion
 003Ps00000frkoBIAQ,2007-01-01,001Ps00000l5b8kIAA,Education/Studies,Doctor of Philosophy,012Ps000002fU2pIAE,003ps00000frkobiaq20070101doctorofphilosophy
 003Ps00000frkoBIAQ,2007-01-01,001Ps00000l5sMWIAY,Education/Studies,Postdoctoral Studies,012Ps000002fU2pIAE,003ps00000frkobiaq20070101postdoctoralstudies
-,1966-01-01,001Ps00000l5CgiIAE,Education/Studies,BA,012Ps000002fU2pIAE,none19660101ba
-,1970-01-01,001Ps00000l5NSPIA2,Education/Studies,,012Ps000002fU2pIAE,none19700101nan
-,2007-01-01,001Ps00000l569pIAA,Education/Studies,BA Philosophy,012Ps000002fU2pIAE,none20070101baphilosophy
-,2010-01-01,001Ps00000l569pIAA,Education/Studies,MA Theology,012Ps000002fU2pIAE,none20100101matheology
+003Ps00000gltEbIAI,1966-01-01,001Ps00000l5CgiIAE,Education/Studies,BA,012Ps000002fU2pIAE,003ps00000gltebiai19660101ba
+003Ps00000gltEbIAI,1970-01-01,001Ps00000l5NSPIA2,Education/Studies,,012Ps000002fU2pIAE,003ps00000gltebiai19700101nan
+003Ps00000gltEcIAI,2007-01-01,001Ps00000l569pIAA,Education/Studies,BA Philosophy,012Ps000002fU2pIAE,003ps00000glteciai20070101baphilosophy
+003Ps00000gltEcIAI,2010-01-01,001Ps00000l569pIAA,Education/Studies,MA Theology,012Ps000002fU2pIAE,003ps00000glteciai20100101matheology
 003Ps00000frkplIAA,1996-01-01,001Ps00000l5B4gIAE,Education/Studies,BS Electrical Engineer,012Ps000002fU2pIAE,003ps00000frkpliaa19960101bselectricalengineer
 003Ps00000frkplIAA,2014-01-01,001Ps00000l5qEFIAY,Education/Studies,MDiv,012Ps000002fU2pIAE,003ps00000frkpliaa20140101mdiv
 003Ps00000frkpqIAA,2009-01-01,001Ps00000l5AYOIA2,Education/Studies,Master of Arts in Pastoral Ministry,012Ps000002fU2pIAE,003ps00000frkpqiaa20090101masterofartsinpastoralmi
@@ -400,16 +400,16 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frllUIAQ,1975-01-01,001Ps00000l5YFjIAM,Education/Studies,MST Mathematics Education,012Ps000002fU2pIAE,003ps00000frlluiaq19750101mstmathematicseducation
 003Ps00000frllUIAQ,1977-01-01,001Ps00000l5ULnIAM,Education/Studies,MS Mathematics/Statistics,012Ps000002fU2pIAE,003ps00000frlluiaq19770101msmathematics/statistics
 003Ps00000frllUIAQ,1980-01-01,001Ps00000l5iesIAA,Education/Studies,MS Industrial Engineering,012Ps000002fU2pIAE,003ps00000frlluiaq19800101msindustrialengineering
-,1967-01-01,001Ps00000l5Hd6IAE,Education/Studies,BS in Physics,012Ps000002fU2pIAE,none19670101bsinphysics
-,1977-01-01,001Ps00000l5YUGIA2,Education/Studies,PhD in Plant Pathology,012Ps000002fU2pIAE,none19770101phdinplantpathology
-,1984-01-01,001Ps00000l5NAeIAM,Education/Studies,MDiv,012Ps000002fU2pIAE,none19840101mdiv
-,1984-01-01,001Ps00000l5NAeIAM,Education/Studies,MA in Scripture,012Ps000002fU2pIAE,none19840101mainscripture
-,2008-01-01,001Ps00000l5AYOIA2,Education/Studies,Master of Arts in Pastoral Ministry,012Ps000002fU2pIAE,none20080101masterofartsinpastoralministry
+003Ps00000gmUy6IAE,1967-01-01,001Ps00000l5Hd6IAE,Education/Studies,BS in Physics,012Ps000002fU2pIAE,003ps00000gmuy6iae19670101bsinphysics
+003Ps00000gmUy6IAE,1977-01-01,001Ps00000l5YUGIA2,Education/Studies,PhD in Plant Pathology,012Ps000002fU2pIAE,003ps00000gmuy6iae19770101phdinplantpathology
+003Ps00000gmUy6IAE,1984-01-01,001Ps00000l5NAeIAM,Education/Studies,MDiv,012Ps000002fU2pIAE,003ps00000gmuy6iae19840101mdiv
+003Ps00000gmUy6IAE,1984-01-01,001Ps00000l5NAeIAM,Education/Studies,MA in Scripture,012Ps000002fU2pIAE,003ps00000gmuy6iae19840101mainscripture
+003Ps00000gmUy9IAE,2008-01-01,001Ps00000l5AYOIA2,Education/Studies,Master of Arts in Pastoral Ministry,012Ps000002fU2pIAE,003ps00000gmuy9iae20080101masterofartsinpastoralmi
 003Ps00000frjpDIAQ,2000-01-01,001Ps00000l5w6jIAA,Education/Studies,BA Liberal Arts,012Ps000002fU2pIAE,003ps00000frjpdiaq20000101baliberalarts
 003Ps00000frjpDIAQ,2004-01-01,001Ps00000l5rf4IAA,Education/Studies,Certificate of Pre-Theology,012Ps000002fU2pIAE,003ps00000frjpdiaq20040101certificateofpretheology
 003Ps00000frjpDIAQ,2022-01-01,001Ps00000l5vfJIAQ,Education/Studies,MA Theology Equivalent,012Ps000002fU2pIAE,003ps00000frjpdiaq20220101matheologyequivalent
-,1989-01-01,001Ps00000l5mguIAA,Education/Studies,BA Philosophy,012Ps000002fU2pIAE,none19890101baphilosophy
-,1993-01-01,001Ps00000l5mguIAA,Education/Studies,,012Ps000002fU2pIAE,none19930101nan
+003Ps00000gmUyDIAU,1989-01-01,001Ps00000l5mguIAA,Education/Studies,BA Philosophy,012Ps000002fU2pIAE,003ps00000gmuydiau19890101baphilosophy
+003Ps00000gmUyDIAU,1993-01-01,001Ps00000l5mguIAA,Education/Studies,,012Ps000002fU2pIAE,003ps00000gmuydiau19930101nan
 003Ps00000frjpHIAQ,1983-01-01,001Ps00000l5NAeIAM,Education/Studies,Master of Theological Studies,012Ps000002fU2pIAE,003ps00000frjphiaq19830101masteroftheologicalstudi
 003Ps00000frjpPIAQ,2007-01-01,001Ps00000l5NAeIAM,Education/Studies,Philosophy,012Ps000002fU2pIAE,003ps00000frjppiaq20070101philosophy
 003Ps00000frjpPIAQ,2010-01-01,001Ps00000l5LghIAE,Education/Studies,STB,012Ps000002fU2pIAE,003ps00000frjppiaq20100101stb
@@ -496,9 +496,9 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frlWLIAY,1968-01-01,001Ps00000l5iN8IAI,Education/Studies,Philosophy/Speech & Drama,012Ps000002fU2pIAE,003ps00000frlwliay19680101philosophy/speech&drama
 003Ps00000frlWLIAY,1973-01-01,001Ps00000l5FGNIA2,Education/Studies,M.Div. Theology,012Ps000002fU2pIAE,003ps00000frlwliay19730101mdivtheology
 003Ps00000frlWLIAY,1982-01-01,001Ps00000l5AYPIA2,Education/Studies,Ph.D. Theology and Arts,012Ps000002fU2pIAE,003ps00000frlwliay19820101phdtheologyandarts
-,1961-01-01,001Ps00000l5uxmIAA,Education/Studies,B.A.,012Ps000002fU2pIAE,none19610101ba
-,1963-01-01,001Ps00000l5wJdIAI,Education/Studies,S.T.B.,012Ps000002fU2pIAE,none19630101stb
-,1972-01-01,001Ps00000l5wLFIAY,Education/Studies,M.Ed.,012Ps000002fU2pIAE,none19720101med
+003Ps00000gmUyiIAE,1961-01-01,001Ps00000l5uxmIAA,Education/Studies,B.A.,012Ps000002fU2pIAE,003ps00000gmuyiiae19610101ba
+003Ps00000gmUyiIAE,1963-01-01,001Ps00000l5wJdIAI,Education/Studies,S.T.B.,012Ps000002fU2pIAE,003ps00000gmuyiiae19630101stb
+003Ps00000gmUyiIAE,1972-01-01,001Ps00000l5wLFIAY,Education/Studies,M.Ed.,012Ps000002fU2pIAE,003ps00000gmuyiiae19720101med
 003Ps00000frlWPIAY,2003-01-01,001Ps00000l5nTGIAY,Education/Studies,BS Mechanical Engineering,012Ps000002fU2pIAE,003ps00000frlwpiay20030101bsmechanicalengineering
 003Ps00000frlWPIAY,2015-01-01,001Ps00000l5lfzIAA,Education/Studies,STB,012Ps000002fU2pIAE,003ps00000frlwpiay20150101stb
 003Ps00000frlWQIAY,2000-01-01,001Ps00000l5mufIAA,Education/Studies,Theology,012Ps000002fU2pIAE,003ps00000frlwqiay20000101theology
@@ -520,20 +520,20 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frlimIAA,1998-01-01,001Ps00000l5wZlIAI,Education/Studies,MA Theology,012Ps000002fU2pIAE,003ps00000frlimiaa19980101matheology
 003Ps00000frlipIAA,2004-01-01,001Ps00000l5BhOIAU,Education/Studies,BA,012Ps000002fU2pIAE,003ps00000frlipiaa20040101ba
 003Ps00000frlipIAA,2008-01-01,001Ps00000l5XhtIAE,Education/Studies,M.Div.,012Ps000002fU2pIAE,003ps00000frlipiaa20080101mdiv
-,2010-01-01,001Ps00000l5whpIAA,Education/Studies,,012Ps000002fU2pIAE,none20100101nan
-,2016-01-01,001Ps00000l5JZfIAM,Education/Studies,Philosophy,012Ps000002fU2pIAE,none20160101philosophy
-,2019-01-01,001Ps00000l5eMlIAI,Education/Studies,Theology,012Ps000002fU2pIAE,none20190101theology
-,2020-01-01,001Ps00000l5Z28IAE,Education/Studies,Intensive English,012Ps000002fU2pIAE,none20200101intensiveenglish
-,2023-01-01,001Ps00000l5nzXIAQ,Education/Studies,Theology,012Ps000002fU2pIAE,none20230101theology
+003Ps00000gmWBtIAM,2010-01-01,001Ps00000l5whpIAA,Education/Studies,,012Ps000002fU2pIAE,003ps00000gmwbtiam20100101nan
+003Ps00000gmWBtIAM,2016-01-01,001Ps00000l5JZfIAM,Education/Studies,Philosophy,012Ps000002fU2pIAE,003ps00000gmwbtiam20160101philosophy
+003Ps00000gmWBtIAM,2019-01-01,001Ps00000l5eMlIAI,Education/Studies,Theology,012Ps000002fU2pIAE,003ps00000gmwbtiam20190101theology
+003Ps00000gmWBtIAM,2020-01-01,001Ps00000l5Z28IAE,Education/Studies,Intensive English,012Ps000002fU2pIAE,003ps00000gmwbtiam20200101intensiveenglish
+003Ps00000gmWBtIAM,2023-01-01,001Ps00000l5nzXIAQ,Education/Studies,Theology,012Ps000002fU2pIAE,003ps00000gmwbtiam20230101theology
 003Ps00000frjsKIAQ,1996-01-01,001Ps00000l5poSIAQ,Education/Studies,BA/B Theology,012Ps000002fU2pIAE,003ps00000frjskiaq19960101ba/btheology
 003Ps00000frjsKIAQ,2005-01-01,001Ps00000l5sZPIAY,Education/Studies,MBA,012Ps000002fU2pIAE,003ps00000frjskiaq20050101mba
 003Ps00000frjsKIAQ,2014-01-01,001Ps00000l5fCMIAY,Education/Studies,Ph.D,012Ps000002fU2pIAE,003ps00000frjskiaq20140101phd
 003Ps00000frjsMIAQ,2016-01-01,001Ps00000l5uWLIAY,Education/Studies,BS Biology,012Ps000002fU2pIAE,003ps00000frjsmiaq20160101bsbiology
 003Ps00000frjsMIAQ,1994-01-01,001Ps00000l5uWLIAY,Education/Studies,"MAT, Education",012Ps000002fU2pIAE,"003ps00000frjsmiaq19940101mat,education"
 003Ps00000frjsMIAQ,2016-01-01,001Ps00000l5uWLIAY,Education/Studies,"Ed. S., Education",012Ps000002fU2pIAE,"003ps00000frjsmiaq20160101eds,education"
-,1989-01-01,001Ps00000l5cuTIAQ,Education/Studies,"Bachelor, Philosophy",012Ps000002fU2pIAE,"none19890101bachelor,philosophy"
-,1993-01-01,001Ps00000l5cuTIAQ,Education/Studies,"Bachelor, Theology",012Ps000002fU2pIAE,"none19930101bachelor,theology"
-,2011-01-01,001Ps00000l5pZvIAI,Education/Studies,"Licentiate, Sacred Theology",012Ps000002fU2pIAE,"none20110101licentiate,sacredtheology"
+003Ps00000gmWC0IAM,1989-01-01,001Ps00000l5cuTIAQ,Education/Studies,"Bachelor, Philosophy",012Ps000002fU2pIAE,"003ps00000gmwc0iam19890101bachelor,philosophy"
+003Ps00000gmWC0IAM,1993-01-01,001Ps00000l5cuTIAQ,Education/Studies,"Bachelor, Theology",012Ps000002fU2pIAE,"003ps00000gmwc0iam19930101bachelor,theology"
+003Ps00000gmWC0IAM,2011-01-01,001Ps00000l5pZvIAI,Education/Studies,"Licentiate, Sacred Theology",012Ps000002fU2pIAE,"003ps00000gmwc0iam20110101licentiate,sacredtheolog"
 003Ps00000frjsPIAQ,2001-01-01,001Ps00000l5seFIAQ,Education/Studies,BA,012Ps000002fU2pIAE,003ps00000frjspiaq20010101ba
 003Ps00000frjsPIAQ,2006-01-01,001Ps00000l5hZBIAY,Education/Studies,MDiv,012Ps000002fU2pIAE,003ps00000frjspiaq20060101mdiv
 003Ps00000frjsQIAQ,1988-01-01,001Ps00000l5rf4IAA,Education/Studies,BA Psychology,012Ps000002fU2pIAE,003ps00000frjsqiaq19880101bapsychology
@@ -549,13 +549,13 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frjsqIAA,2013-01-01,001Ps00000l5FQlIAM,Education/Studies,M.Div Theology,012Ps000002fU2pIAE,003ps00000frjsqiaa20130101mdivtheology
 003Ps00000frjsrIAA,1998-01-01,001Ps00000l5wujIAA,Education/Studies,BA Theology,012Ps000002fU2pIAE,003ps00000frjsriaa19980101batheology
 003Ps00000frjsrIAA,2005-01-01,001Ps00000l5lo5IAA,Education/Studies,MA Education,012Ps000002fU2pIAE,003ps00000frjsriaa20050101maeducation
-,1969-01-01,001Ps00000l5eufIAA,Education/Studies,Scholastic Philosophy,012Ps000002fU2pIAE,none19690101scholasticphilosophy
-,1973-01-01,001Ps00000l5x1BIAQ,Education/Studies,Magister der Theologie,012Ps000002fU2pIAE,none19730101magisterdertheologie
+003Ps00000gmWC3IAM,1969-01-01,001Ps00000l5eufIAA,Education/Studies,Scholastic Philosophy,012Ps000002fU2pIAE,003ps00000gmwc3iam19690101scholasticphilosophy
+003Ps00000gmWC3IAM,1973-01-01,001Ps00000l5x1BIAQ,Education/Studies,Magister der Theologie,012Ps000002fU2pIAE,003ps00000gmwc3iam19730101magisterdertheologie
 003Ps00000frjt9IAA,2010-01-01,001Ps00000l5sr8IAA,Education/Studies,Diploma in Theological Studies,012Ps000002fU2pIAE,003ps00000frjt9iaa20100101diplomaintheologicalstud
-,1970-01-01,001Ps00000l5x4PIAQ,Education/Studies,,012Ps000002fU2pIAE,none19700101nan
-,1974-01-01,001Ps00000l5vCIIAY,Education/Studies,,012Ps000002fU2pIAE,none19740101nan
-,1983-01-01,001Ps00000l5O6qIAE,Education/Studies,,012Ps000002fU2pIAE,none19830101nan
-,1992-01-01,001Ps00000l5fp4IAA,Education/Studies,,012Ps000002fU2pIAE,none19920101nan
+003Ps00000gmWC7IAM,1970-01-01,001Ps00000l5x4PIAQ,Education/Studies,,012Ps000002fU2pIAE,003ps00000gmwc7iam19700101nan
+003Ps00000gmWC7IAM,1974-01-01,001Ps00000l5vCIIAY,Education/Studies,,012Ps000002fU2pIAE,003ps00000gmwc7iam19740101nan
+003Ps00000gmWC7IAM,1983-01-01,001Ps00000l5O6qIAE,Education/Studies,,012Ps000002fU2pIAE,003ps00000gmwc7iam19830101nan
+003Ps00000gmWC7IAM,1992-01-01,001Ps00000l5fp4IAA,Education/Studies,,012Ps000002fU2pIAE,003ps00000gmwc7iam19920101nan
 003Ps00000frjtEIAQ,2003-01-01,001Ps00000l5rLcIAI,Education/Studies,Veterinary Medicine,012Ps000002fU2pIAE,003ps00000frjteiaq20030101veterinarymedicine
 003Ps00000frjtEIAQ,2016-01-01,001Ps00000l5x7dIAA,Education/Studies,"Philosophy, Theology",012Ps000002fU2pIAE,"003ps00000frjteiaq20160101philosophy,theology"
 003Ps00000frjtPIAQ,2010-01-01,001Ps00000l5SQUIA2,Education/Studies,MS in Psychology,012Ps000002fU2pIAE,003ps00000frjtpiaq20100101msinpsychology
@@ -661,18 +661,18 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frjh8IAA,2008-01-01,001Ps00000l5y5JIAQ,Education/Studies,MA Theology,012Ps000002fU2pIAE,003ps00000frjh8iaa20080101matheology
 003Ps00000frjhCIAQ,2008-01-01,001Ps00000l5ffOIAQ,Education/Studies,BA Philosophy,012Ps000002fU2pIAE,003ps00000frjhciaq20080101baphilosophy
 003Ps00000frjhCIAQ,2008-01-01,001Ps00000l5ffOIAQ,Education/Studies,MDiv,012Ps000002fU2pIAE,003ps00000frjhciaq20080101mdiv
-,1996-01-01,001Ps00000l5HzhIAE,Education/Studies,Master of Theological Studies,012Ps000002fU2pIAE,none19960101masteroftheologicalstudies
+003Ps00000gmWFAIA2,1996-01-01,001Ps00000l5HzhIAE,Education/Studies,Master of Theological Studies,012Ps000002fU2pIAE,003ps00000gmwfaia219960101masteroftheologicalstudi
 003Ps00000frjhaIAA,1998-01-01,001Ps00000l5fp5IAA,Education/Studies,BS Construction Science and Management,012Ps000002fU2pIAE,003ps00000frjhaiaa19980101bsconstructionscienceand
 003Ps00000frjheIAA,2012-01-01,001Ps00000l5uWLIAY,Education/Studies,Master of Arts in Pastoral Ministry,012Ps000002fU2pIAE,003ps00000frjheiaa20120101masterofartsinpastoralmi
-,2021-01-01,001Ps00000l5v4EIAQ,Education/Studies,Philosophy,012Ps000002fU2pIAE,none20210101philosophy
+003Ps00000gmWFDIA2,2021-01-01,001Ps00000l5v4EIAQ,Education/Studies,Philosophy,012Ps000002fU2pIAE,003ps00000gmwfdia220210101philosophy
 003Ps00000frjiGIAQ,2000-01-01,001Ps00000l5Qd9IAE,Education/Studies,Associate in Fire Suppression,012Ps000002fU2pIAE,003ps00000frjigiaq20000101associateinfiresuppressi
-,2017-01-01,001Ps00000l5T4mIAE,Education/Studies,BA Philosophy and Letters,012Ps000002fU2pIAE,none20170101baphilosophyandletters
-,2022-01-01,001Ps00000l5uGDIAY,Education/Studies,Theology,012Ps000002fU2pIAE,none20220101theology
+003Ps00000gmWFFIA2,2017-01-01,001Ps00000l5T4mIAE,Education/Studies,BA Philosophy and Letters,012Ps000002fU2pIAE,003ps00000gmwffia220170101baphilosophyandletters
+003Ps00000gmWFFIA2,2022-01-01,001Ps00000l5uGDIAY,Education/Studies,Theology,012Ps000002fU2pIAE,003ps00000gmwffia220220101theology
 003Ps00000frjiLIAQ,2000-01-01,001Ps00000l5HzhIAE,Education/Studies,Master of Theological Studies,012Ps000002fU2pIAE,003ps00000frjiliaq20000101masteroftheologicalstudi
 003Ps00000frjiNIAQ,2016-01-01,001Ps00000l5yOfIAI,Education/Studies,BA Philosophy,012Ps000002fU2pIAE,003ps00000frjiniaq20160101baphilosophy
 003Ps00000frjiNIAQ,2020-01-01,001Ps00000l5UlcIAE,Education/Studies,MA Philosophy,012Ps000002fU2pIAE,003ps00000frjiniaq20200101maphilosophy
 003Ps00000frjiNIAQ,2022-01-01,001Ps00000l5UlcIAE,Education/Studies,M Div.,012Ps000002fU2pIAE,003ps00000frjiniaq20220101mdiv
-,2007-01-01,001Ps00000l4wVRIAY,Education/Studies,Master of Theology,012Ps000002fU2pIAE,none20070101masteroftheology
+003Ps00000gmWFHIA2,2007-01-01,001Ps00000l4wVRIAY,Education/Studies,Master of Theology,012Ps000002fU2pIAE,003ps00000gmwfhia220070101masteroftheology
 003Ps00000frjiQIAQ,1991-01-01,001Ps00000l5lL3IAI,Education/Studies,BA,012Ps000002fU2pIAE,003ps00000frjiqiaq19910101ba
 003Ps00000frjiQIAQ,1996-01-01,001Ps00000l5QbYIAU,Education/Studies,Master of Divinity,012Ps000002fU2pIAE,003ps00000frjiqiaq19960101masterofdivinity
 003Ps00000frjiQIAQ,1997-01-01,,Education/Studies,MA,012Ps000002fU2pIAE,003ps00000frjiqiaq19970101ma
@@ -683,14 +683,14 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frjioIAA,1979-01-01,001Ps00000l5uL3IAI,Education/Studies,Master of Social Work,012Ps000002fU2pIAE,003ps00000frjioiaa19790101masterofsocialwork
 003Ps00000frjioIAA,1984-01-01,001Ps00000l5oHGIAY,Education/Studies,"Master of Divinity, Theology",012Ps000002fU2pIAE,"003ps00000frjioiaa19840101masterofdivinity,theolog"
 003Ps00000frjioIAA,1985-01-01,001Ps00000l5UC7IAM,Education/Studies,Master of Theological Studies,012Ps000002fU2pIAE,003ps00000frjioiaa19850101masteroftheologicalstudi
-,1993-01-01,001Ps00000l5yenIAA,Education/Studies,B. Com,012Ps000002fU2pIAE,none19930101bcom
-,1996-01-01,001Ps00000l5gzhIAA,Education/Studies,B. Philosophy,012Ps000002fU2pIAE,none19960101bphilosophy
-,2001-01-01,001Ps00000l5gzhIAA,Education/Studies,B. Theology,012Ps000002fU2pIAE,none20010101btheology
-,2005-01-01,001Ps00000l5dQiIAI,Education/Studies,MA,012Ps000002fU2pIAE,none20050101ma
-,2007-01-01,001Ps00000l5yenIAA,Education/Studies,M. Philosophy,012Ps000002fU2pIAE,none20070101mphilosophy
-,2008-01-01,001Ps00000l5SFEIA2,Education/Studies,BS Construction Management,012Ps000002fU2pIAE,none20080101bsconstructionmanagement
-,2016-01-01,001Ps00000l52RGIAY,Education/Studies,Pre-Theology,012Ps000002fU2pIAE,none20160101pretheology
-,2022-01-01,001Ps00000l5uGDIAY,Education/Studies,Theology,012Ps000002fU2pIAE,none20220101theology
+003Ps00000gmWFKIA2,1993-01-01,001Ps00000l5yenIAA,Education/Studies,B. Com,012Ps000002fU2pIAE,003ps00000gmwfkia219930101bcom
+003Ps00000gmWFKIA2,1996-01-01,001Ps00000l5gzhIAA,Education/Studies,B. Philosophy,012Ps000002fU2pIAE,003ps00000gmwfkia219960101bphilosophy
+003Ps00000gmWFKIA2,2001-01-01,001Ps00000l5gzhIAA,Education/Studies,B. Theology,012Ps000002fU2pIAE,003ps00000gmwfkia220010101btheology
+003Ps00000gmWFKIA2,2005-01-01,001Ps00000l5dQiIAI,Education/Studies,MA,012Ps000002fU2pIAE,003ps00000gmwfkia220050101ma
+003Ps00000gmWFKIA2,2007-01-01,001Ps00000l5yenIAA,Education/Studies,M. Philosophy,012Ps000002fU2pIAE,003ps00000gmwfkia220070101mphilosophy
+003Ps00000gmWFMIA2,2008-01-01,001Ps00000l5SFEIA2,Education/Studies,BS Construction Management,012Ps000002fU2pIAE,003ps00000gmwfmia220080101bsconstructionmanagement
+003Ps00000gmWFMIA2,2016-01-01,001Ps00000l52RGIAY,Education/Studies,Pre-Theology,012Ps000002fU2pIAE,003ps00000gmwfmia220160101pretheology
+003Ps00000gmWFMIA2,2022-01-01,001Ps00000l5uGDIAY,Education/Studies,Theology,012Ps000002fU2pIAE,003ps00000gmwfmia220220101theology
 003Ps00000frjjFIAQ,1959-01-01,001Ps00000l5sO7IAI,Education/Studies,"Bachelor, Philosophy",012Ps000002fU2pIAE,"003ps00000frjjfiaq19590101bachelor,philosophy"
 003Ps00000frjjFIAQ,1965-01-01,001Ps00000l5iN8IAI,Education/Studies,"Masters, Counseling",012Ps000002fU2pIAE,"003ps00000frjjfiaq19650101masters,counseling"
 003Ps00000frjjFIAQ,1971-01-01,001Ps00000l5YkMIAU,Education/Studies,M. Div. Theology,012Ps000002fU2pIAE,003ps00000frjjfiaq19710101mdivtheology
@@ -718,15 +718,15 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frkWhIAI,2009-01-01,001Ps00000l5hWOIAY,Education/Studies,MA Theology,012Ps000002fU2pIAE,003ps00000frkwhiai20090101matheology
 003Ps00000frkWiIAI,2006-01-01,001Ps00000l5AYOIA2,Education/Studies,Master of Arts in Pastoral Ministry,012Ps000002fU2pIAE,003ps00000frkwiiai20060101masterofartsinpastoralmi
 003Ps00000frkWpIAI,2012-01-01,001Ps00000l5r0dIAA,Education/Studies,,012Ps000002fU2pIAE,003ps00000frkwpiai20120101nan
-,1964-01-01,001Ps00000l5rAIIAY,Education/Studies,"B.A. Philosophy, Theology",012Ps000002fU2pIAE,"none19640101baphilosophy,theology"
-,1967-01-01,001Ps00000l5dSKIAY,Education/Studies,STL,012Ps000002fU2pIAE,none19670101stl
-,1969-01-01,001Ps00000l5olwIAA,Education/Studies,SSL,012Ps000002fU2pIAE,none19690101ssl
-,1975-01-01,001Ps00000l5g0NIAQ,Education/Studies,Courses in International Law and Politics,012Ps000002fU2pIAE,none19750101coursesininternationallawandpolitics
+003Ps00000gmWFZIA2,1964-01-01,001Ps00000l5rAIIAY,Education/Studies,"B.A. Philosophy, Theology",012Ps000002fU2pIAE,"003ps00000gmwfzia219640101baphilosophy,theology"
+003Ps00000gmWFZIA2,1967-01-01,001Ps00000l5dSKIAY,Education/Studies,STL,012Ps000002fU2pIAE,003ps00000gmwfzia219670101stl
+003Ps00000gmWFZIA2,1969-01-01,001Ps00000l5olwIAA,Education/Studies,SSL,012Ps000002fU2pIAE,003ps00000gmwfzia219690101ssl
+003Ps00000gmWFZIA2,1975-01-01,001Ps00000l5g0NIAQ,Education/Studies,Courses in International Law and Politics,012Ps000002fU2pIAE,003ps00000gmwfzia219750101coursesininternationalla
 003Ps00000frkWsIAI,1997-01-01,001Ps00000l5yq5IAA,Education/Studies,Computer Science,012Ps000002fU2pIAE,003ps00000frkwsiai19970101computerscience
-,2007-01-01,001Ps00000l5QjcIAE,Education/Studies,BS Physics,012Ps000002fU2pIAE,none20070101bsphysics
-,2009-01-01,001Ps00000l5oadIAA,Education/Studies,MS Physics,012Ps000002fU2pIAE,none20090101msphysics
-,2011-01-01,001Ps00000l5yrhIAA,Education/Studies,STB Theology,012Ps000002fU2pIAE,none20110101stbtheology
-,2017-01-01,001Ps00000l5dSKIAY,Education/Studies,STL Theology,012Ps000002fU2pIAE,none20170101stltheology
+003Ps00000gmWFbIAM,2007-01-01,001Ps00000l5QjcIAE,Education/Studies,BS Physics,012Ps000002fU2pIAE,003ps00000gmwfbiam20070101bsphysics
+003Ps00000gmWFbIAM,2009-01-01,001Ps00000l5oadIAA,Education/Studies,MS Physics,012Ps000002fU2pIAE,003ps00000gmwfbiam20090101msphysics
+003Ps00000gmWFbIAM,2011-01-01,001Ps00000l5yrhIAA,Education/Studies,STB Theology,012Ps000002fU2pIAE,003ps00000gmwfbiam20110101stbtheology
+003Ps00000gmWFbIAM,2017-01-01,001Ps00000l5dSKIAY,Education/Studies,STL Theology,012Ps000002fU2pIAE,003ps00000gmwfbiam20170101stltheology
 003Ps00000frkX3IAI,2010-01-01,001Ps00000l5TJLIA2,Education/Studies,BA,012Ps000002fU2pIAE,003ps00000frkx3iai20100101ba
 003Ps00000frkX3IAI,2014-01-01,001Ps00000l5V9qIAE,Education/Studies,Theology,012Ps000002fU2pIAE,003ps00000frkx3iai20140101theology
 003Ps00000frkX3IAI,2018-01-01,001Ps00000l56RaIAI,Education/Studies,MSC Psychology,012Ps000002fU2pIAE,003ps00000frkx3iai20180101mscpsychology
@@ -735,15 +735,15 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frkXBIAY,2018-01-01,001Ps00000l5jcZIAQ,Education/Studies,BS Chemical Engineering,012Ps000002fU2pIAE,003ps00000frkxbiay20180101bschemicalengineering
 003Ps00000frkXIIAY,2010-01-01,001Ps00000l5NAeIAM,Education/Studies,Master of Theology,012Ps000002fU2pIAE,003ps00000frkxiiay20100101masteroftheology
 003Ps00000frkXYIAY,2018-01-01,001Ps00000l57lpIAA,Education/Studies,Religious Studies; Spanish Minor,012Ps000002fU2pIAE,003ps00000frkxyiay20180101religiousstudies;spanish
-,2002-01-01,001Ps00000l5OOVIA2,Education/Studies,BS Computer Engineering,012Ps000002fU2pIAE,none20020101bscomputerengineering
+003Ps00000gmWFfIAM,2002-01-01,001Ps00000l5OOVIA2,Education/Studies,BS Computer Engineering,012Ps000002fU2pIAE,003ps00000gmwffiam20020101bscomputerengineering
 003Ps00000frkXxIAI,1982-01-01,001Ps00000l5WvXIAU,Education/Studies,Theology,012Ps000002fU2pIAE,003ps00000frkxxiai19820101theology
 003Ps00000frkXzIAI,2004-01-01,001Ps00000l52aoIAA,Education/Studies,English and Writing,012Ps000002fU2pIAE,003ps00000frkxziai20040101englishandwriting
 003Ps00000frkXzIAI,2012-01-01,001Ps00000l5YFjIAM,Education/Studies,Master of English and Composition,012Ps000002fU2pIAE,003ps00000frkxziai20120101masterofenglishandcompos
 003Ps00000frkYAIAY,1996-01-01,001Ps00000l5ghxIAA,Education/Studies,BA Philosophy,012Ps000002fU2pIAE,003ps00000frkyaiay19960101baphilosophy
 003Ps00000frkYAIAY,1999-01-01,001Ps00000l5YScIAM,Education/Studies,MA,012Ps000002fU2pIAE,003ps00000frkyaiay19990101ma
 003Ps00000frkYAIAY,2007-01-01,001Ps00000l5qEEIAY,Education/Studies,M Div.,012Ps000002fU2pIAE,003ps00000frkyaiay20070101mdiv
-,2009-01-01,001Ps00000l5H3fIAE,Education/Studies,Philosophy,012Ps000002fU2pIAE,none20090101philosophy
-,2016-01-01,001Ps00000l5NAeIAM,Education/Studies,Master of Divinity,012Ps000002fU2pIAE,none20160101masterofdivinity
+003Ps00000gmWFkIAM,2009-01-01,001Ps00000l5H3fIAE,Education/Studies,Philosophy,012Ps000002fU2pIAE,003ps00000gmwfkiam20090101philosophy
+003Ps00000gmWFkIAM,2016-01-01,001Ps00000l5NAeIAM,Education/Studies,Master of Divinity,012Ps000002fU2pIAE,003ps00000gmwfkiam20160101masterofdivinity
 003Ps00000frklAIAQ,1982-01-01,001Ps00000l5NAeIAM,Education/Studies,Master of Theological Studies,012Ps000002fU2pIAE,003ps00000frklaiaq19820101masteroftheologicalstudi
 003Ps00000frklOIAQ,2012-01-01,001Ps00000l5NAeIAM,Education/Studies,Master of Arts in Theology,012Ps000002fU2pIAE,003ps00000frkloiaq20120101masterofartsintheology
 003Ps00000frklRIAQ,1991-01-01,001Ps00000l5SrtIAE,Education/Studies,"BA Theatre, English",012Ps000002fU2pIAE,"003ps00000frklriaq19910101batheatre,english"
@@ -755,7 +755,7 @@ mbfc__Person__c,mbfc__Completion_Date__c,mbfc__Context__c,mbfc__Category__c,mbfc
 003Ps00000frklgIAA,2016-01-01,001Ps00000l5eMlIAI,Education/Studies,Theology,012Ps000002fU2pIAE,003ps00000frklgiaa20160101theology
 003Ps00000frklqIAA,2021-01-01,001Ps00000l5hPSIAY,Education/Studies,Philosophy,012Ps000002fU2pIAE,003ps00000frklqiaa20210101philosophy
 003Ps00000frklvIAA,2011-01-01,001Ps00000l5sEQIAY,Education/Studies,"Bachelor, Banking and Finance",012Ps000002fU2pIAE,"003ps00000frklviaa20110101bachelor,bankingandfinan"
-,2000-01-01,001Ps00000l5HzhIAE,Education/Studies,Master of Theological Studies,012Ps000002fU2pIAE,none20000101masteroftheologicalstudies
+003Ps00000gmWFvIAM,2000-01-01,001Ps00000l5HzhIAE,Education/Studies,Master of Theological Studies,012Ps000002fU2pIAE,003ps00000gmwfviam20000101masteroftheologicalstudi
 003Ps00000frkm9IAA,1990-01-01,001Ps00000l5yy9IAA,Education/Studies,BS Marketing,012Ps000002fU2pIAE,003ps00000frkm9iaa19900101bsmarketing
 003Ps00000frkm9IAA,1991-01-01,001Ps00000l5yy9IAA,Education/Studies,Masters of Business Administration (MBA) - Marketi,012Ps000002fU2pIAE,003ps00000frkm9iaa19910101mastersofbusinessadminis
 003Ps00000frkm9IAA,1999-01-01,001Ps00000l5NAeIAM,Education/Studies,Masters of Theology - Scripture,012Ps000002fU2pIAE,003ps00000frkm9iaa19990101mastersoftheologyscriptu
